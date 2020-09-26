@@ -7,27 +7,27 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Quartus_Projects/HW4/simulation/modelsim
+Z0 dE:/repos/ECEN5863_HW/HW4/simulation/modelsim
 vHW4P1
-!s110 1601081268
+!s110 1601125535
 !i10b 1
-!s100 Z81zdYk`LVT`fe;FiLHZi2
-IK<iGb43`eI9Sf=FzCl3Ki0
+!s100 fzHI6U:MJzoGRm?8WY7U]3
+Ib3=_WT2M33aS990lOYmH`0
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1601081078
-8E:/Quartus_Projects/HW4/HW4P1.v
-FE:/Quartus_Projects/HW4/HW4P1.v
+w1601125480
+8E:/repos/ECEN5863_HW/HW4/HW4P1.v
+FE:/repos/ECEN5863_HW/HW4/HW4P1.v
 L0 47
 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1601081268.000000
-!s107 E:/Quartus_Projects/HW4/HW4P1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus_Projects/HW4|E:/Quartus_Projects/HW4/HW4P1.v|
+!s108 1601125535.000000
+!s107 E:/repos/ECEN5863_HW/HW4/HW4P1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW4|E:/repos/ECEN5863_HW/HW4/HW4P1.v|
 !i113 1
 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+E:/Quartus_Projects/HW4
+!s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW4
 tCvgOpt 0
 n@h@w4@p1

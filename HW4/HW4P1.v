@@ -45,17 +45,21 @@
 
 
 module HW4P1 (
-   input wire[1:0] A, B,
-   output wire Equals
+   input [1:0] A, B,
+   output Equals
 );
-
-	wire p0, p1;
+	// Define signals
+	wire p0, p1, p2, p3;
 	
-	assign p0 = A[0] & B[0];
-	assign p1 = A[1] & B[1];
+	
+	// Determine all possible combinations which are true
+	assign p0 = (A[0] & B[0]) & (A[1] & B[1]);
+	assign p1 = (~A[0] & ~B[0]) & (A[1] & B[1]);
+	assign p2 = (A[0] & B[0]) & (~A[1] & ~B[1]);
+	assign p3 = (~A[0] & ~B[0]) & (~A[1] & ~B[1]);
 	
 	// Sum of product terms
-	assign Equals = p0 | p1;
+	assign Equals = p0 | p1 | p2 | p3;
 
 endmodule
     

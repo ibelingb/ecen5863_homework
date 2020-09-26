@@ -1,12 +1,12 @@
 vendor_name = ModelSim
-source_file = 1, E:/Quartus_Projects/HW4/HW4P2.v
-source_file = 1, E:/Quartus_Projects/HW4/hw4p1.v
+source_file = 1, E:/repos/ECEN5863_HW/HW4/HW4P1.v
+source_file = 1, E:/repos/ECEN5863_HW/HW4/db/HW4.cbx.xml
 design_name = HW4P1
 instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, HW4P1, 1
 instance = comp, \Equals~output , Equals~output, HW4P1, 1
-instance = comp, \B[0]~input , B[0]~input, HW4P1, 1
 instance = comp, \B[1]~input , B[1]~input, HW4P1, 1
 instance = comp, \A[1]~input , A[1]~input, HW4P1, 1
+instance = comp, \B[0]~input , B[0]~input, HW4P1, 1
 instance = comp, \A[0]~input , A[0]~input, HW4P1, 1
 instance = comp, \Equals~0 , Equals~0, HW4P1, 1
 instance = comp, \~QUARTUS_CREATED_UNVM~ , ~QUARTUS_CREATED_UNVM~, HW4P1, 1
