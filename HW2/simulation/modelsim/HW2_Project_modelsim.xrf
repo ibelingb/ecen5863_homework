@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/Quartus_Projects/HW2/HW2_Project.sdc
+source_file = 1, E:/Quartus_Projects/HW2/HW2_P3.bdf
+source_file = 1, E:/Quartus_Projects/HW2/1-bit_FullAdder.bdf
+source_file = 1, DE10_LITE_Golden_Top.SDC
+source_file = 1, Simulation_Waveform.vwf
+source_file = 1, E:/Quartus_Projects/HW2/db/HW2_Project.cbx.xml
+design_name = hard_block
+design_name = HW2_P3
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, HW2_P3, 1
+instance = comp, \Output~output\, Output~output, HW2_P3, 1
+instance = comp, \Clock~input\, Clock~input, HW2_P3, 1
+instance = comp, \Input~input\, Input~input, HW2_P3, 1
+instance = comp, \Reset~input\, Reset~input, HW2_P3, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~\, ~QUARTUS_CREATED_UNVM~, HW2_P3, 1
+instance = comp, \~QUARTUS_CREATED_ADC1~\, ~QUARTUS_CREATED_ADC1~, HW2_P3, 1
+instance = comp, \~QUARTUS_CREATED_ADC2~\, ~QUARTUS_CREATED_ADC2~, HW2_P3, 1

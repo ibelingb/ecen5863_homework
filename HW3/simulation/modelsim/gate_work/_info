@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Quartus_Projects/HW3/simulation/modelsim
+Efind_errors
+Z1 w1600550256
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 1Dk;4?@modA7lIE5F<?`>0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 ^iWWaY5ekCN518OG[C9=X0
+R0
+Z8 8HW3_VHDL.vho
+Z9 FHW3_VHDL.vho
+l0
+L89
+VZAO0QFYiD13HDbB8ZK8d<1
+!s100 l`l9YWaUhgjY5;2ZI]Y0l1
+Z10 OV;C;10.5b;63
+31
+Z11 !s110 1600550277
+!i10b 1
+Z12 !s108 1600550277.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|HW3_VHDL.vho|
+Z14 !s107 HW3_VHDL.vho|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 find_errors 0 22 ZAO0QFYiD13HDbB8ZK8d<1
+l139
+L107
+V_IJXMz0;h7S4icJI0SAzF1
+!s100 ?V0@bdo_f5jM<oMLaRZl@1
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+VH73DDHU2ac^:D?]T;@N=M3
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 H73DDHU2ac^:D?]T;@N=M3
+l76
+L54
+V:9n9ma92JRcO^oG6nb?k`2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

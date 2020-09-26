@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.qarlog
+
+Archive:	E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.qar
+Date:		Wed Sep 09 21:05:39 2020
+Quartus Prime		16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/mult.bsf
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/mult.cmp
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/mult.qip
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/mult.vhd
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.bdf
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.qpf
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.qsf
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult.sdc
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult2.qsf
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/pipemult2.sdc
+E:/Quartus_Projects/pipemult/pipemultQP16_1/Schematic/ram.vhd
+e:/intelfpga_lite/16.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/16.1
+Ehard_block
+Z0 w1599536049
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 1Dk;4?@modA7lIE5F<?`>0
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 ^iWWaY5ekCN518OG[C9=X0
+Z7 dE:/Quartus_Projects/HW2
+Z8 8E:/Quartus_Projects/HW2/simulation/modelsim/HW2_Project.vho
+Z9 FE:/Quartus_Projects/HW2/simulation/modelsim/HW2_Project.vho
+l0
+L35
+V>3HSdlc4d4BO@^bgkI]0V1
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1599537134
+!i10b 1
+Z12 !s108 1599537134.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Quartus_Projects/HW2/simulation/modelsim/HW2_Project.vho|
+Z14 !s107 E:/Quartus_Projects/HW2/simulation/modelsim/HW2_Project.vho|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
+l76
+L54
+Z18 Ve]G^Ol53JFOhKP<L<OL=C3
+Z19 !s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ehw2_p3
+R0
+R2
+R6
+R1
+Z20 DPx6 altera 11 dffeas_pack 0 22 zWCf]NF6heG=Dhmc@B0=T2
+R3
+R4
+R5
+Z21 DPx6 altera 28 altera_primitives_components 0 22 _Q9E2TD5YB<<@P0[5jYTG0
+R7
+R8
+R9
+l0
+L91
+VY]JW9`6HeGC^iI5Ng=?3;3
+!s100 []J;agDm>WP_M7NW6_SIS1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R6
+R1
+R20
+R3
+R4
+R5
+R21
+Z22 DEx4 work 6 hw2_p3 0 22 Y]JW9`6HeGC^iI5Ng=?3;3
+l143
+L107
+Z23 VNad<PVQPB<OHL7JMOl1Hm1
+Z24 !s100 dFInBF2_H7DjoY@o=WEOD3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

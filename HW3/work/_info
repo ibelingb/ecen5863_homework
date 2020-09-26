@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Quartus_Projects/HW2
+Efind_errors
+Z0 w1600549575
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 1Dk;4?@modA7lIE5F<?`>0
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 ^iWWaY5ekCN518OG[C9=X0
+Z7 dE:/Quartus_Projects/HW3
+Z8 8E:/Quartus_Projects/HW3/simulation/modelsim/HW3_VHDL.vho
+Z9 FE:/Quartus_Projects/HW3/simulation/modelsim/HW3_VHDL.vho
+l0
+L89
+V@WcL13bQYcK41IQXdG26k0
+!s100 l`l9YWaUhgjY5;2ZI]Y0l1
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1600549707
+!i10b 1
+Z12 !s108 1600549707.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Quartus_Projects/HW3/simulation/modelsim/HW3_VHDL.vho|
+Z14 !s107 E:/Quartus_Projects/HW3/simulation/modelsim/HW3_VHDL.vho|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 11 find_errors 0 22 @WcL13bQYcK41IQXdG26k0
+l139
+L107
+Z18 VZoRM74[NL0VRgg^Z>]HKL1
+Z19 !s100 ?V0@bdo_f5jM<oMLaRZl@1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ehard_block
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+l0
+L35
+V>3HSdlc4d4BO@^bgkI]0V1
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+Z20 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
+l76
+L54
+Z21 Ve]G^Ol53JFOhKP<L<OL=C3
+Z22 !s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

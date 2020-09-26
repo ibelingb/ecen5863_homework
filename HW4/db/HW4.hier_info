@@ -1,0 +1,8 @@
+|HW4P1
+A[0] => p0.IN0
+A[1] => p1.IN0
+B[0] => p0.IN1
+B[1] => p1.IN1
+Equals << Equals.DB_MAX_OUTPUT_PORT_TYPE
+
+
