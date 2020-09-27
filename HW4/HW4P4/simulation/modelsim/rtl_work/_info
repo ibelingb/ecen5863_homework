@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/repos/ECEN5863_HW/HW4/HW4P4/simulation/modelsim
+vram_verilog_max10
+!s110 1601244548
+!i10b 1
+!s100 WA0K@e5Ygb;6][kzAY2@l0
+IS9IPfaEmeOO_OYT`[1`<e3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1601244307
+8E:/repos/ECEN5863_HW/HW4/HW4P4/ram_verilog_max10.v
+FE:/repos/ECEN5863_HW/HW4/HW4P4/ram_verilog_max10.v
+L0 40
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1601244548.000000
+!s107 E:/repos/ECEN5863_HW/HW4/HW4P4/ram_verilog_max10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW4/HW4P4|E:/repos/ECEN5863_HW/HW4/HW4P4/ram_verilog_max10.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW4/HW4P4
+tCvgOpt 0

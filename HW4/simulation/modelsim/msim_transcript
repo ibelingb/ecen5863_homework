@@ -1,5 +1,5 @@
 # Reading E:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
-# do HW4_run_msim_rtl_verilog.do
+# do HW4_run_msim_rtl_vhdl.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,61 +10,77 @@
 # Copying E:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW4 {E:/repos/ECEN5863_HW/HW4/HW4P1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 07:05:35 on Sep 26,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW4" E:/repos/ECEN5863_HW/HW4/HW4P1.v 
-# -- Compiling module HW4P1
-# 
-# Top level modules:
-# 	HW4P1
-# End time: 07:05:35 on Sep 26,2020, Elapsed time: 0:00:00
+# vcom -93 -work work {E:/repos/ECEN5863_HW/HW4/ram_vhdl_max10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:00:59 on Sep 27,2020
+# vcom -reportprogress 300 -93 -work work E:/repos/ECEN5863_HW/HW4/ram_vhdl_max10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity ram_vhdl_max10
+# -- Compiling architecture SYN of ram_vhdl_max10
+# End time: 14:00:59 on Sep 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.HW4P1
-# vsim work.HW4P1 
-# Start time: 07:05:38 on Sep 26,2020
-# Loading work.HW4P1
-add wave  \
-sim:/HW4P1/A \
-sim:/HW4P1/B \
-sim:/HW4P1/Equals
-force -freeze sim:/HW4P1/A 00 0
-force -freeze sim:/HW4P1/B 00 0
+vsim work.ram_vhdl_max10
+# vsim work.ram_vhdl_max10 
+# Start time: 14:01:31 on Sep 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.ram_vhdl_max10(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+add wave -position end  sim:/ram_vhdl_max10/address
+add wave -position end  sim:/ram_vhdl_max10/clock
+add wave -position end  sim:/ram_vhdl_max10/data
+add wave -position end  sim:/ram_vhdl_max10/wren
+add wave -position end  sim:/ram_vhdl_max10/q
+add wave -position end  sim:/ram_vhdl_max10/sub_wire0
+force -freeze sim:/ram_vhdl_max10/clock 1 0, 0 {5 ps} -r 10
+force -freeze sim:/ram_vhdl_max10/address 10001 0
+force -freeze sim:/ram_vhdl_max10/wren 1 0
+force -freeze sim:/ram_vhdl_max10/data 10100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0
 run
-force -freeze sim:/HW4P1/A 01 0
 run
-force -freeze sim:/HW4P1/A 10 0
+force -freeze sim:/ram_vhdl_max10/wren 0 0
+force -freeze sim:/ram_vhdl_max10/data 1111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0
+# Value length (127) does not equal array index length (128).
+# 
+# ** Error: (vsim-4011) Invalid force value: 1111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0.
+# 
+noforce sim:/ram_vhdl_max10/data
+force -freeze sim:/ram_vhdl_max10/data 11111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0
+force -freeze sim:/ram_vhdl_max10/address 11011 0
 run
-force -freeze sim:/HW4P1/A 11 0
+force -freeze sim:/ram_vhdl_max10/wren 1 0
 run
-force -freeze sim:/HW4P1/A 00 0
-force -freeze sim:/HW4P1/B 01 0
+force -freeze sim:/ram_vhdl_max10/wren 0 0
+force -freeze sim:/ram_vhdl_max10/address 10001 0
 run
-force -freeze sim:/HW4P1/A 01 0
+irun
+# invalid command name "irun"
 run
-force -freeze sim:/HW4P1/A 10 0
 run
-force -freeze sim:/HW4P1/A 11 0
 run
-force -freeze sim:/HW4P1/B 10 0
-force -freeze sim:/HW4P1/A 00 0
+
 run
-force -freeze sim:/HW4P1/A 01 0
+
+
 run
-force -freeze sim:/HW4P1/A 10 0
+
 run
-force -freeze sim:/HW4P1/A 00 0
-force -freeze sim:/HW4P1/A 11 0
+
+
 run
-force -freeze sim:/HW4P1/B 11 0
-force -freeze sim:/HW4P1/A 00 0
+
+
 run
-force -freeze sim:/HW4P1/A 01 0
-run
-force -freeze sim:/HW4P1/A 10 0
-run
-force -freeze sim:/HW4P1/A 11 0
-run
-# End time: 07:15:41 on Sep 26,2020, Elapsed time: 0:10:03
-# Errors: 0, Warnings: 0
+
+# End time: 14:17:02 on Sep 27,2020, Elapsed time: 0:15:31
+# Errors: 2, Warnings: 0

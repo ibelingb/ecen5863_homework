@@ -1,5 +1,5 @@
 Assembler report for HW3_VHDL
-Tue Sep 22 17:32:40 2020
+Sun Sep 27 17:26:56 2020
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Quartus_Projects/HW3/output_files/HW3_VHDL.sof
+  5. Assembler Device Options: E:/repos/ECEN5863_HW/HW3/output_files/HW3_VHDL.sof
   6. Assembler Messages
 
 
@@ -38,11 +38,11 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Sep 22 17:32:40 2020 ;
+; Assembler Status      ; Successful - Sun Sep 27 17:26:56 2020 ;
 ; Revision Name         ; HW3_VHDL                              ;
 ; Top-level Entity Name ; HW3Q5                                 ;
 ; Family                ; MAX 10                                ;
-; Device                ; 10M08DAF256C8GES                      ;
+; Device                ; 10M08DAF484C8G                        ;
 +-----------------------+---------------------------------------+
 
 
@@ -53,24 +53,24 @@ agreement for further details.
 +--------+---------+---------------+
 
 
-+---------------------------------------------------+
-; Assembler Generated Files                         ;
-+---------------------------------------------------+
-; File Name                                         ;
-+---------------------------------------------------+
-; E:/Quartus_Projects/HW3/output_files/HW3_VHDL.sof ;
-+---------------------------------------------------+
++----------------------------------------------------+
+; Assembler Generated Files                          ;
++----------------------------------------------------+
+; File Name                                          ;
++----------------------------------------------------+
+; E:/repos/ECEN5863_HW/HW3/output_files/HW3_VHDL.sof ;
++----------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------+
-; Assembler Device Options: E:/Quartus_Projects/HW3/output_files/HW3_VHDL.sof ;
-+----------------+------------------------------------------------------------+
-; Option         ; Setting                                                    ;
-+----------------+------------------------------------------------------------+
-; Device         ; 10M08DAF256C8GES                                           ;
-; JTAG usercode  ; 0x0007CC62                                                 ;
-; Checksum       ; 0x0007CC62                                                 ;
-+----------------+------------------------------------------------------------+
++------------------------------------------------------------------------------+
+; Assembler Device Options: E:/repos/ECEN5863_HW/HW3/output_files/HW3_VHDL.sof ;
++----------------+-------------------------------------------------------------+
+; Option         ; Setting                                                     ;
++----------------+-------------------------------------------------------------+
+; Device         ; 10M08DAF484C8G                                              ;
+; JTAG usercode  ; 0x00073C1E                                                  ;
+; Checksum       ; 0x00073C1E                                                  ;
++----------------+-------------------------------------------------------------+
 
 
 +--------------------+
@@ -79,15 +79,15 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Tue Sep 22 17:32:37 2020
+    Info: Processing started: Sun Sep 27 17:26:54 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off HW3_VHDL -c HW3_VHDL
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4673 megabytes
-    Info: Processing ended: Tue Sep 22 17:32:40 2020
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 4677 megabytes
+    Info: Processing ended: Sun Sep 27 17:26:56 2020
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

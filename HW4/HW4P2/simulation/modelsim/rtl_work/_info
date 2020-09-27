@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/repos/ECEN5863_HW/HW4/HW4P2/simulation/modelsim
+vHW4P2
+!s110 1601246716
+!i10b 1
+!s100 `VhDV7RQQgIHT5m=<7C332
+I=m@V8JAVc<EYl;gRBaHzY1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1601246496
+8E:/repos/ECEN5863_HW/HW4/HW4P2/HW4P2.v
+FE:/repos/ECEN5863_HW/HW4/HW4P2/HW4P2.v
+L0 4
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1601246716.000000
+!s107 E:/repos/ECEN5863_HW/HW4/HW4P2/HW4P2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW4/HW4P2|E:/repos/ECEN5863_HW/HW4/HW4P2/HW4P2.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW4/HW4P2
+tCvgOpt 0
+n@h@w4@p2

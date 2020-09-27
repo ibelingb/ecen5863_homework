@@ -1,5 +1,5 @@
 Analysis & Synthesis report for HW3_VHDL
-Tue Sep 22 17:32:11 2020
+Sun Sep 27 17:26:43 2020
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Sep 22 17:32:11 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sun Sep 27 17:26:43 2020       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; HW3_VHDL                                    ;
 ; Top-level Entity Name              ; HW3Q5                                       ;
@@ -68,7 +68,7 @@ agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; 10M08DAF256C8GES   ;                    ;
+; Device                                                                     ; 10M08DAF484C8G     ;                    ;
 ; Top-level entity name                                                      ; HW3Q5              ; HW3_VHDL           ;
 ; Family name                                                                ; MAX 10             ; Cyclone V          ;
 ; VHDL Show LMF Mapping Messages                                             ; Off                ;                    ;
@@ -163,17 +163,18 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                             ;
-+----------------------------------+-----------------+-----------------+-----------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path      ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------+---------+
-; HW3P5.vhd                        ; yes             ; User VHDL File  ; E:/Quartus_Projects/HW3/HW3P5.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path       ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------+---------+
+; HW3P5.vhd                        ; yes             ; User VHDL File  ; E:/repos/ECEN5863_HW/HW3/HW3P5.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -267,7 +268,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -277,13 +278,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Tue Sep 22 17:31:42 2020
+    Info: Processing started: Sun Sep 27 17:26:26 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HW3_VHDL -c HW3_VHDL
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hw3p5.vhd
-    Info (12022): Found design unit 1: HW3Q5-HW3Q5_arch File: E:/Quartus_Projects/HW3/HW3P5.vhd Line: 27
-    Info (12023): Found entity 1: HW3Q5 File: E:/Quartus_Projects/HW3/HW3P5.vhd Line: 15
+    Info (12022): Found design unit 1: HW3Q5-HW3Q5_arch File: E:/repos/ECEN5863_HW/HW3/HW3P5.vhd Line: 27
+    Info (12023): Found entity 1: HW3Q5 File: E:/repos/ECEN5863_HW/HW3/HW3P5.vhd Line: 15
 Info (12127): Elaborating entity "HW3Q5" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -293,9 +294,9 @@ Info (21057): Implemented 24 device resources after synthesis - the final resour
     Info (21059): Implemented 5 output pins
     Info (21061): Implemented 10 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4788 megabytes
-    Info: Processing ended: Tue Sep 22 17:32:11 2020
-    Info: Elapsed time: 00:00:29
-    Info: Total CPU time (on all processors): 00:00:46
+    Info: Peak virtual memory: 4802 megabytes
+    Info: Processing ended: Sun Sep 27 17:26:43 2020
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:42
 
 

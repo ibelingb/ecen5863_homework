@@ -1,5 +1,5 @@
 Flow report for HW4
-Sat Sep 26 07:05:16 2020
+Sun Sep 27 12:51:55 2020
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,24 +41,24 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Sep 26 07:05:16 2020       ;
+; Flow Status                        ; Successful - Sun Sep 27 12:51:55 2020       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; HW4                                         ;
-; Top-level Entity Name              ; HW4P1                                       ;
+; Top-level Entity Name              ; ram_vhdl_max10                              ;
 ; Family                             ; MAX 10                                      ;
-; Device                             ; 10M08DAF256C8GES                            ;
+; Device                             ; 10M50DAF672C8GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 2 / 8,064 ( < 1 % )                         ;
-;     Total combinational functions  ; 2 / 8,064 ( < 1 % )                         ;
-;     Dedicated logic registers      ; 0 / 8,064 ( 0 % )                           ;
+; Total logic elements               ; 1 / 49,760 ( < 1 % )                        ;
+;     Total combinational functions  ; 1 / 49,760 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 0 / 49,760 ( 0 % )                          ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 5 / 178 ( 3 % )                             ;
+; Total pins                         ; 263 / 500 ( 53 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 387,072 ( 0 % )                         ;
-; Embedded Multiplier 9-bit elements ; 0 / 48 ( 0 % )                              ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Total memory bits                  ; 4,096 / 1,677,312 ( < 1 % )                 ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
-; ADC blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -67,31 +67,34 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/26/2020 07:04:47 ;
+; Start date & time ; 09/27/2020 12:50:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; HW4                 ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 963354558947.160112548714432           ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; HW4P1       ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; HW4P1       ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; HW4P1       ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; HW4P1                                  ; HW4           ; --          ; --             ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                               ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name    ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 963354558947.160123261616604           ; --            ; --             ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --             ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --             ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --             ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --             ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --             ; --             ;
+; MISC_FILE                           ; ram_vhdl_max10.bsf                     ; --            ; --             ; --             ;
+; MISC_FILE                           ; ram_vhdl_max10.cmp                     ; --            ; --             ; --             ;
+; MISC_FILE                           ; ram_vhdl_max10_syn.v                   ; --            ; --             ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; ram_vhdl_max10 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; ram_vhdl_max10 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; ram_vhdl_max10 ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --             ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --             ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --             ; --             ;
+; TOP_LEVEL_ENTITY                    ; ram_vhdl_max10                         ; HW4           ; --             ; --             ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -99,12 +102,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:15     ; 1.0                     ; 4753 MB             ; 00:00:35                           ;
-; Fitter                    ; 00:00:05     ; 1.0                     ; 5553 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4678 MB             ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4776 MB             ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:26     ; --                      ; --                  ; 00:00:47                           ;
+; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 4807 MB             ; 00:00:41                           ;
+; Fitter                    ; 00:00:49     ; 1.0                     ; 5709 MB             ; 00:00:45                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4685 MB             ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:13     ; 1.1                     ; 4826 MB             ; 00:00:13                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4667 MB             ; 00:00:02                           ;
+; Total                     ; 00:01:29     ; --                      ; --                  ; 00:01:47                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

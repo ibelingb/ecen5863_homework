@@ -1,0 +1,7 @@
+-v "E:/intelFPGA_lite/16.1/quartus/eda/sim_lib/altera_mf.v"
++incdir+E:/repos/ECEN5863_HW/HW4/HW4P4/simulation/modelsim
++incdir+E:/intelFPGA_lite/16.1/quartus/eda/sim_lib
+-v "E:/repos/ECEN5863_HW/HW4/HW4P4/simulation/modelsim/altera_mf.v"
+-v "E:/repos/ECEN5863_HW/HW4/HW4P4/simulation/modelsim/rtl_work/altera_mf.v"
+
+
