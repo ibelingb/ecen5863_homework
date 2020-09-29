@@ -7,6 +7,6 @@ B[0] => p2.IN1
 B[0] => p3.IN1
 B[1] => p1.IN1
 B[1] => p3.IN1
-Equals <= Equals.DB_MAX_OUTPUT_PORT_TYPE
+Equals << Equals.DB_MAX_OUTPUT_PORT_TYPE
 
 
