@@ -1,5 +1,5 @@
 # Reading E:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
-# do HW5P1_top_run_msim_rtl_verilog.do
+# do HW5Q1_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,137 +10,36 @@
 # Copying E:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P1 {E:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v}
+# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P1 {E:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:01:42 on Oct 03,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW5/HW5P1" E:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v 
-# -- Compiling module HW5P1_top
+# Start time: 08:23:36 on Oct 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW5/HW5P1" E:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v 
+# -- Compiling module HW5Q1
 # 
 # Top level modules:
-# 	HW5P1_top
-# End time: 22:01:42 on Oct 03,2020, Elapsed time: 0:00:00
+# 	HW5Q1
+# End time: 08:23:37 on Oct 04,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.HW5P1_top
-# vsim work.HW5P1_top 
-# Start time: 22:02:01 on Oct 03,2020
-# Loading work.HW5P1_top
-add wave -position end  sim:/HW5P1_top/clk
-add wave -position end  sim:/HW5P1_top/RdPtrClr
-add wave -position end  sim:/HW5P1_top/WrPtrClr
-add wave -position end  sim:/HW5P1_top/rdinc
-add wave -position end  sim:/HW5P1_top/wrinc
-add wave -position end  sim:/HW5P1_top/DataIn
-add wave -position end  sim:/HW5P1_top/DataOut
-add wave -position end  sim:/HW5P1_top/rden
-add wave -position end  sim:/HW5P1_top/wden
-add wave -position end  sim:/HW5P1_top/fifo
-add wave -position end  sim:/HW5P1_top/writePtr
-add wave -position end  sim:/HW5P1_top/readPtr
-force -freeze sim:/HW5P1_top/DataIn 10101010 0
-force -freeze sim:/HW5P1_top/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/HW5P1_top/wrinc 1 0
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/wden 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/WrPtrClr 1 0 -cancel 100
-run
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/wrinc 0 0
-force -freeze sim:/HW5P1_top/WrPtrClr 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/DataIn 00000000 0
-run
-force -freeze sim:/HW5P1_top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/HW5P1_top/wrinc 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/WrPtrClr 0 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/wden 0 0
-force -freeze sim:/HW5P1_top/wrinc 0 0
-run
-force -freeze sim:/HW5P1_top/WrPtrClr 1 0
-run
-run
-run
-force -freeze sim:/HW5P1_top/DataIn 00000001 0
-run
-force -freeze sim:/HW5P1_top/rden 1 0
-run
-force -freeze sim:/HW5P1_top/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/HW5P1_top/rden 0 0
-force -freeze sim:/HW5P1_top/wden 1 0
-run
-force -freeze sim:/HW5P1_top/DataIn 00000011 0
-run
-force -freeze sim:/HW5P1_top/wrinc 1 0
-run
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/WrPtrClr 0 0
-run
-force -freeze sim:/HW5P1_top/clk 1 0, 0 {50 ps} -r 100
-run
-run
-
-force -freeze sim:/HW5P1_top/DataIn 00011111 0
-run
-force -freeze sim:/HW5P1_top/rden 1 0
-run
-run
-run
-run
-force -freeze sim:/HW5P1_top/rdinc 1 0
-run
-run
-run
-run
-# End time: 22:10:13 on Oct 03,2020, Elapsed time: 0:08:12
+vsim work.HW5Q1
+# vsim work.HW5Q1 
+# Start time: 08:24:18 on Oct 04,2020
+# Loading work.HW5Q1
+add wave -position end  sim:/HW5Q1/clk
+add wave -position end  sim:/HW5Q1/RdPtrClr
+add wave -position end  sim:/HW5Q1/WrPtrClr
+add wave -position end  sim:/HW5Q1/rdinc
+add wave -position end  sim:/HW5Q1/wrinc
+add wave -position end  sim:/HW5Q1/DataIn
+add wave -position end  sim:/HW5Q1/DataOut
+add wave -position end  sim:/HW5Q1/rden
+add wave -position end  sim:/HW5Q1/wden
+add wave -position end  sim:/HW5Q1/fifo
+add wave -position end  sim:/HW5Q1/writePtr
+add wave -position end  sim:/HW5Q1/readPtr
+force -freeze sim:/HW5Q1/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/HW5Q1/rden 1 0
+run
+run
+# End time: 08:24:43 on Oct 04,2020, Elapsed time: 0:00:25
 # Errors: 0, Warnings: 0

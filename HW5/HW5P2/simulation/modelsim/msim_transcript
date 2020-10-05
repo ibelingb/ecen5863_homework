@@ -1,0 +1,66 @@
+# Reading E:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do HW5P2_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P2 {E:/repos/ECEN5863_HW/HW5/HW5P2/HW5P2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:33:05 on Oct 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW5/HW5P2" E:/repos/ECEN5863_HW/HW5/HW5P2/HW5P2_clocked.v 
+# -- Compiling module HW5P2_clocked
+# 
+# Top level modules:
+# 	HW5P2_clocked
+# End time: 14:33:05 on Oct 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.HW5P2_clocked
+# vsim work.HW5P2_clocked 
+# Start time: 14:33:16 on Oct 04,2020
+# Loading work.HW5P2_clocked
+add wave -position end  sim:/HW5P2_clocked/clk
+add wave -position end  sim:/HW5P2_clocked/A
+add wave -position end  sim:/HW5P2_clocked/B
+add wave -position end  sim:/HW5P2_clocked/Op
+add wave -position end  sim:/HW5P2_clocked/Y
+add wave -position end  sim:/HW5P2_clocked/ALU_OUT
+force -freeze sim:/HW5P2_clocked/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/HW5P2_clocked/A 00000000000000000000000000000001 0
+force -freeze sim:/HW5P2_clocked/B 00000000000000000000000000000010 0
+force -freeze sim:/HW5P2_clocked/Op 000xxx 0
+run
+run
+force -freeze sim:/HW5P2_clocked/Op 001xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op 010xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op 100xxx 0
+run
+force -freeze sim:/HW5P2_clocked/A 00000000000000000000000000000011 0
+force -freeze sim:/HW5P2_clocked/Op 011xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op 101xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op 110xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op 111xxx 0
+run
+force -freeze sim:/HW5P2_clocked/Op xxxx00 0
+run
+force -freeze sim:/HW5P2_clocked/Op xxxx01 0
+run
+force -freeze sim:/HW5P2_clocked/Op xxxx10 0
+run
+force -freeze sim:/HW5P2_clocked/Op xxxx11 0
+run
+force -freeze sim:/HW5P2_clocked/Op 111111 0
+run
+# End time: 15:08:27 on Oct 04,2020, Elapsed time: 0:35:11
+# Errors: 0, Warnings: 0

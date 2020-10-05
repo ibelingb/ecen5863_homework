@@ -8,26 +8,26 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/repos/ECEN5863_HW/HW5/HW5P1/simulation/modelsim
-vHW5P1_top
-!s110 1601784102
+vHW5Q1
+!s110 1601821417
 !i10b 1
-!s100 EWD3KeImB]iG6mn[3Tc:X3
-IKNo?LFHzgGa<>HVB``HN;1
+!s100 @M_o2c45hCF=BHZInJUaO3
+ICaAO>RAoWNe;W6=J_jfE;1
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1601784057
-8E:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v
-FE:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v
-L0 13
+w1601821348
+8E:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v
+FE:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v
+L0 14
 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1601784102.000000
-!s107 E:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW5/HW5P1|E:/repos/ECEN5863_HW/HW5/HW5P1/HW5P1_top.v|
+!s108 1601821416.000000
+!s107 E:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW5/HW5P1|E:/repos/ECEN5863_HW/HW5/HW5P1/HW5Q1.v|
 !i113 1
 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P1
 tCvgOpt 0
-n@h@w5@p1_top
+n@h@w5@q1
