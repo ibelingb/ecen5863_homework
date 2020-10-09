@@ -1,0 +1,1134 @@
+Archive member included because of file (symbol)
+
+E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                              E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (g_mss_uart0)
+E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o) (g_FrequencyPCLK0)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+                              ./main.o (printf)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o) (_vfprintf_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__swsetup_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (_dtoa_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (_fflush_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o) (__sinit)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o) (_free_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__sfvwrite_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o) (_fwalk_reent)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (_localeconv_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (malloc)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o) (_malloc_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (memchr)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (memcpy)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o) (memmove)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o) (memset)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o) (__malloc_lock)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__hi0bits)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o) (_realloc_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__isinfd)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__isnand)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o) (_sbrk_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o) (__sclose)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o) (strcmp)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (strlen)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o) (_calloc_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o) (_close_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o) (fclose)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o) (_fstat_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o) (_isatty_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o) (_lseek_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o) (_read_r)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o) (errno)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__aeabi_uldivmod)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o) (__divdi3)
+e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                              e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+g_mss_uart1         0x28              E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+g_mss_uart0         0x28              E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .data          0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .bss           0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_DisableIRQ
+                0x00000000       0x3c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_polled_tx_string
+                0x00000000       0xd0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_irq_tx
+                0x00000000       0xb0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_tx_complete
+                0x00000000       0x90 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx
+                0x00000000       0xdc E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_enable_irq
+                0x00000000       0x7c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_disable_irq
+                0x00000000       0x88 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rx_handler
+                0x00000000       0xa8 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_loopback
+                0x00000000       0x70 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rxstatus_handler
+                0x00000000       0x84 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_tx_handler
+                0x00000000       0x94 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_modemstatus_handler
+                0x00000000       0x84 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_fill_tx_fifo
+                0x00000000       0xd4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx_status
+                0x00000000       0x80 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_modem_status
+                0x00000000       0x60 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_tx_status
+                0x00000000       0x78 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x00000000        0xc e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+ .data          0x00000000       0x10 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .bss           0x00000000        0xc e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+ .text          0x00000000      0x10c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x60000000         0x00040000         xr
+romMirror        0x00000000         0x00040000         xr
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a
+START GROUP
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x00001000                PROCESS_STACK_SIZE = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x2000e000                PROVIDE (__process_stack_start, (__main_stack_start - MAIN_STACK_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000001                PROVIDE (__mirrored_nvm, 0x1)
+
+.init           0x00000000      0x470 load address 0x60000000
+                0x00000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x470 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x00000000                g_pfnVectors
+                0x00000298                Reset_Handler
+                0x00000308                NMI_Handler
+                0x0000030a                HardFault_Handler
+                0x0000030c                MemManage_Handler
+                0x0000030e                BusFault_Handler
+                0x00000310                UsageFault_Handler
+                0x00000312                SVC_Handler
+                0x00000314                DebugMon_Handler
+                0x00000316                PendSV_Handler
+                0x00000318                SysTick_Handler
+                0x0000031a                WdogWakeup_IRQHandler
+                0x0000031c                BrownOut_1_5V_IRQHandler
+                0x0000031e                BrownOut_3_3V_IRQHandler
+                0x00000320                RTC_Match_IRQHandler
+                0x00000322                RTCIF_Pub_IRQHandler
+                0x00000324                EthernetMAC_IRQHandler
+                0x00000326                IAP_IRQHandler
+                0x00000328                ENVM0_IRQHandler
+                0x0000032a                ENVM1_IRQHandler
+                0x0000032c                DMA_IRQHandler
+                0x00000332                SPI0_IRQHandler
+                0x00000334                SPI1_IRQHandler
+                0x00000336                I2C0_IRQHandler
+                0x00000338                I2C0_SMBAlert_IRQHandler
+                0x0000033a                I2C0_SMBus_IRQHandler
+                0x0000033c                I2C1_IRQHandler
+                0x0000033e                I2C1_SMBAlert_IRQHandler
+                0x00000340                I2C1_SMBus_IRQHandler
+                0x00000342                Timer1_IRQHandler
+                0x00000344                Timer2_IRQHandler
+                0x00000346                PLL_Lock_IRQHandler
+                0x00000348                PLL_LockLost_IRQHandler
+                0x0000034a                CommError_IRQHandler
+                0x0000034c                Fabric_IRQHandler
+                0x0000034e                GPIO0_IRQHandler
+                0x00000350                GPIO1_IRQHandler
+                0x00000352                GPIO2_IRQHandler
+                0x00000354                GPIO3_IRQHandler
+                0x00000356                GPIO4_IRQHandler
+                0x00000358                GPIO5_IRQHandler
+                0x0000035a                GPIO6_IRQHandler
+                0x0000035c                GPIO7_IRQHandler
+                0x0000035e                GPIO8_IRQHandler
+                0x00000360                GPIO9_IRQHandler
+                0x00000362                GPIO10_IRQHandler
+                0x00000364                GPIO11_IRQHandler
+                0x00000366                GPIO12_IRQHandler
+                0x00000368                GPIO13_IRQHandler
+                0x0000036a                GPIO14_IRQHandler
+                0x0000036c                GPIO15_IRQHandler
+                0x0000036e                GPIO16_IRQHandler
+                0x00000370                GPIO17_IRQHandler
+                0x00000372                GPIO18_IRQHandler
+                0x00000374                GPIO19_IRQHandler
+                0x00000376                GPIO20_IRQHandler
+                0x00000378                GPIO21_IRQHandler
+                0x0000037a                GPIO22_IRQHandler
+                0x0000037c                GPIO23_IRQHandler
+                0x0000037e                GPIO24_IRQHandler
+                0x00000380                GPIO25_IRQHandler
+                0x00000382                GPIO26_IRQHandler
+                0x00000384                GPIO27_IRQHandler
+                0x00000386                GPIO28_IRQHandler
+                0x00000388                GPIO29_IRQHandler
+                0x0000038a                GPIO30_IRQHandler
+                0x0000038c                GPIO31_IRQHandler
+                0x0000038e                ACE_PC0_Flag0_IRQHandler
+                0x00000390                ACE_PC0_Flag1_IRQHandler
+                0x00000392                ACE_PC0_Flag2_IRQHandler
+                0x00000394                ACE_PC0_Flag3_IRQHandler
+                0x00000396                ACE_PC1_Flag0_IRQHandler
+                0x00000398                ACE_PC1_Flag1_IRQHandler
+                0x0000039a                ACE_PC1_Flag2_IRQHandler
+                0x0000039c                ACE_PC1_Flag3_IRQHandler
+                0x0000039e                ACE_PC2_Flag0_IRQHandler
+                0x000003a0                ACE_PC2_Flag1_IRQHandler
+                0x000003a2                ACE_PC2_Flag2_IRQHandler
+                0x000003a4                ACE_PC2_Flag3_IRQHandler
+                0x000003a6                ACE_ADC0_DataValid_IRQHandler
+                0x000003a8                ACE_ADC1_DataValid_IRQHandler
+                0x000003aa                ACE_ADC2_DataValid_IRQHandler
+                0x000003ac                ACE_ADC0_CalDone_IRQHandler
+                0x000003ae                ACE_ADC1_CalDone_IRQHandler
+                0x000003b0                ACE_ADC2_CalDone_IRQHandler
+                0x000003b2                ACE_ADC0_CalStart_IRQHandler
+                0x000003b4                ACE_ADC1_CalStart_IRQHandler
+                0x000003b6                ACE_ADC2_CalStart_IRQHandler
+                0x000003b8                ACE_Comp0_Fall_IRQHandler
+                0x000003ba                ACE_Comp1_Fall_IRQHandler
+                0x000003bc                ACE_Comp2_Fall_IRQHandler
+                0x000003be                ACE_Comp3_Fall_IRQHandler
+                0x000003c0                ACE_Comp4_Fall_IRQHandler
+                0x000003c2                ACE_Comp5_Fall_IRQHandler
+                0x000003c4                ACE_Comp6_Fall_IRQHandler
+                0x000003c6                ACE_Comp7_Fall_IRQHandler
+                0x000003c8                ACE_Comp8_Fall_IRQHandler
+                0x000003ca                ACE_Comp9_Fall_IRQHandler
+                0x000003cc                ACE_Comp10_Fall_IRQHandler
+                0x000003ce                ACE_Comp11_Fall_IRQHandler
+                0x000003d0                ACE_Comp0_Rise_IRQHandler
+                0x000003d2                ACE_Comp1_Rise_IRQHandler
+                0x000003d4                ACE_Comp2_Rise_IRQHandler
+                0x000003d6                ACE_Comp3_Rise_IRQHandler
+                0x000003d8                ACE_Comp4_Rise_IRQHandler
+                0x000003da                ACE_Comp5_Rise_IRQHandler
+                0x000003dc                ACE_Comp6_Rise_IRQHandler
+                0x000003de                ACE_Comp7_Rise_IRQHandler
+                0x000003e0                ACE_Comp8_Rise_IRQHandler
+                0x000003e2                ACE_Comp9_Rise_IRQHandler
+                0x000003e4                ACE_Comp10_Rise_IRQHandler
+                0x000003e6                ACE_Comp11_Rise_IRQHandler
+                0x000003e8                ACE_ADC0_FifoFull_IRQHandler
+                0x000003ea                ACE_ADC0_FifoAFull_IRQHandler
+                0x000003ec                ACE_ADC0_FifoEmpty_IRQHandler
+                0x000003ee                ACE_ADC1_FifoFull_IRQHandler
+                0x000003f0                ACE_ADC1_FifoAFull_IRQHandler
+                0x000003f2                ACE_ADC1_FifoEmpty_IRQHandler
+                0x000003f4                ACE_ADC2_FifoFull_IRQHandler
+                0x000003f6                ACE_ADC2_FifoAFull_IRQHandler
+                0x000003f8                ACE_ADC2_FifoEmpty_IRQHandler
+                0x000003fa                ACE_PPE_Flag0_IRQHandler
+                0x000003fc                ACE_PPE_Flag1_IRQHandler
+                0x000003fe                ACE_PPE_Flag2_IRQHandler
+                0x00000400                ACE_PPE_Flag3_IRQHandler
+                0x00000402                ACE_PPE_Flag4_IRQHandler
+                0x00000404                ACE_PPE_Flag5_IRQHandler
+                0x00000406                ACE_PPE_Flag6_IRQHandler
+                0x00000408                ACE_PPE_Flag7_IRQHandler
+                0x0000040a                ACE_PPE_Flag8_IRQHandler
+                0x0000040c                ACE_PPE_Flag9_IRQHandler
+                0x0000040e                ACE_PPE_Flag10_IRQHandler
+                0x00000410                ACE_PPE_Flag11_IRQHandler
+                0x00000412                ACE_PPE_Flag12_IRQHandler
+                0x00000414                ACE_PPE_Flag13_IRQHandler
+                0x00000416                ACE_PPE_Flag14_IRQHandler
+                0x00000418                ACE_PPE_Flag15_IRQHandler
+                0x0000041a                ACE_PPE_Flag16_IRQHandler
+                0x0000041c                ACE_PPE_Flag17_IRQHandler
+                0x0000041e                ACE_PPE_Flag18_IRQHandler
+                0x00000420                ACE_PPE_Flag19_IRQHandler
+                0x00000422                ACE_PPE_Flag20_IRQHandler
+                0x00000424                ACE_PPE_Flag21_IRQHandler
+                0x00000426                ACE_PPE_Flag22_IRQHandler
+                0x00000428                ACE_PPE_Flag23_IRQHandler
+                0x0000042a                ACE_PPE_Flag24_IRQHandler
+                0x0000042c                ACE_PPE_Flag25_IRQHandler
+                0x0000042e                ACE_PPE_Flag26_IRQHandler
+                0x00000430                ACE_PPE_Flag27_IRQHandler
+                0x00000432                ACE_PPE_Flag28_IRQHandler
+                0x00000434                ACE_PPE_Flag29_IRQHandler
+                0x00000436                ACE_PPE_Flag30_IRQHandler
+                0x00000438                ACE_PPE_Flag31_IRQHandler
+                0x00000470                . = ALIGN (0x4)
+
+.text           0x00000470     0x7160 load address 0x60000470
+ CREATE_OBJECT_SYMBOLS
+                0x60000470                __text_load = LOADADDR (.text)
+                0x00000470                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000470       0x30 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.main     0x000004a0       0x68 ./main.o
+                0x000004a0                main
+ .text._close   0x00000508       0x18 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000508                _close
+ .text._exit    0x00000520        0xc E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000520                _exit
+ .text._fstat   0x0000052c       0x24 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x0000052c                _fstat
+ .text._isatty  0x00000550       0x18 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000550                _isatty
+ .text._lseek   0x00000568       0x1c E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000568                _lseek
+ .text._read    0x00000584       0x1c E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000584                _read
+ .text._write_r
+                0x000005a0       0x5c E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x000005a0                _write_r
+ .text._sbrk    0x000005fc       0x94 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x000005fc                _sbrk
+ .text.NVIC_ClearPendingIRQ
+                0x00000690       0x3c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_init
+                0x000006cc      0x204 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000006cc                MSS_UART_init
+ .text.MSS_UART_polled_tx
+                0x000008d0       0xe4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000008d0                MSS_UART_polled_tx
+ .text.MSS_UART_isr
+                0x000009b4      0x11c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.default_tx_handler
+                0x00000ad0      0x108 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.UART0_IRQHandler
+                0x00000bd8       0x2c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000bd8                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x00000c04       0x2c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000c04                UART1_IRQHandler
+ .text.SystemInit
+                0x00000c30        0xc E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000c30                SystemInit
+ .text.SystemCoreClockUpdate
+                0x00000c3c      0x150 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000c3c                SystemCoreClockUpdate
+ .text.GetSystemClock
+                0x00000d8c       0xe8 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x00000e74       0x50 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x00000e74                __libc_init_array
+ .text          0x00000ec4       0x64 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+                0x00000ec4                printf
+                0x00000efc                _printf_r
+ .text          0x00000f28     0x1940 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                0x00000f44                _vfprintf_r
+                0x0000284c                vfprintf
+ .text          0x00002868      0x104 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+                0x00002868                __swsetup_r
+ *fill*         0x0000296c        0x4 00
+ .text          0x00002970      0xfb8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                0x00002a90                _dtoa_r
+ .text          0x00003928      0x178 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+                0x00003928                _fflush_r
+                0x00003a78                fflush
+ .text          0x00003aa0      0x1c8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                0x00003aa0                __sfp_lock_acquire
+                0x00003aa4                __sfp_lock_release
+                0x00003aa8                __sinit_lock_acquire
+                0x00003aac                __sinit_lock_release
+                0x00003ab8                __fp_unlock_all
+                0x00003ad0                __fp_lock_all
+                0x00003ae8                _cleanup_r
+                0x00003af4                _cleanup
+                0x00003b50                __sfmoreglue
+                0x00003b80                __sfp
+                0x00003c08                __sinit
+ .text          0x00003c68      0x268 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                0x00003c68                _malloc_trim_r
+                0x00003d10                _free_r
+ .text          0x00003ed0      0x334 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+                0x00003ed0                __sfvwrite_r
+ .text          0x00004204       0xa0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+                0x00004204                _fwalk_reent
+                0x00004258                _fwalk
+ .text          0x000042a4       0x74 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                0x000042a4                __locale_charset
+                0x000042b0                _localeconv_r
+                0x000042b8                localeconv
+                0x000042c0                _setlocale_r
+                0x00004308                setlocale
+ .text          0x00004318       0xdc e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+                0x00004318                __smakebuf_r
+ .text          0x000043f4       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                0x000043f4                free
+                0x00004404                malloc
+ .text          0x00004414      0x5a4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x00004414                _malloc_r
+ .text          0x000049b8       0x74 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x000049b8                memchr
+ .text          0x00004a2c      0x190 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x00004a2c                memcpy
+ .text          0x00004bbc       0xb8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                0x00004bbc                memmove
+ .text          0x00004c74       0xd4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x00004c74                memset
+ .text          0x00004d48        0x8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                0x00004d48                __malloc_lock
+                0x00004d4c                __malloc_unlock
+ .text          0x00004d50      0x958 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x00004d50                __hi0bits
+                0x00004d90                __lo0bits
+                0x00004df4                __mcmp
+                0x00004e34                __ulp
+                0x00004e80                __b2d
+                0x00004f28                __ratio
+                0x00004f88                _mprec_log10
+                0x00004fc0                __copybits
+                0x00005010                __any_on
+                0x00005068                _Bfree
+                0x000050a0                _Balloc
+                0x0000510c                __d2b
+                0x000051dc                __mdiff
+                0x000052d4                __lshift
+                0x00005390                __multiply
+                0x000054c4                __i2b
+                0x000054d8                __multadd
+                0x00005560                __pow5mult
+                0x0000560c                __s2b
+ .text          0x000056a8      0x3b4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                0x000056a8                _realloc_r
+ .text          0x00005a5c       0x24 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                0x00005a5c                __isinfd
+ .text          0x00005a80       0x1c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                0x00005a80                __isnand
+ .text          0x00005a9c       0x28 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                0x00005a9c                _sbrk_r
+ .text          0x00005ac4       0x90 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+                0x00005ac4                __sclose
+                0x00005acc                __sseek
+                0x00005af4                __swrite
+                0x00005b30                __sread
+ .text          0x00005b54      0x1dc e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x00005b54                strcmp
+ .text          0x00005d30       0x60 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                0x00005d30                strlen
+ .text          0x00005d90       0x5c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                0x00005d90                _calloc_r
+ .text          0x00005dec       0x28 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+                0x00005dec                _close_r
+ .text          0x00005e14       0xcc e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+                0x00005e14                _fclose_r
+                0x00005ed0                fclose
+ .text          0x00005ee0       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+                0x00005ee0                _fstat_r
+ .text          0x00005f0c       0x28 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+                0x00005f0c                _isatty_r
+ .text          0x00005f34       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+                0x00005f34                _lseek_r
+ .text          0x00005f60       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+                0x00005f60                _read_r
+ *fill*         0x00005f8c        0x4 00
+ .text          0x00005f90      0x278 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                0x00005f90                __aeabi_uidiv
+                0x00005f90                __udivsi3
+                0x000061ec                __aeabi_uidivmod
+ .text          0x00006208        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                0x00006208                __aeabi_idiv0
+                0x00006208                __aeabi_ldiv0
+ .text          0x0000620c      0x370 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+                0x0000620c                __aeabi_drsub
+                0x00006214                __aeabi_dsub
+                0x00006214                __subdf3
+                0x00006218                __aeabi_dadd
+                0x00006218                __adddf3
+                0x00006490                __floatunsidf
+                0x00006490                __aeabi_ui2d
+                0x000064b0                __floatsidf
+                0x000064b0                __aeabi_i2d
+                0x000064d4                __aeabi_f2d
+                0x000064d4                __extendsfdf2
+                0x00006510                __floatundidf
+                0x00006510                __aeabi_ul2d
+                0x00006520                __floatdidf
+                0x00006520                __aeabi_l2d
+ .text          0x0000657c      0x424 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                0x0000657c                __aeabi_dmul
+                0x0000657c                __muldf3
+                0x000067d0                __divdf3
+                0x000067d0                __aeabi_ddiv
+ .text          0x000069a0      0x110 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                0x000069a0                __gtdf2
+                0x000069a0                __gedf2
+                0x000069a8                __ltdf2
+                0x000069a8                __ledf2
+                0x000069b0                __nedf2
+                0x000069b0                __eqdf2
+                0x000069b0                __cmpdf2
+                0x00006a2c                __aeabi_cdrcmple
+                0x00006a3c                __aeabi_cdcmpeq
+                0x00006a3c                __aeabi_cdcmple
+                0x00006a4c                __aeabi_dcmpeq
+                0x00006a60                __aeabi_dcmplt
+                0x00006a74                __aeabi_dcmple
+                0x00006a88                __aeabi_dcmpge
+                0x00006a9c                __aeabi_dcmpgt
+ .text          0x00006ab0       0x50 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                0x00006ab0                __aeabi_d2iz
+                0x00006ab0                __fixdfsi
+ .text          0x00006b00       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                0x00006b00                __aeabi_uldivmod
+ .text          0x00006b2c       0x58 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                0x00006b2c                __gnu_uldivmod_helper
+                0x00006b58                __gnu_ldivmod_helper
+ .text          0x00006b84      0x364 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                0x00006b84                __divdi3
+ .text          0x00006ee8      0x300 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                0x00006ee8                __udivdi3
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x000071e8                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000071e8      0x150 ./main.o
+ .rodata        0x00007338       0x1c E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata.C.18.2576
+                0x00007354       0x10 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .rodata        0x00007364        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x00007364                _global_impure_ptr
+ .rodata.str1.4
+                0x00007368        0x2 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0000736a        0x2 00
+ .rodata        0x0000736c       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x0000738c       0x42 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x000073ce        0x2 00
+ .rodata.str1.4
+                0x000073d0       0x10 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x000073e0       0x60 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                0x000073e0                __sf_fake_stdin
+                0x00007400                __sf_fake_stdout
+                0x00007420                __sf_fake_stderr
+ .rodata        0x00007440       0x34 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .rodata.str1.4
+                0x00007474       0x10 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                                 0x18 (size before relaxing)
+ *fill*         0x00007484        0x4 00
+ .rodata        0x00007488      0x128 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x00007488                __mprec_tens
+                0x00007560                __mprec_bigtens
+                0x00007588                __mprec_tinytens
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.init)
+ .init          0x000075b0        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x000075b0                _init
+ .init          0x000075b4        0x8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x000075bc        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x000075bc                _fini
+ .fini          0x000075c0        0x8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x000075c8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000075c8                PROVIDE (__preinit_array_end, .)
+                0x000075c8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000075c8        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x000075cc                PROVIDE (__init_array_end, .)
+                0x000075cc                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x000075cc        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000075d0                PROVIDE (__fini_array_end, .)
+                0x000075d0                __exidx_start = .
+
+.v4_bx          0x000075d0        0x0 load address 0x600075d0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx      0x20000000        0x8 load address 0x600075d0
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x20000000        0x8 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x20000008        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x20000008                __exidx_end = .
+                0x20000008                _etext = .
+
+.data           0x20000008      0x520 load address 0x600075d8
+                0x600075d8                __data_load = LOADADDR (.data)
+                0x600075d8                _sidata = LOADADDR (.data)
+                0x20000008                __data_start = .
+                0x20000008                _sdata = .
+ *(.jcr)
+ .jcr           0x20000008        0x0 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000008        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.SystemFrequency
+                0x2000000c        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x2000000c                SystemFrequency
+ .data.SystemCoreClock
+                0x20000010        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000010                SystemCoreClock
+ .data.g_FrequencyPCLK0
+                0x20000014        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000014                g_FrequencyPCLK0
+ .data.g_FrequencyPCLK1
+                0x20000018        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000018                g_FrequencyPCLK1
+ .data.g_FrequencyACE
+                0x2000001c        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x2000001c                g_FrequencyACE
+ .data.g_FrequencyFPGA
+                0x20000020        0x4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000020                g_FrequencyFPGA
+ .data          0x20000024       0xf4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x20000024                _impure_ptr
+ .data          0x20000118      0x410 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20000118                __malloc_av_
+                0x20000520                __malloc_sbrk_base
+                0x20000524                __malloc_trim_threshold
+                0x20000528                . = ALIGN (0x4)
+                0x20000528                _edata = .
+
+.bss            0x20000528       0x98 load address 0x60007af8
+                0x20000528                __bss_start__ = .
+                0x20000528                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000528        0x1 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x20000529        0x3 00
+ .bss.g_stdio_uart_init_done
+                0x2000052c        0x4 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.heap_end.3594
+                0x20000530        0x4 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x20000534       0x34 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20000534                __malloc_top_pad
+                0x20000538                __malloc_current_mallinfo
+                0x20000560                __malloc_max_sbrked_mem
+                0x20000564                __malloc_max_total_mem
+ *(COMMON)
+ COMMON         0x20000568       0x50 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000568                g_mss_uart1
+                0x20000590                g_mss_uart0
+ COMMON         0x200005b8        0x4 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                0x200005b8                errno
+                0x200005c0                . = ALIGN (0x8)
+ *fill*         0x200005bc        0x4 00
+                0x200005c0                __bss_end__ = .
+                0x200005c0                _end = .
+                0x200005c0                __end = _end
+                0x200005c0                _ebss = .
+                0x200005c0                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000       0xac
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .comment       0x00000081       0x2b E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_aranges  0x00000000      0x1d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+ .debug_aranges
+                0x00000020       0xa8 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x000000c8       0xd8 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_aranges
+                0x000001a0       0x30 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_pubnames
+                0x00000000      0x3d6
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b ./main.o
+ .debug_pubnames
+                0x0000001b       0xeb E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x00000106      0x21c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_pubnames
+                0x00000322       0xb4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_info     0x00000000     0x2c96
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xc6 ./main.o
+ .debug_info    0x000000c6     0x10f0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x000011b6     0x15a4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x0000275a      0x53c E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_abbrev   0x00000000      0x5bf
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x75 ./main.o
+ .debug_abbrev  0x00000075      0x1f4 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x00000269      0x245 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_abbrev  0x000004ae      0x111 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_line     0x00000000     0x1235
+ *(.debug_line)
+ .debug_line    0x00000000      0x460 ./main.o
+ .debug_line    0x00000460      0x559 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x000009b9      0x5c5 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x00000f7e      0x2b7 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_frame    0x00000000     0x11a0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 ./main.o
+ .debug_frame   0x00000030      0x220 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x00000250      0x2e4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x00000534       0x64 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x00000598       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x000005b8       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x000005e4       0x5c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+ .debug_frame   0x00000640       0x70 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x000006b0       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x000006dc       0x64 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00000740       0x40 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00000780      0x11c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+ .debug_frame   0x0000089c       0x50 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .debug_frame   0x000008ec       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x00000928       0x54 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x0000097c       0x6c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .debug_frame   0x000009e8       0x34 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00000a1c       0x30 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .debug_frame   0x00000a4c       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000a88       0x28 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00000ab0       0x34 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000ae4       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000b10       0x28 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000b38       0x30 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000b68      0x240 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00000da8       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00000de4       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .debug_frame   0x00000e04       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .debug_frame   0x00000e24       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000e50       0x70 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+ .debug_frame   0x00000ec0       0x30 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00000ef0       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000f10       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00000f3c       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+ .debug_frame   0x00000f68       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00000fa4       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00000fd0       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00000ffc       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x00001028       0x2c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+ .debug_frame   0x00001054       0x64 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .debug_frame   0x000010b8       0x20 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000010d8       0x50 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .debug_frame   0x00001128       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .debug_frame   0x00001164       0x3c e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+
+.debug_str      0x00000000     0x17ad
+ *(.debug_str)
+ .debug_str     0x00000000       0xe3 ./main.o
+                                0x121 (size before relaxing)
+ .debug_str     0x000000e3      0xfab E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                               0x10b8 (size before relaxing)
+ .debug_str     0x0000108e      0x628 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                               0x14c9 (size before relaxing)
+ .debug_str     0x000016b6       0xf7 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                                0x46c (size before relaxing)
+
+.debug_loc      0x00000000      0x9a6
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x37 ./main.o
+ .debug_loc     0x00000037      0x3c6 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x000003fd      0x510 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x0000090d       0x99 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_macinfo  0x00000000    0x1dceb
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0x8509 ./main.o
+ .debug_macinfo
+                0x00008509     0x9965 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_macinfo
+                0x00011e6e     0x63e4 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_macinfo
+                0x00018252     0x5a99 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x21 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .ARM.attributes
+                0x00000094       0x31 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x000000c5       0x31 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .ARM.attributes
+                0x000000f6       0x31 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .ARM.attributes
+                0x00000127       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000150       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000179       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001a2       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+ .ARM.attributes
+                0x000001cb       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x000001f4       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000021d       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x00000246       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x0000026f       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000298       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000002c1       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x000002ea       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000313       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000033c       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x00000365       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000038e       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x000003b7       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x000003e0       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000409       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000432       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000045b       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000484       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000004ad       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x000004d6       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .ARM.attributes
+                0x000004ff       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .ARM.attributes
+                0x00000528       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000551       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000057a       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000005a3       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000005cc       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x000005f5       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x0000061e       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x00000647       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000670       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000699       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x000006c2       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000006eb       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000714       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000072f       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000074a       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000765       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000780       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000079b       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000007b6       0x1b e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000007d1       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000007fa       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000823       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000084c       0x29 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x00000875       0x19 e:/program files (x86)/microsemi/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(UART_MSS_MSS_CM3_0_app elf32-littlearm)
+
+.debug_ranges   0x00000000      0x1b0
+ .debug_ranges  0x00000000       0x18 ./main.o
+ .debug_ranges  0x00000018       0xa0 E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/SoftConsole/UART_MSS_MSS_CM3_0/UART_MSS_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000b8       0xd0 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x00000188       0x28 E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\SoftConsole\UART_MSS_MSS_CM3_0\UART_MSS_MSS_CM3_0_hw_platform\Debug\libUART_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
