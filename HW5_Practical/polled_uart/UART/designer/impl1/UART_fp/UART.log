@@ -1,0 +1,32 @@
+Software Version: 11.8.0.26
+creating folder: E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\designer\impl1\UART_fp
+Driver : 3.0.0 build 1
+programmer '79947' : FlashPro3
+Created new project
+'E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\designer\impl1\UART_fp\UART.pro'
+Info: Adding Flash Memory data from file
+      E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\component\work\UART_MSS\MSS_ENVM_0\MS\
+      S_ENVM_0.efc.
+PDB file 'E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\designer\impl1\UART_fp\UART.pdb'
+has been loaded successfully.
+DESIGN : ;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+programmer '79947' : Scan Chain...
+Error: Vjtag is disconnected or shorted. Please check the FPGA's Vjtag pin is properly
+       connected. Please check that the target board is powered.
+Error: programmer '79947' : Scan Chain FAILED.
+Error: Failed to run Action.
+programmer '79947' : Scan Chain...
+Warning: programmer '79947' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '79947' : Scan Chain PASSED.
+programmer '79947' : Executing action PROGRAM
+programmer '79947' : EXPORT FSN[48] = 014b3e609480
+programmer '79947' : Program System Init and Boot Clients...
+programmer '79947' : Verify System Init and Boot Clients...
+programmer '79947' : Finished: Thu Oct 08 22:44:20 2020 (Elapsed time 00:00:00)
+programmer '79947' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'UART' has been modified. Do you want to save it? [NO]
+Project closed.

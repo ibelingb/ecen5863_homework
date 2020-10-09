@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Thu Oct 08 22:40:04 2020
+Project   :  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART
+Component :  UART_MSS
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART_MSS/MSS_CCC_0/UART_MSS_tmp_MSS_CCC_0_MSS_CCC.v
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART_MSS/UART_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART_MSS/mss_tshell.v
+
+Stimulus files for all Simulation tools:
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART_MSS/MSS_ENVM_0/test.bfm
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART_MSS/MSS_ENVM_0/user.bfm
+
