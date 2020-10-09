@@ -8,26 +8,49 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/repos/ECEN5863_HW/HW5/HW5P4/simulation/modelsim
-vram_cyclone_IV
-!s110 1601853017
+vHW5P4
+Z1 !s110 1602111104
 !i10b 1
-!s100 ;S2QXjQoFz?WZLNMQH`BO3
-IbfoF>U=Q>8R5<BaRF[5TO0
-VDg1SIo80bB@j0V0VzS_@n1
+!s100 k@[i3kBf0UJcNOai9T5Cj2
+InO`f:PDB>XeJ3XJM52VIL0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1601852819
-8E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v
-FE:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v
-L0 40
-OV;L;10.5b;63
+Z3 w1602110837
+Z4 8E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v
+Z5 FE:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v
+L0 181
+Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1601853017.000000
-!s107 E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW5/HW5P4|E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v|
+Z7 !s108 1602111104.000000
+Z8 !s107 E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/repos/ECEN5863_HW/HW5/HW5P4|E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v|
 !i113 1
-o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P4
-tCvgOpt 0
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW5/HW5P4
+Z12 tCvgOpt 0
+n@h@w5@p4
+vram_cyclone_IV
+R1
+!i10b 1
+!s100 ;S2QXjQoFz?WZLNMQH`BO3
+IbfoF>U=Q>8R5<BaRF[5TO0
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
 nram_cyclone_@i@v

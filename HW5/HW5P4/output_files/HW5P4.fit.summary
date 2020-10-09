@@ -1,20 +1,16 @@
-Fitter Status : Failed - Sun Oct 04 17:16:53 2020
+Fitter Status : Successful - Thu Oct 08 17:45:53 2020
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : HW5P4
-Top-level Entity Name : ram_cyclone_IV
-Family : Cyclone IV GX
-Device : EP4CGX15BF14A7
+Top-level Entity Name : HW5P4
+Family : Cyclone IV E
+Device : EP4CE115F29I8L
 Timing Models : Final
-Total logic elements : 1 / 14,400 ( < 1 % )
-    Total combinational functions : 1 / 14,400 ( < 1 % )
-    Dedicated logic registers : 0 / 14,400 ( 0 % )
+Total logic elements : 0 / 114,480 ( 0 % )
+    Total combinational functions : 0 / 114,480 ( 0 % )
+    Dedicated logic registers : 0 / 114,480 ( 0 % )
 Total registers : 0
-Total pins : 263 / 81 ( 325 % )
+Total pins : 263 / 529 ( 50 % )
 Total virtual pins : 0
-Total memory bits : 4,096 / 552,960 ( < 1 % )
-Embedded Multiplier 9-bit elements : 0
-Total GXB Receiver Channel PCS : 0 / 2 ( 0 % )
-Total GXB Receiver Channel PMA : 0 / 2 ( 0 % )
-Total GXB Transmitter Channel PCS : 0 / 2 ( 0 % )
-Total GXB Transmitter Channel PMA : 0 / 2 ( 0 % )
-Total PLLs : 0 / 3 ( 0 % )
+Total memory bits : 4,096 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

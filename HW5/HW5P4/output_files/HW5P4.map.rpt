@@ -1,5 +1,5 @@
 Analysis & Synthesis report for HW5P4
-Sun Oct 04 17:09:55 2020
+Thu Oct 08 17:45:24 2020
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -16,8 +16,8 @@ Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
  10. General Register Statistics
- 11. Source assignments for altsyncram:altsyncram_component|altsyncram_kjf1:auto_generated
- 12. Parameter Settings for User Entity Instance: altsyncram:altsyncram_component
+ 11. Source assignments for ram_cyclone_IV:ram1|altsyncram:altsyncram_component|altsyncram_qff1:auto_generated
+ 12. Parameter Settings for User Entity Instance: ram_cyclone_IV:ram1|altsyncram:altsyncram_component
  13. altsyncram Parameter Settings by Entity Instance
  14. Post-Synthesis Netlist Statistics for Top Partition
  15. Elapsed Time Per Partition
@@ -48,11 +48,11 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Oct 04 17:09:55 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 08 17:45:23 2020       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; HW5P4                                       ;
-; Top-level Entity Name              ; ram_cyclone_IV                              ;
-; Family                             ; Cyclone IV GX                               ;
+; Top-level Entity Name              ; HW5P4                                       ;
+; Family                             ; Cyclone IV E                                ;
 ; Total logic elements               ; 0                                           ;
 ;     Total combinational functions  ; 0                                           ;
 ;     Dedicated logic registers      ; 0                                           ;
@@ -61,10 +61,6 @@ agreement for further details.
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 4,096                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total GXB Receiver Channel PCS     ; 0                                           ;
-; Total GXB Receiver Channel PMA     ; 0                                           ;
-; Total GXB Transmitter Channel PCS  ; 0                                           ;
-; Total GXB Transmitter Channel PMA  ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
@@ -74,9 +70,9 @@ agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; EP4CGX15BF14A7     ;                    ;
-; Top-level entity name                                                      ; ram_cyclone_IV     ; HW5P4              ;
-; Family name                                                                ; Cyclone IV GX      ; Cyclone V          ;
+; Device                                                                     ; EP4CE115F29I8L     ;                    ;
+; Top-level entity name                                                      ; HW5P4              ; HW5P4              ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                                ; Off                ; Off                ;
@@ -176,6 +172,7 @@ agreement for further details.
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                 ; Library ;
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
+; HW5P4.v                          ; yes             ; User Verilog HDL File        ; E:/repos/ECEN5863_HW/HW5/HW5P4/HW5P4.v                                       ;         ;
 ; ram_cyclone_IV.v                 ; yes             ; User Wizard-Generated File   ; E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v                              ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                 ; e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
@@ -186,55 +183,71 @@ agreement for further details.
 ; altrom.inc                       ; yes             ; Megafunction                 ; e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
 ; altram.inc                       ; yes             ; Megafunction                 ; e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altram.inc            ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_kjf1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/repos/ECEN5863_HW/HW5/HW5P4/db/altsyncram_kjf1.tdf                        ;         ;
+; db/altsyncram_qff1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/repos/ECEN5863_HW/HW5/HW5P4/db/altsyncram_qff1.tdf                        ;         ;
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary ;
-+--------------------------+------------------+
-; Resource                 ; Usage            ;
-+--------------------------+------------------+
-; I/O pins                 ; 263              ;
-; Total memory bits        ; 4096             ;
-;                          ;                  ;
-; DSP block 9-bit elements ; 0                ;
-;                          ;                  ;
-; Maximum fan-out node     ; wren~input       ;
-; Maximum fan-out          ; 128              ;
-; Total fan-out            ; 1415             ;
-; Average fan-out          ; 2.16             ;
-+--------------------------+------------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+;                                             ;           ;
+; Total combinational functions               ; 0         ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 0         ;
+;     -- 3 input functions                    ; 0         ;
+;     -- <=2 input functions                  ; 0         ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 0         ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 0         ;
+;     -- Dedicated logic registers            ; 0         ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 263       ;
+; Total memory bits                           ; 4096      ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 128       ;
+; Total fan-out                               ; 1287      ;
+; Average fan-out                             ; 1.97      ;
++---------------------------------------------+-----------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                             ;
-+----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node             ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                            ; Entity Name     ; Library Name ;
-+----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------+-----------------+--------------+
-; |ram_cyclone_IV                        ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0         ; 263  ; 0            ; |ram_cyclone_IV                                                                ; ram_cyclone_IV  ; work         ;
-;    |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ram_cyclone_IV|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
-;       |altsyncram_kjf1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ram_cyclone_IV|altsyncram:altsyncram_component|altsyncram_kjf1:auto_generated ; altsyncram_kjf1 ; work         ;
-+----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------+-----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                               ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                       ; Entity Name     ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+-----------------+--------------+
+; |HW5P4                                    ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 263  ; 0            ; |HW5P4                                                                                    ; HW5P4           ; work         ;
+;    |ram_cyclone_IV:ram1|                  ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |HW5P4|ram_cyclone_IV:ram1                                                                ; ram_cyclone_IV  ; work         ;
+;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |HW5P4|ram_cyclone_IV:ram1|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
+;          |altsyncram_qff1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |HW5P4|ram_cyclone_IV:ram1|altsyncram:altsyncram_component|altsyncram_qff1:auto_generated ; altsyncram_qff1 ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                         ;
-+---------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
-; Name                                                                      ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
-+---------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
-; altsyncram:altsyncram_component|altsyncram_kjf1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 32           ; 128          ; --           ; --           ; 4096 ; None ;
-+---------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                             ;
++-----------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                          ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++-----------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
+; ram_cyclone_IV:ram1|altsyncram:altsyncram_component|altsyncram_qff1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 32           ; 128          ; --           ; --           ; 4096 ; None ;
++-----------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                              ;
-+--------+--------------+---------+--------------+--------------+-----------------+------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance ; IP Include File  ;
-+--------+--------------+---------+--------------+--------------+-----------------+------------------+
-; Altera ; RAM: 1-PORT  ; 16.1    ; N/A          ; N/A          ; |ram_cyclone_IV ; ram_cyclone_IV.v ;
-+--------+--------------+---------+--------------+--------------+-----------------+------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                         ;
++--------+--------------+---------+--------------+--------------+----------------------------+------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance            ; IP Include File  ;
++--------+--------------+---------+--------------+--------------+----------------------------+------------------+
+; Altera ; RAM: 1-PORT  ; 16.1    ; N/A          ; N/A          ; |HW5P4|ram_cyclone_IV:ram1 ; ram_cyclone_IV.v ;
++--------+--------------+---------+--------------+--------------+----------------------------+------------------+
 
 
 +------------------------------------------------------+
@@ -252,94 +265,94 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------+
-; Source assignments for altsyncram:altsyncram_component|altsyncram_kjf1:auto_generated ;
-+---------------------------------+--------------------+------+-------------------------+
-; Assignment                      ; Value              ; From ; To                      ;
-+---------------------------------+--------------------+------+-------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                       ;
-+---------------------------------+--------------------+------+-------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Source assignments for ram_cyclone_IV:ram1|altsyncram:altsyncram_component|altsyncram_qff1:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                          ;
++---------------------------------+--------------------+------+---------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                           ;
++---------------------------------+--------------------+------+---------------------------------------------+
 
 
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: altsyncram:altsyncram_component ;
-+------------------------------------+----------------------+------------------+
-; Parameter Name                     ; Value                ; Type             ;
-+------------------------------------+----------------------+------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped          ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY       ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY     ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE     ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE   ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped          ;
-; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped          ;
-; WIDTH_A                            ; 128                  ; Signed Integer   ;
-; WIDTHAD_A                          ; 5                    ; Signed Integer   ;
-; NUMWORDS_A                         ; 32                   ; Signed Integer   ;
-; OUTDATA_REG_A                      ; CLOCK0               ; Untyped          ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped          ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped          ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped          ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped          ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped          ;
-; WIDTH_B                            ; 1                    ; Untyped          ;
-; WIDTHAD_B                          ; 1                    ; Untyped          ;
-; NUMWORDS_B                         ; 1                    ; Untyped          ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped          ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped          ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped          ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped          ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped          ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped          ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped          ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped          ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped          ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped          ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped          ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped          ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer   ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped          ;
-; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped          ;
-; BYTE_SIZE                          ; 8                    ; Untyped          ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped          ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped          ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped          ;
-; INIT_FILE                          ; UNUSED               ; Untyped          ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped          ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped          ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped          ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped          ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped          ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped          ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped          ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped          ;
-; ENABLE_ECC                         ; FALSE                ; Untyped          ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped          ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped          ;
-; DEVICE_FAMILY                      ; Cyclone IV GX        ; Untyped          ;
-; CBXI_PARAMETER                     ; altsyncram_kjf1      ; Untyped          ;
-+------------------------------------+----------------------+------------------+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ram_cyclone_IV:ram1|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------+
+; Parameter Name                     ; Value                ; Type                                 ;
++------------------------------------+----------------------+--------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                              ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                       ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                              ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                              ;
+; WIDTH_A                            ; 128                  ; Signed Integer                       ;
+; WIDTHAD_A                          ; 5                    ; Signed Integer                       ;
+; NUMWORDS_A                         ; 32                   ; Signed Integer                       ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                              ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                              ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                              ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                              ;
+; WIDTH_B                            ; 1                    ; Untyped                              ;
+; WIDTHAD_B                          ; 1                    ; Untyped                              ;
+; NUMWORDS_B                         ; 1                    ; Untyped                              ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                              ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                              ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                              ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                              ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                              ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                              ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                              ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                              ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                              ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                              ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                       ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                              ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                              ;
+; BYTE_SIZE                          ; 8                    ; Untyped                              ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                              ;
+; INIT_FILE                          ; UNUSED               ; Untyped                              ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                              ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                              ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                              ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                              ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                              ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                              ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                              ;
+; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                              ;
+; CBXI_PARAMETER                     ; altsyncram_qff1      ; Untyped                              ;
++------------------------------------+----------------------+--------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                            ;
-+-------------------------------------------+---------------------------------+
-; Name                                      ; Value                           ;
-+-------------------------------------------+---------------------------------+
-; Number of entity instances                ; 1                               ;
-; Entity Instance                           ; altsyncram:altsyncram_component ;
-;     -- OPERATION_MODE                     ; SINGLE_PORT                     ;
-;     -- WIDTH_A                            ; 128                             ;
-;     -- NUMWORDS_A                         ; 32                              ;
-;     -- OUTDATA_REG_A                      ; CLOCK0                          ;
-;     -- WIDTH_B                            ; 1                               ;
-;     -- NUMWORDS_B                         ; 1                               ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                          ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                    ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                            ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                       ;
-+-------------------------------------------+---------------------------------+
++-------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                ;
++-------------------------------------------+-----------------------------------------------------+
+; Name                                      ; Value                                               ;
++-------------------------------------------+-----------------------------------------------------+
+; Number of entity instances                ; 1                                                   ;
+; Entity Instance                           ; ram_cyclone_IV:ram1|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                         ;
+;     -- WIDTH_A                            ; 128                                                 ;
+;     -- NUMWORDS_A                         ; 32                                                  ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                              ;
+;     -- WIDTH_B                            ; 1                                                   ;
+;     -- NUMWORDS_B                         ; 1                                                   ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                              ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                        ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                           ;
++-------------------------------------------+-----------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -360,7 +373,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -370,16 +383,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Sun Oct 04 17:09:40 2020
+    Info: Processing started: Thu Oct 08 17:45:00 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HW5P4 -c HW5P4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file hw5p4.v
+    Info (12023): Found entity 1: HW5P4 File: E:/repos/ECEN5863_HW/HW5/HW5P4/HW5P4.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ram_cyclone_iv.v
     Info (12023): Found entity 1: ram_cyclone_IV File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 40
-Info (12127): Elaborating entity "ram_cyclone_IV" for the top level hierarchy
-Info (12128): Elaborating entity "altsyncram" for hierarchy "altsyncram:altsyncram_component" File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
-Info (12130): Elaborated megafunction instantiation "altsyncram:altsyncram_component" File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
-Info (12133): Instantiated megafunction "altsyncram:altsyncram_component" with the following parameter: File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
+Warning (10236): Verilog HDL Implicit Net warning at HW5P4.v(13): created implicit net for "wren1" File: E:/repos/ECEN5863_HW/HW5/HW5P4/HW5P4.v Line: 13
+Info (12127): Elaborating entity "HW5P4" for the top level hierarchy
+Info (12128): Elaborating entity "ram_cyclone_IV" for hierarchy "ram_cyclone_IV:ram1" File: E:/repos/ECEN5863_HW/HW5/HW5P4/HW5P4.v Line: 13
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ram_cyclone_IV:ram1|altsyncram:altsyncram_component" File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
+Info (12130): Elaborated megafunction instantiation "ram_cyclone_IV:ram1|altsyncram:altsyncram_component" File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
+Info (12133): Instantiated megafunction "ram_cyclone_IV:ram1|altsyncram:altsyncram_component" with the following parameter: File: E:/repos/ECEN5863_HW/HW5/HW5P4/ram_cyclone_IV.v Line: 86
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
@@ -394,19 +411,21 @@ Info (12133): Instantiated megafunction "altsyncram:altsyncram_component" with t
     Info (12134): Parameter "widthad_a" = "5"
     Info (12134): Parameter "width_a" = "128"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_kjf1.tdf
-    Info (12023): Found entity 1: altsyncram_kjf1 File: E:/repos/ECEN5863_HW/HW5/HW5P4/db/altsyncram_kjf1.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_kjf1" for hierarchy "altsyncram:altsyncram_component|altsyncram_kjf1:auto_generated" File: e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_qff1.tdf
+    Info (12023): Found entity 1: altsyncram_qff1 File: E:/repos/ECEN5863_HW/HW5/HW5P4/db/altsyncram_qff1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_qff1" for hierarchy "ram_cyclone_IV:ram1|altsyncram:altsyncram_component|altsyncram_qff1:auto_generated" File: e:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "wren" File: E:/repos/ECEN5863_HW/HW5/HW5P4/HW5P4.v Line: 7
 Info (21057): Implemented 391 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 135 input pins
     Info (21059): Implemented 128 output pins
     Info (21064): Implemented 128 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Sun Oct 04 17:09:55 2020
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:38
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4752 megabytes
+    Info: Processing ended: Thu Oct 08 17:45:24 2020
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:36
 
 

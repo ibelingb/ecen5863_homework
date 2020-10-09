@@ -1,0 +1,10 @@
+
+// Define Instance of ram_cyclone_IV
+
+module top;
+
+ram_cyclone_IV ram_1();
+
+
+
+endmodule;
