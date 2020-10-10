@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Fri Oct 09 18:03:31 2020
+Project   :  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART
+Component :  UART
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART/UART.v
+
+Stimulus files for all Simulation tools:
+    E:/repos/ECEN5863_HW/HW5_Practical/polled_uart/UART/component/work/UART/subsystem.bfm
+

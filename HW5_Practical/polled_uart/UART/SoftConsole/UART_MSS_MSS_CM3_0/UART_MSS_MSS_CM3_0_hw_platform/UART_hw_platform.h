@@ -2,7 +2,7 @@
 #define UART_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Microsemi SmartDesign  Thu Oct 08 22:40:08 2020
+*Created by Microsemi SmartDesign  Thu Oct 08 23:31:03 2020
 *
 *Memory map specification for peripherals in UART
 */

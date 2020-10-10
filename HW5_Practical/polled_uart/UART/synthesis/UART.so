@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>UART</design>
+	<target_edif>E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.edn</target_edif>
+</SynplifyOutput>

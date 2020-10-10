@@ -1,0 +1,15 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\synlog\report\UART_fpga_mapper.xml  -top_level_module  UART  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.edn   -freq 100.000   E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\synwork\UART_prem.srd  -sap  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.sap  -otap  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.tap  -omap  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.map  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -sap  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.sap  -ologparam  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\syntmp\UART.plg  -osyn  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.srm  -prjdir  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\  -prjname  UART_syn  -log  E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\synlog\UART_fpga_mapper.srr 
+rc:0 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\scratchproject.prs|io:o|time:1602222057|size:2299|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.edn|io:o|time:1602288229|size:96870|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\synwork\UART_prem.srd|io:i|time:1602288228|size:10132|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.sap|io:o|time:1602288228|size:113|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.tap|io:o|time:0|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.map|io:o|time:1602288229|size:28|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.sap|io:o|time:1602288228|size:113|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\syntmp\UART.plg|io:o|time:1602288229|size:350|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\UART.srm|io:o|time:1602288229|size:62183|exec:0
+file:E:\repos\ECEN5863_HW\HW5_Practical\polled_uart\UART\synthesis\synlog\UART_fpga_mapper.srr|io:o|time:1602288229|size:13203|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

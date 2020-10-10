@@ -2,7 +2,7 @@
 <device>
   <name>UART</name>
   <version>1.0</version>
-  <description>CMSIS description for UART.  Created by Microsemi SmartDesign on Thu Oct 08 22:40:08 2020</description>
+  <description>CMSIS description for UART.  Created by Microsemi SmartDesign on Fri Oct 09 18:03:30 2020</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
