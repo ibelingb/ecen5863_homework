@@ -1,0 +1,34 @@
+|HW6P2
+reset => reg_fstate.state0.OUTPUTSELECT
+reset => reg_fstate.state4.OUTPUTSELECT
+reset => reg_fstate.state5.OUTPUTSELECT
+reset => reg_fstate.state1.OUTPUTSELECT
+reset => reg_fstate.state2.OUTPUTSELECT
+reset => reg_fstate.state3.OUTPUTSELECT
+reset => PBREQ.OUTPUTSELECT
+reset => CMREQ.OUTPUTSELECT
+reset => CE.OUTPUTSELECT
+reset => CNTLD.OUTPUTSELECT
+reset => CLD.OUTPUTSELECT
+clock => fstate~1.DATAIN
+A => always1.IN0
+B => always1.IN1
+C => always1.IN1
+D => always1.IN1
+PBGNT => Selector4.IN3
+PBGNT => Selector3.IN2
+MACK => Selector5.IN3
+MACK => Selector5.IN4
+MACK => Selector1.IN1
+MACK => Selector4.IN1
+MACK => Selector5.IN1
+MACK => Selector2.IN1
+CON => Selector2.IN3
+CON => Selector0.IN2
+PBREQ <= PBREQ.DB_MAX_OUTPUT_PORT_TYPE
+CMREQ <= CMREQ.DB_MAX_OUTPUT_PORT_TYPE
+CE <= CE.DB_MAX_OUTPUT_PORT_TYPE
+CNTLD <= CNTLD.DB_MAX_OUTPUT_PORT_TYPE
+CLD <= CLD.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -25,7 +25,7 @@ END Tcontrol;
 ARCHITECTURE a OF Tcontrol IS
 	TYPE STATE_TYPE IS (ABout, Ain, Bin, Astop, Bstop);
 	SIGNAL state: STATE_TYPE;
-	SIGNAL sensor12, sensor13, sensor24 : STD_LOGIC_VECTOR(1 DOWNTO 0);
+	SIGNAL sensor42, sensor43, sensor21 : STD_LOGIC_VECTOR(1 DOWNTO 0);
 	
 BEGIN
 	PROCESS (reset_n, clock)
@@ -41,7 +41,7 @@ BEGIN
 		ELSIF clock'EVENT AND clock = '1' THEN
 			CASE state IS
 				WHEN ABout =>
-					CASE sensor12 IS
+					CASE sensor42 IS
 						WHEN "00" => state <= ABout;
 						WHEN "01" => state <= Bin;
 						WHEN "10" => state <= Ain;
@@ -50,7 +50,7 @@ BEGIN
 					END CASE;
 
 				WHEN Ain =>
-					CASE sensor24 IS
+					CASE sensor21 IS
 						WHEN "00" => state <= Ain;
 						WHEN "01" => state <= ABout;
 						WHEN "10" => state <= Bstop;
@@ -59,7 +59,7 @@ BEGIN
 					END CASE;
 				
 				WHEN Bin =>
-					CASE sensor13 IS
+					CASE sensor43 IS
 						WHEN "00" => state <= Bin;
 						WHEN "01" => state <= ABout;
 						WHEN "10" => state <= Astop;
@@ -75,7 +75,7 @@ BEGIN
 					END IF;
 
 				WHEN Bstop =>
-					IF sensor4 = '1' THEN
+					IF sensor1 = '1' THEN
 						state <= Bin;
 					ELSE
 						state <= Bstop;
@@ -85,9 +85,9 @@ BEGIN
 	END PROCESS;
 
 	
-	sensor12 <= sensor1 & sensor2;
-	sensor13 <= sensor1 & sensor3;
-	sensor24 <= sensor2 & sensor4;
+	sensor42 <= sensor4 & sensor2;
+	sensor43 <= sensor4 & sensor3;
+	sensor21 <= sensor2 & sensor1;
 	
 	switch3 <= '0';
 	
@@ -107,11 +107,11 @@ BEGIN
 						'0' WHEN Bstop;
 	
 	WITH state SELECT
-		dirA <= 	"01" WHEN ABout,
-					"01" WHEN Ain,
-					"01" WHEN Bin,
+		dirA <= 	"10" WHEN ABout,
+					"10" WHEN Ain,
+					"10" WHEN Bin,
 					"00" WHEN Astop,
-					"01" WHEN Bstop;
+					"10" WHEN Bstop;
 		
 	WITH state SELECT
 		dirB <= 	"01" WHEN ABout,

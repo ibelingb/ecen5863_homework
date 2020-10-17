@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Oct 17 16:01:54 2020
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : HW6P2
+Top-level Entity Name : HW6P2
+Family : MAX 10
+Total logic elements : 16
+    Total combinational functions : 16
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

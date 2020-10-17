@@ -1,0 +1,53 @@
+-----------------------
+-- Set Clock
+force -freeze sim:/tcontrol/clock 1 0, 0 {5 ps} -r 10
+
+-----------------------
+-- Starting
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+
+-----------------------
+-- Reset
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; force -freeze sim:/tcontrol/reset_n 1 0 -cancel 40; run;
+
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+
+force -freeze sim:/tcontrol/reset_n 1 0 -cancel 40; run;
+
+-----------------------
+-- A then B
+-- Ain
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 1 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Aout, Bin
+force -freeze sim:/tcontrol/sensor1 1 0; force -freeze sim:/tcontrol/sensor2 1 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Bout
+force -freeze sim:/tcontrol/sensor1 1 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 1 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+
+-----------------------
+-- B then A
+-- Bin
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 1 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Bout, Ain
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 1 0; force -freeze sim:/tcontrol/sensor4 1 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Aout
+force -freeze sim:/tcontrol/sensor1 1 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+
+-----------------------
+-- A and B, Bstop
+-- Ain and Bin, Bstop
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 1 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 1 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Aout, Bin
+force -freeze sim:/tcontrol/sensor1 1 0; force -freeze sim:/tcontrol/sensor4 0 0; run
+-- Bout
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 1 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+
+-----------------------
+-- B then A, Astop
+-- Bin
+force -freeze sim:/tcontrol/sensor1 0 0; force -freeze sim:/tcontrol/sensor2 1 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;
+-- Astop
+force -freeze sim:/tcontrol/sensor4 1 0; run
+-- Bout, Ain
+force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 1 0; run;
+-- Aout
+force -freeze sim:/tcontrol/sensor1 1 0; force -freeze sim:/tcontrol/sensor2 0 0; force -freeze sim:/tcontrol/sensor3 0 0; force -freeze sim:/tcontrol/sensor4 0 0; force -freeze sim:/tcontrol/sensor5 0 0; run;

@@ -16,7 +16,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "sensor4",
+					"name" : "dirB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sensor1",
 					"strict" : false
 				},
 				{
@@ -28,7 +32,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "sensor1",
+					"name" : "sensor4",
 					"strict" : false
 				},
 				{
