@@ -1,0 +1,11 @@
+module counter_top;
+	wire clock;
+	wire enable;
+	reg [15:0] out;
+	
+counter counter_top
+(
+	.clk(clock),
+	.en(enable),
+	.q(out)
+);

@@ -88,7 +88,7 @@ HW5P3 HW5P3_dut    // Device under Test  #(.TIME(10))
     ( 
         // Inputs
         .A(a_tb),
-		  .B(b_tb),
+		.B(b_tb),
          // Outputs
         .Equals(equals_tb)
         );  

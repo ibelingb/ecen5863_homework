@@ -1,0 +1,604 @@
+# Reading E:/Microsemi/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion E:/Microsemi/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 06:20:17 on Nov 01,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/designer/impl1/counter_ba.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 06:20:17 on Nov 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postlayout -t 1ps -sdfmax /counter=E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/designer/impl1/counter_ba.sdf postlayout.counter 
+# Start time: 06:20:18 on Nov 01,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.counter
+# Loading smartfusion.XA1B
+# Loading smartfusion.NOR2B
+# Loading smartfusion.IOTRI_OB_EB
+# Loading smartfusion.DFN1
+# Loading smartfusion.IOPAD_TRI
+# Loading smartfusion.NOR2
+# Loading smartfusion.NOR2A
+# Loading smartfusion.NOR3C
+# Loading smartfusion.AX1C
+# Loading smartfusion.CLKSRC
+# Loading smartfusion.IOIN_IB
+# Loading smartfusion.IOPAD_IN
+# Loading smartfusion.GND
+# Loading smartfusion.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/designer/impl1/counter_ba.sdf
+# Loading smartfusion.UDP_MUX2
+# Loading smartfusion.Dffpr
+# Loading timing data from E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/designer/impl1/counter_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter File: E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/designer/impl1/counter_ba.v
+add wave -position end  sim:/counter/clk
+add wave -position end  sim:/counter/reset
+add wave -position end  sim:/counter/q
+force -freeze sim:/counter/reset 1 0 -cancel 5
+force -freeze sim:/counter/clk 1 0, 0 {5 ps} -r 10
+run
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:5 ps, :10 ps, 2 ns );
+#    Time: 10 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:10 ps, :15 ps, 2 ns );
+#    Time: 15 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:15 ps, :20 ps, 2 ns );
+#    Time: 20 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:20 ps, :25 ps, 2 ns );
+#    Time: 25 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:25 ps, :30 ps, 2 ns );
+#    Time: 30 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:30 ps, :35 ps, 2 ns );
+#    Time: 35 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:35 ps, :40 ps, 2 ns );
+#    Time: 40 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:40 ps, :45 ps, 2 ns );
+#    Time: 45 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:45 ps, :50 ps, 2 ns );
+#    Time: 50 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:50 ps, :55 ps, 2 ns );
+#    Time: 55 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:55 ps, :60 ps, 2 ns );
+#    Time: 60 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:60 ps, :65 ps, 2 ns );
+#    Time: 65 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:65 ps, :70 ps, 2 ns );
+#    Time: 70 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:70 ps, :75 ps, 2 ns );
+#    Time: 75 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:75 ps, :80 ps, 2 ns );
+#    Time: 80 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:80 ps, :85 ps, 2 ns );
+#    Time: 85 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:85 ps, :90 ps, 2 ns );
+#    Time: 90 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:90 ps, :95 ps, 2 ns );
+#    Time: 95 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:95 ps, :100 ps, 2 ns );
+#    Time: 100 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:100 ps, :105 ps, 2 ns );
+#    Time: 105 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:105 ps, :110 ps, 2 ns );
+#    Time: 110 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:110 ps, :115 ps, 2 ns );
+#    Time: 115 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:115 ps, :120 ps, 2 ns );
+#    Time: 120 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:120 ps, :125 ps, 2 ns );
+#    Time: 125 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:125 ps, :130 ps, 2 ns );
+#    Time: 130 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:130 ps, :135 ps, 2 ns );
+#    Time: 135 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:135 ps, :140 ps, 2 ns );
+#    Time: 140 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:140 ps, :145 ps, 2 ns );
+#    Time: 145 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:145 ps, :150 ps, 2 ns );
+#    Time: 150 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:150 ps, :155 ps, 2 ns );
+#    Time: 155 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:155 ps, :160 ps, 2 ns );
+#    Time: 160 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:160 ps, :165 ps, 2 ns );
+#    Time: 165 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:165 ps, :170 ps, 2 ns );
+#    Time: 170 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:170 ps, :175 ps, 2 ns );
+#    Time: 175 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:175 ps, :180 ps, 2 ns );
+#    Time: 180 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:180 ps, :185 ps, 2 ns );
+#    Time: 185 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:185 ps, :190 ps, 2 ns );
+#    Time: 190 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:190 ps, :195 ps, 2 ns );
+#    Time: 195 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:195 ps, :200 ps, 2 ns );
+#    Time: 200 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+noforce sim:/counter/reset
+force -freeze sim:/counter/reset 1 0 -cancel 10
+run
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:5 ps, :200 ps, 2 ns );
+#    Time: 200 ps  Iteration: 2  Instance: /counter/\reset_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:200 ps, :205 ps, 2 ns );
+#    Time: 205 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:205 ps, :210 ps, 2 ns );
+#    Time: 210 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:200 ps, :210 ps, 2 ns );
+#    Time: 210 ps  Iteration: 2  Instance: /counter/\reset_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:210 ps, :215 ps, 2 ns );
+#    Time: 215 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:215 ps, :220 ps, 2 ns );
+#    Time: 220 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:220 ps, :225 ps, 2 ns );
+#    Time: 225 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:225 ps, :230 ps, 2 ns );
+#    Time: 230 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:230 ps, :235 ps, 2 ns );
+#    Time: 235 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:235 ps, :240 ps, 2 ns );
+#    Time: 240 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:240 ps, :245 ps, 2 ns );
+#    Time: 245 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:245 ps, :250 ps, 2 ns );
+#    Time: 250 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:250 ps, :255 ps, 2 ns );
+#    Time: 255 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:255 ps, :260 ps, 2 ns );
+#    Time: 260 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:260 ps, :265 ps, 2 ns );
+#    Time: 265 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:265 ps, :270 ps, 2 ns );
+#    Time: 270 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:270 ps, :275 ps, 2 ns );
+#    Time: 275 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:275 ps, :280 ps, 2 ns );
+#    Time: 280 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:280 ps, :285 ps, 2 ns );
+#    Time: 285 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:285 ps, :290 ps, 2 ns );
+#    Time: 290 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:290 ps, :295 ps, 2 ns );
+#    Time: 295 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:295 ps, :300 ps, 2 ns );
+#    Time: 300 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:300 ps, :305 ps, 2 ns );
+#    Time: 305 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:305 ps, :310 ps, 2 ns );
+#    Time: 310 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:310 ps, :315 ps, 2 ns );
+#    Time: 315 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:315 ps, :320 ps, 2 ns );
+#    Time: 320 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:320 ps, :325 ps, 2 ns );
+#    Time: 325 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:325 ps, :330 ps, 2 ns );
+#    Time: 330 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:330 ps, :335 ps, 2 ns );
+#    Time: 335 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:335 ps, :340 ps, 2 ns );
+#    Time: 340 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:340 ps, :345 ps, 2 ns );
+#    Time: 345 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:345 ps, :350 ps, 2 ns );
+#    Time: 350 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:350 ps, :355 ps, 2 ns );
+#    Time: 355 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:355 ps, :360 ps, 2 ns );
+#    Time: 360 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:360 ps, :365 ps, 2 ns );
+#    Time: 365 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:365 ps, :370 ps, 2 ns );
+#    Time: 370 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:370 ps, :375 ps, 2 ns );
+#    Time: 375 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:375 ps, :380 ps, 2 ns );
+#    Time: 380 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:380 ps, :385 ps, 2 ns );
+#    Time: 385 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:385 ps, :390 ps, 2 ns );
+#    Time: 390 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:390 ps, :395 ps, 2 ns );
+#    Time: 395 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:395 ps, :400 ps, 2 ns );
+#    Time: 400 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:400 ps, :405 ps, 2 ns );
+#    Time: 405 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:405 ps, :410 ps, 2 ns );
+#    Time: 410 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:410 ps, :415 ps, 2 ns );
+#    Time: 415 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:415 ps, :420 ps, 2 ns );
+#    Time: 420 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:420 ps, :425 ps, 2 ns );
+#    Time: 425 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:425 ps, :430 ps, 2 ns );
+#    Time: 430 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:430 ps, :435 ps, 2 ns );
+#    Time: 435 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:435 ps, :440 ps, 2 ns );
+#    Time: 440 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:440 ps, :445 ps, 2 ns );
+#    Time: 445 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:445 ps, :450 ps, 2 ns );
+#    Time: 450 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:450 ps, :455 ps, 2 ns );
+#    Time: 455 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:455 ps, :460 ps, 2 ns );
+#    Time: 460 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:460 ps, :465 ps, 2 ns );
+#    Time: 465 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:465 ps, :470 ps, 2 ns );
+#    Time: 470 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:470 ps, :475 ps, 2 ns );
+#    Time: 475 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:475 ps, :480 ps, 2 ns );
+#    Time: 480 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:480 ps, :485 ps, 2 ns );
+#    Time: 485 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:485 ps, :490 ps, 2 ns );
+#    Time: 490 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:490 ps, :495 ps, 2 ns );
+#    Time: 495 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:495 ps, :500 ps, 2 ns );
+#    Time: 500 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:500 ps, :505 ps, 2 ns );
+#    Time: 505 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:505 ps, :510 ps, 2 ns );
+#    Time: 510 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:510 ps, :515 ps, 2 ns );
+#    Time: 515 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:515 ps, :520 ps, 2 ns );
+#    Time: 520 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:520 ps, :525 ps, 2 ns );
+#    Time: 525 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:525 ps, :530 ps, 2 ns );
+#    Time: 530 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:530 ps, :535 ps, 2 ns );
+#    Time: 535 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:535 ps, :540 ps, 2 ns );
+#    Time: 540 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:540 ps, :545 ps, 2 ns );
+#    Time: 545 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:545 ps, :550 ps, 2 ns );
+#    Time: 550 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:550 ps, :555 ps, 2 ns );
+#    Time: 555 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:555 ps, :560 ps, 2 ns );
+#    Time: 560 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:560 ps, :565 ps, 2 ns );
+#    Time: 565 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:565 ps, :570 ps, 2 ns );
+#    Time: 570 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:570 ps, :575 ps, 2 ns );
+#    Time: 575 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:575 ps, :580 ps, 2 ns );
+#    Time: 580 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:580 ps, :585 ps, 2 ns );
+#    Time: 585 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:585 ps, :590 ps, 2 ns );
+#    Time: 590 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:590 ps, :595 ps, 2 ns );
+#    Time: 595 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:595 ps, :600 ps, 2 ns );
+#    Time: 600 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:600 ps, :605 ps, 2 ns );
+#    Time: 605 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:605 ps, :610 ps, 2 ns );
+#    Time: 610 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:610 ps, :615 ps, 2 ns );
+#    Time: 615 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:615 ps, :620 ps, 2 ns );
+#    Time: 620 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:620 ps, :625 ps, 2 ns );
+#    Time: 625 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:625 ps, :630 ps, 2 ns );
+#    Time: 630 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:630 ps, :635 ps, 2 ns );
+#    Time: 635 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:635 ps, :640 ps, 2 ns );
+#    Time: 640 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:640 ps, :645 ps, 2 ns );
+#    Time: 645 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:645 ps, :650 ps, 2 ns );
+#    Time: 650 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:650 ps, :655 ps, 2 ns );
+#    Time: 655 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:655 ps, :660 ps, 2 ns );
+#    Time: 660 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:660 ps, :665 ps, 2 ns );
+#    Time: 665 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:665 ps, :670 ps, 2 ns );
+#    Time: 670 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:670 ps, :675 ps, 2 ns );
+#    Time: 675 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:675 ps, :680 ps, 2 ns );
+#    Time: 680 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:680 ps, :685 ps, 2 ns );
+#    Time: 685 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:685 ps, :690 ps, 2 ns );
+#    Time: 690 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:690 ps, :695 ps, 2 ns );
+#    Time: 695 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:695 ps, :700 ps, 2 ns );
+#    Time: 700 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:700 ps, :705 ps, 2 ns );
+#    Time: 705 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:705 ps, :710 ps, 2 ns );
+#    Time: 710 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:710 ps, :715 ps, 2 ns );
+#    Time: 715 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:715 ps, :720 ps, 2 ns );
+#    Time: 720 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:720 ps, :725 ps, 2 ns );
+#    Time: 725 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:725 ps, :730 ps, 2 ns );
+#    Time: 730 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:730 ps, :735 ps, 2 ns );
+#    Time: 735 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:735 ps, :740 ps, 2 ns );
+#    Time: 740 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:740 ps, :745 ps, 2 ns );
+#    Time: 745 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:745 ps, :750 ps, 2 ns );
+#    Time: 750 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:750 ps, :755 ps, 2 ns );
+#    Time: 755 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:755 ps, :760 ps, 2 ns );
+#    Time: 760 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:760 ps, :765 ps, 2 ns );
+#    Time: 765 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:765 ps, :770 ps, 2 ns );
+#    Time: 770 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:770 ps, :775 ps, 2 ns );
+#    Time: 775 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:775 ps, :780 ps, 2 ns );
+#    Time: 780 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:780 ps, :785 ps, 2 ns );
+#    Time: 785 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:785 ps, :790 ps, 2 ns );
+#    Time: 790 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:790 ps, :795 ps, 2 ns );
+#    Time: 795 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:795 ps, :800 ps, 2 ns );
+#    Time: 800 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+force -freeze sim:/counter/reset 1 0 -cancel 20
+run
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:210 ps, :800 ps, 2 ns );
+#    Time: 800 ps  Iteration: 2  Instance: /counter/\reset_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:800 ps, :805 ps, 2 ns );
+#    Time: 805 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:805 ps, :810 ps, 2 ns );
+#    Time: 810 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:810 ps, :815 ps, 2 ns );
+#    Time: 815 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:815 ps, :820 ps, 2 ns );
+#    Time: 820 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:800 ps, :820 ps, 2 ns );
+#    Time: 820 ps  Iteration: 2  Instance: /counter/\reset_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:820 ps, :825 ps, 2 ns );
+#    Time: 825 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:825 ps, :830 ps, 2 ns );
+#    Time: 830 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:830 ps, :835 ps, 2 ns );
+#    Time: 835 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:835 ps, :840 ps, 2 ns );
+#    Time: 840 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:840 ps, :845 ps, 2 ns );
+#    Time: 845 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:845 ps, :850 ps, 2 ns );
+#    Time: 850 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:850 ps, :855 ps, 2 ns );
+#    Time: 855 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:855 ps, :860 ps, 2 ns );
+#    Time: 860 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:860 ps, :865 ps, 2 ns );
+#    Time: 865 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:865 ps, :870 ps, 2 ns );
+#    Time: 870 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:870 ps, :875 ps, 2 ns );
+#    Time: 875 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:875 ps, :880 ps, 2 ns );
+#    Time: 880 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:880 ps, :885 ps, 2 ns );
+#    Time: 885 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:885 ps, :890 ps, 2 ns );
+#    Time: 890 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:890 ps, :895 ps, 2 ns );
+#    Time: 895 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:895 ps, :900 ps, 2 ns );
+#    Time: 900 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:900 ps, :905 ps, 2 ns );
+#    Time: 905 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:905 ps, :910 ps, 2 ns );
+#    Time: 910 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:910 ps, :915 ps, 2 ns );
+#    Time: 915 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:915 ps, :920 ps, 2 ns );
+#    Time: 920 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:920 ps, :925 ps, 2 ns );
+#    Time: 925 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:925 ps, :930 ps, 2 ns );
+#    Time: 930 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:930 ps, :935 ps, 2 ns );
+#    Time: 935 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:935 ps, :940 ps, 2 ns );
+#    Time: 940 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:940 ps, :945 ps, 2 ns );
+#    Time: 945 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:945 ps, :950 ps, 2 ns );
+#    Time: 950 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:950 ps, :955 ps, 2 ns );
+#    Time: 955 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:955 ps, :960 ps, 2 ns );
+#    Time: 960 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:960 ps, :965 ps, 2 ns );
+#    Time: 965 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:965 ps, :970 ps, 2 ns );
+#    Time: 970 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:970 ps, :975 ps, 2 ns );
+#    Time: 975 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:975 ps, :980 ps, 2 ns );
+#    Time: 980 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:980 ps, :985 ps, 2 ns );
+#    Time: 985 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:985 ps, :990 ps, 2 ns );
+#    Time: 990 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:990 ps, :995 ps, 2 ns );
+#    Time: 995 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:995 ps, :1 ns, 2 ns );
+#    Time: 1 ns  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1 ns, :1005 ps, 2 ns );
+#    Time: 1005 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1005 ps, :1010 ps, 2 ns );
+#    Time: 1010 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1010 ps, :1015 ps, 2 ns );
+#    Time: 1015 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1015 ps, :1020 ps, 2 ns );
+#    Time: 1020 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1020 ps, :1025 ps, 2 ns );
+#    Time: 1025 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1025 ps, :1030 ps, 2 ns );
+#    Time: 1030 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1030 ps, :1035 ps, 2 ns );
+#    Time: 1035 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1035 ps, :1040 ps, 2 ns );
+#    Time: 1040 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1040 ps, :1045 ps, 2 ns );
+#    Time: 1045 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1045 ps, :1050 ps, 2 ns );
+#    Time: 1050 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1050 ps, :1055 ps, 2 ns );
+#    Time: 1055 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1055 ps, :1060 ps, 2 ns );
+#    Time: 1060 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1060 ps, :1065 ps, 2 ns );
+#    Time: 1065 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1065 ps, :1070 ps, 2 ns );
+#    Time: 1070 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1070 ps, :1075 ps, 2 ns );
+#    Time: 1075 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1075 ps, :1080 ps, 2 ns );
+#    Time: 1080 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1080 ps, :1085 ps, 2 ns );
+#    Time: 1085 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1085 ps, :1090 ps, 2 ns );
+#    Time: 1090 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1090 ps, :1095 ps, 2 ns );
+#    Time: 1095 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1095 ps, :1100 ps, 2 ns );
+#    Time: 1100 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1100 ps, :1105 ps, 2 ns );
+#    Time: 1105 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1105 ps, :1110 ps, 2 ns );
+#    Time: 1110 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1110 ps, :1115 ps, 2 ns );
+#    Time: 1115 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1115 ps, :1120 ps, 2 ns );
+#    Time: 1120 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1120 ps, :1125 ps, 2 ns );
+#    Time: 1125 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1125 ps, :1130 ps, 2 ns );
+#    Time: 1130 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1130 ps, :1135 ps, 2 ns );
+#    Time: 1135 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1135 ps, :1140 ps, 2 ns );
+#    Time: 1140 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1140 ps, :1145 ps, 2 ns );
+#    Time: 1145 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1145 ps, :1150 ps, 2 ns );
+#    Time: 1150 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1150 ps, :1155 ps, 2 ns );
+#    Time: 1155 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1155 ps, :1160 ps, 2 ns );
+#    Time: 1160 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1160 ps, :1165 ps, 2 ns );
+#    Time: 1165 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1165 ps, :1170 ps, 2 ns );
+#    Time: 1170 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1170 ps, :1175 ps, 2 ns );
+#    Time: 1175 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1175 ps, :1180 ps, 2 ns );
+#    Time: 1180 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1180 ps, :1185 ps, 2 ns );
+#    Time: 1185 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1185 ps, :1190 ps, 2 ns );
+#    Time: 1190 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1190 ps, :1195 ps, 2 ns );
+#    Time: 1195 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1195 ps, :1200 ps, 2 ns );
+#    Time: 1200 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+run
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1200 ps, :1205 ps, 2 ns );
+#    Time: 1205 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1205 ps, :1210 ps, 2 ns );
+#    Time: 1210 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1210 ps, :1215 ps, 2 ns );
+#    Time: 1215 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1215 ps, :1220 ps, 2 ns );
+#    Time: 1220 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1220 ps, :1225 ps, 2 ns );
+#    Time: 1225 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1225 ps, :1230 ps, 2 ns );
+#    Time: 1230 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1230 ps, :1235 ps, 2 ns );
+#    Time: 1235 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1235 ps, :1240 ps, 2 ns );
+#    Time: 1240 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1240 ps, :1245 ps, 2 ns );
+#    Time: 1245 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1245 ps, :1250 ps, 2 ns );
+#    Time: 1250 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1250 ps, :1255 ps, 2 ns );
+#    Time: 1255 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1255 ps, :1260 ps, 2 ns );
+#    Time: 1260 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1260 ps, :1265 ps, 2 ns );
+#    Time: 1265 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1265 ps, :1270 ps, 2 ns );
+#    Time: 1270 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1270 ps, :1275 ps, 2 ns );
+#    Time: 1275 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1275 ps, :1280 ps, 2 ns );
+#    Time: 1280 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1280 ps, :1285 ps, 2 ns );
+#    Time: 1285 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1285 ps, :1290 ps, 2 ns );
+#    Time: 1290 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27354): $width( posedge PAD:1290 ps, :1295 ps, 2 ns );
+#    Time: 1295 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# ** Error: src/smartfusion.v(27353): $width( negedge PAD:1295 ps, :1300 ps, 2 ns );
+#    Time: 1300 ps  Iteration: 0  Instance: /counter/\clk_pad/U0/U0 
+# End time: 06:21:19 on Nov 01,2020, Elapsed time: 0:01:01
+# Errors: 263, Warnings: 0

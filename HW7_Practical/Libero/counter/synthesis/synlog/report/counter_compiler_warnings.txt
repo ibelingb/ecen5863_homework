@@ -1,0 +1,2 @@
+@W: CG532 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter.v.v":29:0:29:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+

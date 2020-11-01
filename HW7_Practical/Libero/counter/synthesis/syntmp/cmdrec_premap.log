@@ -1,0 +1,14 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\report\counter_premap.xml  -top_level_module  counter  -oedif  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter.edn  -conchk_prepass  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_cck.rpt   -freq 100.000   E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_prem.srd  -qsap  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter.sap  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\syntmp\counter.plg  -osyn  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_prem.srd  -prjdir  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\  -prjname  counter_syn  -log  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_premap.srr 
+rc:1 success:1 runtime:2
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\scratchproject.prs|io:o|time:1604236729|size:1800|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter.edn|io:o|time:0|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_cck.rpt|io:o|time:1604236734|size:23733|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_mult.srs|io:i|time:1604236732|size:1496|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_prem.srd|io:o|time:1604236733|size:2645|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter.sap|io:o|time:1604236734|size:299|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\syntmp\counter.plg|io:o|time:1604236733|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_prem.srd|io:o|time:1604236733|size:2645|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_premap.srr|io:o|time:1604236734|size:2963|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

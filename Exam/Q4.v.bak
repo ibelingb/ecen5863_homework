@@ -1,0 +1,10 @@
+module encoder (
+  input wire [3:0] A,
+  output reg [2:0] y 
+  );
+  
+initial
+begin
+	A = 4'b0000;
+	y = 3'b000;
+end

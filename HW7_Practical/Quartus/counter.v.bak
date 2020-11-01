@@ -1,0 +1,22 @@
+// https://www.fpga4student.com/2017/03/verilog-code-for-counter-with-testbench.html
+
+module 16bit_counter 
+(
+	input clk, 
+	input reset, 
+	output[16:0] counter_output
+);
+
+reg [16:0] count;
+
+// Implement counter
+always @(posedge clk or posedge reset)
+begin
+if(reset)
+ count <= 16'd0;
+else
+ count <= count + 16'd1;
+end 
+
+assign counter_output = count;
+endmodule
