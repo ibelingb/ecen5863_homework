@@ -3,14 +3,14 @@
   Synopsys, Inc.
   Version L-2016.09M-2
   Project file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\syntmp\run_option.xml
-  Written on Sun Nov 01 06:18:49 2020
+  Written on Thu Nov 05 07:55:53 2020
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
-     <option name="project_name" display_name="Project Name">counter_syn</option>
+     <option name="project_name" display_name="Project Name">counter_top_syn</option>
      <option name="impl_name" display_name="Implementation Name">synthesis</option>
-     <option name="top_module" display_name="Top Module">counter</option>
+     <option name="top_module" display_name="Top Module">counter_top</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>
      <option name="maxfan" display_name="Fanout Guide">24</option>

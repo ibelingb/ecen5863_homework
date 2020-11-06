@@ -1,0 +1,22 @@
+#add_file options
+add_file -verilog "E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/hdl/test.v"
+set_option -top_module test
+
+#device options
+set_option -technology SmartFusion
+set_option -part A2F200M3F
+set_option -package FBGA484
+set_option -speed_grade STD
+set_option -vlog_std v2001
+set_option -write_verilog 0
+
+set_option -retiming 0
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/synthesis/test.edn"

@@ -10,45 +10,42 @@
 # Copying E:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus {E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v}
+# vlog -sv -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus {E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 06:16:30 on Nov 01,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus" E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v 
+# Start time: 21:29:06 on Nov 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus" E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v 
 # -- Compiling module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 06:16:30 on Nov 01,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus {E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 06:16:30 on Nov 01,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus" E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v 
-# -- Compiling module counter_top
-# 
-# Top level modules:
-# 	counter_top
-# End time: 06:16:30 on Nov 01,2020, Elapsed time: 0:00:00
+# End time: 21:29:06 on Nov 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.counter_top
-# vsim work.counter_top 
-# Start time: 06:16:46 on Nov 01,2020
-# Loading work.counter_top
+vsim work.counter
+# vsim work.counter 
+# Start time: 21:29:14 on Nov 02,2020
+# Loading sv_std.std
 # Loading work.counter
-add wave -position end  sim:/counter_top/clock
-add wave -position end  sim:/counter_top/reset
-add wave -position end  sim:/counter_top/out
-force -freeze sim:/counter_top/reset 1 0 -cancel 10
-force -freeze sim:/counter_top/clock 1 0, 0 {5 ps} -r 10
+add wave -position end  sim:/counter/clk
+add wave -position end  sim:/counter/reset
+add wave -position end  sim:/counter/en
+add wave -position end  sim:/counter/TC
+add wave -position end  sim:/counter/q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: brian  Hostname: BPC  ProcessID: 1960
+#           Attempting to use alternate WLF file "./wlft43yxkd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft43yxkd
+force -freeze sim:/counter/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/counter/en 1 0
 run
 run
 run
 run
 run
 run
+force -freeze sim:/counter/reset 1 0
 run
 run
-run
-# End time: 06:18:28 on Nov 01,2020, Elapsed time: 0:01:42
-# Errors: 0, Warnings: 0
+# End time: 21:30:17 on Nov 02,2020, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2

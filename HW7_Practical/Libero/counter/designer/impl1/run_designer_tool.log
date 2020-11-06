@@ -1,0 +1,25 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer'
+Info: The design counter_top.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design counter_top.adb.
+
+The Execute Script command succeeded ( 00:00:23 )
+Design saved to file
+E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer\impl1\counter_top.adb.
+Wrote pin report to file:
+E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer\impl1\counter_top_report_pin_byname.\
+txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file:
+E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer\impl1\counter_top_report_pin_bynumbe\
+r.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:01 )
+Design closed.
+

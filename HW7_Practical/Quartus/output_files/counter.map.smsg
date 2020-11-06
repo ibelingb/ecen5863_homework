@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at counter_top.v(32): always construct contains both blocking and non-blocking assignments File: E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v Line: 32

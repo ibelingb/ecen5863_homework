@@ -1,0 +1,2 @@
+@E: Can't open file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\test.v
+

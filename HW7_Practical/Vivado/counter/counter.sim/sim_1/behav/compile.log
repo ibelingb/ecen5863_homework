@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/repos/ECEN5863_HW/HW7_Practical/Vivado/counter/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/repos/ECEN5863_HW/HW7_Practical/Vivado/counter/counter_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_top
+ERROR: [VRFC 10-66] out is not a memory [E:/repos/ECEN5863_HW/HW7_Practical/Vivado/counter/counter_top.v:22]
+ERROR: [VRFC 10-66] out is not a memory [E:/repos/ECEN5863_HW/HW7_Practical/Vivado/counter/counter_top.v:27]
+ERROR: [VRFC 10-1040] module counter_top ignored due to previous errors [E:/repos/ECEN5863_HW/HW7_Practical/Vivado/counter/counter_top.v:1]

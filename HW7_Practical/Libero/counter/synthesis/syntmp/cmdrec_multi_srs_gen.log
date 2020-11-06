@@ -1,7 +1,7 @@
-E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  counter  -multisrs  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_comp.srs  -osyn  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_mult.srs  -log  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_multi_srs_gen.srr 
+E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  counter_top  -multisrs  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_top_comp.srs  -osyn  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_top_mult.srs  -log  E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_top_multi_srs_gen.srr 
 rc:0 success:1 runtime:0
-file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_comp.srs|io:i|time:1604236731|size:1555|exec:0
-file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_mult.srs|io:o|time:1604236732|size:1496|exec:0
-file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_multi_srs_gen.srr|io:o|time:1604236732|size:409|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_top_comp.srs|io:i|time:1604588154|size:3636|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_top_mult.srs|io:o|time:1604588155|size:2873|exec:0
+file:E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\counter_top_multi_srs_gen.srr|io:o|time:1604588155|size:526|exec:0
 file:E:\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
 file:E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

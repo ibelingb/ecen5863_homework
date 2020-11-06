@@ -1,0 +1,1 @@
+@W: MT530 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found inferred clock counter_top|clock which controls 1207 sequential elements including loop_gen_block\[0\]\.genblk1\.counter_inst.temp[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 

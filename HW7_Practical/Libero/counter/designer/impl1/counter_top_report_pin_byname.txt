@@ -1,0 +1,86 @@
+*****************************************************************
+Pin Report - Date: Thu Nov 05 08:01:15 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: counter_top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port   |Pin |Fixed |Function                     |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|-----------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+clock   H22  No     GCB0/IO27NDB1V0               LVTTL    ---                ---   None           No               ---   ---               No           No
+enable  C9   No     EMC_BYTEN[1]/GAC1/IO02PDB0V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+reset   J21  No     GCC1/IO26PPB1V0               LVTTL    ---                ---   None           No               ---   ---               No           No
+TC[0]   A5   Yes    EMC_CS0_N/GAB0/IO01NDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[1]   E11  No     EMC_AB[4]/IO06NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[2]   D12  No     EMC_AB[11]/IO09PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[3]   L20  No     GDB1/IO30PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[4]   K3   No     EMC_DB[1]/GEB2/IO59PDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[5]   H17  No     IO25NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TC[6]   M18  No     GDB2/IO33PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[7]   K19  No     GDA0/IO31NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[8]   L22  No     GDC2/IO32PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[9]   D16  No     EMC_AB[25]/IO16PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[10]  H18  No     GCC2/IO25PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[11]  B16  No     EMC_AB[18]/IO13NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[12]  C15  No     EMC_AB[17]/IO12PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[13]  C16  No     EMC_AB[24]/IO16NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[14]  A14  No     EMC_AB[12]/IO10NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[15]  C18  No     EMC_AB[23]/IO15PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[16]  B14  No     EMC_AB[15]/IO11PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[17]  G3   No     EMC_DB[9]/GEC1/IO63PDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[18]  H6   No     GFA1/IO64PDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[19]  C13  No     EMC_AB[8]/IO08NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[20]  K5   No     EMC_DB[2]/IO60NPB5V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[21]  J20  No     GCA1/IO28PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[22]  C14  No     EMC_AB[16]/IO12NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[23]  J3   No     EMC_DB[4]/GEA0/IO61NDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[24]  J6   No     GFA0/IO64NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[25]  F2   No     IO67NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TC[26]  H5   No     GFC0/IO66NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[27]  A6   No     EMC_CS1_N/GAB1/IO01PDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[28]  C6   No     EMC_CLK/GAA0/IO00NDB0V0       LVTTL    12                 High  None           ---              No    35                No           No
+TC[29]  H1   No     EMC_DB[7]/GEB1/IO62PDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[30]  B9   No     EMC_BYTEN[0]/GAC0/IO02NDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+TC[31]  F1   No     GFB1/IO65PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[32]  G4   No     GFC1/IO66PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[33]  J4   No     EMC_DB[3]/GEC2/IO60PPB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[34]  A8   No     EMC_AB[0]/IO04NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[35]  F3   No     GFB2/IO68NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[36]  H3   No     EMC_DB[8]/GEC0/IO63NDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[37]  A15  No     EMC_AB[13]/IO10PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[38]  J2   No     EMC_DB[5]/GEA1/IO61PDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[39]  B12  No     EMC_AB[6]/IO07NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[40]  B13  No     EMC_AB[14]/IO11NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[41]  G2   No     GFB0/IO65NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[42]  L18  No     GDA2/IO33NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[43]  L21  No     GDB0/IO30NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[44]  E12  No     EMC_AB[5]/IO06PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[45]  B10  No     EMC_AB[2]/IO05NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[46]  K2   No     EMC_DB[0]/GEA2/IO59NDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[47]  J1   No     EMC_DB[6]/GEB0/IO62NDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
+TC[48]  A9   No     EMC_AB[1]/IO04PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[49]  A12  No     EMC_AB[7]/IO07PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[50]  B11  No     EMC_AB[3]/IO05PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[51]  C10  No     EMC_OEN1_N/IO03PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[52]  D10  No     EMC_OEN0_N/IO03NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[53]  D11  No     EMC_AB[10]/IO09NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[54]  B17  No     EMC_AB[19]/IO13PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[55]  D13  No     EMC_AB[9]/IO08PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+TC[56]  M22  No     IO32NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TC[57]  K21  No     GDC0/IO29NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[58]  F14  No     EMC_AB[21]/IO14PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[59]  J22  No     GCB1/IO27PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[60]  G20  No     IO24NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TC[61]  C17  No     EMC_AB[22]/IO15NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[62]  K18  No     GDA1/IO31PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[63]  E14  No     GBC0/IO17NPB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[64]  F19  No     IO23NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TC[65]  B19  No     GBB0/IO18NDB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[66]  H20  No     GCC0/IO26NPB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[67]  D15  No     GBC1/IO17PPB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[68]  F13  No     EMC_AB[20]/IO14NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+TC[69]  J19  No     GCA0/IO28NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+TC[70]  K20  No     GDC1/IO29PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No

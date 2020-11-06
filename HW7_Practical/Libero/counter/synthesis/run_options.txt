@@ -1,11 +1,12 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
 #--  Project file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\run_options.txt
-#--  Written on Sun Nov 01 06:18:49 2020
+#--  Written on Thu Nov 05 07:55:53 2020
 
 
 #project files
-add_file -verilog "E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/hdl/counter.v.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/hdl/counter.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW7_Practical/Libero/counter/hdl/counter_top.v"
 
 
 
@@ -26,7 +27,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "counter"
+set_option -top_module "counter_top"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -72,5 +73,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "./counter.edn"
+project -result_file "./counter_top.edn"
 impl -active "synthesis"

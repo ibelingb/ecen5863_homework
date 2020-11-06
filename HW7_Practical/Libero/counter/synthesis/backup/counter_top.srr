@@ -1,0 +1,679 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: E:\Microsemi\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: BPC
+
+# Thu Nov 05 07:13:45 2020
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module counter_top
+@N: CG364 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":1:7:1:17|Synthesizing module counter_top in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter.v":1:7:1:13|Synthesizing module counter in library work.
+
+@W: CG134 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":9:13:9:25|No assignment to bit 0 of counterEnable
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[1] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[2] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[3] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[4] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[5] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[6] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[7] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[8] is always 1.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":32:1:32:6|Register bit counterEnable[9] is always 1.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 05 07:13:45 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":1:7:1:17|Selected library: work cell: counter_top view verilog as top level
+@N: NF107 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":1:7:1:17|Selected library: work cell: counter_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 05 07:13:45 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 05 07:13:45 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":1:7:1:17|Selected library: work cell: counter_top view verilog as top level
+@N: NF107 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":1:7:1:17|Selected library: work cell: counter_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 05 07:13:46 2020
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Nov 05 07:13:47 2020
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_top_scck.rpt 
+Printing clock  summary report in "E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+
+Clock Summary
+*****************
+
+Start                 Requested     Requested     Clock        Clock                   Clock
+Clock                 Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------
+counter_top|clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     170  
+============================================================================================
+
+@W: MT530 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found inferred clock counter_top|clock which controls 170 sequential elements including loop_gen_block\[0\]\.genblk1\.counter_inst.temp[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 05 07:13:48 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Nov 05 07:13:48 2020
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MO231 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found counter in view:work.counter_9(verilog) instance temp[15:0] 
+@N: MO231 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found counter in view:work.counter(verilog) instance temp[15:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 113MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 113MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes
+--------------------------------------------
+reset_pad / Y                  176          
+============================================
+
+@N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
+@N: FP130 |Promoting Net reset_c on CLKINT  I_1 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 114MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 114MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 170 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================== Non-Gated/Non-Generated Clocks =========================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                          
+-----------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clock               port                   170        loop_gen_block[2].genblk1.counter_inst.TC
+=================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+Writing Analyst data base E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synwork\counter_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+@W: MT420 |Found inferred clock counter_top|clock with period 10.00ns. Please declare a user-defined clock on object "p:clock"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 05 07:13:51 2020
+#
+
+
+Top view:               counter_top
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.162
+
+                      Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock        Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+counter_top|clock     100.0 MHz     98.4 MHz      10.000        10.162        -0.162     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------
+Starting           Ending             |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------
+counter_top|clock  counter_top|clock  |  10.000      -0.162  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: counter_top|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                             Arrival           
+Instance                                               Reference             Type       Pin     Net         Time        Slack 
+                                                       Clock                                                                  
+------------------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1E1     Q       temp[0]     0.737       -0.162
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[8\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[6\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[1\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[4\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+loop_gen_block\[5\]\.genblk1\.counter_inst.temp[0]     counter_top|clock     DFN1       Q       temp[0]     0.737       -0.099
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                       Starting                                             Required           
+Instance                                               Reference             Type       Pin     Net         Time         Slack 
+                                                       Clock                                                                   
+-------------------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp[9]     counter_top|clock     DFN1E1     D       temp_n9     9.427        -0.162
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[1\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[4\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[5\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[8\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+loop_gen_block\[6\]\.genblk1\.counter_inst.temp[8]     counter_top|clock     DFN1       D       temp_n8     9.427        -0.099
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.588
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.161
+
+    Number of logic level(s):                7
+    Starting point:                          loop_gen_block\[0\]\.genblk1\.counter_inst.temp[0] / Q
+    Ending point:                            loop_gen_block\[0\]\.genblk1\.counter_inst.temp[9] / D
+    The start point is clocked by            counter_top|clock [rising] on pin CLK
+    The end   point is clocked by            counter_top|clock [rising] on pin CLK
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                   Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp[0]     DFN1E1     Q        Out     0.737     0.737       -         
+temp[0]                                                Net        -        -       1.184     -           4         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c1     NOR2B      A        In      -         1.921       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c1     NOR2B      Y        Out     0.514     2.435       -         
+temp_c1                                                Net        -        -       0.806     -           3         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c3     NOR2B      A        In      -         3.241       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c3     NOR2B      Y        Out     0.514     3.756       -         
+temp_c3                                                Net        -        -       1.184     -           4         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c5     NOR2B      A        In      -         4.939       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c5     NOR2B      Y        Out     0.514     5.454       -         
+temp_c5                                                Net        -        -       0.386     -           2         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c6     NOR2B      A        In      -         5.840       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c6     NOR2B      Y        Out     0.514     6.354       -         
+temp_c6                                                Net        -        -       0.386     -           2         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c7     NOR2B      A        In      -         6.740       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c7     NOR2B      Y        Out     0.514     7.254       -         
+temp_c7                                                Net        -        -       0.386     -           2         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c8     NOR2B      A        In      -         7.640       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_c8     NOR2B      Y        Out     0.514     8.154       -         
+temp_c8                                                Net        -        -       0.322     -           1         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_n9     XA1B       A        In      -         8.476       -         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp_n9     XA1B       Y        Out     0.791     9.267       -         
+temp_n9                                                Net        -        -       0.322     -           1         
+loop_gen_block\[0\]\.genblk1\.counter_inst.temp[9]     DFN1E1     D        In      -         9.588       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.161 is 5.188(51.1%) logic and 4.974(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.525
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.099
+
+    Number of logic level(s):                8
+    Starting point:                          loop_gen_block\[2\]\.genblk1\.counter_inst.temp[0] / Q
+    Ending point:                            loop_gen_block\[2\]\.genblk1\.counter_inst.temp[8] / D
+    The start point is clocked by            counter_top|clock [rising] on pin CLK
+    The end   point is clocked by            counter_top|clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                   Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp[0]     DFN1      Q        Out     0.737     0.737       -         
+temp[0]                                                Net       -        -       1.184     -           4         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c1     NOR2B     A        In      -         1.921       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c1     NOR2B     Y        Out     0.514     2.435       -         
+temp_c1                                                Net       -        -       0.806     -           3         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c2     NOR2B     A        In      -         3.241       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c2     NOR2B     Y        Out     0.514     3.756       -         
+temp_c2                                                Net       -        -       0.386     -           2         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c3     NOR2B     A        In      -         4.141       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c3     NOR2B     Y        Out     0.514     4.656       -         
+temp_c3                                                Net       -        -       0.386     -           2         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c4     NOR2B     A        In      -         5.042       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c4     NOR2B     Y        Out     0.514     5.556       -         
+temp_c4                                                Net       -        -       0.386     -           2         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c5     NOR2B     A        In      -         5.942       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c5     NOR2B     Y        Out     0.514     6.456       -         
+temp_c5                                                Net       -        -       0.386     -           2         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c6     NOR2B     A        In      -         6.842       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c6     NOR2B     Y        Out     0.514     7.356       -         
+temp_c6                                                Net       -        -       0.386     -           2         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c7     NOR2B     A        In      -         7.742       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_c7     NOR2B     Y        Out     0.514     8.257       -         
+temp_c7                                                Net       -        -       0.322     -           1         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_n8     XA1B      B        In      -         8.578       -         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp_n8     XA1B      Y        Out     0.626     9.204       -         
+temp_n8                                                Net       -        -       0.322     -           1         
+loop_gen_block\[2\]\.genblk1\.counter_inst.temp[8]     DFN1      D        In      -         9.525       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.099 is 5.537(54.8%) logic and 4.562(45.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.525
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.099
+
+    Number of logic level(s):                8
+    Starting point:                          loop_gen_block\[9\]\.genblk1\.counter_inst.temp[0] / Q
+    Ending point:                            loop_gen_block\[9\]\.genblk1\.counter_inst.temp[8] / D
+    The start point is clocked by            counter_top|clock [rising] on pin CLK
+    The end   point is clocked by            counter_top|clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                   Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp[0]     DFN1      Q        Out     0.737     0.737       -         
+temp[0]                                                Net       -        -       1.184     -           4         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c1     NOR2B     A        In      -         1.921       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c1     NOR2B     Y        Out     0.514     2.435       -         
+temp_c1                                                Net       -        -       0.806     -           3         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c2     NOR2B     A        In      -         3.241       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c2     NOR2B     Y        Out     0.514     3.756       -         
+temp_c2                                                Net       -        -       0.386     -           2         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c3     NOR2B     A        In      -         4.141       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c3     NOR2B     Y        Out     0.514     4.656       -         
+temp_c3                                                Net       -        -       0.386     -           2         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c4     NOR2B     A        In      -         5.042       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c4     NOR2B     Y        Out     0.514     5.556       -         
+temp_c4                                                Net       -        -       0.386     -           2         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c5     NOR2B     A        In      -         5.942       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c5     NOR2B     Y        Out     0.514     6.456       -         
+temp_c5                                                Net       -        -       0.386     -           2         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c6     NOR2B     A        In      -         6.842       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c6     NOR2B     Y        Out     0.514     7.356       -         
+temp_c6                                                Net       -        -       0.386     -           2         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c7     NOR2B     A        In      -         7.742       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_c7     NOR2B     Y        Out     0.514     8.257       -         
+temp_c7                                                Net       -        -       0.322     -           1         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_n8     XA1B      B        In      -         8.578       -         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp_n8     XA1B      Y        Out     0.626     9.204       -         
+temp_n8                                                Net       -        -       0.322     -           1         
+loop_gen_block\[9\]\.genblk1\.counter_inst.temp[8]     DFN1      D        In      -         9.525       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.099 is 5.537(54.8%) logic and 4.562(45.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.525
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.099
+
+    Number of logic level(s):                8
+    Starting point:                          loop_gen_block\[7\]\.genblk1\.counter_inst.temp[0] / Q
+    Ending point:                            loop_gen_block\[7\]\.genblk1\.counter_inst.temp[8] / D
+    The start point is clocked by            counter_top|clock [rising] on pin CLK
+    The end   point is clocked by            counter_top|clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                   Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp[0]     DFN1      Q        Out     0.737     0.737       -         
+temp[0]                                                Net       -        -       1.184     -           4         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c1     NOR2B     A        In      -         1.921       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c1     NOR2B     Y        Out     0.514     2.435       -         
+temp_c1                                                Net       -        -       0.806     -           3         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c2     NOR2B     A        In      -         3.241       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c2     NOR2B     Y        Out     0.514     3.756       -         
+temp_c2                                                Net       -        -       0.386     -           2         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c3     NOR2B     A        In      -         4.141       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c3     NOR2B     Y        Out     0.514     4.656       -         
+temp_c3                                                Net       -        -       0.386     -           2         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c4     NOR2B     A        In      -         5.042       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c4     NOR2B     Y        Out     0.514     5.556       -         
+temp_c4                                                Net       -        -       0.386     -           2         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c5     NOR2B     A        In      -         5.942       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c5     NOR2B     Y        Out     0.514     6.456       -         
+temp_c5                                                Net       -        -       0.386     -           2         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c6     NOR2B     A        In      -         6.842       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c6     NOR2B     Y        Out     0.514     7.356       -         
+temp_c6                                                Net       -        -       0.386     -           2         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c7     NOR2B     A        In      -         7.742       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_c7     NOR2B     Y        Out     0.514     8.257       -         
+temp_c7                                                Net       -        -       0.322     -           1         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_n8     XA1B      B        In      -         8.578       -         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp_n8     XA1B      Y        Out     0.626     9.204       -         
+temp_n8                                                Net       -        -       0.322     -           1         
+loop_gen_block\[7\]\.genblk1\.counter_inst.temp[8]     DFN1      D        In      -         9.525       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.099 is 5.537(54.8%) logic and 4.562(45.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.525
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.099
+
+    Number of logic level(s):                8
+    Starting point:                          loop_gen_block\[3\]\.genblk1\.counter_inst.temp[0] / Q
+    Ending point:                            loop_gen_block\[3\]\.genblk1\.counter_inst.temp[8] / D
+    The start point is clocked by            counter_top|clock [rising] on pin CLK
+    The end   point is clocked by            counter_top|clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                   Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp[0]     DFN1      Q        Out     0.737     0.737       -         
+temp[0]                                                Net       -        -       1.184     -           4         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c1     NOR2B     A        In      -         1.921       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c1     NOR2B     Y        Out     0.514     2.435       -         
+temp_c1                                                Net       -        -       0.806     -           3         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c2     NOR2B     A        In      -         3.241       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c2     NOR2B     Y        Out     0.514     3.756       -         
+temp_c2                                                Net       -        -       0.386     -           2         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c3     NOR2B     A        In      -         4.141       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c3     NOR2B     Y        Out     0.514     4.656       -         
+temp_c3                                                Net       -        -       0.386     -           2         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c4     NOR2B     A        In      -         5.042       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c4     NOR2B     Y        Out     0.514     5.556       -         
+temp_c4                                                Net       -        -       0.386     -           2         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c5     NOR2B     A        In      -         5.942       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c5     NOR2B     Y        Out     0.514     6.456       -         
+temp_c5                                                Net       -        -       0.386     -           2         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c6     NOR2B     A        In      -         6.842       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c6     NOR2B     Y        Out     0.514     7.356       -         
+temp_c6                                                Net       -        -       0.386     -           2         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c7     NOR2B     A        In      -         7.742       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_c7     NOR2B     Y        Out     0.514     8.257       -         
+temp_c7                                                Net       -        -       0.322     -           1         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_n8     XA1B      B        In      -         8.578       -         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp_n8     XA1B      Y        Out     0.626     9.204       -         
+temp_n8                                                Net       -        -       0.322     -           1         
+loop_gen_block\[3\]\.genblk1\.counter_inst.temp[8]     DFN1      D        In      -         9.525       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.099 is 5.537(54.8%) logic and 4.562(45.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 114MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell counter_top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AOI1     1      1.0        1.0
+              AX1C    37      1.0       37.0
+            CLKINT     1      0.0        0.0
+               GND    11      0.0        0.0
+              NOR2     9      1.0        9.0
+             NOR2A    57      1.0       57.0
+             NOR2B   136      1.0      136.0
+             NOR3B     1      1.0        1.0
+             NOR3C   102      1.0      102.0
+               OR2     1      1.0        1.0
+               VCC    11      0.0        0.0
+               XA1     5      1.0        5.0
+              XA1B   108      1.0      108.0
+
+
+              DFN1   144      1.0      144.0
+            DFN1E0     9      1.0        9.0
+            DFN1E1    17      1.0       17.0
+                   -----          ----------
+             TOTAL   650               627.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     2
+            OUTBUF    10
+                   -----
+             TOTAL    13
+
+
+Core Cells         : 627 of 4608 (14%)
+IO Cells           : 13
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 27MB peak: 114MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Thu Nov 05 07:13:51 2020
+
+###########################################################]

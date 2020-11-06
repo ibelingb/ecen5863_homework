@@ -1,23 +1,40 @@
-
-module counter 
+module counter_16 
 (
-	input wire clk, reset,
-	output reg [15:0] q
+	input wire clk, reset, en,
+	output reg TC
 );
 
+reg [15:0] q;
 
 initial
-begin
-	q <= 0;
-end
+   begin
+	q = 0;
+	TC = 0;
+   end
 
 // Implement counter
 always @(posedge clk)
-begin
-	if(reset)
-		q <= 0;
+   begin
+	if(reset == 1)
+      begin
+		q = 0;
+      end
+	else if (en == 1)
+        begin
+		q = q + 1;
+		
+		if(q == 16'b1111111111111110)
+            begin
+			TC = 1;
+            end
+		else
+            begin
+			TC = 0;
+            end
+        end
 	else
-		q <= q + 1;
-end
+		// Empty
+		TC = 0;
+	end
 
 endmodule

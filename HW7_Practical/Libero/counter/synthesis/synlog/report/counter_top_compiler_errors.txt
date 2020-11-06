@@ -1,0 +1,2 @@
+@E: CS164 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":23:60:23:65|Expecting wire for output connection, found TC
+

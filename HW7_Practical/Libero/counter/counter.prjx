@@ -1,6 +1,7 @@
 KEY LIBERO "11.8"
 KEY CAPTURE "11.8.0.26"
 KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "VERILOG2001"
@@ -12,10 +13,15 @@ KEY VendorTechnology_Package "fg484"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -29,11 +35,97 @@ KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
+KEY ActiveRoot "counter_top::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1604285218"
+SIZE="437"
+ENDFILE
+VALUE "<project>\designer\impl1\counter.ide_des,ide_des"
+STATE="utd"
+TIME="1604236791"
+SIZE="993"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_ba_log.rpt,log"
+STATE="utd"
+TIME="1604236792"
+SIZE="809"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_compile_log.rpt,log"
+STATE="utd"
+TIME="1604236757"
+SIZE="7964"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1604236784"
+SIZE="2548"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_top.adb,adb"
+STATE="ood"
+TIME="1604585685"
+SIZE="251392"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_top.ide_des,ide_des"
+STATE="utd"
+TIME="1604285609"
+SIZE="212"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_top_compile_log.rpt,log"
+STATE="utd"
+TIME="1604585686"
+SIZE="9768"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_top_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1604588477"
+SIZE="2588"
+ENDFILE
+VALUE "<project>\hdl\counter.v,hdl"
+STATE="utd"
+TIME="1604585581"
+SIZE="502"
+ENDFILE
+VALUE "<project>\hdl\counter_top.v,hdl"
+STATE="utd"
+TIME="1604588582"
+SIZE="916"
+ENDFILE
+VALUE "<project>\synthesis\counter_top.edn,syn_edn"
+STATE="ood"
+TIME="1604585631"
+SIZE="233451"
+ENDFILE
+VALUE "<project>\synthesis\counter_top.so,so"
+STATE="utd"
+TIME="1604585631"
+SIZE="241"
+ENDFILE
+VALUE "<project>\synthesis\counter_top_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1604585631"
+SIZE="404"
+ENDFILE
+VALUE "<project>\synthesis\counter_top_syn.prj,prj"
+STATE="utd"
+TIME="1604287186"
+SIZE="699"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1604287187"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\test_syn.prj,prj"
+STATE="utd"
+TIME="1604285542"
+SIZE="629"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
@@ -108,8 +200,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -155,10 +247,21 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:counter_top_place_and_route_report.txt
+HDL;hdl\counter_top.v;0
+HDL;hdl\counter.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;hdl\counter_top.v
 ENDLIST
 LIST ModuleSubBlockList
+LIST "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "counter_top::work","hdl\counter_top.v","FALSE","FALSE"
+SUBBLOCK "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST

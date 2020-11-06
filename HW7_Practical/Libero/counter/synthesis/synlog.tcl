@@ -1,1 +1,1 @@
-run_tcl -fg counter_syn.tcl
+run_tcl -fg counter_top_syn.tcl
