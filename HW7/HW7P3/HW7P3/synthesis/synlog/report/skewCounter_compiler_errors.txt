@@ -1,0 +1,2 @@
+@E: CS164 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":32:35:32:40|Expecting wire for output connection, found sQbar0
+

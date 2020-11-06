@@ -1,0 +1,76 @@
+----------------------------------------------------------------------
+Report for cell skewCounter.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                            DFF_0_0         1       4.0        4.0
+                            DFF_0_1         1       4.0        4.0
+                            DFF_0_2         1       4.0        4.0
+                            DFF_0_3         1      40.0       40.0
+                             DFN1E0        12       1.0       12.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF        17       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             39                 65.0
+----------------------------------------------------------------------
+Report for cell DFF_0_0.netlist
+  Original Cell name DFF_0
+     Instance path:  dff_3
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell DFF_0_1.netlist
+  Original Cell name DFF_0
+     Instance path:  dff_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell DFF_0_2.netlist
+  Original Cell name DFF_0
+     Instance path:  dff_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell DFF_0_3.netlist
+  Original Cell name DFF_0
+     Instance path:  dff_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B        10       1.0       10.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         9       1.0        9.0
+                                VCC         1       0.0        0.0
+                               XA1B         9       1.0        9.0
+                            
+                         TOTAL             42                 40.0

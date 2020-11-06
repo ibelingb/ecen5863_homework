@@ -1,0 +1,14 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design counter.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design counter.adb.
+
+The Execute Script command succeeded ( 00:00:04 )
+Warning: The constraint table shows unsaved changes. They will be lost if you leave the table
+         without applying them.
+         Continue anyway? [YES]
+Design saved to file E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\designer\impl1\counter.adb.
+Design closed.
+

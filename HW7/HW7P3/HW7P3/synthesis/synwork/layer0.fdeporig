@@ -1,0 +1,25 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\synthesis\\synwork\\counter16_comp.srs|-top|work.counter16|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#CUR:"E:\\Microsemi\\SynplifyPro\\bin64\\c_vhdl.exe":1480003892
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\location.map":1478829588
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487966854
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487966854
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487966854
+#CUR:"E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\hdl\\counter16.vhd":1604446689
+0 "E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\counter16.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work counter16 architecture_counter16 0
+module work counter16 0

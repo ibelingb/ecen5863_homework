@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/simulation
+vcounter
+!s110 1604463957
+!i10b 1
+!s100 h;=I]T:WMGm4PGYFGP9mm3
+IUBn?LfKdAVDfjdlMZ6bJ;3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604450159
+8E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter_ba.v
+FE:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter_ba.v
+L0 6
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1604463957.000000
+!s107 E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter_ba.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work postlayout -O0
+Z4 tCvgOpt 0
+vcounter16
+!s110 1604448699
+!i10b 1
+!s100 MC5F_6zS@Y2h<1EUa]d`E1
+I2C8`jaOTh17?;VLkoTMD[3
+R1
+R0
+w1604448687
+8E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter16_ba.v
+FE:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter16_ba.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1604448699.000000
+!s107 E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter16_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/counter16_ba.v|
+!s101 -O0
+!i113 1
+R3
+R4
+vskewCounter
+!s110 1604541007
+!i10b 1
+!s100 ?_1MIl^4Bk1Z_1DIJMBn=1
+ICX=b;MI99>@ja5_CLLjmK3
+R1
+R0
+w1604540992
+8E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/skewCounter_ba.v
+FE:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/skewCounter_ba.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1604541007.000000
+!s107 E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/skewCounter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|E:/repos/ECEN5863_HW/HW7/HW7P3/HW7P3/designer/impl1/skewCounter_ba.v|
+!s101 -O0
+!i113 1
+R3
+R4
+nskew@counter

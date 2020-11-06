@@ -1,0 +1,352 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "counter")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "counter")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c19_s/A  temp_c19_s/Y  temp_c19/B  temp_c19/Y  temp_c20/A  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_c1/A  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c19_s/A  temp_c19_s/Y  temp_c19/B  temp_c19/Y  temp_c20/A  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n22/A  temp_n22/Y  temp\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c18_m6_0_a2/B  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c4/A  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c19/A  temp_c19/Y  temp_c20/A  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_c11_m6_0_a2_4_0/B  temp_c11_m6_0_a2_4_0/Y  temp_c11_m6_0_a2_4_2/A  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  temp_c11_m6_0_a2_4_0/A  temp_c11_m6_0_a2_4_0/Y  temp_c11_m6_0_a2_4_2/A  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[5\]/CLK  temp\[5\]/Q  temp_n11_m4_0_a2_2/A  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c11_m6_0_a2_4/B  temp_c11_m6_0_a2_4/Y  temp_n17_m3_0_a2/C  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c11_m6_0_a2_4/B  temp_c11_m6_0_a2_4/Y  temp_n18_m4_0_a2/C  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c12/B  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c12/B  temp_c12/Y  temp_c13/A  temp_c13/Y  temp_n14/A  temp_n14/Y  temp\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c11_m6_0_a2_2/C  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c19_s/A  temp_c19_s/Y  temp_c19/B  temp_c19/Y  temp_n20/A  temp_n20/Y  temp\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_c4_s/B  temp_c4_s/Y  temp_c4/B  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c12_s/C  temp_c12_s/Y  temp_c12/C  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_c4_s/C  temp_c4_s/Y  temp_c4/B  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  temp_c4_s/A  temp_c4_s/Y  temp_c4/B  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_c18_m6_0_a2_1/B  temp_c18_m6_0_a2_1/Y  temp_c18_m6_0_a2_6/B  temp_c18_m6_0_a2_6/Y  temp_c18_m6_0_a2_s/A  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[11\]/CLK  temp\[11\]/Q  temp_c11_m6_0_a2_2/B  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_c2/B  temp_c2/Y  temp_c19_s/A  temp_c19_s/Y  temp_c19/B  temp_c19/Y  temp_c20/A  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  temp_c18_m6_0_a2_3/C  temp_c18_m6_0_a2_3/Y  temp_c18_m6_0_a2_5/C  temp_c18_m6_0_a2_5/Y  temp_c18_m6_0_a2_s/B  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  temp_c11_m6_0_a2_2/A  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c4/A  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_n8/A  temp_n8/Y  temp\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  temp_c11_m6_0_a2_2/A  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c14/C  temp_c14/Y  temp_n15/A  temp_n15/Y  temp\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c11_m6_0_a2_2/C  temp_c11_m6_0_a2_2/Y  temp_c18_m6_0_a2_6/C  temp_c18_m6_0_a2_6/Y  temp_c18_m6_0_a2_s/A  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_n10_m4_0_a2/C  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_RNI4FOO\[12\]/B  temp_RNI4FOO\[12\]/Y  temp_c18_m6_0_a2_6/A  temp_c18_m6_0_a2_6/Y  temp_c18_m6_0_a2_s/A  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[18\]/CLK  temp\[18\]/Q  temp_c18_m6_0_a2_3/B  temp_c18_m6_0_a2_3/Y  temp_c18_m6_0_a2_5/C  temp_c18_m6_0_a2_5/Y  temp_c18_m6_0_a2_s/B  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  temp_c18_m6_0_a2_1/A  temp_c18_m6_0_a2_1/Y  temp_c18_m6_0_a2_6/B  temp_c18_m6_0_a2_6/Y  temp_c18_m6_0_a2_s/A  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[17\]/CLK  temp\[17\]/Q  temp_c18_m6_0_a2_3/A  temp_c18_m6_0_a2_3/Y  temp_c18_m6_0_a2_5/C  temp_c18_m6_0_a2_5/Y  temp_c18_m6_0_a2_s/B  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c18_m6_0_a2_s/C  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_n19/A  temp_n19/Y  temp\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c4/A  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_c6/A  temp_c6/Y  temp_n7/A  temp_n7/Y  temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c11_m6_0_a2_4/A  temp_c11_m6_0_a2_4/Y  temp_n17_m3_0_a2/C  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[12\]/CLK  temp\[12\]/Q  temp_RNI4FOO\[12\]/A  temp_RNI4FOO\[12\]/Y  temp_c18_m6_0_a2_6/A  temp_c18_m6_0_a2_6/Y  temp_c18_m6_0_a2_s/A  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c12/B  temp_c12/Y  temp_n13/A  temp_n13/Y  temp\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_c11_m6_0_a2_3/B  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_c11_m6_0_a2/C  temp_c11_m6_0_a2/Y  temp_n12/A  temp_n12/Y  temp\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_c18_m6_0_a2_5/B  temp_c18_m6_0_a2_5/Y  temp_c18_m6_0_a2_s/B  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  temp_c11_m6_0_a2_3/A  temp_c11_m6_0_a2_3/Y  temp_c12/A  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c2/A  temp_c2/Y  temp_n3/B  temp_n3/Y  temp\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  temp_c18_m6_0_a2_5/A  temp_c18_m6_0_a2_5/Y  temp_c18_m6_0_a2_s/B  temp_c18_m6_0_a2_s/Y  temp_c18_m6_0_a2/A  temp_c18_m6_0_a2/Y  temp_c21/A  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c3/C  temp_c3/Y  temp_n11_m4_0_a2/C  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c4/A  temp_c4/Y  temp_c5/A  temp_c5/Y  temp_n6/A  temp_n6/Y  temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_c12_s/B  temp_c12_s/Y  temp_c12/C  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_c11_m6_0_a2_4_2/B  temp_c11_m6_0_a2_4_2/Y  temp_c11_m6_0_a2/B  temp_c11_m6_0_a2/Y  temp_n12/A  temp_n12/Y  temp\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c11_m6_0_a2_2/C  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_c11_m6_0_a2/A  temp_c11_m6_0_a2/Y  temp_n12/A  temp_n12/Y  temp\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c11_m6_0_a2_2/C  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_n17_m3_0_a2/A  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c11_m6_0_a2_2/C  temp_c11_m6_0_a2_2/Y  temp_c11_m6_0_a2_3/C  temp_c11_m6_0_a2_3/Y  temp_n18_m4_0_a2/A  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[12\]/CLK  temp\[12\]/Q  temp_c12_s/A  temp_c12_s/Y  temp_c12/C  temp_c12/Y  temp_c15/C  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[5\]/CLK  temp\[5\]/Q  temp_c5/B  temp_c5/Y  temp_c7/A  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c7_s/B  temp_c7_s/Y  temp_c7/B  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  TC_RNO_12/B  TC_RNO_12/Y  TC_RNO_8/C  TC_RNO_8/Y  TC_RNO_1/C  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_RNI4FOO\[12\]/B  temp_RNI4FOO\[12\]/Y  TC_RNO_10/C  TC_RNO_10/Y  TC_RNO_2/C  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_RNI7BPV\[5\]/B  temp_RNI7BPV\[5\]/Y  temp_n10_m4_0_a2_4/C  temp_n10_m4_0_a2_4/Y  temp_n10_m4_0_a2/A  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_c7_s/A  temp_c7_s/Y  temp_c7/B  temp_c7/Y  temp_c8/A  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n11_m4_0_a2_2/B  temp_n11_m4_0_a2_2/Y  temp_n11_m4_0_a2_4/B  temp_n11_m4_0_a2_4/Y  temp_n11_m4_0_a2/A  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c3/C  temp_c3/Y  temp_n4/A  temp_n4/Y  temp\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_n17_m3_0_a2_1/A  temp_n17_m3_0_a2_1/Y  temp_n18_m4_0_a2_4/C  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_n17_m3_0_a2_1/A  temp_n17_m3_0_a2_1/Y  temp_n17_m3_0_a2_3/C  temp_n17_m3_0_a2_3/Y  temp_n17_m3_0_a2/B  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[19\]/CLK  temp\[19\]/Q  temp_c19_s/B  temp_c19_s/Y  temp_c19/B  temp_c19/Y  temp_c20/A  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_c7_s/B  temp_c7_s/Y  temp_n11_m4_0_a2_4/A  temp_n11_m4_0_a2_4/Y  temp_n11_m4_0_a2/A  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  TC_RNO_11/B  TC_RNO_11/Y  TC_RNO_5/C  TC_RNO_5/Y  TC_RNO_0/C  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[5\]/CLK  temp\[5\]/Q  temp_RNI7BPV\[5\]/A  temp_RNI7BPV\[5\]/Y  temp_n10_m4_0_a2_4/C  temp_n10_m4_0_a2_4/Y  temp_n10_m4_0_a2/A  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  temp_n18_m4_0_a2_0/B  temp_n18_m4_0_a2_0/Y  temp_n18_m4_0_a2_4/B  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  TC_RNO_11/A  TC_RNO_11/Y  TC_RNO_5/C  TC_RNO_5/Y  TC_RNO_0/C  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[19\]/CLK  temp\[19\]/Q  TC_RNO_12/A  TC_RNO_12/Y  TC_RNO_8/C  TC_RNO_8/Y  TC_RNO_1/C  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[12\]/CLK  temp\[12\]/Q  temp_n17_m3_0_a2_1/B  temp_n17_m3_0_a2_1/Y  temp_n18_m4_0_a2_4/C  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  temp_c15_s/B  temp_c15_s/Y  temp_n18_m4_0_a2_4/A  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_n17_m3_0_a2_0/B  temp_n17_m3_0_a2_0/Y  temp_n17_m3_0_a2_3/A  temp_n17_m3_0_a2_3/Y  temp_n17_m3_0_a2/B  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_c15_s/A  temp_c15_s/Y  temp_n18_m4_0_a2_4/A  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_c4/A  temp_c4/Y  temp_n5/A  temp_n5/Y  temp\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  temp_n17_m3_0_a2_0/A  temp_n17_m3_0_a2_0/Y  temp_n17_m3_0_a2_3/A  temp_n17_m3_0_a2_3/Y  temp_n17_m3_0_a2/B  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[17\]/CLK  temp\[17\]/Q  temp_n18_m4_0_a2_0/A  temp_n18_m4_0_a2_0/Y  temp_n18_m4_0_a2_4/B  temp_n18_m4_0_a2_4/Y  temp_n18_m4_0_a2/B  temp_n18_m4_0_a2/Y  temp_n18_m6/A  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_n10_m4_0_a2_3/C  temp_n10_m4_0_a2_3/Y  temp_n10_m4_0_a2/B  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_n11_m4_0_a2_3/C  temp_n11_m4_0_a2_3/Y  temp_n11_m4_0_a2/B  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_c3/B  temp_c3/Y  temp_n11_m4_0_a2/C  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  temp_n10_m4_0_a2_3/B  temp_n10_m4_0_a2_3/Y  temp_n10_m4_0_a2/B  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  TC_RNO_10/B  TC_RNO_10/Y  TC_RNO_2/C  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[19\]/CLK  temp\[19\]/Q  temp_c21_s_0/C  temp_c21_s_0/Y  temp_c21/B  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[20\]/CLK  temp\[20\]/Q  temp_c21_s_0/B  temp_c21_s_0/Y  temp_c21/B  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  temp_c3/A  temp_c3/Y  temp_n11_m4_0_a2/C  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  temp_n10_m4_0_a2_3/A  temp_n10_m4_0_a2_3/Y  temp_n10_m4_0_a2/B  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  temp_n11_m4_0_a2_3/A  temp_n11_m4_0_a2_3/Y  temp_n11_m4_0_a2/B  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_RNI7BPV\[5\]/B  temp_RNI7BPV\[5\]/Y  TC_RNO_2/B  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n10_m4_0_a2_4/B  temp_n10_m4_0_a2_4/Y  temp_n10_m4_0_a2/A  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  TC_RNO_9/A  TC_RNO_9/Y  TC_RNO_2/A  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[21\]/CLK  temp\[21\]/Q  temp_c21_s_0/A  temp_c21_s_0/Y  temp_c21/B  temp_c21/Y  temp_n23/A  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_c1/B  temp_c1/Y  temp_n2/A  temp_n2/Y  temp\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  TC_RNO_5/B  TC_RNO_5/Y  TC_RNO_0/C  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  TC_RNO_10/A  TC_RNO_10/Y  TC_RNO_2/C  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  TC_RNO_9/B  TC_RNO_9/Y  TC_RNO_2/A  TC_RNO_2/Y  TC_RNO/C  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_n10_m4_0_a2_4/A  temp_n10_m4_0_a2_4/Y  temp_n10_m4_0_a2/A  temp_n10_m4_0_a2/Y  temp_n10_m6/A  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  temp_n11_m4_0_a2_3/B  temp_n11_m4_0_a2_3/Y  temp_n11_m4_0_a2/B  temp_n11_m4_0_a2/Y  temp_n11_m6/A  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  TC_RNO_5/A  TC_RNO_5/Y  TC_RNO_0/C  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  temp_n17_m3_0_a2_3/B  temp_n17_m3_0_a2_3/Y  temp_n17_m3_0_a2/B  temp_n17_m3_0_a2/Y  temp_n17_m5/A  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[18\]/CLK  temp\[18\]/Q  TC_RNO_8/B  TC_RNO_8/Y  TC_RNO_1/C  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  temp_c15_s/B  temp_c15_s/Y  temp_c15/A  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[20\]/CLK  temp\[20\]/Q  TC_RNO_8/A  TC_RNO_8/Y  TC_RNO_1/C  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  TC_RNO_7/B  TC_RNO_7/Y  TC_RNO_1/B  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[11\]/CLK  temp\[11\]/Q  TC_RNO_4/B  TC_RNO_4/Y  TC_RNO_0/B  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[21\]/CLK  temp\[21\]/Q  TC_RNO_6/B  TC_RNO_6/Y  TC_RNO_1/A  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[22\]/CLK  temp\[22\]/Q  TC_RNO_6/A  TC_RNO_6/Y  TC_RNO_1/A  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  TC_RNO_4/A  TC_RNO_4/Y  TC_RNO_0/B  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_c8/B  temp_c8/Y  temp_n9/A  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[17\]/CLK  temp\[17\]/Q  TC_RNO_3/A  TC_RNO_3/Y  TC_RNO_0/A  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  TC_RNO_3/B  TC_RNO_3/Y  TC_RNO_0/A  TC_RNO_0/Y  TC_RNO/A  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[23\]/CLK  temp\[23\]/Q  TC_RNO_7/A  TC_RNO_7/Y  TC_RNO_1/B  TC_RNO_1/Y  TC_RNO/B  TC_RNO/Y  TC/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[22\]/CLK  temp\[22\]/Q  temp_47_0/A  temp_47_0/Y  temp_n23/B  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_c13/B  temp_c13/Y  temp_n14/A  temp_n14/Y  temp\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[20\]/CLK  temp\[20\]/Q  temp_c20/B  temp_c20/Y  temp_n21/A  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_c14/B  temp_c14/Y  temp_n15/A  temp_n15/Y  temp\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_c15/B  temp_c15/Y  temp_n16/A  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_c6/B  temp_c6/Y  temp_n7/A  temp_n7/Y  temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_c14/A  temp_c14/Y  temp_n15/A  temp_n15/Y  temp\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  temp_n13/B  temp_n13/Y  temp\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  temp_n6/B  temp_n6/Y  temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  temp_n7/B  temp_n7/Y  temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  temp_n15/B  temp_n15/Y  temp\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  temp_n14/B  temp_n14/Y  temp\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  temp_n16/B  temp_n16/Y  temp\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n1/B  temp_n1/Y  temp\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[5\]/CLK  temp\[5\]/Q  temp_n5/B  temp_n5/Y  temp\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[17\]/CLK  temp\[17\]/Q  temp_n17_m5/B  temp_n17_m5/Y  temp\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[12\]/CLK  temp\[12\]/Q  temp_n12/B  temp_n12/Y  temp\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[19\]/CLK  temp\[19\]/Q  temp_n19/B  temp_n19/Y  temp\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[20\]/CLK  temp\[20\]/Q  temp_n20/B  temp_n20/Y  temp\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  temp_n8/B  temp_n8/Y  temp\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[23\]/CLK  temp\[23\]/Q  temp_48/A  temp_48/Y  temp_n23/C  temp_n23/Y  temp\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[18\]/CLK  temp\[18\]/Q  temp_n18_m6/B  temp_n18_m6/Y  temp\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_n2/B  temp_n2/Y  temp\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  temp_n9/B  temp_n9/Y  temp\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  temp_n4/B  temp_n4/Y  temp\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  temp_n3/A  temp_n3/Y  temp\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[11\]/CLK  temp\[11\]/Q  temp_n11_m6/B  temp_n11_m6/Y  temp\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[21\]/CLK  temp\[21\]/Q  temp_n21/B  temp_n21/Y  temp\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[22\]/CLK  temp\[22\]/Q  temp_n22/B  temp_n22/Y  temp\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  temp_n10_m6/B  temp_n10_m6/Y  temp\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n0/B  temp_n0/Y  temp\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_n1/A  temp_n1/Y  temp\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT temp\[13\]/CLK  temp\[13\]/Q  q_pad\[13\]/D  q_pad\[13\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[8\]/CLK  temp\[8\]/Q  q_pad\[8\]/D  q_pad\[8\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[3\]/CLK  temp\[3\]/Q  q_pad\[3\]/D  q_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  q_pad\[2\]/D  q_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[9\]/CLK  temp\[9\]/Q  q_pad\[9\]/D  q_pad\[9\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[4\]/CLK  temp\[4\]/Q  q_pad\[4\]/D  q_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[6\]/CLK  temp\[6\]/Q  q_pad\[6\]/D  q_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[7\]/CLK  temp\[7\]/Q  q_pad\[7\]/D  q_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[15\]/CLK  temp\[15\]/Q  q_pad\[15\]/D  q_pad\[15\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[14\]/CLK  temp\[14\]/Q  q_pad\[14\]/D  q_pad\[14\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[16\]/CLK  temp\[16\]/Q  q_pad\[16\]/D  q_pad\[16\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  q_pad\[0\]/D  q_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[5\]/CLK  temp\[5\]/Q  q_pad\[5\]/D  q_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[17\]/CLK  temp\[17\]/Q  q_pad\[17\]/D  q_pad\[17\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[12\]/CLK  temp\[12\]/Q  q_pad\[12\]/D  q_pad\[12\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[19\]/CLK  temp\[19\]/Q  q_pad\[19\]/D  q_pad\[19\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[20\]/CLK  temp\[20\]/Q  q_pad\[20\]/D  q_pad\[20\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  q_pad\[1\]/D  q_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[11\]/CLK  temp\[11\]/Q  q_pad\[11\]/D  q_pad\[11\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[18\]/CLK  temp\[18\]/Q  q_pad\[18\]/D  q_pad\[18\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[21\]/CLK  temp\[21\]/Q  q_pad\[21\]/D  q_pad\[21\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[22\]/CLK  temp\[22\]/Q  q_pad\[22\]/D  q_pad\[22\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[10\]/CLK  temp\[10\]/Q  q_pad\[10\]/D  q_pad\[10\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT temp\[23\]/CLK  temp\[23\]/Q  q_pad\[23\]/D  q_pad\[23\]/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

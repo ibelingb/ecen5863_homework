@@ -1,0 +1,2 @@
+@W: CL177 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\counter.v":11:0:11:5|Sharing sequential element temp. Add a syn_preserve attribute to the element to prevent sharing.
+

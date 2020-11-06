@@ -1,0 +1,5 @@
+@W: CL168 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":35:4:35:8|Removing instance dff_3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":34:4:34:8|Removing instance dff_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":33:4:33:8|Removing instance dff_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":32:4:32:8|Removing instance dff_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

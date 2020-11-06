@@ -1,0 +1,7 @@
+E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  counter  -multisrs  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_comp.srs  -osyn  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_mult.srs  -log  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synlog\counter_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_comp.srs|io:i|time:1604554260|size:1874|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_mult.srs|io:o|time:1604554261|size:1765|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synlog\counter_multi_srs_gen.srr|io:o|time:1604554261|size:509|exec:0
+file:E:\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

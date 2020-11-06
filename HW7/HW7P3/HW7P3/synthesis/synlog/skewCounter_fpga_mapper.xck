@@ -1,0 +1,4 @@
+CKID0001:@|S:dff_0.q@|E:dff_1.q@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:dff_1.q@|E:dff_2.q@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:dff_2.q@|E:dff_3.q@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:clk@|E:TC@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

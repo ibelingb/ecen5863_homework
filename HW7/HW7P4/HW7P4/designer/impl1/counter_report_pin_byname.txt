@@ -1,0 +1,40 @@
+*****************************************************************
+Pin Report - Date: Wed Nov 04 22:31:41 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: counter
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port  |Pin |Fixed |Function                   |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------|----|------|---------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+clk    H22  No     GCB0/IO27NDB1V0             LVTTL    ---                ---   None           No               ---   ---               No           No
+en     C1   No     EMC_DB[14]/GAB2/IO71NDB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+q[0]   F1   No     GFB1/IO65PPB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[1]   G2   No     GFB0/IO65NPB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[2]   G3   No     EMC_DB[9]/GEC1/IO63PDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[3]   H6   No     GFA1/IO64PDB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[4]   J6   No     GFA0/IO64NDB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[5]   H3   No     EMC_DB[8]/GEC0/IO63NDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[6]   J1   No     EMC_DB[6]/GEB0/IO62NDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[7]   J2   No     EMC_DB[5]/GEA1/IO61PDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[8]   K5   No     EMC_DB[2]/IO60NPB5V0        LVTTL    12                 High  None           ---              No    35                No           No
+q[9]   J4   No     EMC_DB[3]/GEC2/IO60PPB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[10]  H1   No     EMC_DB[7]/GEB1/IO62PDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[11]  J3   No     EMC_DB[4]/GEA0/IO61NDB5V0   LVTTL    12                 High  None           ---              No    35                No           No
+q[12]  H5   No     GFC0/IO66NPB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[13]  G4   No     GFC1/IO66PPB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[14]  C6   No     EMC_CLK/GAA0/IO00NDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+q[15]  E3   No     GFA2/IO68PDB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[16]  F3   No     GFB2/IO68NDB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[17]  F2   No     IO67NPB5V0                  LVTTL    12                 High  None           ---              No    35                No           No
+q[18]  E1   No     GFC2/IO67PPB5V0             LVTTL    12                 High  None           ---              No    35                No           No
+q[19]  F4   No     EMC_DB[10]/IO69NPB5V0       LVTTL    12                 High  None           ---              No    35                No           No
+q[20]  D3   No     EMC_DB[13]/GAC2/IO70PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[21]  D2   No     EMC_DB[12]/IO70NDB5V0       LVTTL    12                 High  None           ---              No    35                No           No
+q[22]  G5   No     EMC_DB[11]/IO69PPB5V0       LVTTL    12                 High  None           ---              No    35                No           No
+q[23]  B6   No     EMC_RW_N/GAA1/IO00PDB0V0    LVTTL    12                 High  None           ---              No    35                No           No
+reset  B1   No     EMC_DB[15]/GAA2/IO71PDB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+TC     A5   No     EMC_CS0_N/GAB0/IO01NDB0V0   LVTTL    12                 High  None           ---              No    35                No           No

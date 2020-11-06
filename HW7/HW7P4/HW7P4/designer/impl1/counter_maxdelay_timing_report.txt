@@ -1,0 +1,412 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Wed Nov 04 22:31:47 2020
+
+
+Design: counter
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clock
+Period (ns):                9.450
+Frequency (MHz):            105.820
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        5.276
+External Hold (ns):         -0.455
+Min Clock-To-Out (ns):      2.600
+Max Clock-To-Out (ns):      7.882
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clock
+
+SET Register to Register
+
+Path 1
+  From:                        temp[5]:CLK
+  To:                          temp[23]:D
+  Delay (ns):                  8.924
+  Slack (ns):                  10.550
+  Arrival (ns):                10.785
+  Required (ns):               21.335
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.450
+
+Path 2
+  From:                        temp[5]:CLK
+  To:                          temp[21]:D
+  Delay (ns):                  8.918
+  Slack (ns):                  10.556
+  Arrival (ns):                10.779
+  Required (ns):               21.335
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.444
+
+Path 3
+  From:                        temp[5]:CLK
+  To:                          temp[22]:D
+  Delay (ns):                  8.918
+  Slack (ns):                  10.556
+  Arrival (ns):                10.779
+  Required (ns):               21.335
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.444
+
+Path 4
+  From:                        temp[5]:CLK
+  To:                          temp[20]:D
+  Delay (ns):                  8.881
+  Slack (ns):                  10.609
+  Arrival (ns):                10.742
+  Required (ns):               21.351
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.391
+
+Path 5
+  From:                        temp[4]:CLK
+  To:                          temp[23]:D
+  Delay (ns):                  8.775
+  Slack (ns):                  10.700
+  Arrival (ns):                10.635
+  Required (ns):               21.335
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.300
+
+
+Expanded Path 1
+  From: temp[5]:CLK
+  To: temp[23]:D
+  data required time                             21.335
+  data arrival time                          -   10.785
+  slack                                          10.550
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  0.935                        clk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        clk_pad/U0/U1:Y (r)
+               +     0.612          net: clk_c
+  1.861                        temp[5]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1E1
+  2.532                        temp[5]:Q (f)
+               +     0.809          net: q_c[5]
+  3.341                        temp_n11_m4_0_a2_2:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  3.692                        temp_n11_m4_0_a2_2:Y (f)
+               +     0.756          net: temp_n11_m4_0_a2_2
+  4.448                        temp_c11_m6_0_a2_4_2:C (f)
+               +     0.620          cell: ADLIB:NOR3C
+  5.068                        temp_c11_m6_0_a2_4_2:Y (f)
+               +     1.161          net: temp_c11_m6_0_a2_4_2
+  6.229                        temp_c18_m6_0_a2_s:C (f)
+               +     0.584          cell: ADLIB:NOR3C
+  6.813                        temp_c18_m6_0_a2_s:Y (f)
+               +     0.883          net: temp_c18_m6_0_a2_out
+  7.696                        temp_c18_m6_0_a2:A (f)
+               +     0.468          cell: ADLIB:NOR2B
+  8.164                        temp_c18_m6_0_a2:Y (f)
+               +     0.294          net: temp_c18
+  8.458                        temp_c21:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  8.809                        temp_c21:Y (f)
+               +     0.777          net: temp_c21
+  9.586                        temp_n23:A (f)
+               +     0.903          cell: ADLIB:AX1C
+  10.489                       temp_n23:Y (f)
+               +     0.296          net: temp_n23
+  10.785                       temp[23]:D (f)
+                                    
+  10.785                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       clock
+               +     0.000          Clock source
+  20.000                       clk (r)
+               +     0.000          net: clk
+  20.000                       clk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  20.935                       clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  20.935                       clk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  21.249                       clk_pad/U0/U1:Y (r)
+               +     0.608          net: clk_c
+  21.857                       temp[23]:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1E1
+  21.335                       temp[23]:D
+                                    
+  21.335                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        reset
+  To:                          temp[6]:D
+  Delay (ns):                  6.647
+  Slack (ns):
+  Arrival (ns):                6.647
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         5.276
+
+Path 2
+  From:                        reset
+  To:                          temp[19]:D
+  Delay (ns):                  6.429
+  Slack (ns):
+  Arrival (ns):                6.429
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         5.077
+
+Path 3
+  From:                        reset
+  To:                          temp[7]:D
+  Delay (ns):                  6.398
+  Slack (ns):
+  Arrival (ns):                6.398
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         5.027
+
+Path 4
+  From:                        reset
+  To:                          temp[12]:D
+  Delay (ns):                  6.381
+  Slack (ns):
+  Arrival (ns):                6.381
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         5.012
+
+Path 5
+  From:                        en
+  To:                          temp[6]:D
+  Delay (ns):                  6.293
+  Slack (ns):
+  Arrival (ns):                6.293
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         4.922
+
+
+Expanded Path 1
+  From: reset
+  To: temp[6]:D
+  data required time                             N/C
+  data arrival time                          -   6.647
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (r)
+               +     0.000          net: reset
+  0.000                        reset_pad/U0/U0:PAD (r)
+               +     0.967          cell: ADLIB:IOPAD_IN
+  0.967                        reset_pad/U0/U0:Y (r)
+               +     0.000          net: reset_pad/U0/NET1
+  0.967                        reset_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  1.006                        reset_pad/U0/U1:Y (r)
+               +     1.413          net: N_54
+  2.419                        temp7:B (r)
+               +     0.468          cell: ADLIB:NOR2A
+  2.887                        temp7:Y (f)
+               +     2.039          net: temp7
+  4.926                        temp_n6:C (f)
+               +     0.660          cell: ADLIB:XA1
+  5.586                        temp_n6:Y (f)
+               +     1.061          net: temp_n6
+  6.647                        temp[6]:D (f)
+                                    
+  6.647                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     0.612          net: clk_c
+  N/C                          temp[6]:CLK (r)
+               -     0.490          Library setup time: ADLIB:DFN1E1
+  N/C                          temp[6]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        temp[14]:CLK
+  To:                          q[14]
+  Delay (ns):                  5.578
+  Slack (ns):                  9.565
+  Arrival (ns):                7.435
+  Required (ns):               17.000
+  Clock to Out (ns):           7.435
+
+Path 2
+  From:                        temp[23]:CLK
+  To:                          q[23]
+  Delay (ns):                  5.554
+  Slack (ns):                  9.589
+  Arrival (ns):                7.411
+  Required (ns):               17.000
+  Clock to Out (ns):           7.411
+
+Path 3
+  From:                        temp[10]:CLK
+  To:                          q[10]
+  Delay (ns):                  5.492
+  Slack (ns):                  9.640
+  Arrival (ns):                7.360
+  Required (ns):               17.000
+  Clock to Out (ns):           7.360
+
+Path 4
+  From:                        temp[13]:CLK
+  To:                          q[13]
+  Delay (ns):                  5.066
+  Slack (ns):                  10.055
+  Arrival (ns):                6.945
+  Required (ns):               17.000
+  Clock to Out (ns):           6.945
+
+Path 5
+  From:                        temp[5]:CLK
+  To:                          q[5]
+  Delay (ns):                  5.042
+  Slack (ns):                  10.097
+  Arrival (ns):                6.903
+  Required (ns):               17.000
+  Clock to Out (ns):           6.903
+
+
+Expanded Path 1
+  From: temp[14]:CLK
+  To: q[14]
+  data required time                             17.000
+  data arrival time                          -   7.435
+  slack                                          9.565
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  0.935                        clk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        clk_pad/U0/U1:Y (r)
+               +     0.608          net: clk_c
+  1.857                        temp[14]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1E1
+  2.528                        temp[14]:Q (f)
+               +     1.008          net: q_c[14]
+  3.536                        q_pad[14]/U0/U1:D (f)
+               +     0.530          cell: ADLIB:IOTRI_OB_EB
+  4.066                        q_pad[14]/U0/U1:DOUT (f)
+               +     0.000          net: q_pad[14]/U0/NET1
+  4.066                        q_pad[14]/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  7.435                        q_pad[14]/U0/U0:PAD (f)
+               +     0.000          net: q[14]
+  7.435                        q[14] (f)
+                                    
+  7.435                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       clock
+               +     0.000          Clock source
+  20.000                       clk (r)
+               -     3.000          Output Delay Constraint
+  17.000                       q[14] (f)
+                                    
+  17.000                       data required time
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

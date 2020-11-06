@@ -1,0 +1,32 @@
+*****************************************************************
+Pin Report - Date: Wed Nov 04 18:49:03 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: skewCounter
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port  |Pin |Fixed |Function                  |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------|----|------|--------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+clk    H22  No     GCB0/IO27NDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+en     K5   No     EMC_DB[2]/IO60NPB5V0       LVTTL    ---                ---   None           No               ---   ---               No           No
+q[0]   H3   No     EMC_DB[8]/GEC0/IO63NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[1]   H6   No     GFA1/IO64PDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[2]   K3   No     EMC_DB[1]/GEB2/IO59PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[3]   J6   No     GFA0/IO64NDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[4]   G2   No     GFB0/IO65NPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[5]   G3   No     EMC_DB[9]/GEC1/IO63PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[6]   G4   No     GFC1/IO66PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[7]   F1   No     GFB1/IO65PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[8]   F2   No     IO67NPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+q[9]   E1   No     GFC2/IO67PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+q[10]  C6   No     EMC_CLK/GAA0/IO00NDB0V0    LVTTL    12                 High  None           ---              No    35                No           No
+q[11]  A6   No     EMC_CS1_N/GAB1/IO01PDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[12]  J2   No     EMC_DB[5]/GEA1/IO61PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[13]  K2   No     EMC_DB[0]/GEA2/IO59NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[14]  J1   No     EMC_DB[6]/GEB0/IO62NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+q[15]  J3   No     EMC_DB[4]/GEA0/IO61NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+reset  J4   No     EMC_DB[3]/GEC2/IO60PPB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+TC     H1   No     EMC_DB[7]/GEB1/IO62PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No

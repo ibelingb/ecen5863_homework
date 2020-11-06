@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/repos/ECEN5863_HW/HW7/HW7P4/HW7P4/simulation
+vcounter
+!s110 1604635297
+!i10b 1
+!s100 b6:FDV4?]^5H0>nUbC9]G2
+I2En6_YYQ4EP[^b`g9f^aJ3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604635213
+8E:/repos/ECEN5863_HW/HW7/HW7P4/HW7P4/designer/impl1/counter_ba.v
+FE:/repos/ECEN5863_HW/HW7/HW7P4/HW7P4/designer/impl1/counter_ba.v
+L0 6
+OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1604635297.000000
+!s107 E:/repos/ECEN5863_HW/HW7/HW7P4/HW7P4/designer/impl1/counter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|E:/repos/ECEN5863_HW/HW7/HW7P4/HW7P4/designer/impl1/counter_ba.v|
+!s101 -O0
+!i113 1
+o-vlog01compat -work postlayout -O0
+tCvgOpt 0

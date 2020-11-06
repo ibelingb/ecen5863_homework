@@ -1,0 +1,1 @@
+@W: MT530 :"e:\repos\ecen5863_hw\hw7\hw7p4\hw7p4\hdl\counter.v":11:0:11:5|Found inferred clock counter|clk which controls 25 sequential elements including temp[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 

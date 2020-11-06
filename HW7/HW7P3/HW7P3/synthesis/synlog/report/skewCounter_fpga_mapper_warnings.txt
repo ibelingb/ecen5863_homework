@@ -1,0 +1,4 @@
+@W: MT420 |Found inferred clock skewCounter|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+@W: MT420 |Found inferred clock DFF_0_1|q_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:dff_2.q"
+@W: MT420 |Found inferred clock DFF_0_2|q_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:dff_1.q"
+@W: MT420 |Found inferred clock DFF_0_3|q_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:dff_0.q"

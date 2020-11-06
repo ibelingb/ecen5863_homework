@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\synthesis\\synwork\\skewCounter_comp.srs|-top|skewCounter|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\synthesis\\|-I|E:\\Microsemi\\SynplifyPro\\lib|-v2001|-devicelib|E:\\Microsemi\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"E:\\Microsemi\\SynplifyPro\\bin64\\c_ver.exe":1480003824
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487966850
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\hypermods.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
+#CUR:"E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\hdl\\DFF.v":1604540502
+#CUR:"E:\\repos\\ECEN5863_HW\\HW7\\HW7P3\\HW7P3\\hdl\\skewCounter.v":1604540820
+0			"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\DFF.v" verilog
+1			"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work skewCounter 1
+module work DFF 0

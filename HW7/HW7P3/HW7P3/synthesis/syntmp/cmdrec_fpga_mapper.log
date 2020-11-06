@@ -1,0 +1,15 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\synlog\report\skewCounter_fpga_mapper.xml  -top_level_module  skewCounter  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.edn   -freq 100.000   E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\synwork\skewCounter_prem.srd  -sap  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.sap  -otap  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.tap  -omap  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.map  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -sap  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.sap  -ologparam  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\syntmp\skewCounter.plg  -osyn  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.srm  -prjdir  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\  -prjname  skewCounter_syn  -log  E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\synlog\skewCounter_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\scratchproject.prs|io:o|time:1604540785|size:1826|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.edn|io:o|time:1604540852|size:45754|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\synwork\skewCounter_prem.srd|io:i|time:1604540852|size:8645|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.sap|io:o|time:1604540852|size:1102|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.tap|io:o|time:0|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.map|io:o|time:1604540853|size:28|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.sap|io:o|time:1604540852|size:1102|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\syntmp\skewCounter.plg|io:o|time:1604540853|size:1326|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\skewCounter.srm|io:o|time:1604540852|size:69820|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\synthesis\synlog\skewCounter_fpga_mapper.srr|io:o|time:1604540853|size:29293|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

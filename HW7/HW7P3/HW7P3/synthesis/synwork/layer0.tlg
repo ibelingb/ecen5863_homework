@@ -1,0 +1,5 @@
+Selecting top level module skewCounter
+@N: CG364 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW7\HW7P3\HW7P3\hdl\skewCounter.v":21:7:21:17|Synthesizing module skewCounter in library work.
+

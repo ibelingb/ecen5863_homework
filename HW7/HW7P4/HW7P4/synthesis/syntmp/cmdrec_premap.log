@@ -1,0 +1,14 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synlog\report\counter_premap.xml  -top_level_module  counter  -oedif  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter.edn  -conchk_prepass  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter_cck.rpt   -freq 100.000   E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_prem.srd  -qsap  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter.sap  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\syntmp\counter.plg  -osyn  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_prem.srd  -prjdir  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\  -prjname  counter_syn  -log  E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synlog\counter_premap.srr 
+rc:1 success:1 runtime:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\scratchproject.prs|io:o|time:1604548271|size:1746|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter.edn|io:o|time:1604554233|size:55692|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter_cck.rpt|io:o|time:1604554262|size:23817|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_mult.srs|io:i|time:1604554261|size:1765|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_prem.srd|io:o|time:1604554262|size:3213|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\counter.sap|io:o|time:1604554262|size:352|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\syntmp\counter.plg|io:o|time:1604554262|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synwork\counter_prem.srd|io:o|time:1604554262|size:3213|exec:0
+file:E:\repos\ECEN5863_HW\HW7\HW7P4\HW7P4\synthesis\synlog\counter_premap.srr|io:o|time:1604554262|size:2912|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1
