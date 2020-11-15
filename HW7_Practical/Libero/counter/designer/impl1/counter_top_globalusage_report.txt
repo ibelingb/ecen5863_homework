@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
-Date: Thu Nov 05 08:01:14 2020
+Date: Fri Nov 06 07:07:23 2020
 Design Name: counter_top  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
 Design State: Post-Layout
 
@@ -13,9 +13,9 @@ The following nets have been routed to a chip global resource:
 
     Fanout            Name
     ----------------------
-    1207              Net   : clock_c
+    810               Net   : clock_c
                       Driver: clock_pad/U0/U1/U_GL
-    1273              Net   : reset_c
+    795               Net   : reset_c
                       Driver: reset_pad_RNIN9FD/U_CLKSRC/U_GL
 
 

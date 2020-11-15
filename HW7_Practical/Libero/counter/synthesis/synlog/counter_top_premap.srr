@@ -1,4 +1,4 @@
-# Thu Nov 05 07:55:55 2020
+# Fri Nov 06 07:04:01 2020
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -15,10 +15,10 @@ Printing clock  summary report in "E:\repos\ECEN5863_HW\HW7_Practical\Libero\cou
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
 
 
 
@@ -28,26 +28,26 @@ Clock Summary
 Start                 Requested     Requested     Clock        Clock                   Clock
 Clock                 Frequency     Period        Type         Group                   Load 
 --------------------------------------------------------------------------------------------
-counter_top|clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1207 
+counter_top|clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     810  
 ============================================================================================
 
-@W: MT530 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found inferred clock counter_top|clock which controls 1207 sequential elements including loop_gen_block\[0\]\.genblk1\.counter_inst.temp[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":18:0:18:5|Found inferred clock counter_top|clock which controls 810 sequential elements including loop_gen_block\[0\]\.genblk1\.counter_inst.TC. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_top.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 115MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 114MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Nov 05 07:55:56 2020
+# Fri Nov 06 07:04:02 2020
 
 ###########################################################]

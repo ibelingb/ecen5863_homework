@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Thu Nov 05 07:58:46 2020 ***************************************************************************
+                          Fri Nov 06 07:04:41 2020 ***************************************************************************
 
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
 File Name: E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer\impl1\counter_top.adb
 Design Name: counter_top  Design State: compile
-Last Saved: Thu Nov 05 07:54:44 2020
+Last Saved: Fri Nov 06 07:03:02 2020
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Thu Nov 05 07:58:33 2020:
+Source File(s) Imported on Fri Nov 06 07:04:27 2020:
         E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\counter_top.edn
 
 
@@ -85,9 +85,9 @@ Optimized macros:
   - Buffers:                0
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        1
+  - Logic combining:        240
 
-    Total macros optimized  1
+    Total macros optimized  240
 
 There were 0 error(s) and 0 warning(s) in this design.
 =====================================================================
@@ -102,8 +102,8 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:   4580  Total:   4608   (99.39%)
-    Fabric IO (W/ clocks)      Used:     74  Total:     94   (78.72%)
+    Fabric                     Used:   4605  Total:   4608   (99.93%)
+    Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
     Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
@@ -131,15 +131,15 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 3373         | 3373
-    SEQ     | 1207         | 1207
+    COMB    | 3795         | 3795
+    SEQ     | 810          | 810
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
     Input I/O                             | 3             | 0            | 0
-    Output I/O                            | 71            | 0            | 0
+    Output I/O                            | 1             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
@@ -150,13 +150,13 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVTTL                           | 3.30v | N/A   | 3     | 71     | 0
+    LVTTL                           | 3.30v | N/A   | 3     | 1      | 0
 
 I/O Placement:
 
-    Locked  :   1 (  1.35% )
-    Placed  :  72 ( 97.30% )
-    UnPlaced:   1 (  1.35% )
+    Locked  :   1 ( 25.00% )
+    Placed  :   3 ( 75.00% )
+    UnPlaced:   0
 
 Warning: Only some I/Os are locked
 
@@ -166,59 +166,59 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    1273    INT_NET       Net   : reset_c
-                          Driver: reset_pad_RNIN9FD/U_CLKSRC
-                          Source: NETLIST
-    1207    CLK_NET       Net   : clock_c
+    810     CLK_NET       Net   : clock_c
                           Driver: clock_pad
+                          Source: NETLIST
+    795     INT_NET       Net   : reset_c
+                          Driver: reset_pad_RNIN9FD/U_CLKSRC
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    16      INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/tempe
-                          Driver: loop_gen_block[0].genblk1.counter_inst/templde
-    9       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[3]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[3]
-    9       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[5]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[5]
-    9       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp[9]
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp[9]
-    7       INT_NET       Net   : loop_gen_block[56].genblk1.counter_inst/temp[7]
-                          Driver: loop_gen_block[56].genblk1.counter_inst/temp[7]
-    7       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[7]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[7]
-    7       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[9]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[9]
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp7
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp7
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp[4]
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp[4]
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp_c1
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp_c1
+    18      INT_NET       Net   : loop_gen_block[43].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[43].genblk1.counter_inst/enableCounter_RNI28Q51
+    18      INT_NET       Net   : loop_gen_block[42].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[42].genblk1.counter_inst/enableCounter_RNI0BMO
+    18      INT_NET       Net   : loop_gen_block[3].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[3].genblk1.counter_inst/enableCounter_RNIQ86O
+    18      INT_NET       Net   : loop_gen_block[41].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[41].genblk1.counter_inst/enableCounter_RNIUDIR
+    18      INT_NET       Net   : loop_gen_block[17].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[17].genblk1.counter_inst/enableCounter_RNI4V671
+    18      INT_NET       Net   : loop_gen_block[20].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[20].genblk1.counter_inst/enableCounter_RNI1J601
+    18      INT_NET       Net   : loop_gen_block[16].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[16].genblk1.counter_inst/enableCounter_RNI223Q
+    18      INT_NET       Net   : loop_gen_block[30].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[30].genblk1.counter_inst/enableCounter_RNI3I711
+    18      INT_NET       Net   : loop_gen_block[7].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[7].genblk1.counter_inst/enableCounter_RNI2TLS
+    18      INT_NET       Net   : loop_gen_block[13].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[13].genblk1.counter_inst/enableCounter_RNISAN21
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    16      INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/tempe
-                          Driver: loop_gen_block[0].genblk1.counter_inst/templde
-    9       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[3]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[3]
-    9       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[5]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[5]
-    9       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp[9]
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp[9]
-    7       INT_NET       Net   : loop_gen_block[56].genblk1.counter_inst/temp[7]
-                          Driver: loop_gen_block[56].genblk1.counter_inst/temp[7]
-    7       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[7]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[7]
-    7       INT_NET       Net   : loop_gen_block[33].genblk1.counter_inst/temp[9]
-                          Driver: loop_gen_block[33].genblk1.counter_inst/temp[9]
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp7
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp7
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp[4]
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp[4]
-    7       INT_NET       Net   : loop_gen_block[0].genblk1.counter_inst/temp_c1
-                          Driver: loop_gen_block[0].genblk1.counter_inst/temp_c1
+    18      INT_NET       Net   : loop_gen_block[43].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[43].genblk1.counter_inst/enableCounter_RNI28Q51
+    18      INT_NET       Net   : loop_gen_block[42].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[42].genblk1.counter_inst/enableCounter_RNI0BMO
+    18      INT_NET       Net   : loop_gen_block[3].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[3].genblk1.counter_inst/enableCounter_RNIQ86O
+    18      INT_NET       Net   : loop_gen_block[41].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[41].genblk1.counter_inst/enableCounter_RNIUDIR
+    18      INT_NET       Net   : loop_gen_block[17].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[17].genblk1.counter_inst/enableCounter_RNI4V671
+    18      INT_NET       Net   : loop_gen_block[20].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[20].genblk1.counter_inst/enableCounter_RNI1J601
+    18      INT_NET       Net   : loop_gen_block[16].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[16].genblk1.counter_inst/enableCounter_RNI223Q
+    18      INT_NET       Net   : loop_gen_block[30].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[30].genblk1.counter_inst/enableCounter_RNI3I711
+    18      INT_NET       Net   : loop_gen_block[7].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[7].genblk1.counter_inst/enableCounter_RNI2TLS
+    18      INT_NET       Net   : loop_gen_block[13].genblk1.counter_inst/enableCounter_2
+                          Driver: loop_gen_block[13].genblk1.counter_inst/enableCounter_RNISAN21
 
 

@@ -5,8 +5,8 @@
 #CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
 #CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
 #CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
-#CUR:"E:\\repos\\ECEN5863_HW\\HW7_Practical\\Libero\\counter\\hdl\\counter.v":1604585581
-#CUR:"E:\\repos\\ECEN5863_HW\\HW7_Practical\\Libero\\counter\\hdl\\counter_top.v":1604588147
+#CUR:"E:\\repos\\ECEN5863_HW\\HW7_Practical\\Libero\\counter\\hdl\\counter.v":1604667576
+#CUR:"E:\\repos\\ECEN5863_HW\\HW7_Practical\\Libero\\counter\\hdl\\counter_top.v":1604671434
 0			"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter.v" verilog
 1			"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v" verilog
 #Dependency Lists(Uses List)

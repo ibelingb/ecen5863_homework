@@ -1,0 +1,100 @@
+
+E:/repos/ECEN5863_HW/HW8_Practical/lab1_part4/part4.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+/* Program that converts a binary number to decimal */
+
+				.text							// executable code follows
+				.global	_start
+_start:		
+				LDR		R4, =N			
+   0:	e59f4074 	ldr	r4, [pc, #116]	; 7c <Digits+0x8>
+				
+				LDR		R4, [R4]		// R4 holds N
+   4:	e5944000 	ldr	r4, [r4]
+				MOV		R6, R4			// parameter for DIVIDE goes in R6
+   8:	e1a06004 	mov	r6, r4
+				
+				// R9 holds thousands, R8 holds hundreds, Tens digit is now in R7, ones digit is in R6
+				// Isolate each individual bit and store in unique register (R9-R6)
+				// Isolate 1000s digit in R9
+				MOV		R1, #1000
+   c:	e3a01ffa 	mov	r1, #1000	; 0x3e8
+				BL		DIVIDE			// Call divide subroutine
+  10:	eb00000e 	bl	50 <DIVIDE>
+
+				MOV		R9, R7
+  14:	e1a09007 	mov	r9, r7
+				
+				// Isolate 100s digit in R8
+				MOV		R1, #100
+  18:	e3a01064 	mov	r1, #100	; 0x64
+				BL		DIVIDE			// Call divide subroutine
+  1c:	eb00000b 	bl	50 <DIVIDE>
+				MOV		R8, R7
+  20:	e1a08007 	mov	r8, r7
+				
+				// Isolate 10s digit in R7, 1s digit in R6
+				MOV		R1, #10
+  24:	e3a0100a 	mov	r1, #10
+				BL		DIVIDE			// Call divide subroutine
+  28:	eb000008 	bl	50 <DIVIDE>
+
+				// Individual digits held in registers R9 - R6. Shift values accordingly and write to Digits.
+				MOV 	R9, R9, LSL #24
+  2c:	e1a09c09 	lsl	r9, r9, #24
+				MOV 	R8, R8, LSL #16
+  30:	e1a08808 	lsl	r8, r8, #16
+				MOV 	R7, R7, LSL #8
+  34:	e1a07407 	lsl	r7, r7, #8
+				MOV 	R5, #0 // Clear digits storage location to 0
+  38:	e3a05000 	mov	r5, #0
+				ADD		R5, R6
+  3c:	e0855006 	add	r5, r5, r6
+				ADD		R5, R7
+  40:	e0855007 	add	r5, r5, r7
+				ADD		R5, R8
+  44:	e0855008 	add	r5, r5, r8
+				ADD		R5, R9
+  48:	e0855009 	add	r5, r5, r9
+
+0000004c <END>:
+
+END:			B		END
+  4c:	eafffffe 	b	4c <END>
+
+00000050 <DIVIDE>:
+
+/* Subroutine to perform the integer division R6 / R1. 
+ * Returns: quotient in R7, and remainder in R6
+ */
+DIVIDE:			MOV		R2, #0
+  50:	e3a02000 	mov	r2, #0
+
+00000054 <CONT>:
+CONT:			CMP		R6, R1
+  54:	e1560001 	cmp	r6, r1
+				BLT		DIV_END
+  58:	ba000002 	blt	68 <DIV_END>
+				SUB		R6, R1
+  5c:	e0466001 	sub	r6, r6, r1
+				ADD		R2, #1
+  60:	e2822001 	add	r2, r2, #1
+				B		CONT
+  64:	eafffffa 	b	54 <CONT>
+
+00000068 <DIV_END>:
+DIV_END:		MOV		R7, R2		// return quotient in R1 (remainder is in R0)
+  68:	e1a07002 	mov	r7, r2
+				BX		LR
+  6c:	e12fff1e 	bx	lr
+
+00000070 <N>:
+  70:	0000270f 	.word	0x0000270f
+
+00000074 <Digits>:
+	...
+  7c:	00000070 	.word	0x00000070

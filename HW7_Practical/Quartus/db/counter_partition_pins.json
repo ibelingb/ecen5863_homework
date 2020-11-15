@@ -8,11 +8,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
 					"name" : "clock",
 					"strict" : false
 				},
 				{
-					"name" : "reset",
+					"name" : "enable",
 					"strict" : false
 				}
 			]

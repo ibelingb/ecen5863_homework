@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
-Date: Thu Nov 05 08:01:13 2020
+Date: Fri Nov 06 07:07:22 2020
 Design Name: counter_top  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
 
 
@@ -20,20 +20,10 @@ Global Nets Information:
         |-----------------------------------------------------|
         |Name                |Core      |IO        |RAM       |
         |-----------------------------------------------------|
-        |clock_c             |     1207 |        0 |        0 |
+        |clock_c             |      810 |        0 |        0 |
         |-----------------------------------------------------|
-        |reset_c             |     1273 |        0 |        0 |
+        |reset_c             |      795 |        0 |        0 |
         |-----------------------------------------------------|
-
-Nets Sharing Loads:
-
-        |-------------------------------------------|
-        |Global Net          |Shares Loads With ... |
-        |-------------------------------------------|
-        |clock_c             |reset_c               |
-        |-------------------------------------------|
-        |reset_c             |clock_c               |
-        |-------------------------------------------|
 
 Summary of Global Net Placement:
 

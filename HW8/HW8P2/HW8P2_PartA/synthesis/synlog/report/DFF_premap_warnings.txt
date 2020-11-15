@@ -1,0 +1,1 @@
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Found inferred clock DFF_0|clk which controls 2 sequential elements including qbar. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -14,7 +14,7 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>75</data>
+  <data>5</data>
   <report_link name="more"><data>E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\synlog\report\counter_top_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
@@ -29,13 +29,13 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:01s</data>
+  <data>00h:00m:00s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1604588154</data>
+  <data type="timestamp">1604671440</data>
   </info>
 			</job_info>
 </job_run_status>

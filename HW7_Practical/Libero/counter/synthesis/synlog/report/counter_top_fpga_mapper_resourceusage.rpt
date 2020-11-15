@@ -2,42 +2,40 @@ Target Part: A2F200M3F_FBGA484_STD
 Report for cell counter_top.verilog
   Core Cell usage:
               cell count     area count*area
-               AO1     3      1.0        3.0
-              AX1C   147      1.0      147.0
+              AND2   135      1.0      135.0
+              AND3   765      1.0      765.0
+              AO1A    45      1.0       45.0
+             AOI1B    45      1.0       45.0
             CLKINT     1      0.0        0.0
-               GND    72      0.0        0.0
-              NOR2    73      1.0       73.0
-             NOR2A   237      1.0      237.0
-             NOR2B  1248      1.0     1248.0
-             NOR3A     1      1.0        1.0
-             NOR3B    55      1.0       55.0
-             NOR3C   690      1.0      690.0
-               OA1     1      1.0        1.0
-              OA1B     1      1.0        1.0
-               OR2     2      1.0        2.0
-               VCC    72      0.0        0.0
-               XA1     5      1.0        5.0
-              XA1B   911      1.0      911.0
+               GND    46      0.0        0.0
+               MX2   675      1.0      675.0
+              NOR2    30      1.0       30.0
+             NOR2A   750      1.0      750.0
+             NOR2B   510      1.0      510.0
+             NOR3B    90      1.0       90.0
+             NOR3C   255      1.0      255.0
+              OAI1    15      1.0       15.0
+               VCC    46      0.0        0.0
+              XOR2   720      1.0      720.0
 
 
-              DFN1  1120      1.0     1120.0
-            DFN1E0    70      1.0       70.0
-            DFN1E1    17      1.0       17.0
+              DFN1   765      1.0      765.0
+            DFN1E1    45      1.0       45.0
                    -----          ----------
-             TOTAL  4726              4581.0
+             TOTAL  4938              4845.0
 
 
   IO Cell usage:
               cell count
             CLKBUF     1
              INBUF     2
-            OUTBUF    71
+            OUTBUF     1
                    -----
-             TOTAL    74
+             TOTAL     4
 
 
-Core Cells         : 4581 of 4608 (99%)
-IO Cells           : 74
+Core Cells         : 4845 of 4608 (105%)
+IO Cells           : 4
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)

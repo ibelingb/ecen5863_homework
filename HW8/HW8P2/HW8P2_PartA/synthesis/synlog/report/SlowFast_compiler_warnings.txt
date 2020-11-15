@@ -1,0 +1,2 @@
+@W: CL260 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":30:0:30:5|Pruning register bit 0 of temp[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

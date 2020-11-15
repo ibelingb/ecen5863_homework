@@ -33,16 +33,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Thu Nov 05 07:58:58 2020
+Timing-driven Placer Started: Fri Nov 06 07:04:53 2020
 
-Placer Finished: Thu Nov 05 08:00:28 2020
-Total Placer CPU Time:     00:01:30
+Placer Finished: Fri Nov 06 07:06:39 2020
+Total Placer CPU Time:     00:01:46
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: counter_top                     Started: Thu Nov 05 08:00:37 2020
+Design: counter_top                     Started: Fri Nov 06 07:06:47 2020
 
  
 Iterative improvement...
@@ -50,15 +50,15 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: counter_top                     
-Finished: Thu Nov 05 08:01:04 2020
-Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:27
-Total Memory Usage: 221.4 Mbytes
+Finished: Fri Nov 06 07:07:15 2020
+Total CPU Time:     00:00:27            Total Elapsed Time: 00:00:28
+Total Memory Usage: 221.2 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
 Finished loading the Timing data.
 
-The Layout command succeeded ( 00:02:20 )
+The Layout command succeeded ( 00:02:34 )
 Wrote status report to file: counter_top_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )
@@ -80,6 +80,6 @@ The Report command succeeded ( 00:00:00 )
 Design saved to file
 E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\designer\impl1\counter_top.adb.
 
-The Execute Script command succeeded ( 00:02:27 )
+The Execute Script command succeeded ( 00:02:42 )
 Design closed.
 

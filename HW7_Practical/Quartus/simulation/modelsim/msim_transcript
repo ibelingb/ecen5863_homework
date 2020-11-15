@@ -12,40 +12,74 @@
 # 
 # vlog -sv -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus {E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:29:06 on Nov 02,2020
+# Start time: 06:17:11 on Nov 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus" E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v 
 # -- Compiling module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 21:29:06 on Nov 02,2020, Elapsed time: 0:00:00
+# End time: 06:17:11 on Nov 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus {E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:17:11 on Nov 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus" E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v 
+# -- Compiling module counter_top
+# 
+# Top level modules:
+# 	counter_top
+# End time: 06:17:12 on Nov 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.counter
-# vsim work.counter 
-# Start time: 21:29:14 on Nov 02,2020
+vsim work.counter_top
+# vsim work.counter_top 
+# Start time: 06:17:33 on Nov 06,2020
 # Loading sv_std.std
+# Loading work.counter_top
 # Loading work.counter
-add wave -position end  sim:/counter/clk
-add wave -position end  sim:/counter/reset
-add wave -position end  sim:/counter/en
-add wave -position end  sim:/counter/TC
-add wave -position end  sim:/counter/q
+add wave -position end  sim:/counter_top/N
+add wave -position end  sim:/counter_top/clock
+add wave -position end  sim:/counter_top/reset
+add wave -position end  sim:/counter_top/enable
+add wave -position end  sim:/counter_top/TCout
+add wave -position end  sim:/counter_top/TC
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: brian  Hostname: BPC  ProcessID: 1960
-#           Attempting to use alternate WLF file "./wlft43yxkd".
+#           Attempting to use alternate WLF file "./wlftzrxsmn".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft43yxkd
-force -freeze sim:/counter/clk 1 0, 0 {10 ps} -r 20
-force -freeze sim:/counter/en 1 0
+#           Using alternate file: ./wlftzrxsmn
+force -freeze sim:/counter_top/clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/counter_top/enable 1 0
 run
 run
 run
+vsim work.counter_top
+# End time: 06:21:39 on Nov 06,2020, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 2
+# vsim work.counter_top 
+# Start time: 06:21:39 on Nov 06,2020
+# Loading sv_std.std
+# Loading work.counter_top
+# Loading work.counter
+add wave -position end  sim:/counter_top/N
+add wave -position end  sim:/counter_top/clock
+add wave -position end  sim:/counter_top/reset
+add wave -position end  sim:/counter_top/enable
+add wave -position end  sim:/counter_top/TCout
+add wave -position end  sim:/counter_top/TC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: brian  Hostname: BPC  ProcessID: 1960
+#           Attempting to use alternate WLF file "./wlftv9bktx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftv9bktx
+force -freeze sim:/counter_top/clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/counter_top/enable 1 0 -cancel 100
 run
 run
+force -freeze sim:/counter_top/enable 0 0
 run
-force -freeze sim:/counter/reset 1 0
+run -continue
 run
 run
-# End time: 21:30:17 on Nov 02,2020, Elapsed time: 0:01:03
+# End time: 06:24:00 on Nov 06,2020, Elapsed time: 0:02:21
 # Errors: 0, Warnings: 2

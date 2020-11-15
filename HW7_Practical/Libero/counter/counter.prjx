@@ -67,58 +67,63 @@ TIME="1604236784"
 SIZE="2548"
 ENDFILE
 VALUE "<project>\designer\impl1\counter_top.adb,adb"
-STATE="ood"
-TIME="1604585685"
-SIZE="251392"
+STATE="utd"
+TIME="1604588475"
+SIZE="2814976"
 ENDFILE
 VALUE "<project>\designer\impl1\counter_top.ide_des,ide_des"
 STATE="utd"
-TIME="1604285609"
-SIZE="212"
+TIME="1604588476"
+SIZE="1005"
 ENDFILE
 VALUE "<project>\designer\impl1\counter_top_compile_log.rpt,log"
 STATE="utd"
-TIME="1604585686"
-SIZE="9768"
+TIME="1604588328"
+SIZE="9621"
 ENDFILE
 VALUE "<project>\designer\impl1\counter_top_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1604588477"
+TIME="1604671646"
 SIZE="2588"
+ENDFILE
+VALUE "<project>\designer\impl1\counter_top_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1604671756"
+SIZE="1199"
 ENDFILE
 VALUE "<project>\hdl\counter.v,hdl"
 STATE="utd"
-TIME="1604585581"
-SIZE="502"
+TIME="1604667576"
+SIZE="834"
 ENDFILE
 VALUE "<project>\hdl\counter_top.v,hdl"
 STATE="utd"
-TIME="1604588582"
-SIZE="916"
+TIME="1604671434"
+SIZE="470"
 ENDFILE
 VALUE "<project>\synthesis\counter_top.edn,syn_edn"
-STATE="ood"
-TIME="1604585631"
-SIZE="233451"
+STATE="utd"
+TIME="1604588305"
+SIZE="1634488"
 ENDFILE
 VALUE "<project>\synthesis\counter_top.so,so"
 STATE="utd"
-TIME="1604585631"
+TIME="1604588305"
 SIZE="241"
 ENDFILE
 VALUE "<project>\synthesis\counter_top_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1604585631"
+STATE="utd"
+TIME="1604588305"
 SIZE="404"
 ENDFILE
 VALUE "<project>\synthesis\counter_top_syn.prj,prj"
 STATE="utd"
-TIME="1604287186"
-SIZE="699"
+TIME="1604588306"
+SIZE="1832"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1604287187"
+TIME="1604586536"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\test_syn.prj,prj"
@@ -130,6 +135,27 @@ ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "counter_top::work"
+FILE "<project>\hdl\counter_top.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\counter_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\counter_top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\counter_top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\counter_top_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -234,6 +260,20 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "counter_top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\counter_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\counter_top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -248,11 +288,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:counter_top_place_and_route_report.txt
+ReportsCurrentItem;Verify Timing:counter_top_maxdelay_timing_report.txt
 HDL;hdl\counter_top.v;0
 HDL;hdl\counter.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\counter_top.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "counter::work","hdl\counter.v","FALSE","FALSE"

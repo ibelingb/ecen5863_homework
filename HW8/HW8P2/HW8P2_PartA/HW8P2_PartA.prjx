@@ -1,0 +1,272 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "SlowFast::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\counter.ide_des,ide_des"
+STATE="utd"
+TIME="1605399487"
+SIZE="201"
+ENDFILE
+VALUE "<project>\designer\impl1\DFF_1.ide_des,ide_des"
+STATE="utd"
+TIME="1605399194"
+SIZE="199"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
+STATE="utd"
+TIME="1605399501"
+SIZE="202"
+ENDFILE
+VALUE "<project>\hdl\DFF.v,hdl"
+STATE="utd"
+TIME="1605399179"
+SIZE="973"
+ENDFILE
+VALUE "<project>\hdl\SlowFast.v,hdl"
+STATE="utd"
+TIME="1605399594"
+SIZE="1104"
+ENDFILE
+VALUE "<project>\synthesis\counter.edn,syn_edn"
+STATE="utd"
+TIME="1605399495"
+SIZE="37231"
+ENDFILE
+VALUE "<project>\synthesis\counter.so,so"
+STATE="utd"
+TIME="1605399495"
+SIZE="226"
+ENDFILE
+VALUE "<project>\synthesis\counter_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1605399495"
+SIZE="396"
+ENDFILE
+VALUE "<project>\synthesis\counter_syn.prj,prj"
+STATE="utd"
+TIME="1605399495"
+SIZE="1718"
+ENDFILE
+VALUE "<project>\synthesis\DFF.edn,syn_edn"
+STATE="utd"
+TIME="1605399263"
+SIZE="6910"
+ENDFILE
+VALUE "<project>\synthesis\DFF.so,so"
+STATE="utd"
+TIME="1605399263"
+SIZE="220"
+ENDFILE
+VALUE "<project>\synthesis\DFF_syn.prj,prj"
+STATE="utd"
+TIME="1605399263"
+SIZE="1701"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
+STATE="ood"
+TIME="1605399585"
+SIZE="3796"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.so,so"
+STATE="utd"
+TIME="1605399585"
+SIZE="228"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1605399585"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
+STATE="utd"
+TIME="1605399503"
+SIZE="627"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1605399504"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole2"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="E:\Program Files (x86)\Microsemi\SoftConsole v3.4\Eclipse\eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="E:\Microsemi\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="E:\Microsemi\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="E:\Microsemi\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:synplify.log
+HDL;hdl\SlowFast.v;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl\SlowFast.v
+ENDLIST
+LIST ModuleSubBlockList
+LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
+ENDLIST
+LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
+SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

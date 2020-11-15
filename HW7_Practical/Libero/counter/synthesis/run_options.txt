@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
 #--  Project file E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\synthesis\run_options.txt
-#--  Written on Thu Nov 05 07:55:53 2020
+#--  Written on Fri Nov 06 07:04:00 2020
 
 
 #project files

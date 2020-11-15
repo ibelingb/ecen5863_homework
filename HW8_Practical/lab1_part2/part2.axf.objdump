@@ -1,0 +1,50 @@
+
+E:/repos/ECEN5863_HW/HW8_Practical/lab1_part2/part2.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+/* Program that finds the largest number in a list of integers	    */
+
+				.text							// executable code follows
+				.global	_start
+_start:		
+				LDR		R4, =RESULT		// R4 <- pointer to result location
+   0:	e59f4030 	ldr	r4, [pc, #48]	; 38 <END+0x4>
+				LDR		R5, [R4, #4]	// R5 <- number of elements in the list
+   4:	e5945004 	ldr	r5, [r4, #4]
+				ADD		R6, R4, #8		// R6 points to the first number
+   8:	e2846008 	add	r6, r4, #8
+				LDR		R7, [R6]			// R7 holds the largest number so far
+   c:	e5967000 	ldr	r7, [r6]
+
+00000010 <LOOP>:
+
+LOOP:			SUBS		R5, R5, #1		// decrement the loop counter
+  10:	e2555001 	subs	r5, r5, #1
+				BEQ		DONE
+  14:	0a000005 	beq	30 <DONE>
+				ADD		R6, R6, #4
+  18:	e2866004 	add	r6, r6, #4
+				LDR		R8, [R6]			// get the next number
+  1c:	e5968000 	ldr	r8, [r6]
+				CMP		R7, R8			// check if larger number found
+  20:	e1570008 	cmp	r7, r8
+				BGE		LOOP
+  24:	aafffff9 	bge	10 <LOOP>
+				MOV		R7, R8			// update the largest number
+  28:	e1a07008 	mov	r7, r8
+				B			LOOP
+  2c:	eafffff7 	b	10 <LOOP>
+
+00000030 <DONE>:
+
+DONE:			STR		R7, [R4]			// store largest number into result location
+  30:	e5847000 	str	r7, [r4]
+
+00000034 <END>:
+
+END:			B			END
+  34:	eafffffe 	b	34 <END>
+  38:	00000050 	.word	0x00000050

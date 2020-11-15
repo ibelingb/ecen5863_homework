@@ -1,2 +1,2 @@
-@W: CG134 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter_top.v":9:13:9:25|No assignment to bit 0 of counterEnable
+@W: CG532 :"E:\repos\ECEN5863_HW\HW7_Practical\Libero\counter\hdl\counter.v":10:0:10:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
 

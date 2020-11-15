@@ -1,0 +1,28 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "CDC3FF")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "CDC3FF")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT asyncDFF/qbar/CLK  asyncDFF/qbar/Q  asyncDFF/q_3_i_0/A  asyncDFF/q_3_i_0/Y  asyncDFF/q_RNO/A  asyncDFF/q_RNO/Y  asyncDFF/q/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT syncDFF_2/q/CLK  syncDFF_2/q/Q  syncDFF_3/q_3_i/A  syncDFF_3/q_3_i/Y  syncDFF_3/q/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT syncDFF_1/q/CLK  syncDFF_1/q/Q  syncDFF_2/q_3_i/A  syncDFF_2/q_3_i/Y  syncDFF_2/q/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT asyncDFF/qbar/CLK  asyncDFF/qbar/Q  asyncDFF/q_3_i_0/A  asyncDFF/q_3_i_0/Y  asyncDFF/qbar/D  	(9.5:9.5:9.5) )
+
+  )
+)
+)

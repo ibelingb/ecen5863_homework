@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Thu Nov 05 08:01:15 2020 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Fri Nov 06 07:07:24 2020 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
@@ -14,17 +14,17 @@ A1              GND                           Reserved
 A2              Not Bonded                    Unconnected
 A3              Not Bonded                    Unconnected
 A4              GND                           Reserved
-A5      TC[0]   EMC_CS0_N/GAB0/IO01NDB0V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-A6      TC[27]  EMC_CS1_N/GAB1/IO01PDB0V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+A5      TCout   EMC_CS0_N/GAB0/IO01NDB0V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+A6              EMC_CS1_N/GAB1/IO01PDB0V0     Special
 A7              GND                           Reserved
-A8      TC[34]  EMC_AB[0]/IO04NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-A9      TC[48]  EMC_AB[1]/IO04PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+A8              EMC_AB[0]/IO04NDB0V0          Unassigned
+A9              EMC_AB[1]/IO04PDB0V0          Unassigned
 A10             GND                           Reserved
 A11             Not Bonded                    Unconnected
-A12     TC[49]  EMC_AB[7]/IO07PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+A12             EMC_AB[7]/IO07PDB0V0          Unassigned
 A13             GND                           Reserved
-A14     TC[14]  EMC_AB[12]/IO10NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-A15     TC[37]  EMC_AB[13]/IO10PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+A14             EMC_AB[12]/IO10NDB0V0         Unassigned
+A15             EMC_AB[13]/IO10PDB0V0         Unassigned
 A16             GND                           Reserved
 A17             Not Bonded                    Unconnected
 A18             Not Bonded                    Unconnected
@@ -84,17 +84,17 @@ B5              VCCFPGAIOB0                   Reserved
 B6              EMC_RW_N/GAA1/IO00PDB0V0      Special
 B7              Not Bonded                    Unconnected
 B8              VCCFPGAIOB0                   Reserved
-B9      TC[30]  EMC_BYTEN[0]/GAC0/IO02NDB0V0  Special      LVTTL    12                 High  None           ---              No    35                No           No
-B10     TC[45]  EMC_AB[2]/IO05NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-B11     TC[50]  EMC_AB[3]/IO05PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-B12     TC[39]  EMC_AB[6]/IO07NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-B13     TC[40]  EMC_AB[14]/IO11NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-B14     TC[16]  EMC_AB[15]/IO11PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+B9              EMC_BYTEN[0]/GAC0/IO02NDB0V0  Special
+B10             EMC_AB[2]/IO05NDB0V0          Unassigned
+B11             EMC_AB[3]/IO05PDB0V0          Unassigned
+B12             EMC_AB[6]/IO07NDB0V0          Unassigned
+B13             EMC_AB[14]/IO11NDB0V0         Unassigned
+B14             EMC_AB[15]/IO11PDB0V0         Unassigned
 B15             VCCFPGAIOB0                   Reserved
-B16     TC[11]  EMC_AB[18]/IO13NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-B17     TC[54]  EMC_AB[19]/IO13PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+B16             EMC_AB[18]/IO13NDB0V0         Unassigned
+B17             EMC_AB[19]/IO13PDB0V0         Unassigned
 B18             VCCFPGAIOB0                   Reserved
-B19     TC[65]  GBB0/IO18NDB0V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+B19             GBB0/IO18NDB0V0               Special
 B20             GBB1/IO18PDB0V0               Special
 B21             GND                           Reserved
 B22             GBA2/IO20PDB1V0               Special
@@ -103,19 +103,19 @@ C2              Not Bonded                    Unconnected
 C3              Not Bonded                    Unconnected
 C4              Not Bonded                    Unconnected
 C5              Not Bonded                    Unconnected
-C6      TC[28]  EMC_CLK/GAA0/IO00NDB0V0       Special      LVTTL    12                 High  None           ---              No    35                No           No
+C6              EMC_CLK/GAA0/IO00NDB0V0       Special
 C7              Not Bonded                    Unconnected
 C8              Not Bonded                    Unconnected
-C9      enable  EMC_BYTEN[1]/GAC1/IO02PDB0V0  Special      LVTTL    ---                ---   None           No               ---   ---               No           No
-C10     TC[51]  EMC_OEN1_N/IO03PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+C9              EMC_BYTEN[1]/GAC1/IO02PDB0V0  Special
+C10             EMC_OEN1_N/IO03PDB0V0         Unassigned
 C11             GND                           Reserved
 C12             VCCFPGAIOB0                   Reserved
-C13     TC[19]  EMC_AB[8]/IO08NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-C14     TC[22]  EMC_AB[16]/IO12NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-C15     TC[12]  EMC_AB[17]/IO12PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-C16     TC[13]  EMC_AB[24]/IO16NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-C17     TC[61]  EMC_AB[22]/IO15NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-C18     TC[15]  EMC_AB[23]/IO15PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+C13             EMC_AB[8]/IO08NDB0V0          Unassigned
+C14             EMC_AB[16]/IO12NDB0V0         Unassigned
+C15             EMC_AB[17]/IO12PDB0V0         Unassigned
+C16             EMC_AB[24]/IO16NDB0V0         Unassigned
+C17             EMC_AB[22]/IO15NDB0V0         Unassigned
+C18             EMC_AB[23]/IO15PDB0V0         Unassigned
 C19             GBA0/IO19NPB0V0               Special
 C20             Not Bonded                    Unconnected
 C21             GBC2/IO21PDB1V0               Special
@@ -129,13 +129,13 @@ D6              GND                           Reserved
 D7              Not Bonded                    Unconnected
 D8              Not Bonded                    Unconnected
 D9              GND                           Reserved
-D10     TC[52]  EMC_OEN0_N/IO03NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-D11     TC[53]  EMC_AB[10]/IO09NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-D12     TC[2]   EMC_AB[11]/IO09PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-D13     TC[55]  EMC_AB[9]/IO08PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+D10             EMC_OEN0_N/IO03NDB0V0         Unassigned
+D11             EMC_AB[10]/IO09NDB0V0         Unassigned
+D12             EMC_AB[11]/IO09PDB0V0         Unassigned
+D13             EMC_AB[9]/IO08PDB0V0          Unassigned
 D14             GND                           Reserved
-D15     TC[67]  GBC1/IO17PPB0V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-D16     TC[9]   EMC_AB[25]/IO16PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+D15             GBC1/IO17PPB0V0               Special
+D16             EMC_AB[25]/IO16PDB0V0         Unassigned
 D17             GND                           Reserved
 D18             GBA1/IO19PPB0V0               Special
 D19             Not Bonded                    Unconnected
@@ -152,10 +152,10 @@ E7              VCCFPGAIOB0                   Reserved
 E8              Not Bonded                    Unconnected
 E9              Not Bonded                    Unconnected
 E10             VCCFPGAIOB0                   Reserved
-E11     TC[1]   EMC_AB[4]/IO06NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-E12     TC[44]  EMC_AB[5]/IO06PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+E11             EMC_AB[4]/IO06NDB0V0          Unassigned
+E12             EMC_AB[5]/IO06PDB0V0          Unassigned
 E13             VCCFPGAIOB0                   Reserved
-E14     TC[63]  GBC0/IO17NPB0V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+E14             GBC0/IO17NPB0V0               Special
 E15             Not Bonded                    Unconnected
 E16             VCCFPGAIOB0                   Reserved
 E17             Not Bonded                    Unconnected
@@ -164,9 +164,9 @@ E19             GND                           Reserved
 E20             Not Bonded                    Unconnected
 E21             VCCFPGAIOB1                   Reserved
 E22             IO22NDB1V0                    Unassigned
-F1      TC[31]  GFB1/IO65PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-F2      TC[25]  IO67NPB5V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-F3      TC[35]  GFB2/IO68NDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+F1              GFB1/IO65PPB5V0               Special
+F2              IO67NPB5V0                    Unassigned
+F3              GFB2/IO68NDB5V0               Special
 F4              EMC_DB[10]/IO69NPB5V0         Unassigned
 F5              VCCFPGAIOB5                   Reserved
 F6              VCCPLL                        Reserved
@@ -176,20 +176,20 @@ F9              Not Bonded                    Unconnected
 F10             Not Bonded                    Unconnected
 F11             Not Bonded                    Unconnected
 F12             Not Bonded                    Unconnected
-F13     TC[68]  EMC_AB[20]/IO14NDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-F14     TC[58]  EMC_AB[21]/IO14PDB0V0         Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+F13             EMC_AB[20]/IO14NDB0V0         Unassigned
+F14             EMC_AB[21]/IO14PDB0V0         Unassigned
 F15             GNDQ                          Reserved
 F16             Not Bonded                    Unconnected
 F17             Not Bonded                    Unconnected
 F18             VCCFPGAIOB1                   Reserved
-F19     TC[64]  IO23NDB1V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+F19             IO23NDB1V0                    Unassigned
 F20             Not Bonded                    Unconnected
 F21             Not Bonded                    Unconnected
 F22             IO22PDB1V0                    Unassigned
 G1              GND                           Reserved
-G2      TC[41]  GFB0/IO65NPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-G3      TC[17]  EMC_DB[9]/GEC1/IO63PDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-G4      TC[32]  GFC1/IO66PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+G2              GFB0/IO65NPB5V0               Special
+G3              EMC_DB[9]/GEC1/IO63PDB5V0     Special
+G4              GFC1/IO66PPB5V0               Special
 G5              EMC_DB[11]/IO69PPB5V0         Unassigned
 G6              GNDQ                          Reserved
 G7              Not Bonded                    Unconnected
@@ -205,15 +205,15 @@ G16             GNDQ                          Reserved
 G17             Not Bonded                    Unconnected
 G18             Not Bonded                    Unconnected
 G19             GCA2/IO23PDB1V0               Special
-G20     TC[60]  IO24NDB1V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+G20             IO24NDB1V0                    Unassigned
 G21             GCB2/IO24PDB1V0               Special
 G22             GND                           Reserved
-H1      TC[29]  EMC_DB[7]/GEB1/IO62PDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+H1              EMC_DB[7]/GEB1/IO62PDB5V0     Special
 H2              VCCFPGAIOB5                   Reserved
-H3      TC[36]  EMC_DB[8]/GEC0/IO63NDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+H3              EMC_DB[8]/GEC0/IO63NDB5V0     Special
 H4              GND                           Reserved
-H5      TC[26]  GFC0/IO66NPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-H6      TC[18]  GFA1/IO64PDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H5      enable  GFC0/IO66NPB5V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+H6              GFA1/IO64PDB5V0               Special
 H7              GND                           Reserved
 H8              VCC                           Reserved
 H9              GND                           Reserved
@@ -224,18 +224,18 @@ H13             GND                           Reserved
 H14             VCC                           Reserved
 H15             GND                           Reserved
 H16             VCCFPGAIOB1                   Reserved
-H17     TC[5]   IO25NDB1V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
-H18     TC[10]  GCC2/IO25PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H17             IO25NDB1V0                    Unassigned
+H18             GCC2/IO25PDB1V0               Special
 H19             GND                           Reserved
-H20     TC[66]  GCC0/IO26NPB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H20             GCC0/IO26NPB1V0               Special
 H21             VCCFPGAIOB1                   Reserved
 H22     clock   GCB0/IO27NDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
-J1      TC[47]  EMC_DB[6]/GEB0/IO62NDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-J2      TC[38]  EMC_DB[5]/GEA1/IO61PDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-J3      TC[23]  EMC_DB[4]/GEA0/IO61NDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-J4      TC[33]  EMC_DB[3]/GEC2/IO60PPB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+J1              EMC_DB[6]/GEB0/IO62NDB5V0     Special
+J2              EMC_DB[5]/GEA1/IO61PDB5V0     Special
+J3              EMC_DB[4]/GEA0/IO61NDB5V0     Special
+J4              EMC_DB[3]/GEC2/IO60PPB5V0     Special
 J5              VCCFPGAIOB5                   Reserved
-J6      TC[24]  GFA0/IO64NDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J6              GFA0/IO64NDB5V0               Special
 J7              VCCFPGAIOB5                   Reserved
 J8              GND                           Reserved
 J9              VCC                           Reserved
@@ -248,15 +248,15 @@ J15             VCC                           Reserved
 J16             GND                           Reserved
 J17             Not Bonded                    Unconnected
 J18             VCCFPGAIOB1                   Reserved
-J19     TC[69]  GCA0/IO28NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-J20     TC[21]  GCA1/IO28PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J19             GCA0/IO28NDB1V0               Special
+J20             GCA1/IO28PDB1V0               Special
 J21     reset   GCC1/IO26PPB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
-J22     TC[59]  GCB1/IO27PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J22             GCB1/IO27PDB1V0               Special
 K1              GND                           Reserved
-K2      TC[46]  EMC_DB[0]/GEA2/IO59NDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
-K3      TC[4]   EMC_DB[1]/GEB2/IO59PDB5V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+K2              EMC_DB[0]/GEA2/IO59NDB5V0     Special
+K3              EMC_DB[1]/GEB2/IO59PDB5V0     Special
 K4              Not Bonded                    Unconnected
-K5      TC[20]  EMC_DB[2]/IO60NPB5V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+K5              EMC_DB[2]/IO60NPB5V0          Unassigned
 K6              Not Bonded                    Unconnected
 K7              GND                           Reserved
 K8              VCC                           Reserved
@@ -269,10 +269,10 @@ K14             VCC                           Reserved
 K15             GND                           Reserved
 K16             VCCFPGAIOB1                   Reserved
 K17             Not Bonded                    Unconnected
-K18     TC[62]  GDA1/IO31PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-K19     TC[7]   GDA0/IO31NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-K20     TC[70]  GDC1/IO29PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-K21     TC[57]  GDC0/IO29NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K18             GDA1/IO31PDB1V0               Special
+K19             GDA0/IO31NDB1V0               Special
+K20             GDC1/IO29PDB1V0               Special
+K21             GDC0/IO29NDB1V0               Special
 K22             GND                           Reserved
 L1              Not Bonded                    Unconnected
 L2              Not Bonded                    Unconnected
@@ -291,11 +291,11 @@ L14             GND                           Reserved
 L15             VCC                           Reserved
 L16             GND                           Reserved
 L17             GNDQ                          Reserved
-L18     TC[42]  GDA2/IO33NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+L18             GDA2/IO33NDB1V0               Special
 L19             VCCFPGAIOB1                   Reserved
-L20     TC[3]   GDB1/IO30PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-L21     TC[43]  GDB0/IO30NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-L22     TC[8]   GDC2/IO32PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+L20             GDB1/IO30PDB1V0               Special
+L21             GDB0/IO30NDB1V0               Special
+L22             GDC2/IO32PDB1V0               Special
 M1              Not Bonded                    Unconnected
 M2              Not Bonded                    Unconnected
 M3              VCCFPGAIOB5                   Reserved
@@ -313,11 +313,11 @@ M14             VCC                           Reserved
 M15             GND                           Reserved
 M16             VCCFPGAIOB1                   Reserved
 M17             Not Bonded                    Unconnected
-M18     TC[6]   GDB2/IO33PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+M18             GDB2/IO33PDB1V0               Special
 M19             VJTAG                         Reserved
 M20             GND                           Reserved
 M21             VPP                           Reserved
-M22     TC[56]  IO32NDB1V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+M22             IO32NDB1V0                    Unassigned
 N1              GND                           Reserved
 N2              Not Bonded                    Unconnected
 N3              Not Bonded                    Unconnected

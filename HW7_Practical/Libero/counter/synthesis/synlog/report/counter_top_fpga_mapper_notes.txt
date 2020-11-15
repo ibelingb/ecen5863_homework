@@ -1,7 +1,7 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO231 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found counter in view:work.counter_70(verilog) instance temp[15:0] 
-@N: MO231 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":11:0:11:5|Found counter in view:work.counter(verilog) instance temp[15:0] 
+@N: MF238 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":37:6:37:15|Found 16-bit incrementor, 'un6_q[15:0]'
+@N: MF238 :"e:\repos\ecen5863_hw\hw7_practical\libero\counter\hdl\counter.v":37:6:37:15|Found 16-bit incrementor, 'un6_q[15:0]'
 @N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
 @N: FP130 |Promoting Net reset_c on CLKINT  I_1 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.

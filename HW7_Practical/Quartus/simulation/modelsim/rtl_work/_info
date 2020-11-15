@@ -9,27 +9,52 @@ z2
 cModel Technology
 Z0 dE:/repos/ECEN5863_HW/HW7_Practical/Quartus/simulation/modelsim
 vcounter
-DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1604377746
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1604668631
 !i10b 1
-!s100 aA^CdQ2bTbBIWY7<5WUgF2
-IEP0jdgC[W]FSkWAzhCj]A3
-VDg1SIo80bB@j0V0VzS_@n1
+!s100 k]^`ozDXoj8P?=5X_YV^`1
+I@8`A?]cM=J^_N6noGEcW20
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 counter_v_unit
 S1
 R0
-w1604377681
+w1604667576
 8E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v
 FE:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v
 L0 1
-OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1604377746.000000
+Z4 !s108 1604668631.000000
 !s107 E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus|E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter.v|
 !i113 1
-o-sv -work work
-!s92 -sv -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus
-tCvgOpt 0
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus
+Z7 tCvgOpt 0
+vcounter_top
+R1
+!s110 1604668632
+!i10b 1
+!s100 :MeSbgAYXIJ9aU3[c62hz3
+IzjmT0ABed9KjK7<[n;FdB1
+R2
+!s105 counter_top_v_unit
+S1
+R0
+w1604668588
+8E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v
+FE:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/repos/ECEN5863_HW/HW7_Practical/Quartus|E:/repos/ECEN5863_HW/HW7_Practical/Quartus/counter_top.v|
+!i113 1
+R5
+R6
+R7

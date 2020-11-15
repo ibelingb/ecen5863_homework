@@ -1,0 +1,16 @@
+*****************************************************************
+Pin Report - Date: Sat Nov 14 16:26:06 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: CDC3FF
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port  |Pin |Fixed |Function             |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------|----|------|---------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+Aclk   H20  No     GCC0/IO26NPB1V0       LVTTL    ---                ---   None           No               ---   ---               No           No
+Bclk   H22  No     GCB0/IO27NDB1V0       LVTTL    ---                ---   None           No               ---   ---               No           No
+Dout   A8   No     EMC_AB[0]/IO04NDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+reset  B10  No     EMC_AB[2]/IO05NDB0V0  LVTTL    ---                ---   None           No               ---   ---               No           No

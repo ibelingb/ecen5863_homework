@@ -6,1415 +6,1087 @@ Report for cell counter_top.verilog
                              CLKINT         1       0.0        0.0
                                 GND         1       0.0        0.0
                               INBUF         2       0.0        0.0
-                             OUTBUF        71       0.0        0.0
+                             OUTBUF         1       0.0        0.0
                                 VCC         1       0.0        0.0
-                         counter_69         1      61.0       61.0
-                       counter_69_0         1      66.0       66.0
-                       counter_69_1         1      66.0       66.0
-                      counter_69_10         1      61.0       61.0
-                      counter_69_11         1      61.0       61.0
-                      counter_69_12         1      61.0       61.0
-                      counter_69_13         1      61.0       61.0
-                      counter_69_14         1      66.0       66.0
-                      counter_69_15         1      61.0       61.0
-                      counter_69_16         1      66.0       66.0
-                      counter_69_17         1      61.0       61.0
-                      counter_69_18         1      61.0       61.0
-                      counter_69_19         1      61.0       61.0
-                       counter_69_2         1      66.0       66.0
-                      counter_69_20         1      66.0       66.0
-                      counter_69_21         1      66.0       66.0
-                      counter_69_22         1      66.0       66.0
-                      counter_69_23         1      66.0       66.0
-                      counter_69_24         1      66.0       66.0
-                      counter_69_25         1      66.0       66.0
-                      counter_69_26         1      66.0       66.0
-                      counter_69_27         1      66.0       66.0
-                      counter_69_28         1      66.0       66.0
-                      counter_69_29         1      61.0       61.0
-                       counter_69_3         1      61.0       61.0
-                      counter_69_30         1      66.0       66.0
-                      counter_69_31         1      61.0       61.0
-                      counter_69_32         1      66.0       66.0
-                      counter_69_33         1      66.0       66.0
-                      counter_69_34         1      66.0       66.0
-                      counter_69_35         1      61.0       61.0
-                      counter_69_36         1      66.0       66.0
-                      counter_69_37         1      66.0       66.0
-                      counter_69_38         1      66.0       66.0
-                      counter_69_39         1      66.0       66.0
-                       counter_69_4         1      66.0       66.0
-                      counter_69_40         1      66.0       66.0
-                      counter_69_41         1      66.0       66.0
-                      counter_69_42         1      66.0       66.0
-                      counter_69_43         1      66.0       66.0
-                      counter_69_44         1      66.0       66.0
-                      counter_69_45         1      66.0       66.0
-                      counter_69_46         1      66.0       66.0
-                      counter_69_47         1      66.0       66.0
-                      counter_69_48         1      67.0       67.0
-                      counter_69_49         1      82.0       82.0
-                       counter_69_5         1      61.0       61.0
-                      counter_69_50         1      63.0       63.0
-                      counter_69_51         1      67.0       67.0
-                      counter_69_52         1      62.0       62.0
-                      counter_69_53         1      62.0       62.0
-                      counter_69_54         1      67.0       67.0
-                      counter_69_55         1      62.0       62.0
-                      counter_69_56         1      61.0       61.0
-                      counter_69_57         1      61.0       61.0
-                      counter_69_58         1      61.0       61.0
-                      counter_69_59         1      61.0       61.0
-                       counter_69_6         1      66.0       66.0
-                      counter_69_60         1      63.0       63.0
-                      counter_69_61         1      61.0       61.0
-                      counter_69_62         1      61.0       61.0
-                      counter_69_63         1      62.0       62.0
-                      counter_69_64         1      62.0       62.0
-                      counter_69_65         1      67.0       67.0
-                      counter_69_66         1      61.0       61.0
-                      counter_69_67         1      62.0       62.0
-                      counter_69_68         1      61.0       61.0
-                       counter_69_7         1      66.0       66.0
-                       counter_69_8         1      66.0       66.0
-                       counter_69_9         1      66.0       66.0
-                         counter_70         1      81.0       81.0
+                         counter_44         1     105.0      105.0
+                       counter_44_0         1     109.0      109.0
+                       counter_44_1         1     105.0      105.0
+                      counter_44_10         1     105.0      105.0
+                      counter_44_11         1     109.0      109.0
+                      counter_44_12         1     109.0      109.0
+                      counter_44_13         1     105.0      105.0
+                      counter_44_14         1     109.0      109.0
+                      counter_44_15         1     105.0      105.0
+                      counter_44_16         1     109.0      109.0
+                      counter_44_17         1     109.0      109.0
+                      counter_44_18         1     105.0      105.0
+                      counter_44_19         1     109.0      109.0
+                       counter_44_2         1     109.0      109.0
+                      counter_44_20         1     109.0      109.0
+                      counter_44_21         1     109.0      109.0
+                      counter_44_22         1     109.0      109.0
+                      counter_44_23         1     105.0      105.0
+                      counter_44_24         1     109.0      109.0
+                      counter_44_25         1     109.0      109.0
+                      counter_44_26         1     109.0      109.0
+                      counter_44_27         1     105.0      105.0
+                      counter_44_28         1     105.0      105.0
+                      counter_44_29         1     105.0      105.0
+                       counter_44_3         1     109.0      109.0
+                      counter_44_30         1     109.0      109.0
+                      counter_44_31         1     105.0      105.0
+                      counter_44_32         1     109.0      109.0
+                      counter_44_33         1     109.0      109.0
+                      counter_44_34         1     109.0      109.0
+                      counter_44_35         1     105.0      105.0
+                      counter_44_36         1     109.0      109.0
+                      counter_44_37         1     105.0      105.0
+                      counter_44_38         1     109.0      109.0
+                      counter_44_39         1     109.0      109.0
+                       counter_44_4         1     109.0      109.0
+                      counter_44_40         1     109.0      109.0
+                      counter_44_41         1     109.0      109.0
+                      counter_44_42         1     109.0      109.0
+                      counter_44_43         1     105.0      105.0
+                       counter_44_5         1     109.0      109.0
+                       counter_44_6         1     109.0      109.0
+                       counter_44_7         1     109.0      109.0
+                       counter_44_8         1     105.0      105.0
+                       counter_44_9         1     109.0      109.0
                             
-                         TOTAL            148               4581.0
+                         TOTAL             52               4845.0
 ----------------------------------------------------------------------
-Report for cell counter_69_68.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[70].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_67.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[30].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_66.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[36].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_65.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[29].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        22       1.0       22.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             69                 67.0
-----------------------------------------------------------------------
-Report for cell counter_69_64.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[66].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_63.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[69].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_62.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[68].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_61.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[67].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_60.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[31].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         3       1.0        3.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         4       1.0        4.0
-                              NOR2B        15       1.0       15.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        12       1.0       12.0
-                            
-                         TOTAL             65                 63.0
-----------------------------------------------------------------------
-Report for cell counter_69_59.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[37].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_58.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[61].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_57.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[10].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_56.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[51].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        18       1.0       18.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         7       1.0        7.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_55.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[62].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_54.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[54].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         5       1.0        5.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         7       1.0        7.0
-                              NOR2B         8       1.0        8.0
-                              NOR3C        19       1.0       19.0
-                                VCC         1       0.0        0.0
-                               XA1B        10       1.0       10.0
-                            
-                         TOTAL             69                 67.0
-----------------------------------------------------------------------
-Report for cell counter_69_53.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[46].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_52.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[23].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        14       1.0       14.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             64                 62.0
-----------------------------------------------------------------------
-Report for cell counter_69_51.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[38].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         5       1.0        5.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         7       1.0        7.0
-                              NOR2B         8       1.0        8.0
-                              NOR3C        19       1.0       19.0
-                                VCC         1       0.0        0.0
-                               XA1B        10       1.0       10.0
-                            
-                         TOTAL             69                 67.0
-----------------------------------------------------------------------
-Report for cell counter_69_50.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[52].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         3       1.0        3.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         4       1.0        4.0
-                              NOR2B        15       1.0       15.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        12       1.0       12.0
-                            
-                         TOTAL             65                 63.0
-----------------------------------------------------------------------
-Report for cell counter_69_49.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[33].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                                AO1         2       1.0        2.0
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         2       1.0        2.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         3       1.0        3.0
-                              NOR3C        20       1.0       20.0
-                               OA1B         1       1.0        1.0
-                                VCC         1       0.0        0.0
-                               XA1B        13       1.0       13.0
-                            
-                         TOTAL             84                 82.0
-----------------------------------------------------------------------
-Report for cell counter_69_48.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[56].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         5       1.0        5.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         7       1.0        7.0
-                              NOR2B         8       1.0        8.0
-                              NOR3C        19       1.0       19.0
-                                VCC         1       0.0        0.0
-                               XA1B        10       1.0       10.0
-                            
-                         TOTAL             69                 67.0
-----------------------------------------------------------------------
-Report for cell counter_69_47.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[53].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_46.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[44].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_45.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[50].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_44.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[43].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_43.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[49].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_42.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[42].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_41.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[48].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_40.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[41].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_39.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[47].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_38.netlist
-  Original Cell name counter_69
+Report for cell counter_44_43.netlist
+  Original Cell name counter_44
      Instance path:  loop_gen_block[1].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            107                105.0
 ----------------------------------------------------------------------
-Report for cell counter_69_37.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[39].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_36.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[4].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_35.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[60].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_34.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[40].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_33.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[18].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_32.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[24].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_31.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[28].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_30.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[34].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_29.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[27].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_28.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[35].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_27.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[26].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_26.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[19].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_25.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[25].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_24.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[20].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_23.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[59].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_22.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[65].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_21.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[58].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_20.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[64].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_19.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[57].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_18.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[15].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_17.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[8].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_16.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[55].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_15.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[16].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_14.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[63].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_13.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[21].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_12.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[14].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_11.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[7].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_10.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[13].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_9.netlist
-  Original Cell name counter_69
+Report for cell counter_44_42.netlist
+  Original Cell name counter_44
      Instance path:  loop_gen_block[6].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_69_8.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[12].genblk1.counter_inst
+Report for cell counter_44_41.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[13].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_69_7.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[5].genblk1.counter_inst
+Report for cell counter_44_40.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[7].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_69_6.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[11].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_5.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[2].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_4.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[32].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
-                                VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
-                            
-                         TOTAL             68                 66.0
-----------------------------------------------------------------------
-Report for cell counter_69_3.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[22].genblk1.counter_inst
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
-                                VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
-                            
-                         TOTAL             63                 61.0
-----------------------------------------------------------------------
-Report for cell counter_69_2.netlist
-  Original Cell name counter_69
+Report for cell counter_44_39.netlist
+  Original Cell name counter_44
      Instance path:  loop_gen_block[3].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_69_1.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[17].genblk1.counter_inst
+Report for cell counter_44_38.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[8].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_69_0.netlist
-  Original Cell name counter_69
-     Instance path:  loop_gen_block[45].genblk1.counter_inst
+Report for cell counter_44_37.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[2].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         1       1.0        1.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        21       1.0       21.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C         9       1.0        9.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             68                 66.0
+                         TOTAL            107                105.0
 ----------------------------------------------------------------------
-Report for cell counter_69.netlist
-  Original Cell name counter
+Report for cell counter_44_36.netlist
+  Original Cell name counter_44
      Instance path:  loop_gen_block[9].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                               AX1C         4       1.0        4.0
-                               DFN1        16       1.0       16.0
-                             DFN1E0         1       1.0        1.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
                                NOR2         1       1.0        1.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        12       1.0       12.0
-                              NOR3C        10       1.0       10.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
                                 VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             63                 61.0
+                         TOTAL            111                109.0
 ----------------------------------------------------------------------
-Report for cell counter_70.netlist
+Report for cell counter_44_35.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[5].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_34.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[12].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_33.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[19].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_32.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[26].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_31.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[20].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_30.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[14].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_29.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[21].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_28.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[15].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_27.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[22].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_26.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[16].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_25.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[10].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_24.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[4].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_23.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[11].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_22.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[18].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_21.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[25].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_20.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[32].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_19.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[39].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_18.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[33].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_17.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[27].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_16.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[34].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_15.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[28].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_14.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[35].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_13.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[29].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_12.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[23].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_11.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[17].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_10.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[24].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_9.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[31].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_8.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[38].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_7.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[41].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_6.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[42].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_5.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[43].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_4.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[40].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_3.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[36].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_2.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[30].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44_1.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[37].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell counter_44_0.netlist
+  Original Cell name counter_44
+     Instance path:  loop_gen_block[44].genblk1.counter_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        15       1.0       15.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        13       1.0       13.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                               XOR2        16       1.0       16.0
+                            
+                         TOTAL            111                109.0
+----------------------------------------------------------------------
+Report for cell counter_44.netlist
   Original Cell name counter
      Instance path:  loop_gen_block[0].genblk1.counter_inst
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         1       1.0        1.0
-                               AX1C         1       1.0        1.0
-                             DFN1E1        17       1.0       17.0
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               DFN1        17       1.0       17.0
+                             DFN1E1         1       1.0        1.0
                                 GND         1       0.0        0.0
-                               NOR2         2       1.0        2.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        20       1.0       20.0
-                              NOR3A         1       1.0        1.0
-                              NOR3B         1       1.0        1.0
-                              NOR3C        19       1.0       19.0
-                                OA1         1       1.0        1.0
-                                OR2         2       1.0        2.0
+                                MX2        15       1.0       15.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         7       1.0        7.0
+                               OAI1         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                                XA1         5       1.0        5.0
-                               XA1B         8       1.0        8.0
+                               XOR2        16       1.0       16.0
                             
-                         TOTAL             83                 81.0
+                         TOTAL            107                105.0

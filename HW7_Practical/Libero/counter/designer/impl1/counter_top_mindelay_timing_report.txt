@@ -1,0 +1,351 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Fri Nov 06 07:09:14 2020
+
+
+Design: counter_top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clock
+Period (ns):                11.293
+Frequency (MHz):            88.550
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        10.901
+External Hold (ns):         -0.593
+Min Clock-To-Out (ns):      3.224
+Max Clock-To-Out (ns):      8.061
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clock
+
+SET Register to Register
+
+Path 1
+  From:                        loop_gen_block[5].genblk1.counter_inst/TC:CLK
+  To:                          loop_gen_block[6].genblk1.counter_inst/q[13]:D
+  Delay (ns):                  1.134
+  Slack (ns):
+  Arrival (ns):                1.997
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        loop_gen_block[20].genblk1.counter_inst/TC:CLK
+  To:                          loop_gen_block[21].genblk1.counter_inst/q[9]:D
+  Delay (ns):                  1.144
+  Slack (ns):
+  Arrival (ns):                1.997
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        loop_gen_block[25].genblk1.counter_inst/TC:CLK
+  To:                          loop_gen_block[26].genblk1.counter_inst/q[14]:D
+  Delay (ns):                  1.159
+  Slack (ns):
+  Arrival (ns):                2.003
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        loop_gen_block[24].genblk1.counter_inst/TC:CLK
+  To:                          loop_gen_block[25].genblk1.counter_inst/q[15]:D
+  Delay (ns):                  1.159
+  Slack (ns):
+  Arrival (ns):                2.009
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        loop_gen_block[24].genblk1.counter_inst/TC:CLK
+  To:                          loop_gen_block[25].genblk1.counter_inst/q[14]:D
+  Delay (ns):                  1.159
+  Slack (ns):
+  Arrival (ns):                2.009
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: loop_gen_block[5].genblk1.counter_inst/TC:CLK
+  To: loop_gen_block[6].genblk1.counter_inst/q[13]:D
+  data arrival time                              1.997
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock
+               +     0.000          Clock source
+  0.000                        clock (r)
+               +     0.000          net: clock
+  0.000                        clock_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        clock_pad/U0/U0:Y (r)
+               +     0.000          net: clock_pad/U0/NET1
+  0.391                        clock_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        clock_pad/U0/U1:Y (r)
+               +     0.324          net: clock_c
+  0.863                        loop_gen_block[5].genblk1.counter_inst/TC:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E1
+  1.112                        loop_gen_block[5].genblk1.counter_inst/TC:Q (r)
+               +     0.146          net: TC[5]
+  1.258                        loop_gen_block[6].genblk1.counter_inst/enableCounter_RNI00IV:B (r)
+               +     0.285          cell: ADLIB:AO1A
+  1.543                        loop_gen_block[6].genblk1.counter_inst/enableCounter_RNI00IV:Y (r)
+               +     0.148          net: loop_gen_block[6]_genblk1_counter_inst/enableCounter_2
+  1.691                        loop_gen_block[6].genblk1.counter_inst/q_RNO[13]:S (r)
+               +     0.156          cell: ADLIB:MX2
+  1.847                        loop_gen_block[6].genblk1.counter_inst/q_RNO[13]:Y (r)
+               +     0.150          net: loop_gen_block[6]_genblk1_counter_inst/q_4[13]
+  1.997                        loop_gen_block[6].genblk1.counter_inst/q[13]:D (r)
+                                    
+  1.997                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock
+               +     0.000          Clock source
+  N/C                          clock (r)
+               +     0.000          net: clock
+  N/C                          clock_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  N/C                          clock_pad/U0/U0:Y (r)
+               +     0.000          net: clock_pad/U0/NET1
+  N/C                          clock_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  N/C                          clock_pad/U0/U1:Y (r)
+               +     0.345          net: clock_c
+  N/C                          loop_gen_block[6].genblk1.counter_inst/q[13]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          loop_gen_block[6].genblk1.counter_inst/q[13]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        enable
+  To:                          loop_gen_block[0].genblk1.counter_inst/enableCounter:D
+  Delay (ns):                  1.614
+  Slack (ns):
+  Arrival (ns):                1.614
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.593
+
+Path 2
+  From:                        reset
+  To:                          loop_gen_block[6].genblk1.counter_inst/q[13]:D
+  Delay (ns):                  1.828
+  Slack (ns):
+  Arrival (ns):                1.828
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.793
+
+Path 3
+  From:                        reset
+  To:                          loop_gen_block[10].genblk1.counter_inst/q[10]:D
+  Delay (ns):                  1.850
+  Slack (ns):
+  Arrival (ns):                1.850
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.808
+
+Path 4
+  From:                        reset
+  To:                          loop_gen_block[21].genblk1.counter_inst/q[9]:D
+  Delay (ns):                  1.834
+  Slack (ns):
+  Arrival (ns):                1.834
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.811
+
+Path 5
+  From:                        reset
+  To:                          loop_gen_block[7].genblk1.counter_inst/q[6]:D
+  Delay (ns):                  1.808
+  Slack (ns):
+  Arrival (ns):                1.808
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.811
+
+
+Expanded Path 1
+  From: enable
+  To: loop_gen_block[0].genblk1.counter_inst/enableCounter:D
+  data arrival time                              1.614
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        enable (f)
+               +     0.000          net: enable
+  0.000                        enable_pad/U0/U0:PAD (f)
+               +     0.293          cell: ADLIB:IOPAD_IN
+  0.293                        enable_pad/U0/U0:Y (f)
+               +     0.000          net: enable_pad/U0/NET1
+  0.293                        enable_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  0.310                        enable_pad/U0/U1:Y (f)
+               +     0.551          net: enable_c
+  0.861                        loop_gen_block[0].genblk1.counter_inst/enableCounter_RNI9NK51:B (f)
+               +     0.276          cell: ADLIB:AO1A
+  1.137                        loop_gen_block[0].genblk1.counter_inst/enableCounter_RNI9NK51:Y (f)
+               +     0.153          net: loop_gen_block[0]_genblk1_counter_inst/enableCounter_2
+  1.290                        loop_gen_block[0].genblk1.counter_inst/enableCounter_RNO:C (f)
+               +     0.176          cell: ADLIB:AOI1B
+  1.466                        loop_gen_block[0].genblk1.counter_inst/enableCounter_RNO:Y (f)
+               +     0.148          net: loop_gen_block[0]_genblk1_counter_inst/enableCounter_RNO
+  1.614                        loop_gen_block[0].genblk1.counter_inst/enableCounter:D (f)
+                                    
+  1.614                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock
+               +     0.000          Clock source
+  N/C                          clock (r)
+               +     0.000          net: clock
+  N/C                          clock_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          clock_pad/U0/U0:Y (r)
+               +     0.000          net: clock_pad/U0/NET1
+  N/C                          clock_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          clock_pad/U0/U1:Y (r)
+               +     0.374          net: clock_c
+  N/C                          loop_gen_block[0].genblk1.counter_inst/enableCounter:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          loop_gen_block[0].genblk1.counter_inst/enableCounter:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        loop_gen_block[44].genblk1.counter_inst/TC:CLK
+  To:                          TCout
+  Delay (ns):                  2.374
+  Slack (ns):
+  Arrival (ns):                3.224
+  Required (ns):
+  Clock to Out (ns):           3.224
+
+
+Expanded Path 1
+  From: loop_gen_block[44].genblk1.counter_inst/TC:CLK
+  To: TCout
+  data arrival time                              3.224
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock
+               +     0.000          Clock source
+  0.000                        clock (r)
+               +     0.000          net: clock
+  0.000                        clock_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        clock_pad/U0/U0:Y (r)
+               +     0.000          net: clock_pad/U0/NET1
+  0.391                        clock_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        clock_pad/U0/U1:Y (r)
+               +     0.311          net: clock_c
+  0.850                        loop_gen_block[44].genblk1.counter_inst/TC:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E1
+  1.099                        loop_gen_block[44].genblk1.counter_inst/TC:Q (r)
+               +     0.749          net: TCout_c
+  1.848                        TCout_pad/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  2.105                        TCout_pad/U0/U1:DOUT (r)
+               +     0.000          net: TCout_pad/U0/NET1
+  2.105                        TCout_pad/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  3.224                        TCout_pad/U0/U0:PAD (r)
+               +     0.000          net: TCout
+  3.224                        TCout (r)
+                                    
+  3.224                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock
+               +     0.000          Clock source
+  N/C                          clock (r)
+                                    
+  N/C                          TCout (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

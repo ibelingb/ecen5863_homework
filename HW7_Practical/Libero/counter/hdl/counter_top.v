@@ -1,12 +1,10 @@
 module counter_top
-	#(parameter N = 71) 
+	#(parameter N = 45) 
 	(
 		input clock, reset, enable,
-		output [N-1:0] TC
+		output TCout
 	);
-	// Define variable to hold rising edge of TC values
-	reg [N-1:0] counterEnable;
-	integer j;
+	wire [N-1:0] TC;
 
 	// Create counter instances
 	generate
@@ -16,26 +14,15 @@ module counter_top
 		begin : loop_gen_block
 			if(i == 0)
 				begin
-				//counter counter_inst (clock, reset, enable, out[i][15:0], TC[i]);
-                counter counter_inst (clock, reset, enable, TC[i]);
+				counter counter_inst (clock, reset, enable, TC[0]);
 				end
 			else
 				begin
-				//counter counter_inst (clock, reset, counterEnable[i], out[i][15:0], TC[i]);
-                counter counter_inst (clock, reset, counterEnable[i], TC[i]);
+				counter counter_inst (clock, reset, TC[i-1], TC[i]);
 				end
 		end
 	endgenerate
-		
-	// Determine if Terminal Count has triggered enabling next counter
-	always @(posedge clock)
-
-	for(j=1; j<N; j=j+1)
-	begin 
-		if(TC[j-1] == 1'b1)
-		begin
-			counterEnable[j] <= 1;
-		end
-	end
 	
+	assign TCout = TC[N-1];
+		
 endmodule
