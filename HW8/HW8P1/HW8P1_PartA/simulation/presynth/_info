@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/simulation
+vCDC3FF
+Z0 !s110 1605486480
+!i10b 1
+!s100 NBb?K9fObQ<NE`VlU^]7B0
+I1[2LXzX7bAIREe1[TNS4`2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/simulation
+w1605486300
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v
+L0 14
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1605486480.000000
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+n@c@d@c3@f@f
+vDFF
+R0
+!i10b 1
+!s100 eVoe;9Ol5c]oF81:2D2am1
+Ig8TaPiejnQiN>E>XQLM<30
+R1
+R2
+w1605391452
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@d@f@f
+vmux
+R0
+!i10b 1
+!s100 QB5mfQU;z1RDT>oEX]k]^2
+IAR5;H><3lDF6X2Bb@0eCF1
+R1
+R2
+w1605481112
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v
+L0 22
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v|
+!s101 -O0
+!i113 1
+R5
+R6

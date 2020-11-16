@@ -1,2 +1,2 @@
-@E: CG906 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":41:18:41:20|Reference to unknown variable sQ3.
+@E: CS164 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":61:46:61:57|Expecting wire for output connection, found fDataLockedQ
 

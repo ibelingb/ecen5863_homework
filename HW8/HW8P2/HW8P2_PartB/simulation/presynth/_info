@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/simulation
+vDFF
+Z1 !s110 1605499934
+!i10b 1
+!s100 eVoe;9Ol5c]oF81:2D2am1
+I<GzTL4SDj:XecSo=d8FC[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1605499726
+8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v
+FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v
+Z4 L0 23
+Z5 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1605499934.000000
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v|
+!s101 -O0
+!i113 1
+Z7 o-vlog01compat -work presynth -O0
+Z8 tCvgOpt 0
+n@d@f@f
+vDFF_bus4
+R1
+!i10b 1
+!s100 B1Nl`Vea:UoWK8oSAZCMb1
+IT^G8ZXgaJU1^i5<]jQoX73
+R2
+R0
+R3
+8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v
+FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v|
+!s101 -O0
+!i113 1
+R7
+R8
+n@d@f@f_bus4
+vmux
+R1
+!i10b 1
+!s100 7ChiUUWChkdKKUUmbkM:O1
+IkTSLAKZBlejMU;>:23Ge41
+R2
+R0
+R3
+8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v
+FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v
+L0 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vSlowFast
+R1
+!i10b 1
+!s100 XB7<k_ldlUZ@<d1QIEUQB3
+I3FCFH<>84NNjC^f5gBLZm0
+R2
+R0
+w1605499829
+8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v
+FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v
+L0 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v|
+!s101 -O0
+!i113 1
+R7
+R8
+n@slow@fast

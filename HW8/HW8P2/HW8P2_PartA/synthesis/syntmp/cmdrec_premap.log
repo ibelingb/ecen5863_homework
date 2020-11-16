@@ -1,14 +1,14 @@
 E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synlog\report\SlowFast_premap.xml  -top_level_module  SlowFast  -oedif  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.edn  -conchk_prepass  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast_cck.rpt   -freq 100.000   E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd  -qsap  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\syntmp\SlowFast.plg  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd  -prjdir  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\  -prjname  SlowFast_syn  -log  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synlog\SlowFast_premap.srr 
 rc:1 success:1 runtime:1
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\scratchproject.prs|io:o|time:1605399598|size:1847|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.edn|io:o|time:1605399585|size:3796|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast_cck.rpt|io:o|time:1605399600|size:23948|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_mult.srs|io:i|time:1605399599|size:1873|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd|io:o|time:1605399600|size:4445|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap|io:o|time:1605399600|size:802|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\scratchproject.prs|io:o|time:1605498225|size:2000|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.edn|io:o|time:1605498912|size:32037|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast_cck.rpt|io:o|time:1605499292|size:23802|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_mult.srs|io:i|time:1605499291|size:2680|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd|io:o|time:1605499292|size:8075|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap|io:o|time:1605499292|size:1030|exec:0
 file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\syntmp\SlowFast.plg|io:o|time:1605399599|size:0|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd|io:o|time:1605399600|size:4445|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synlog\SlowFast_premap.srr|io:o|time:1605399600|size:4061|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\syntmp\SlowFast.plg|io:o|time:1605499291|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_prem.srd|io:o|time:1605499292|size:8075|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synlog\SlowFast_premap.srr|io:o|time:1605499292|size:4537|exec:0
 file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
 file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

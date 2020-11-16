@@ -1,15 +1,16 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
-#--  Project file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\scratchproject.prs
+#--  Project file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v"
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v"
 
 
 
 #implementation: "synthesis"
-impl -add E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis -type fpga
+impl -add E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis -type fpga
 
 #
 #implementation attributes
@@ -71,5 +72,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/synthesis/CDC3FF.edn"
+project -result_file "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/synthesis/CDC3FF.edn"
 impl -active "synthesis"

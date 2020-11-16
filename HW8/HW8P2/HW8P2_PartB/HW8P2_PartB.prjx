@@ -1,6 +1,7 @@
 KEY LIBERO "11.8"
 KEY CAPTURE "11.8.0.26"
 KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "VERILOG2001"
@@ -24,20 +25,92 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2"
+KEY ProjectLocation "E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
+KEY ActiveRoot "SlowFast::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
+STATE="utd"
+TIME="1605499727"
+SIZE="202"
+ENDFILE
+VALUE "<project>\hdl\DFF.v,hdl"
+STATE="utd"
+TIME="1605499726"
+SIZE="973"
+ENDFILE
+VALUE "<project>\hdl\DFF_bus4.v,hdl"
+STATE="utd"
+TIME="1605499726"
+SIZE="1008"
+ENDFILE
+VALUE "<project>\hdl\mux.v,hdl"
+STATE="utd"
+TIME="1605499726"
+SIZE="898"
+ENDFILE
+VALUE "<project>\hdl\SlowFast.v,hdl"
+STATE="utd"
+TIME="1605499829"
+SIZE="1803"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1605499925"
+SIZE="828"
+ENDFILE
+VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1605499930"
+SIZE="51"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
+STATE="utd"
+TIME="1605499883"
+SIZE="23484"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.so,so"
+STATE="utd"
+TIME="1605499883"
+SIZE="228"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1605499883"
+SIZE="488"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
+STATE="utd"
+TIME="1605499883"
+SIZE="1948"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "SlowFast::work"
+FILE "<project>\hdl\SlowFast.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -108,8 +181,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -142,6 +215,19 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "SlowFast::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -156,11 +242,23 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:HW8P2.log
+ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
+HDL;hdl\SlowFast.v;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
+LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
+ENDLIST
+LIST "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
+ENDLIST
+LIST "mux::work","hdl\mux.v","FALSE","FALSE"
+ENDLIST
+LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
+SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
+SUBBLOCK "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
+SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
+ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST

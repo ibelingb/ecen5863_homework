@@ -1,0 +1,5 @@
+@W: CL279 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF_bus4.v":29:0:29:5|Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":49:11:49:22|Removing wire fDataLockedQ, as there is no assignment to it.
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":50:11:50:16|Removing wire sQbar4, as there is no assignment to it.
+@W: CL156 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":49:11:49:22|*Input fDataLockedQ[3:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

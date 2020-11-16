@@ -1,0 +1,86 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design SlowFast.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design SlowFast.adb.
+'BA_NAME' set to 'SlowFast_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Nov 15 21:01:52 2020
+
+Placer Finished: Sun Nov 15 21:01:54 2020
+Total Placer CPU Time:     00:00:02
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: SlowFast                        Started: Sun Nov 15 21:01:56 2020
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: SlowFast                        
+Finished: Sun Nov 15 21:02:01 2020
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
+Total Memory Usage: 161.2 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have NOT been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:15 )
+Wrote status report to file: SlowFast_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: SlowFast_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: SlowFast_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: SlowFast_iobank_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: SlowFast_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: SlowFast_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\designer\impl1\SlowFast.adb.
+
+The Execute Script command succeeded ( 00:00:18 )
+Design closed.
+

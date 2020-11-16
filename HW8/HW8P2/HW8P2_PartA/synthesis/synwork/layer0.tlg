@@ -1,7 +1,13 @@
 Selecting top level module SlowFast
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
 
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":23:7:23:14|Synthesizing module DFF_bus4 in library work.
+
+@N: CL189 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Register bit qbar[3] is always 0.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Register bit qbar[2] is always 0.
+@N: CL189 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Register bit qbar[1] is always 0.
+@W: CL279 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":14:7:14:14|Synthesizing module SlowFast in library work.
 
-@N: CL189 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":30:0:30:5|Register bit temp[0] is always 0.
-@W: CL260 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":30:0:30:5|Pruning register bit 0 of temp[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

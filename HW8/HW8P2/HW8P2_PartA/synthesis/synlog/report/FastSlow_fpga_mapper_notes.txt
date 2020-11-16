@@ -1,0 +1,8 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v":17:17:17:19|Tristate driver out_1 (in view: work.FastSlow(verilog)) on net out[3] (in view: work.FastSlow(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v":17:17:17:19|Tristate driver out_2 (in view: work.FastSlow(verilog)) on net out[2] (in view: work.FastSlow(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v":17:17:17:19|Tristate driver out_3 (in view: work.FastSlow(verilog)) on net out[1] (in view: work.FastSlow(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v":17:17:17:19|Tristate driver out_4 (in view: work.FastSlow(verilog)) on net out[0] (in view: work.FastSlow(verilog)) has its enable tied to GND.
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

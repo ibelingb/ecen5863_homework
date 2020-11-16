@@ -2,7 +2,7 @@
 Starting:    E:\Microsemi\SynplifyPro\bin64\mbin\synplify.exe
 Install:     E:\Microsemi\SynplifyPro
 Hostname:    BPC
-Date:        Sat Nov 14 15:30:02 2020
+Date:        Sun Nov 15 19:42:40 2020
 Version:     L-2016.09M-2
 
 Arguments:   -product synplify_pro CDC3FF_syn.tcl
@@ -18,6 +18,6 @@ License Option: actel_oem
 auto_infer_blackbox is not supported in current product.
 TCL script complete: "CDC3FF_syn.tcl"
 New HDL Analyst: enabled
-Note: Opening local project RTL file 'E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.srs'
+Note: Opening local project RTL file 'E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.srs'
 exit status=0
 License checkin: synplifypro_actel

@@ -7,50 +7,72 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/simulation
+Z0 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/simulation
 vCDC3FF
-Z1 !s110 1605393128
+Z1 !s110 1605489529
 !i10b 1
-!s100 mnoHV^3KceRX2eoLT:XS<3
-Iz3^mb2Xa_PQ5JN;iGR9[M3
+!s100 :@1b?9P8mREMGa[>RNPkQ2
+I<XJ3nc=[_VjkRI8_eFb;g0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1605392983
-8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v
-FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v
+Z3 w1605489461
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v
 L0 14
-Z3 OW;L;10.5c;63
+Z4 OW;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1605393128.000000
-!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v|
+Z5 !s108 1605489529.000000
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v|
 !s101 -O0
 !i113 1
-Z5 o-vlog01compat -work presynth -O0
-Z6 tCvgOpt 0
+Z6 o-vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
 n@c@d@c3@f@f
 vDFF
 R1
 !i10b 1
 !s100 eVoe;9Ol5c]oF81:2D2am1
-ICM96b`L31CGGTHTb=jn@I0
+IA_C:42aJ<^[XL`64EA7UZ1
 R2
 R0
-w1605391452
-8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v
-FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v
-L0 23
 R3
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v
+L0 23
+R4
 r1
 !s85 0
 31
-R4
-!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v|
-!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v|
+R5
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v|
 !s101 -O0
 !i113 1
-R5
 R6
+R7
 n@d@f@f
+vmux
+R1
+!i10b 1
+!s100 QB5mfQU;z1RDT>oEX]k]^2
+Iz;=dd<0b@lDgM0@ZW6Q;D1
+R2
+R0
+R3
+8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v
+FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v
+L0 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v|
+!s101 -O0
+!i113 1
+R6
+R7

@@ -6,13 +6,37 @@ Report for cell CDC3FF.verilog
                               DFF_0         1       2.0        2.0
                             DFF_0_0         1       2.0        2.0
                             DFF_0_1         1       2.0        2.0
-                            DFF_0_3         1       4.0        4.0
+                            DFF_0_2         1       2.0        2.0
+                            DFF_0_4         1       4.0        4.0
                                 GND         1       0.0        0.0
                               INBUF         1       0.0        0.0
                              OUTBUF         1       0.0        0.0
                                 VCC         1       0.0        0.0
+                                mux         1       1.0        1.0
                             
-                         TOTAL             10                 10.0
+                         TOTAL             12                 13.0
+----------------------------------------------------------------------
+Report for cell DFF_0_2.netlist
+  Original Cell name DFF_0
+     Instance path:  datasinkDFF
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell mux.netlist
+     Instance path:  dataSourceMux
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
 ----------------------------------------------------------------------
 Report for cell DFF_0_1.netlist
   Original Cell name DFF_0
@@ -50,9 +74,9 @@ Report for cell DFF_0.netlist
                             
                          TOTAL              4                  2.0
 ----------------------------------------------------------------------
-Report for cell DFF_0_3.netlist
+Report for cell DFF_0_4.netlist
   Original Cell name DFF_0
-     Instance path:  asyncDFF
+     Instance path:  toggleDFF
                                           Cell usage:
                                cell       count     area    count*area
                                DFN1         2       1.0        2.0

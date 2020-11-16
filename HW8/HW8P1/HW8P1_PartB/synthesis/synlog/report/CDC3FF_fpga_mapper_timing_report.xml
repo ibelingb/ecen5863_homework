@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\synlog\CDC3FF_fpga_mapper.srr</data>
+<data>E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,13 +17,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>CDC3FF|Aclk</data>
 <data>100.0 MHz</data>
-<data>387.5 MHz</data>
-<data>7.419</data>
+<data>313.3 MHz</data>
+<data>6.808</data>
 </row>
 <row>
 <data>CDC3FF|Bclk</data>
 <data>100.0 MHz</data>
-<data>313.3 MHz</data>
-<data>6.808</data>
+<data>282.1 MHz</data>
+<data>6.455</data>
 </row>
 </report_table>

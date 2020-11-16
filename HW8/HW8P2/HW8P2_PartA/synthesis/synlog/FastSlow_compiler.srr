@@ -1,0 +1,73 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v" (library work)
+Verilog syntax check successful!
+Selecting top level module FastSlow
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":14:7:14:14|Synthesizing module FastSlow in library work.
+
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":56:29:56:32|Port-width mismatch for port a. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":56:35:56:46|Port-width mismatch for port b. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":56:18:56:26|Port-width mismatch for port y. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":59:17:59:25|Port-width mismatch for port d. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":59:41:59:52|Port-width mismatch for port q. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":59:55:59:60|Port-width mismatch for port qbar. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":17:17:17:19|Removing wire out, as there is no assignment to it.
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":53:11:53:16|Removing wire sQbar5, as there is no assignment to it.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":59:4:59:15|Removing instance interfaceDFF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":56:4:56:16|Removing instance dataSourceMux because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":31:4:31:18|Removing instance temp0_syncDFF_3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":30:4:30:18|Removing instance temp0_syncDFF_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":29:4:29:18|Removing instance temp0_syncDFF_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":24:4:24:12|Removing instance toggleDFF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":34:0:34:5|Pruning unused register temp[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL157 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":17:17:17:19|*Output out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":16:10:16:13|Input Aclk is unused.
+@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":16:16:16:19|Input Bclk is unused.
+@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":16:22:16:26|Input reset is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 15 20:18:43 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 15 20:18:43 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 15 20:18:43 2020
+
+###########################################################]

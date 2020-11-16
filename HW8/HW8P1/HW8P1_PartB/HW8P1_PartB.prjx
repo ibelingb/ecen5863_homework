@@ -24,7 +24,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1"
+KEY ProjectLocation "E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -37,83 +37,103 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\designer\impl1\CDC3FF.adb,adb"
 STATE="utd"
-TIME="1605392390"
-SIZE="8704"
+TIME="1605494419"
+SIZE="27136"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF.ide_des,ide_des"
 STATE="utd"
-TIME="1605390985"
-SIZE="194"
+TIME="1605489505"
+SIZE="200"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_compile_log.rpt,log"
 STATE="utd"
-TIME="1605396280"
-SIZE="8013"
+TIME="1605494419"
+SIZE="8286"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1605396368"
-SIZE="2621"
-ENDFILE
-VALUE "<project>\designer\impl1\CDC3FF_timingconstraints_log.rpt,log"
-STATE="utd"
-TIME="1605395664"
-SIZE="318"
+TIME="1605494442"
+SIZE="2523"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1605396373"
-SIZE="1132"
+TIME="1605494447"
+SIZE="1144"
 ENDFILE
-VALUE "<project>\designer\impl1\HW8P1.ide_des,ide_des"
+VALUE "<project>\designer\impl1\DFF.ide_des,ide_des"
 STATE="utd"
-TIME="1605389574"
-SIZE="193"
+TIME="1605489461"
+SIZE="197"
+ENDFILE
+VALUE "<project>\designer\impl1\DFF_1.ide_des,ide_des"
+STATE="utd"
+TIME="1605489475"
+SIZE="199"
 ENDFILE
 VALUE "<project>\hdl\DFF.v,hdl"
 STATE="utd"
-TIME="1605391452"
+TIME="1605489461"
 SIZE="973"
 ENDFILE
 VALUE "<project>\hdl\HW8P1.v,hdl"
 STATE="utd"
-TIME="1605392983"
-SIZE="807"
+TIME="1605489461"
+SIZE="1480"
+ENDFILE
+VALUE "<project>\hdl\mux.v,hdl"
+STATE="utd"
+TIME="1605489461"
+SIZE="810"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1605392122"
-SIZE="688"
+TIME="1605489522"
+SIZE="756"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
-TIME="1605393124"
+TIME="1605489525"
 SIZE="51"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.edn,syn_edn"
 STATE="utd"
-TIME="1605391587"
-SIZE="2941"
+TIME="1605489513"
+SIZE="17847"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.so,so"
 STATE="utd"
-TIME="1605391587"
-SIZE="218"
+TIME="1605489513"
+SIZE="224"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1605391587"
-SIZE="310"
+TIME="1605489513"
+SIZE="484"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_syn.prj,prj"
 STATE="utd"
-TIME="1605391516"
-SIZE="676"
+TIME="1605489513"
+SIZE="1860"
 ENDFILE
-VALUE "<project>\synthesis\synwork\layer0.so,so"
+VALUE "<project>\synthesis\DFF.edn,syn_edn"
 STATE="utd"
-TIME="1605391521"
-SIZE="159"
+TIME="1605489474"
+SIZE="6910"
+ENDFILE
+VALUE "<project>\synthesis\DFF.so,so"
+STATE="utd"
+TIME="1605489474"
+SIZE="220"
+ENDFILE
+VALUE "<project>\synthesis\DFF_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1605489474"
+SIZE="394"
+ENDFILE
+VALUE "<project>\synthesis\DFF_syn.prj,prj"
+STATE="utd"
+TIME="1605489474"
+SIZE="1701"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -124,8 +144,8 @@ FILE "<project>\hdl\HW8P1.v,hdl"
 LIST ProjectState5.1
 LIST Impl1
 LiberoState=Post_Layout
-ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
 ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -210,8 +230,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -247,8 +267,8 @@ LIST ProjectState5.1
 LIST "CDC3FF::work"
 LIST Impl1
 LiberoState=Post_Layout
-ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
 ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -272,17 +292,21 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:CDC3FF.srr
+ReportsCurrentItem;Verify Timing:CDC3FF_maxdelay_timing_report.txt
 StartPage;StartPage;0
 HDL;hdl\HW8P1.v;0
-HDL;hdl\DFF.v;0
+HDL;synthesis\DFF_sdc.sdc;0
+HDL;synthesis\CDC3FF_sdc.sdc;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CDC3FF::work","hdl\HW8P1.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
+SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
+ENDLIST
+LIST "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

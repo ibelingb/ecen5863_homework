@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2020 11 14 16 19 23)
+      (timeStamp 2020 11 15 18 18 33)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09M-2, mapper mapact, Build 1920R"))
      )
@@ -59,6 +59,20 @@
  )
            (port A (direction INPUT))
            (port B (direction INPUT))
+         )
+        (property is_combinational (integer 1))
+       )
+    )
+    (cell MX2 (cellType GENERIC)
+      (property dont_touch (string "false"))
+       (view prim (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT)
+           (property function (string "(A & !S) + (B & S)"))
+ )
+           (port A (direction INPUT))
+           (port B (direction INPUT))
+           (port S (direction INPUT))
          )
         (property is_combinational (integer 1))
        )
@@ -137,38 +151,120 @@
   (library work
     (edifLevel 0)
     (technology (numberDefinition ))
-    (cell DFF_0_1 (cellType GENERIC)
+    (cell DFF_0_2 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port Aclk_c (direction INPUT))
+           (port Bclk_c (direction INPUT))
            (port Dout_c (direction OUTPUT))
            (port reset_c (direction INPUT))
-           (port sQ2 (direction INPUT))
+           (port muxOutput (direction INPUT))
          )
          (contents
-          (instance q_3_i (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance q_RNO (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
           (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net (rename q_3_iZ0 "q_3_i") (joined
-           (portRef Y (instanceRef q_3_i))
+          (net (rename q_RNOZ0 "q_RNO") (joined
+           (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
           ))
-          (net sQ2 (joined
-           (portRef sQ2)
-           (portRef A (instanceRef q_3_i))
+          (net muxOutput (joined
+           (portRef muxOutput)
+           (portRef A (instanceRef q_RNO))
           ))
           (net reset_c (joined
            (portRef reset_c)
-           (portRef B (instanceRef q_3_i))
+           (portRef B (instanceRef q_RNO))
           ))
           (net Dout_c (joined
            (portRef Q (instanceRef q))
            (portRef Dout_c)
           ))
-          (net Aclk_c (joined
-           (portRef Aclk_c)
+          (net Bclk_c (joined
+           (portRef Bclk_c)
+           (portRef CLK (instanceRef q))
+          ))
+          (net GND (joined
+           (portRef Y (instanceRef GND_i))
+          ))
+          (net VCC (joined
+           (portRef Y (instanceRef VCC_i))
+          ))
+         )
+        (property orig_inst_of (string "DFF"))
+       )
+    )
+    (cell mux (cellType GENERIC)
+       (view netlist (viewType NETLIST)
+         (interface
+           (port syncSignal (direction INPUT))
+           (port dataSourceQ (direction INPUT))
+           (port Dout_c (direction INPUT))
+           (port muxOutput (direction OUTPUT))
+         )
+         (contents
+          (instance y (viewRef prim (cellRef MX2 (libraryRef smartfusion)))          )
+          (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
+          (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
+          (net muxOutput (joined
+           (portRef Y (instanceRef y))
+           (portRef muxOutput)
+          ))
+          (net Dout_c (joined
+           (portRef Dout_c)
+           (portRef A (instanceRef y))
+          ))
+          (net dataSourceQ (joined
+           (portRef dataSourceQ)
+           (portRef B (instanceRef y))
+          ))
+          (net syncSignal (joined
+           (portRef syncSignal)
+           (portRef S (instanceRef y))
+          ))
+          (net GND (joined
+           (portRef Y (instanceRef GND_i))
+          ))
+          (net VCC (joined
+           (portRef Y (instanceRef VCC_i))
+          ))
+         )
+        (property orig_inst_of (string "mux"))
+       )
+    )
+    (cell DFF_0_1 (cellType GENERIC)
+       (view netlist (viewType NETLIST)
+         (interface
+           (port Bclk_c (direction INPUT))
+           (port syncSignal (direction OUTPUT))
+           (port reset_c (direction INPUT))
+           (port syncQ2 (direction INPUT))
+         )
+         (contents
+          (instance q_RNO (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          )
+          (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
+          (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
+          (net N_10 (joined
+           (portRef Y (instanceRef q_RNO))
+           (portRef D (instanceRef q))
+          ))
+          (net syncQ2 (joined
+           (portRef syncQ2)
+           (portRef A (instanceRef q_RNO))
+          ))
+          (net reset_c (joined
+           (portRef reset_c)
+           (portRef B (instanceRef q_RNO))
+          ))
+          (net syncSignal (joined
+           (portRef Q (instanceRef q))
+           (portRef syncSignal)
+          ))
+          (net Bclk_c (joined
+           (portRef Bclk_c)
            (portRef CLK (instanceRef q))
           ))
           (net GND (joined
@@ -184,35 +280,35 @@
     (cell DFF_0_0 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port Aclk_c (direction INPUT))
-           (port sQ2 (direction OUTPUT))
+           (port Bclk_c (direction INPUT))
+           (port syncQ2 (direction OUTPUT))
            (port reset_c (direction INPUT))
-           (port sQ1 (direction INPUT))
+           (port syncQ1 (direction INPUT))
          )
          (contents
-          (instance q_3_i (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance q_RNO (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
           (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
           (net N_8 (joined
-           (portRef Y (instanceRef q_3_i))
+           (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
           ))
-          (net sQ1 (joined
-           (portRef sQ1)
-           (portRef A (instanceRef q_3_i))
+          (net syncQ1 (joined
+           (portRef syncQ1)
+           (portRef A (instanceRef q_RNO))
           ))
           (net reset_c (joined
            (portRef reset_c)
-           (portRef B (instanceRef q_3_i))
+           (portRef B (instanceRef q_RNO))
           ))
-          (net sQ2 (joined
+          (net syncQ2 (joined
            (portRef Q (instanceRef q))
-           (portRef sQ2)
+           (portRef syncQ2)
           ))
-          (net Aclk_c (joined
-           (portRef Aclk_c)
+          (net Bclk_c (joined
+           (portRef Bclk_c)
            (portRef CLK (instanceRef q))
           ))
           (net GND (joined
@@ -228,35 +324,35 @@
     (cell DFF_0 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port Aclk_c (direction INPUT))
-           (port sQ1 (direction OUTPUT))
+           (port Bclk_c (direction INPUT))
+           (port syncQ1 (direction OUTPUT))
            (port reset_c (direction INPUT))
-           (port sQ0 (direction INPUT))
+           (port Aclk_c (direction INPUT))
          )
          (contents
-          (instance q_3_i (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance q_RNO (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
           (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
           (net N_6 (joined
-           (portRef Y (instanceRef q_3_i))
+           (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
-          ))
-          (net sQ0 (joined
-           (portRef sQ0)
-           (portRef A (instanceRef q_3_i))
-          ))
-          (net reset_c (joined
-           (portRef reset_c)
-           (portRef B (instanceRef q_3_i))
-          ))
-          (net sQ1 (joined
-           (portRef Q (instanceRef q))
-           (portRef sQ1)
           ))
           (net Aclk_c (joined
            (portRef Aclk_c)
+           (portRef A (instanceRef q_RNO))
+          ))
+          (net reset_c (joined
+           (portRef reset_c)
+           (portRef B (instanceRef q_RNO))
+          ))
+          (net syncQ1 (joined
+           (portRef Q (instanceRef q))
+           (portRef syncQ1)
+          ))
+          (net Bclk_c (joined
+           (portRef Bclk_c)
            (portRef CLK (instanceRef q))
           ))
           (net GND (joined
@@ -269,16 +365,16 @@
         (property orig_inst_of (string "DFF"))
        )
     )
-    (cell DFF_0_3 (cellType GENERIC)
+    (cell DFF_0_4 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port sQ0 (direction OUTPUT))
-           (port Bclk_c (direction INPUT))
+           (port dataSourceQ (direction OUTPUT))
+           (port Aclk_c (direction INPUT))
            (port reset_c (direction INPUT))
          )
          (contents
           (instance q_RNO (viewRef prim (cellRef INV (libraryRef smartfusion)))          )
-          (instance q_3_i_0 (viewRef prim (cellRef OR2A (libraryRef smartfusion)))          )
+          (instance qbar_RNITV5R (viewRef prim (cellRef OR2A (libraryRef smartfusion)))          )
           (instance qbar (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
@@ -290,26 +386,26 @@
            (portRef D (instanceRef q))
           ))
           (net N_4 (joined
-           (portRef Y (instanceRef q_3_i_0))
+           (portRef Y (instanceRef qbar_RNITV5R))
            (portRef D (instanceRef qbar))
            (portRef A (instanceRef q_RNO))
           ))
-          (net sQbar0 (joined
+          (net dataSourceQbar (joined
            (portRef Q (instanceRef qbar))
-           (portRef A (instanceRef q_3_i_0))
+           (portRef A (instanceRef qbar_RNITV5R))
           ))
           (net reset_c (joined
            (portRef reset_c)
-           (portRef B (instanceRef q_3_i_0))
+           (portRef B (instanceRef qbar_RNITV5R))
           ))
-          (net Bclk_c (joined
-           (portRef Bclk_c)
+          (net Aclk_c (joined
+           (portRef Aclk_c)
            (portRef CLK (instanceRef q))
            (portRef CLK (instanceRef qbar))
           ))
-          (net sQ0 (joined
+          (net dataSourceQ (joined
            (portRef Q (instanceRef q))
-           (portRef sQ0)
+           (portRef dataSourceQ)
           ))
           (net GND (joined
            (portRef Y (instanceRef GND_i))
@@ -330,15 +426,15 @@
            (port Dout (direction OUTPUT))
          )
          (contents
-          (instance Bclk_pad (viewRef prim (cellRef CLKBUF (libraryRef smartfusion)))
-          )
           (instance Aclk_pad (viewRef prim (cellRef CLKBUF (libraryRef smartfusion)))
+          )
+          (instance Bclk_pad (viewRef prim (cellRef CLKBUF (libraryRef smartfusion)))
           )
           (instance Dout_pad (viewRef prim (cellRef OUTBUF (libraryRef smartfusion)))
           )
           (instance reset_pad (viewRef prim (cellRef INBUF (libraryRef smartfusion)))
           )
-          (instance asyncDFF (viewRef netlist (cellRef DFF_0_3))
+          (instance toggleDFF (viewRef netlist (cellRef DFF_0_4))
           )
           (instance syncDFF_1 (viewRef netlist (cellRef DFF_0))
           )
@@ -346,19 +442,31 @@
           )
           (instance syncDFF_3 (viewRef netlist (cellRef DFF_0_1))
           )
+          (instance dataSourceMux (viewRef netlist (cellRef mux))
+          )
+          (instance datasinkDFF (viewRef netlist (cellRef DFF_0_2))
+          )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net sQ0 (joined
-           (portRef sQ0 (instanceRef asyncDFF))
-           (portRef sQ0 (instanceRef syncDFF_1))
+          (net dataSourceQ (joined
+           (portRef dataSourceQ (instanceRef toggleDFF))
+           (portRef dataSourceQ (instanceRef dataSourceMux))
           ))
-          (net sQ1 (joined
-           (portRef sQ1 (instanceRef syncDFF_1))
-           (portRef sQ1 (instanceRef syncDFF_2))
+          (net syncQ1 (joined
+           (portRef syncQ1 (instanceRef syncDFF_1))
+           (portRef syncQ1 (instanceRef syncDFF_2))
           ))
-          (net sQ2 (joined
-           (portRef sQ2 (instanceRef syncDFF_2))
-           (portRef sQ2 (instanceRef syncDFF_3))
+          (net syncQ2 (joined
+           (portRef syncQ2 (instanceRef syncDFF_2))
+           (portRef syncQ2 (instanceRef syncDFF_3))
+          ))
+          (net syncSignal (joined
+           (portRef syncSignal (instanceRef syncDFF_3))
+           (portRef syncSignal (instanceRef dataSourceMux))
+          ))
+          (net muxOutput (joined
+           (portRef muxOutput (instanceRef dataSourceMux))
+           (portRef muxOutput (instanceRef datasinkDFF))
           ))
           (net GND (joined
            (portRef Y (instanceRef GND_i))
@@ -368,9 +476,8 @@
           ))
           (net Aclk_c (joined
            (portRef Y (instanceRef Aclk_pad))
-           (portRef Aclk_c (instanceRef syncDFF_3))
-           (portRef Aclk_c (instanceRef syncDFF_2))
            (portRef Aclk_c (instanceRef syncDFF_1))
+           (portRef Aclk_c (instanceRef toggleDFF))
           ))
           (net Aclk (joined
            (portRef Aclk)
@@ -378,7 +485,10 @@
           ))
           (net Bclk_c (joined
            (portRef Y (instanceRef Bclk_pad))
-           (portRef Bclk_c (instanceRef asyncDFF))
+           (portRef Bclk_c (instanceRef datasinkDFF))
+           (portRef Bclk_c (instanceRef syncDFF_3))
+           (portRef Bclk_c (instanceRef syncDFF_2))
+           (portRef Bclk_c (instanceRef syncDFF_1))
           ))
           (net Bclk (joined
            (portRef Bclk)
@@ -386,17 +496,19 @@
           ))
           (net reset_c (joined
            (portRef Y (instanceRef reset_pad))
+           (portRef reset_c (instanceRef datasinkDFF))
            (portRef reset_c (instanceRef syncDFF_3))
            (portRef reset_c (instanceRef syncDFF_2))
            (portRef reset_c (instanceRef syncDFF_1))
-           (portRef reset_c (instanceRef asyncDFF))
+           (portRef reset_c (instanceRef toggleDFF))
           ))
           (net reset (joined
            (portRef reset)
            (portRef PAD (instanceRef reset_pad))
           ))
           (net Dout_c (joined
-           (portRef Dout_c (instanceRef syncDFF_3))
+           (portRef Dout_c (instanceRef datasinkDFF))
+           (portRef Dout_c (instanceRef dataSourceMux))
            (portRef D (instanceRef Dout_pad))
           ))
           (net Dout (joined

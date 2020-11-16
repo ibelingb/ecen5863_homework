@@ -1,2 +1,0 @@
-@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1\hdl\dff.v":28:0:28:5|Found inferred clock CDC3FF|Aclk which controls 3 sequential elements including syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1\hdl\dff.v":28:0:28:5|Found inferred clock CDC3FF|Bclk which controls 2 sequential elements including asyncDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. 

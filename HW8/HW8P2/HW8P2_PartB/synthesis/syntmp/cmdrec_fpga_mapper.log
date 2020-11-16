@@ -1,0 +1,15 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\synlog\report\SlowFast_fpga_mapper.xml  -top_level_module  SlowFast  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.edn   -freq 100.000   E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\synwork\SlowFast_prem.srd  -sap  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.sap  -otap  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.tap  -omap  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.map  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -sap  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.sap  -ologparam  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\syntmp\SlowFast.plg  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.srm  -prjdir  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\  -prjname  SlowFast_syn  -log  E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\synlog\SlowFast_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\scratchproject.prs|io:o|time:1605499880|size:2000|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.edn|io:o|time:1605499883|size:23484|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\synwork\SlowFast_prem.srd|io:i|time:1605499882|size:6896|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.sap|io:o|time:1605499882|size:964|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.tap|io:o|time:0|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.map|io:o|time:1605499883|size:28|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.sap|io:o|time:1605499882|size:964|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\syntmp\SlowFast.plg|io:o|time:1605499883|size:696|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.srm|io:o|time:1605499883|size:67779|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\synlog\SlowFast_fpga_mapper.srr|io:o|time:1605499883|size:17772|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

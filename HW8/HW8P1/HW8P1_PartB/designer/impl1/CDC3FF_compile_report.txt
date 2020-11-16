@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Sat Nov 14 16:24:38 2020 ***************************************************************************
+                          Sun Nov 15 19:40:17 2020 ***************************************************************************
 
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
-File Name: E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\designer\impl1\CDC3FF.adb
+File Name: E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\designer\impl1\CDC3FF.adb
 Design Name: CDC3FF  Design State: compile
-Last Saved: Sat Nov 14 16:24:27 2020
+Last Saved: Sun Nov 15 19:40:13 2020
 
 ***** Device Data **************************************************
 
@@ -22,8 +22,8 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Sat Nov 14 16:24:33 2020:
-        E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.edn
+Source File(s) Imported on Sun Nov 15 19:40:10 2020:
+        E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.edn
 
 
 ***** CAE Variables ************************************************
@@ -49,7 +49,7 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.edn
+Source      : E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.edn
 Format      : EDIF
 Topcell     : CDC3FF
 Speed grade : STD
@@ -91,18 +91,11 @@ Optimized macros:
 
 There were 0 error(s) and 0 warning(s) in this design.
 =====================================================================
-
-Reading previous post-compile physical placement constraints.
-
-
-There were 0 error(s) and 0 warning(s).
-
-=====================================================================
 Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:     10  Total:   4608   (0.22%)
+    Fabric                     Used:     13  Total:   4608   (0.28%)
     Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -131,8 +124,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 5            | 5
-    SEQ     | 5            | 5
+    COMB    | 7            | 7
+    SEQ     | 6            | 6
 
 I/O Function:
 
@@ -155,8 +148,8 @@ I/O Technology:
 I/O Placement:
 
     Locked  :   0
-    Placed  :   4 ( 100.00% )
-    UnPlaced:   0
+    Placed  :   0
+    UnPlaced:   4 ( 100.00% )
 
 Net information report:
 =======================
@@ -164,59 +157,59 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    3       CLK_NET       Net   : Aclk_c
-                          Driver: Aclk_pad
-                          Source: NETLIST
-    2       CLK_NET       Net   : Bclk_c
+    4       CLK_NET       Net   : Bclk_c
                           Driver: Bclk_pad
+                          Source: NETLIST
+    3       INT_NET       Net   : Aclk_c
+                          Driver: Aclk_pad
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    4       INT_NET       Net   : reset_c
+    5       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : asyncDFF/N_4
-                          Driver: asyncDFF/q_3_i_0
-    1       INT_NET       Net   : sQ0
-                          Driver: asyncDFF/q
-    1       INT_NET       Net   : sQ1
+    2       INT_NET       Net   : Dout_c
+                          Driver: datasinkDFF/q
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
-    1       INT_NET       Net   : sQ2
+    1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : Dout_c
+    1       INT_NET       Net   : syncSignal
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : syncDFF_3/q_3_i
-                          Driver: syncDFF_3/q_3_i
+    1       INT_NET       Net   : muxOutput
+                          Driver: dataSourceMux/y
+    1       INT_NET       Net   : datasinkDFF/q_RNO
+                          Driver: datasinkDFF/q_RNO
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_3_i
-    1       INT_NET       Net   : syncDFF_2/N_8
-                          Driver: syncDFF_2/q_3_i
-    1       INT_NET       Net   : asyncDFF/N_4_i
-                          Driver: asyncDFF/q_RNO
+                          Driver: syncDFF_1/q_RNO
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    4       INT_NET       Net   : reset_c
+    5       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : asyncDFF/N_4
-                          Driver: asyncDFF/q_3_i_0
-    1       INT_NET       Net   : sQ0
-                          Driver: asyncDFF/q
-    1       INT_NET       Net   : sQ1
+    2       INT_NET       Net   : Dout_c
+                          Driver: datasinkDFF/q
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
-    1       INT_NET       Net   : sQ2
+    1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : Dout_c
+    1       INT_NET       Net   : syncSignal
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : syncDFF_3/q_3_i
-                          Driver: syncDFF_3/q_3_i
+    1       INT_NET       Net   : muxOutput
+                          Driver: dataSourceMux/y
+    1       INT_NET       Net   : datasinkDFF/q_RNO
+                          Driver: datasinkDFF/q_RNO
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_3_i
-    1       INT_NET       Net   : syncDFF_2/N_8
-                          Driver: syncDFF_2/q_3_i
-    1       INT_NET       Net   : asyncDFF/sQbar0
-                          Driver: asyncDFF/qbar
+                          Driver: syncDFF_1/q_RNO
 
 

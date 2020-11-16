@@ -1,0 +1,2 @@
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\HW8P1.v":28:17:28:25|Removing wire dataSinkQ, as there is no assignment to it.
+

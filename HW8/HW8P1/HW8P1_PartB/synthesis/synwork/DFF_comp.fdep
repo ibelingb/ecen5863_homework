@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\repos\\ECEN5863_HW\\HW8\\HW8P1\\HW8P1_PartB\\synthesis\\synwork\\DFF_comp.srs|-top|DFF|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|E:\\repos\\ECEN5863_HW\\HW8\\HW8P1\\HW8P1_PartB\\synthesis\\|-I|E:\\Microsemi\\SynplifyPro\\lib|-v2001|-devicelib|E:\\Microsemi\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"E:\\Microsemi\\SynplifyPro\\bin64\\c_ver.exe":1480003824
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487966850
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\hypermods.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
+#CUR:"E:\\Microsemi\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
+#CUR:"E:\\repos\\ECEN5863_HW\\HW8\\HW8P1\\HW8P1_PartB\\hdl\\DFF.v":1605489461
+0			"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work DFF 0

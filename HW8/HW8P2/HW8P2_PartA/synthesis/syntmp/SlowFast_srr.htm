@@ -1,20 +1,20 @@
 <html><body><samp><pre>
-<!@TC:1605399598>
+<!@TC:1605499290>
 #Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
 #install: E:\Microsemi\SynplifyPro
 #OS: Windows 8 6.2
 #Hostname: BPC
 
-# Sat Nov 14 17:19:58 2020
+# Sun Nov 15 21:01:30 2020
 
 #Implementation: synthesis
 
 <a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
-@N: : <!@TM:1605399598> | Running in 64-bit mode 
+@N: : <!@TM:1605499290> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 <a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016</a>
-@N: : <!@TM:1605399598> | Running in 64-bit mode 
+@N: : <!@TM:1605499290> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @I::"E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v" (library work)
@@ -23,34 +23,44 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v" (library work)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 Selecting top level module SlowFast
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v:23:7:23:10:@N:CG364:@XP_MSG">DFF.v(23)</a><!@TM:1605399598> | Synthesizing module DFF in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v:23:7:23:10:@N:CG364:@XP_MSG">DFF.v(23)</a><!@TM:1605499290> | Synthesizing module DFF in library work.
 
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v:14:7:14:15:@N:CG364:@XP_MSG">SlowFast.v(14)</a><!@TM:1605399598> | Synthesizing module SlowFast in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v:22:7:22:10:@N:CG364:@XP_MSG">mux.v(22)</a><!@TM:1605499290> | Synthesizing module mux in library work.
 
-@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v:30:0:30:6:@N:CL189:@XP_MSG">SlowFast.v(30)</a><!@TM:1605399598> | Register bit temp[0] is always 0.
-<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v:30:0:30:6:@W:CL260:@XP_MSG">SlowFast.v(30)</a><!@TM:1605399598> | Pruning register bit 0 of temp[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v:23:7:23:15:@N:CG364:@XP_MSG">DFF_bus4.v(23)</a><!@TM:1605499290> | Synthesizing module DFF_bus4 in library work.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v:29:0:29:6:@N:CL189:@XP_MSG">DFF_bus4.v(29)</a><!@TM:1605499290> | Register bit qbar[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v:29:0:29:6:@N:CL189:@XP_MSG">DFF_bus4.v(29)</a><!@TM:1605499290> | Register bit qbar[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v:29:0:29:6:@N:CL189:@XP_MSG">DFF_bus4.v(29)</a><!@TM:1605499290> | Register bit qbar[1] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v:29:0:29:6:@W:CL279:@XP_MSG">DFF_bus4.v(29)</a><!@TM:1605499290> | Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v:14:7:14:15:@N:CG364:@XP_MSG">SlowFast.v(14)</a><!@TM:1605499290> | Synthesizing module SlowFast in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 17:19:58 2020
+# Sun Nov 15 21:01:30 2020
 
 ###########################################################]
 <a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
-@N: : <!@TM:1605399598> | Running in 64-bit mode 
+@N: : <!@TM:1605499290> | Running in 64-bit mode 
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 17:19:58 2020
+# Sun Nov 15 21:01:30 2020
 
 ###########################################################]
 @END
@@ -60,24 +70,24 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 17:19:58 2020
+# Sun Nov 15 21:01:30 2020
 
 ###########################################################]
 <a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016</a>
-@N: : <!@TM:1605399599> | Running in 64-bit mode 
-Options changed - recompiling
+@N: : <!@TM:1605499291> | Running in 64-bit mode 
+File E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\synwork\SlowFast_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 17:19:59 2020
+# Sun Nov 15 21:01:31 2020
 
 ###########################################################]
 Pre-mapping Report
 
-# Sat Nov 14 17:19:59 2020
+# Sun Nov 15 21:01:31 2020
 
 <a name=mapperReport5></a>Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -85,23 +95,25 @@ Product Version L-2016.09M-2
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1605399600> | No constraint file specified. 
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1605499292> | No constraint file specified. 
 Linked File: <a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast_scck.rpt:@XP_FILE">SlowFast_scck.rpt</a>
 Printing clock  summary report in "E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast_scck.rpt" file 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1605399600> | Running in 64-bit mode. 
-@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1605399600> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1605499292> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1605499292> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 Renaming user netlist hierarchy view:work.DFF(verilog) to avoid clashing with Microsemi library name
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605399600> | Removing sequential instance qbar (in view: work.DFF_0_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605399600> | Removing sequential instance qbar (in view: work.DFF_0_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605399600> | Removing sequential instance qbar (in view: work.DFF_0_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605499292> | Removing sequential instance qbar (in view: work.DFF_0_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605499292> | Removing sequential instance qbar (in view: work.DFF_0_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@N:BN362:@XP_MSG">dff.v(28)</a><!@TM:1605499292> | Removing sequential instance qbar (in view: work.DFF_0_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff_bus4.v:29:0:29:6:@N:BN362:@XP_MSG">dff_bus4.v(29)</a><!@TM:1605499292> | Removing sequential instance qbar_1[0] (in view: work.DFF_bus4_1(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff_bus4.v:29:0:29:6:@N:BN362:@XP_MSG">dff_bus4.v(29)</a><!@TM:1605499292> | Removing sequential instance qbar_1[0] (in view: work.DFF_bus4_0(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
 
 
@@ -111,34 +123,34 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start             Requested     Requested     Clock        Clock                   Clock
 Clock             Frequency     Period        Type         Group                   Load 
 ----------------------------------------------------------------------------------------
-SlowFast|Aclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     5    
-SlowFast|Bclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     3    
+SlowFast|Aclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     13   
+SlowFast|Bclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     5    
 ========================================================================================
 
-<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v:30:0:30:6:@W:MT530:@XP_MSG">slowfast.v(30)</a><!@TM:1605399600> | Found inferred clock SlowFast|Bclk which controls 3 sequential elements including temp[3:1]. This clock has no specified timing constraint which may adversely impact design performance. </font>
-<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@W:MT530:@XP_MSG">dff.v(28)</a><!@TM:1605399600> | Found inferred clock SlowFast|Aclk which controls 5 sequential elements including dff_0.qbar. This clock has no specified timing constraint which may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@W:MT530:@XP_MSG">dff.v(28)</a><!@TM:1605499292> | Found inferred clock SlowFast|Aclk which controls 13 sequential elements including toggleDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v:28:0:28:6:@W:MT530:@XP_MSG">dff.v(28)</a><!@TM:1605499292> | Found inferred clock SlowFast|Bclk which controls 5 sequential elements including temp0_syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. </font>
 
 Finished Pre Mapping Phase.
-@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1605399600> | Writing default property annotation file E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap. 
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1605499292> | Writing default property annotation file E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap. 
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Nov 14 17:20:00 2020
+# Sun Nov 15 21:01:32 2020
 
 ###########################################################]
 Map & Optimize Report
 
-# Sat Nov 14 17:20:00 2020
+# Sun Nov 15 21:01:32 2020
 
 <a name=mapperReport7></a>Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -146,8 +158,8 @@ Product Version L-2016.09M-2
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1605399601> | Running in 64-bit mode. 
-@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1605399601> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1605499293> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1605499293> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
@@ -156,7 +168,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -178,22 +190,22 @@ Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
 
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
-@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1605399601> | Promoting Net Aclk_c on CLKBUF  Aclk_pad  
-@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1605399601> | Promoting Net Bclk_c on CLKBUF  Bclk_pad  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1605499293> | Promoting Net Aclk_c on CLKBUF  Aclk_pad  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1605499293> | Promoting Net Bclk_c on CLKBUF  Bclk_pad  
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
@@ -213,16 +225,16 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 <a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
 
 Clock optimization not enabled
-2 non-gated/non-generated clock tree(s) driving 8 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 17 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
-=========================== Non-Gated/Non-Generated Clocks ============================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
----------------------------------------------------------------------------------------
-<a href="@|S:Aclk@|E:syncDFF_3.q@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       Aclk                port                   5          syncDFF_3.q    
-<a href="@|S:Bclk@|E:temp[1]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002  @XP_NAMES_BY_PROP">ClockId0002 </a>       Bclk                port                   3          temp[1]        
-=======================================================================================
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance 
+----------------------------------------------------------------------------------------
+<a href="@|S:Aclk@|E:temp[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       Aclk                port                   13         temp[0]         
+<a href="@|S:Bclk@|E:datasinkDFF.q[3]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002  @XP_NAMES_BY_PROP">ClockId0002 </a>       Bclk                port                   4          datasinkDFF.q[3]
+========================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
@@ -242,12 +254,12 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s
 
 Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
-<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1605399601> | Found inferred clock SlowFast|Aclk with period 10.00ns. Please declare a user-defined clock on object "p:Aclk"</font> 
-<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1605399601> | Found inferred clock SlowFast|Bclk with period 10.00ns. Please declare a user-defined clock on object "p:Bclk"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1605499293> | Found inferred clock SlowFast|Aclk with period 10.00ns. Please declare a user-defined clock on object "p:Aclk"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1605499293> | Found inferred clock SlowFast|Bclk with period 10.00ns. Please declare a user-defined clock on object "p:Bclk"</font> 
 
 
 <a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
-# Timing Report written on Sat Nov 14 17:20:01 2020
+# Timing Report written on Sun Nov 15 21:01:33 2020
 #
 
 
@@ -259,9 +271,9 @@ Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
 Constraint File(s):    
-@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1605399601> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1605499293> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
 
-@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1605399601> | Clock constraints include only register-to-register paths associated with each individual clock. 
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1605499293> | Clock constraints include only register-to-register paths associated with each individual clock. 
 
 
 
@@ -269,14 +281,15 @@ Constraint File(s):
 *******************
 
 
-Worst slack in design: 6.034
+Worst slack in design: 5.441
 
                    Requested     Estimated     Requested     Estimated               Clock        Clock              
 Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
 ---------------------------------------------------------------------------------------------------------------------
-SlowFast|Aclk      100.0 MHz     313.3 MHz     10.000        3.192         6.808     inferred     Inferred_clkgroup_1
-SlowFast|Bclk      100.0 MHz     252.1 MHz     10.000        3.966         6.034     inferred     Inferred_clkgroup_0
+SlowFast|Aclk      100.0 MHz     219.4 MHz     10.000        4.559         5.441     inferred     Inferred_clkgroup_0
+SlowFast|Bclk      100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
 =====================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1605499293> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
 
 
 
@@ -289,9 +302,8 @@ Clocks                        |    rise  to  rise   |    fall  to  fall   |    r
 --------------------------------------------------------------------------------------------------------------------
 Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------
-SlowFast|Bclk  SlowFast|Bclk  |  10.000      6.034  |  No paths    -      |  No paths    -      |  No paths    -    
+SlowFast|Aclk  SlowFast|Aclk  |  10.000      5.442  |  No paths    -      |  No paths    -      |  No paths    -    
 SlowFast|Aclk  SlowFast|Bclk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
-SlowFast|Aclk  SlowFast|Aclk  |  10.000      6.808  |  No paths    -      |  No paths    -      |  No paths    -    
 ====================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -314,108 +326,46 @@ No IO constraint found
 <a name=startingSlack14></a>Starting Points with Worst Slack</a>
 ********************************
 
-                Starting                                      Arrival          
-Instance        Reference         Type     Pin     Net        Time        Slack
-                Clock                                                          
--------------------------------------------------------------------------------
-dff_0.qbar      SlowFast|Aclk     DFN1     Q       sQbar0     0.580       6.808
-dff_0.q         SlowFast|Aclk     DFN1     Q       sQ0        0.737       7.355
-syncDFF_2.q     SlowFast|Aclk     DFN1     Q       sQ2        0.737       7.419
-syncDFF_1.q     SlowFast|Aclk     DFN1     Q       sQ1        0.737       7.419
-===============================================================================
+                      Starting                                               Arrival          
+Instance              Reference         Type     Pin     Net                 Time        Slack
+                      Clock                                                                   
+----------------------------------------------------------------------------------------------
+temp0_syncDFF_3.q     SlowFast|Aclk     DFN1     Q       syncSignal          0.737       5.441
+temp[0]               SlowFast|Aclk     DFN1     Q       temp[0]             0.737       6.509
+temp[1]               SlowFast|Aclk     DFN1     Q       temp[1]             0.737       6.509
+temp[2]               SlowFast|Aclk     DFN1     Q       temp[2]             0.737       6.509
+temp[3]               SlowFast|Aclk     DFN1     Q       temp[3]             0.737       6.573
+toggleDFF.qbar        SlowFast|Aclk     DFN1     Q       dataSourceQbar      0.580       6.808
+interfaceDFF.q[0]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[0]     0.580       7.273
+interfaceDFF.q[1]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[1]     0.580       7.273
+interfaceDFF.q[2]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[2]     0.580       7.273
+interfaceDFF.q[3]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[3]     0.580       7.273
+==============================================================================================
 
 
 <a name=endingSlack15></a>Ending Points with Worst Slack</a>
 ******************************
 
-                Starting                                     Required          
-Instance        Reference         Type     Pin     Net       Time         Slack
-                Clock                                                          
--------------------------------------------------------------------------------
-dff_0.q         SlowFast|Aclk     DFN1     D       N_4_i     9.461        6.808
-syncDFF_1.q     SlowFast|Aclk     DFN1     D       N_6       9.427        7.355
-syncDFF_3.q     SlowFast|Aclk     DFN1     D       q_3_i     9.427        7.419
-syncDFF_2.q     SlowFast|Aclk     DFN1     D       N_8       9.427        7.419
-dff_0.qbar      SlowFast|Aclk     DFN1     D       N_4       9.461        7.551
-===============================================================================
+                      Starting                                         Required          
+Instance              Reference         Type     Pin     Net           Time         Slack
+                      Clock                                                              
+-----------------------------------------------------------------------------------------
+interfaceDFF.q[0]     SlowFast|Aclk     DFN1     D       N_10          9.427        5.441
+interfaceDFF.q[1]     SlowFast|Aclk     DFN1     D       N_8           9.427        5.441
+interfaceDFF.q[2]     SlowFast|Aclk     DFN1     D       N_6           9.427        5.441
+interfaceDFF.q[3]     SlowFast|Aclk     DFN1     D       N_4           9.427        5.441
+toggleDFF.q           SlowFast|Aclk     DFN1     D       q_3_i_0_i     9.461        6.808
+temp[1]               SlowFast|Aclk     DFN1     D       N_40          9.427        7.355
+temp[2]               SlowFast|Aclk     DFN1     D       N_38          9.427        7.355
+temp[3]               SlowFast|Aclk     DFN1     D       N_36          9.427        7.355
+temp0_syncDFF_3.q     SlowFast|Aclk     DFN1     D       N_34          9.427        7.419
+temp0_syncDFF_2.q     SlowFast|Aclk     DFN1     D       N_32          9.427        7.419
+=========================================================================================
 
 
 
 <a name=worstPaths16></a>Worst Path Information</a>
-<a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srr:srsfE:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srs:fp:18782:19493:@XP_NAMES_GATE">View Worst Path in Analyst</a>
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      10.000
-    - Setup time:                            0.539
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.461
-
-    - Propagation time:                      2.654
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 6.808
-
-    Number of logic level(s):                2
-    Starting point:                          dff_0.qbar / Q
-    Ending point:                            dff_0.q / D
-    The start point is clocked by            SlowFast|Aclk [rising] on pin CLK
-    The end   point is clocked by            SlowFast|Aclk [rising] on pin CLK
-
-Instance / Net              Pin      Pin               Arrival     No. of    
-Name               Type     Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------
-dff_0.qbar         DFN1     Q        Out     0.580     0.580       -         
-sQbar0             Net      -        -       0.322     -           1         
-dff_0.q_3_i_0      OR2A     A        In      -         0.902       -         
-dff_0.q_3_i_0      OR2A     Y        Out     0.537     1.439       -         
-N_4                Net      -        -       0.386     -           2         
-dff_0.q_RNO        INV      A        In      -         1.825       -         
-dff_0.q_RNO        INV      Y        Out     0.507     2.332       -         
-N_4_i              Net      -        -       0.322     -           1         
-dff_0.q            DFN1     D        In      -         2.654       -         
-=============================================================================
-Total path delay (propagation time + setup) of 3.192 is 2.164(67.8%) logic and 1.029(32.2%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
-<a name=clockReport17></a>Detailed Report for Clock: SlowFast|Bclk</a>
-====================================
-
-
-
-<a name=startingSlack18></a>Starting Points with Worst Slack</a>
-********************************
-
-             Starting                                        Arrival          
-Instance     Reference         Type     Pin     Net          Time        Slack
-             Clock                                                            
-------------------------------------------------------------------------------
-temp[1]      SlowFast|Bclk     DFN1     Q       out_c[1]     0.737       6.034
-temp[2]      SlowFast|Bclk     DFN1     Q       out_c[2]     0.737       6.034
-temp[3]      SlowFast|Bclk     DFN1     Q       out_c[3]     0.737       6.455
-==============================================================================
-
-
-<a name=endingSlack19></a>Ending Points with Worst Slack</a>
-******************************
-
-             Starting                                           Required          
-Instance     Reference         Type     Pin     Net             Time         Slack
-             Clock                                                                
-----------------------------------------------------------------------------------
-temp[1]      SlowFast|Bclk     DFN1     D       temp_RNO[1]     9.427        6.034
-temp[2]      SlowFast|Bclk     DFN1     D       temp_RNO[2]     9.427        6.034
-temp[3]      SlowFast|Bclk     DFN1     D       temp_RNO[3]     9.427        6.041
-==================================================================================
-
-
-
-<a name=worstPaths20></a>Worst Path Information</a>
-<a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srr:srsfE:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srs:fp:22427:23147:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+<a href="E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srr:srsfE:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.srs:fp:21404:22196:@XP_NAMES_GATE">View Worst Path in Analyst</a>
 ***********************
 
 
@@ -425,30 +375,30 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.427
 
-    - Propagation time:                      3.392
+    - Propagation time:                      3.985
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     6.034
+    = Slack (critical) :                     5.442
 
     Number of logic level(s):                2
-    Starting point:                          temp[1] / Q
-    Ending point:                            temp[1] / D
-    The start point is clocked by            SlowFast|Bclk [rising] on pin CLK
-    The end   point is clocked by            SlowFast|Bclk [rising] on pin CLK
+    Starting point:                          temp0_syncDFF_3.q / Q
+    Ending point:                            interfaceDFF.q[0] / D
+    The start point is clocked by            SlowFast|Aclk [rising] on pin CLK
+    The end   point is clocked by            SlowFast|Aclk [rising] on pin CLK
 
-Instance / Net               Pin      Pin               Arrival     No. of    
-Name               Type      Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------
-temp[1]            DFN1      Q        Out     0.737     0.737       -         
-out_c[1]           Net       -        -       0.806     -           3         
-temp_RNO_0[1]      MX2       A        In      -         1.543       -         
-temp_RNO_0[1]      MX2       Y        Out     0.579     2.122       -         
-temp_RNO_0[1]      Net       -        -       0.322     -           1         
-temp_RNO[1]        NOR2A     A        In      -         2.443       -         
-temp_RNO[1]        NOR2A     Y        Out     0.627     3.071       -         
-temp_RNO[1]        Net       -        -       0.322     -           1         
-temp[1]            DFN1      D        In      -         3.392       -         
-==============================================================================
-Total path delay (propagation time + setup) of 3.966 is 2.516(63.5%) logic and 1.449(36.5%) route.
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                        Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+temp0_syncDFF_3.q           DFN1     Q        Out     0.737     0.737       -         
+syncSignal                  Net      -        -       1.639     -           8         
+interfaceDFF.q_RNO_0[0]     AO1D     A        In      -         2.376       -         
+interfaceDFF.q_RNO_0[0]     AO1D     Y        Out     0.480     2.855       -         
+q_0_i_0[0]                  Net      -        -       0.322     -           1         
+interfaceDFF.q_RNO[0]       OA1C     C        In      -         3.177       -         
+interfaceDFF.q_RNO[0]       OA1C     Y        Out     0.487     3.664       -         
+N_10                        Net      -        -       0.322     -           1         
+interfaceDFF.q[0]           DFN1     D        In      -         3.985       -         
+======================================================================================
+Total path delay (propagation time + setup) of 4.558 is 2.277(49.9%) logic and 2.282(50.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -465,20 +415,21 @@ Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 --------------------------------------------------------------------------------
 Target Part: A2F200M3F_FBGA484_STD
-<a name=cellReport21></a>Report for cell SlowFast.verilog</a>
+<a name=cellReport17></a>Report for cell SlowFast.verilog</a>
   Core Cell usage:
               cell count     area count*area
-               GND     5      0.0        0.0
+              AO1D     4      1.0        4.0
+               GND     8      0.0        0.0
                INV     1      1.0        1.0
-               MX2     3      1.0        3.0
-             NOR2A     6      1.0        6.0
+             NOR2A    10      1.0       10.0
+              OA1C     4      1.0        4.0
               OR2A     1      1.0        1.0
-               VCC     5      0.0        0.0
+               VCC     8      0.0        0.0
 
 
-              DFN1     8      1.0        8.0
+              DFN1    17      1.0       17.0
                    -----          ----------
-             TOTAL    29                19.0
+             TOTAL    53                37.0
 
 
   IO Cell usage:
@@ -490,7 +441,7 @@ Target Part: A2F200M3F_FBGA484_STD
              TOTAL     7
 
 
-Core Cells         : 19 of 4608 (0%)
+Core Cells         : 37 of 4608 (1%)
 IO Cells           : 7
 
   RAM/ROM Usage Summary
@@ -498,10 +449,10 @@ Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Nov 14 17:20:01 2020
+# Sun Nov 15 21:01:33 2020
 
 ###########################################################]
 

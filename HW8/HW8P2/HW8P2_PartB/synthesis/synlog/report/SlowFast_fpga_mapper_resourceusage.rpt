@@ -1,0 +1,32 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell SlowFast.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     6      0.0        0.0
+               INV     1      1.0        1.0
+             NOR2A     6      1.0        6.0
+             NOR3A     4      1.0        4.0
+              OR2A     1      1.0        1.0
+               VCC     6      0.0        0.0
+
+
+              DFN1    13      1.0       13.0
+                   -----          ----------
+             TOTAL    37                25.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     1
+            OUTBUF     4
+                   -----
+             TOTAL     7
+
+
+Core Cells         : 25 of 4608 (1%)
+IO Cells           : 7
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

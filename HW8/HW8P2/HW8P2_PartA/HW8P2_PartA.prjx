@@ -51,20 +51,70 @@ STATE="utd"
 TIME="1605399194"
 SIZE="199"
 ENDFILE
+VALUE "<project>\designer\impl1\FastSlow.ide_des,ide_des"
+STATE="utd"
+TIME="1605494968"
+SIZE="202"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast.adb,adb"
+STATE="utd"
+TIME="1605498968"
+SIZE="51712"
+ENDFILE
 VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
 STATE="utd"
-TIME="1605399501"
-SIZE="202"
+TIME="1605498968"
+SIZE="983"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_compile_log.rpt,log"
+STATE="utd"
+TIME="1605498926"
+SIZE="8141"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1605499326"
+SIZE="2653"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1605499282"
+SIZE="358"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1605499331"
+SIZE="1160"
 ENDFILE
 VALUE "<project>\hdl\DFF.v,hdl"
 STATE="utd"
 TIME="1605399179"
 SIZE="973"
 ENDFILE
+VALUE "<project>\hdl\DFF_bus4.v,hdl"
+STATE="utd"
+TIME="1605498170"
+SIZE="1008"
+ENDFILE
+VALUE "<project>\hdl\mux.v,hdl"
+STATE="utd"
+TIME="1605498370"
+SIZE="898"
+ENDFILE
 VALUE "<project>\hdl\SlowFast.v,hdl"
 STATE="utd"
-TIME="1605399594"
-SIZE="1104"
+TIME="1605498497"
+SIZE="1804"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1605498580"
+SIZE="828"
+ENDFILE
+VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1605498719"
+SIZE="3614"
 ENDFILE
 VALUE "<project>\synthesis\counter.edn,syn_edn"
 STATE="utd"
@@ -88,48 +138,89 @@ SIZE="1718"
 ENDFILE
 VALUE "<project>\synthesis\DFF.edn,syn_edn"
 STATE="utd"
-TIME="1605399263"
+TIME="1605399466"
 SIZE="6910"
 ENDFILE
 VALUE "<project>\synthesis\DFF.so,so"
 STATE="utd"
-TIME="1605399263"
+TIME="1605399466"
 SIZE="220"
 ENDFILE
 VALUE "<project>\synthesis\DFF_syn.prj,prj"
 STATE="utd"
-TIME="1605399263"
+TIME="1605399466"
 SIZE="1701"
 ENDFILE
+VALUE "<project>\synthesis\FastSlow.edn,syn_edn"
+STATE="utd"
+TIME="1605496726"
+SIZE="4133"
+ENDFILE
+VALUE "<project>\synthesis\FastSlow.so,so"
+STATE="utd"
+TIME="1605496726"
+SIZE="228"
+ENDFILE
+VALUE "<project>\synthesis\FastSlow_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1605496726"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\FastSlow_syn.prj,prj"
+STATE="utd"
+TIME="1605496764"
+SIZE="1610"
+ENDFILE
 VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
-STATE="ood"
-TIME="1605399585"
-SIZE="3796"
+STATE="utd"
+TIME="1605498912"
+SIZE="32037"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast.so,so"
 STATE="utd"
-TIME="1605399585"
+TIME="1605498912"
 SIZE="228"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1605399585"
-SIZE="310"
+STATE="utd"
+TIME="1605498912"
+SIZE="488"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
 STATE="utd"
-TIME="1605399503"
-SIZE="627"
+TIME="1605498912"
+SIZE="1948"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1605399504"
+TIME="1605498374"
 SIZE="159"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "SlowFast::work"
+FILE "<project>\hdl\SlowFast.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\SlowFast_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\SlowFast_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -209,7 +300,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="E:\Microsemi\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -234,6 +325,20 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "SlowFast::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -248,16 +353,25 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
+ReportsCurrentItem;Verify Timing:SlowFast_maxdelay_timing_report.txt
 HDL;hdl\SlowFast.v;0
+HDL;hdl\DFF.v;0
+HDL;hdl\mux.v;0
+HDL;hdl\DFF_bus4.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\SlowFast.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
 ENDLIST
+LIST "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
+ENDLIST
+LIST "mux::work","hdl\mux.v","FALSE","FALSE"
+ENDLIST
 LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
+SUBBLOCK "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
+SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

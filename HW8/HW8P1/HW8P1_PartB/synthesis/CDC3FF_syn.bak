@@ -1,6 +1,7 @@
 #add_file options
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v"
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v"
 
 
 

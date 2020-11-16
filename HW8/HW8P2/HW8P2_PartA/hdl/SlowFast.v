@@ -18,16 +18,20 @@ module SlowFast
 );
 
 reg [3:0] temp;
-wire sQ0, sQ1, sQ2, SyncSignal;
-wire sQbar0, sQbar1, sQbar2, sQbar3;
 
 // Create Toggle DFF
-DFF dff_0(sQbar0, Aclk, reset, sQ0, sQbar0);
-DFF syncDFF_1(sQ0, Aclk, reset, sQ1, sQbar1);
-DFF syncDFF_2(sQ1, Aclk, reset, sQ2, sQbar2);
-DFF syncDFF_3(sQ2, Aclk, reset, SyncSignal, sQbar3);
+wire dataSourceQ, dataSourceQbar;
+DFF toggleDFF(dataSourceQbar, Aclk, reset, dataSourceQ, dataSourceQbar);
 
-always @(posedge Bclk)
+// Create SyncSignal based on SlowClock input
+wire sQbar1, sQbar2, sQbar3;
+wire syncQ1, syncQ2, syncSignal;
+DFF temp0_syncDFF_1(Bclk, Aclk, reset, syncQ1, sQbar1);
+DFF temp0_syncDFF_2(syncQ1, Aclk, reset, syncQ2, sQbar2);
+DFF temp0_syncDFF_3(syncQ2, Aclk, reset, syncSignal, sQbar3);
+
+// Create input shift register DataSource
+always @(posedge Aclk)
 begin
     // Catch reset signal
     if(reset == 1)
@@ -35,16 +39,25 @@ begin
         temp = 4'b0;
     end
 
-    // Catch Sync Signal
-    else if(SyncSignal == 1)
-    begin
-        temp[0] = sQ0;        
-        temp = temp << 1;        
-    end
+    // Catch output dataSourceQ, shift temp bus by 1 and load sQ0 into LSb
+    temp = temp << 1;
+    temp[0] = dataSourceQ;
 end
 
-assign out = temp;
+// Create wires and D Flip-Flops for Interface and Slow DFF
+wire [3:0] muxOutput;
+wire [3:0] fDataLockedQ;
+wire [3:0] sQbar4;
+wire [3:0] sQbar5;
 
+// Pass SyncSignal as select for Mux, determines where output data is sourced from
+mux dataSourceMux(temp, fDataLockedQ, syncSignal, muxOutput);
+
+// Create Interface DFF to lock the DataSource output Q
+DFF_bus4 interfaceDFF(muxOutput, Aclk, reset, fDataLockedQ, sQbar4);
+
+// Create DFF on slower clock to read locked DataSource output Q
+DFF_bus4 datasinkDFF(fDataLockedQ, Bclk, reset, out, sQbar5);
 
 endmodule
 

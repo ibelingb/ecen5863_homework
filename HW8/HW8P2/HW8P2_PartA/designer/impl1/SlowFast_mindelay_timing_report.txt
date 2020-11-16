@@ -1,0 +1,608 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sun Nov 15 21:02:11 2020
+
+
+Design: SlowFast
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               Aclk
+Period (ns):                5.411
+Frequency (MHz):            184.809
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        5.025
+External Hold (ns):         -0.129
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               Bclk
+Period (ns):                4.000
+Frequency (MHz):            250.000
+Required Period (ns):       300.300
+Required Frequency (MHz):   3.330
+External Setup (ns):        2.416
+External Hold (ns):         -0.445
+Min Clock-To-Out (ns):      2.959
+Max Clock-To-Out (ns):      7.571
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain Aclk
+
+SET Register to Register
+
+Path 1
+  From:                        toggleDFF/q:CLK
+  To:                          temp[0]:D
+  Delay (ns):                  0.395
+  Slack (ns):                  0.379
+  Arrival (ns):                1.232
+  Required (ns):               0.853
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        toggleDFF/qbar:CLK
+  To:                          toggleDFF/qbar:D
+  Delay (ns):                  0.759
+  Slack (ns):                  0.759
+  Arrival (ns):                1.592
+  Required (ns):               0.833
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        temp0_syncDFF_2/q:CLK
+  To:                          temp0_syncDFF_3/q:D
+  Delay (ns):                  0.800
+  Slack (ns):                  0.782
+  Arrival (ns):                1.646
+  Required (ns):               0.864
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        temp0_syncDFF_1/q:CLK
+  To:                          temp0_syncDFF_2/q:D
+  Delay (ns):                  1.151
+  Slack (ns):                  1.133
+  Arrival (ns):                1.997
+  Required (ns):               0.864
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        temp[1]:CLK
+  To:                          temp[2]:D
+  Delay (ns):                  1.173
+  Slack (ns):                  1.146
+  Arrival (ns):                2.012
+  Required (ns):               0.866
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: toggleDFF/q:CLK
+  To: temp[0]:D
+  data arrival time                              1.232
+  data required time                         -   0.853
+  slack                                          0.379
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Aclk
+               +     0.000          Clock source
+  0.000                        Aclk (r)
+               +     0.000          net: Aclk
+  0.000                        Aclk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        Aclk_pad/U0/U0:Y (r)
+               +     0.000          net: Aclk_pad/U0/NET1
+  0.391                        Aclk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        Aclk_pad/U0/U1:Y (r)
+               +     0.298          net: Aclk_c
+  0.837                        toggleDFF/q:CLK (r)
+               +     0.249          cell: ADLIB:DFN1
+  1.086                        toggleDFF/q:Q (r)
+               +     0.146          net: dataSourceQ
+  1.232                        temp[0]:D (r)
+                                    
+  1.232                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        Aclk
+               +     0.000          Clock source
+  0.000                        Aclk (r)
+               +     0.000          net: Aclk
+  0.000                        Aclk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        Aclk_pad/U0/U0:Y (r)
+               +     0.000          net: Aclk_pad/U0/NET1
+  0.391                        Aclk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        Aclk_pad/U0/U1:Y (r)
+               +     0.314          net: Aclk_c
+  0.853                        temp[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  0.853                        temp[0]:D
+                                    
+  0.853                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        Bclk
+  To:                          temp0_syncDFF_1/q:D
+  Delay (ns):                  1.144
+  Slack (ns):
+  Arrival (ns):                1.144
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.129
+
+Path 2
+  From:                        reset
+  To:                          temp[1]:D
+  Delay (ns):                  1.195
+  Slack (ns):
+  Arrival (ns):                1.195
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.188
+
+Path 3
+  From:                        reset
+  To:                          temp0_syncDFF_1/q:D
+  Delay (ns):                  1.246
+  Slack (ns):
+  Arrival (ns):                1.246
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.231
+
+Path 4
+  From:                        reset
+  To:                          temp0_syncDFF_2/q:D
+  Delay (ns):                  1.443
+  Slack (ns):
+  Arrival (ns):                1.443
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.428
+
+Path 5
+  From:                        reset
+  To:                          temp0_syncDFF_3/q:D
+  Delay (ns):                  1.501
+  Slack (ns):
+  Arrival (ns):                1.501
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.486
+
+
+Expanded Path 1
+  From: Bclk
+  To: temp0_syncDFF_1/q:D
+  data arrival time                              1.144
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Bclk (f)
+               +     0.000          net: Bclk
+  0.000                        Bclk_pad/U0/U0:PAD (f)
+               +     0.277          cell: ADLIB:IOPAD_IN
+  0.277                        Bclk_pad/U0/U0:Y (f)
+               +     0.000          net: Bclk_pad/U0/NET1
+  0.277                        Bclk_pad/U0/U1:A (f)
+               +     0.135          cell: ADLIB:CLKSRC
+  0.412                        Bclk_pad/U0/U1:Y (f)
+               +     0.302          net: Bclk_c
+  0.714                        temp0_syncDFF_1/q_RNO:A (f)
+               +     0.273          cell: ADLIB:NOR2A
+  0.987                        temp0_syncDFF_1/q_RNO:Y (f)
+               +     0.157          net: temp0_syncDFF_1/N_30
+  1.144                        temp0_syncDFF_1/q:D (f)
+                                    
+  1.144                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          Aclk
+               +     0.000          Clock source
+  N/C                          Aclk (r)
+               +     0.000          net: Aclk
+  N/C                          Aclk_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          Aclk_pad/U0/U0:Y (r)
+               +     0.000          net: Aclk_pad/U0/NET1
+  N/C                          Aclk_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          Aclk_pad/U0/U1:Y (r)
+               +     0.368          net: Aclk_c
+  N/C                          temp0_syncDFF_1/q:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          temp0_syncDFF_1/q:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain Bclk
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin Bclk_pad/U0/U0:PAD
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        reset
+  To:                          datasinkDFF/q[3]:D
+  Delay (ns):                  1.450
+  Slack (ns):
+  Arrival (ns):                1.450
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.445
+
+Path 2
+  From:                        reset
+  To:                          datasinkDFF/q[1]:D
+  Delay (ns):                  1.568
+  Slack (ns):
+  Arrival (ns):                1.568
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.562
+
+Path 3
+  From:                        reset
+  To:                          datasinkDFF/q[0]:D
+  Delay (ns):                  1.609
+  Slack (ns):
+  Arrival (ns):                1.609
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.605
+
+Path 4
+  From:                        reset
+  To:                          datasinkDFF/q[2]:D
+  Delay (ns):                  1.715
+  Slack (ns):
+  Arrival (ns):                1.715
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.719
+
+
+Expanded Path 1
+  From: reset
+  To: datasinkDFF/q[3]:D
+  data arrival time                              1.450
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (f)
+               +     0.000          net: reset
+  0.000                        reset_pad/U0/U0:PAD (f)
+               +     0.293          cell: ADLIB:IOPAD_IN
+  0.293                        reset_pad/U0/U0:Y (f)
+               +     0.000          net: reset_pad/U0/NET1
+  0.293                        reset_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  0.310                        reset_pad/U0/U1:Y (f)
+               +     0.785          net: reset_c
+  1.095                        datasinkDFF/q_RNO[3]:B (f)
+               +     0.209          cell: ADLIB:NOR2A
+  1.304                        datasinkDFF/q_RNO[3]:Y (r)
+               +     0.146          net: datasinkDFF/N_12
+  1.450                        datasinkDFF/q[3]:D (r)
+                                    
+  1.450                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          Bclk
+               +     0.000          Clock source
+  N/C                          Bclk (r)
+               +     0.000          net: Bclk
+  N/C                          Bclk_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          Bclk_pad/U0/U0:Y (r)
+               +     0.000          net: Bclk_pad/U0/NET1
+  N/C                          Bclk_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          Bclk_pad/U0/U1:Y (r)
+               +     0.358          net: Bclk_c
+  N/C                          datasinkDFF/q[3]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          datasinkDFF/q[3]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        datasinkDFF/q[2]:CLK
+  To:                          out[2]
+  Delay (ns):                  2.130
+  Slack (ns):
+  Arrival (ns):                2.959
+  Required (ns):
+  Clock to Out (ns):           2.959
+
+Path 2
+  From:                        datasinkDFF/q[0]:CLK
+  To:                          out[0]
+  Delay (ns):                  2.136
+  Slack (ns):
+  Arrival (ns):                2.973
+  Required (ns):
+  Clock to Out (ns):           2.973
+
+Path 3
+  From:                        datasinkDFF/q[3]:CLK
+  To:                          out[3]
+  Delay (ns):                  2.136
+  Slack (ns):
+  Arrival (ns):                2.974
+  Required (ns):
+  Clock to Out (ns):           2.974
+
+Path 4
+  From:                        datasinkDFF/q[1]:CLK
+  To:                          out[1]
+  Delay (ns):                  2.155
+  Slack (ns):
+  Arrival (ns):                2.993
+  Required (ns):
+  Clock to Out (ns):           2.993
+
+
+Expanded Path 1
+  From: datasinkDFF/q[2]:CLK
+  To: out[2]
+  data arrival time                              2.959
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Bclk
+               +     0.000          Clock source
+  0.000                        Bclk (r)
+               +     0.000          net: Bclk
+  0.000                        Bclk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        Bclk_pad/U0/U0:Y (r)
+               +     0.000          net: Bclk_pad/U0/NET1
+  0.391                        Bclk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        Bclk_pad/U0/U1:Y (r)
+               +     0.290          net: Bclk_c
+  0.829                        datasinkDFF/q[2]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1
+  1.078                        datasinkDFF/q[2]:Q (r)
+               +     0.505          net: out_c[2]
+  1.583                        out_pad[2]/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.840                        out_pad[2]/U0/U1:DOUT (r)
+               +     0.000          net: out_pad[2]/U0/NET1
+  1.840                        out_pad[2]/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.959                        out_pad[2]/U0/U0:PAD (r)
+               +     0.000          net: out[2]
+  2.959                        out[2] (r)
+                                    
+  2.959                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          Bclk
+               +     0.000          Clock source
+  N/C                          Bclk (r)
+                                    
+  N/C                          out[2] (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET Aclk to Bclk
+
+Path 1
+  From:                        interfaceDFF/q[0]:CLK
+  To:                          datasinkDFF/q[0]:D
+  Delay (ns):                  0.794
+  Slack (ns):                  0.778
+  Arrival (ns):                1.631
+  Required (ns):               0.853
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        interfaceDFF/q[3]:CLK
+  To:                          datasinkDFF/q[3]:D
+  Delay (ns):                  0.794
+  Slack (ns):                  0.779
+  Arrival (ns):                1.633
+  Required (ns):               0.854
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        interfaceDFF/q[1]:CLK
+  To:                          datasinkDFF/q[1]:D
+  Delay (ns):                  0.819
+  Slack (ns):                  0.791
+  Arrival (ns):                1.647
+  Required (ns):               0.856
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        interfaceDFF/q[2]:CLK
+  To:                          datasinkDFF/q[2]:D
+  Delay (ns):                  0.806
+  Slack (ns):                  0.808
+  Arrival (ns):                1.654
+  Required (ns):               0.846
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: interfaceDFF/q[0]:CLK
+  To: datasinkDFF/q[0]:D
+  data arrival time                              1.631
+  data required time                         -   0.853
+  slack                                          0.778
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Aclk
+               +     0.000          Clock source
+  0.000                        Aclk (r)
+               +     0.000          net: Aclk
+  0.000                        Aclk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        Aclk_pad/U0/U0:Y (r)
+               +     0.000          net: Aclk_pad/U0/NET1
+  0.391                        Aclk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        Aclk_pad/U0/U1:Y (r)
+               +     0.298          net: Aclk_c
+  0.837                        interfaceDFF/q[0]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1
+  1.086                        interfaceDFF/q[0]:Q (r)
+               +     0.146          net: fDataLockedQ[0]
+  1.232                        datasinkDFF/q_RNO[0]:A (r)
+               +     0.253          cell: ADLIB:NOR2A
+  1.485                        datasinkDFF/q_RNO[0]:Y (r)
+               +     0.146          net: datasinkDFF/q_RNO[0]
+  1.631                        datasinkDFF/q[0]:D (r)
+                                    
+  1.631                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        Bclk
+               +     0.000          Clock source
+  0.000                        Bclk (r)
+               +     0.000          net: Bclk
+  0.000                        Bclk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        Bclk_pad/U0/U0:Y (r)
+               +     0.000          net: Bclk_pad/U0/NET1
+  0.391                        Bclk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        Bclk_pad/U0/U1:Y (r)
+               +     0.314          net: Bclk_c
+  0.853                        datasinkDFF/q[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  0.853                        datasinkDFF/q[0]:D
+                                    
+  0.853                        data required time
+
+
+END SET Aclk to Bclk
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

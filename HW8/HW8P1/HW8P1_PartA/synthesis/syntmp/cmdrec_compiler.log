@@ -1,0 +1,10 @@
+E:\Microsemi\SynplifyPro\bin64\c_hdl.exe  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\synwork\CDC3FF_comp.srs  -top  CDC3FF  -hdllog  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\synlog\CDC3FF_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\  -I E:\Microsemi\SynplifyPro\lib   -v2001  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\DFF.v -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\mux.v -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\HW8P1.v 
+rc:0 success:1 runtime:2
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\synwork\CDC3FF_comp.srs|io:o|time:1605488448|size:2891|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\synlog\CDC3FF_compiler.srr|io:o|time:1605488448|size:3124|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\DFF.v|io:i|time:1605391452|size:973|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\mux.v|io:i|time:1605481112|size:810|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\hdl\HW8P1.v|io:i|time:1605486300|size:1511|exec:0
+file:E:\Microsemi\SynplifyPro\bin\c_hdl.exe|io:i|time:1479398764|size:1337856|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479398968|size:1973248|exec:1

@@ -1,0 +1,2 @@
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_partb\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Aclk which controls 7 sequential elements including toggleDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_partb\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Bclk which controls 7 sequential elements including temp0_syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. 

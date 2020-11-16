@@ -1,6 +1,0 @@
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":25:4:25:12|Removing instance syncDFF_3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":24:4:24:12|Removing instance syncDFF_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":23:4:23:12|Removing instance syncDFF_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":22:4:22:11|Removing instance asyncDFF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL157 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":16:7:16:10|*Output Dout has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-

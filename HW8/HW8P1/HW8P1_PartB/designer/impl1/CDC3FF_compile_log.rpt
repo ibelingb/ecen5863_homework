@@ -2,21 +2,32 @@ Microsemi Libero Software
 Version: 11.8.0.26
 Release: v11.8
 
-Info: The design CDC3FF.adb was last modified by software version 11.8.0.26.
-Opened an existing Libero design CDC3FF.adb.
+Created a new design.
 'BA_NAME' set to 'CDC3FF_ba'
 'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/designer/impl1'
+'BA_DIR' set to 'E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'CDC3FF.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
 
  Netlist Reading Time = 0.0 seconds
 Imported the file:
-   E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.edn
+   E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.edn
 
-The Import command succeeded ( 00:00:03 )
+The Import command succeeded ( 00:00:02 )
+Design saved to file CDC3FF.adb.
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -24,7 +35,7 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.edn
+Source      : E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.edn
 Format      : EDIF
 Topcell     : CDC3FF
 Speed grade : STD
@@ -66,18 +77,11 @@ Optimized macros:
 
 There were 0 error(s) and 0 warning(s) in this design.
 =====================================================================
-
-Reading previous post-compile physical placement constraints.
-
-
-There were 0 error(s) and 0 warning(s).
-
-=====================================================================
 Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:     10  Total:   4608   (0.22%)
+    Fabric                     Used:     13  Total:   4608   (0.28%)
     Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -106,8 +110,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 5            | 5
-    SEQ     | 5            | 5
+    COMB    | 7            | 7
+    SEQ     | 6            | 6
 
 I/O Function:
 
@@ -130,8 +134,8 @@ I/O Technology:
 I/O Placement:
 
     Locked  :   0
-    Placed  :   4 ( 100.00% )
-    UnPlaced:   0
+    Placed  :   0
+    UnPlaced:   4 ( 100.00% )
 
 Net information report:
 =======================
@@ -139,60 +143,60 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    3       CLK_NET       Net   : Aclk_c
-                          Driver: Aclk_pad
-                          Source: NETLIST
-    2       CLK_NET       Net   : Bclk_c
+    4       CLK_NET       Net   : Bclk_c
                           Driver: Bclk_pad
+                          Source: NETLIST
+    3       INT_NET       Net   : Aclk_c
+                          Driver: Aclk_pad
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    4       INT_NET       Net   : reset_c
+    5       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : asyncDFF/N_4
-                          Driver: asyncDFF/q_3_i_0
-    1       INT_NET       Net   : sQ0
-                          Driver: asyncDFF/q
-    1       INT_NET       Net   : sQ1
+    2       INT_NET       Net   : Dout_c
+                          Driver: datasinkDFF/q
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
-    1       INT_NET       Net   : sQ2
+    1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : Dout_c
+    1       INT_NET       Net   : syncSignal
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : syncDFF_3/q_3_i
-                          Driver: syncDFF_3/q_3_i
+    1       INT_NET       Net   : muxOutput
+                          Driver: dataSourceMux/y
+    1       INT_NET       Net   : datasinkDFF/q_RNO
+                          Driver: datasinkDFF/q_RNO
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_3_i
-    1       INT_NET       Net   : syncDFF_2/N_8
-                          Driver: syncDFF_2/q_3_i
-    1       INT_NET       Net   : asyncDFF/N_4_i
-                          Driver: asyncDFF/q_RNO
+                          Driver: syncDFF_1/q_RNO
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    4       INT_NET       Net   : reset_c
+    5       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : asyncDFF/N_4
-                          Driver: asyncDFF/q_3_i_0
-    1       INT_NET       Net   : sQ0
-                          Driver: asyncDFF/q
-    1       INT_NET       Net   : sQ1
+    2       INT_NET       Net   : Dout_c
+                          Driver: datasinkDFF/q
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
-    1       INT_NET       Net   : sQ2
+    1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : Dout_c
+    1       INT_NET       Net   : syncSignal
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : syncDFF_3/q_3_i
-                          Driver: syncDFF_3/q_3_i
+    1       INT_NET       Net   : muxOutput
+                          Driver: dataSourceMux/y
+    1       INT_NET       Net   : datasinkDFF/q_RNO
+                          Driver: datasinkDFF/q_RNO
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_3_i
-    1       INT_NET       Net   : syncDFF_2/N_8
-                          Driver: syncDFF_2/q_3_i
-    1       INT_NET       Net   : asyncDFF/sQbar0
-                          Driver: asyncDFF/qbar
+                          Driver: syncDFF_1/q_RNO
 
 The Compile command succeeded ( 00:00:02 )
 Wrote status report to file: CDC3FF_compile_report.txt
@@ -200,12 +204,12 @@ Wrote status report to file: CDC3FF_compile_report.txt
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: CDC3FF_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:00 )
+The Report command succeeded ( 00:00:01 )
 Wrote pin report to file: CDC3FF_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
-Design saved to file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\designer\impl1\CDC3FF.adb.
+Design saved to file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\designer\impl1\CDC3FF.adb.
 
-The Execute Script command succeeded ( 00:00:07 )
+The Execute Script command succeeded ( 00:00:15 )
 Design closed.
 

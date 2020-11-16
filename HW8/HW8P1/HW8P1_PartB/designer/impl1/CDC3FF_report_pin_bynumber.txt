@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sat Nov 14 16:26:07 2020 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sun Nov 15 19:40:42 2020 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
@@ -17,7 +17,7 @@ A4             GND                           Reserved
 A5             EMC_CS0_N/GAB0/IO01NDB0V0     Special
 A6             EMC_CS1_N/GAB1/IO01PDB0V0     Special
 A7             GND                           Reserved
-A8      Dout   EMC_AB[0]/IO04NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+A8             EMC_AB[0]/IO04NDB0V0          Unassigned
 A9             EMC_AB[1]/IO04PDB0V0          Unassigned
 A10            GND                           Reserved
 A11            Not Bonded                    Unconnected
@@ -85,7 +85,7 @@ B6             EMC_RW_N/GAA1/IO00PDB0V0      Special
 B7             Not Bonded                    Unconnected
 B8             VCCFPGAIOB0                   Reserved
 B9             EMC_BYTEN[0]/GAC0/IO02NDB0V0  Special
-B10     reset  EMC_AB[2]/IO05NDB0V0          Assigned     LVTTL    ---                ---   None           No               ---   ---               No           No
+B10     Dout   EMC_AB[2]/IO05NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 B11            EMC_AB[3]/IO05PDB0V0          Unassigned
 B12            EMC_AB[6]/IO07NDB0V0          Unassigned
 B13            EMC_AB[14]/IO11NDB0V0         Unassigned
@@ -152,7 +152,7 @@ E7             VCCFPGAIOB0                   Reserved
 E8             Not Bonded                    Unconnected
 E9             Not Bonded                    Unconnected
 E10            VCCFPGAIOB0                   Reserved
-E11            EMC_AB[4]/IO06NDB0V0          Unassigned
+E11     reset  EMC_AB[4]/IO06NDB0V0          Assigned     LVTTL    ---                ---   None           No               ---   ---               No           No
 E12            EMC_AB[5]/IO06PDB0V0          Unassigned
 E13            VCCFPGAIOB0                   Reserved
 E14            GBC0/IO17NPB0V0               Special

@@ -1,0 +1,4 @@
+@E: CG496 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":50:22:50:22|Expecting valid net type or name
+@E: CG496 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":51:19:51:19|Expecting valid net type or name
+@E: CS187 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":60:0:60:8|Expecting endmodule
+

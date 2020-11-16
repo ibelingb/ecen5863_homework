@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: BPC
 
-# Sat Nov 14 15:06:22 2020
+# Sun Nov 15 18:18:30 2020
 
 #Implementation: synthesis
 
@@ -20,70 +20,62 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\DFF.v" (library work)
-@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module CDC3FF
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
 
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":14:7:14:12|Synthesizing module CDC3FF in library work.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
 
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":25:4:25:12|Removing instance syncDFF_3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":24:4:24:12|Removing instance syncDFF_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":23:4:23:12|Removing instance syncDFF_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":22:4:22:11|Removing instance asyncDFF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL157 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":16:7:16:10|*Output Dout has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":15:6:15:9|Input Aclk is unused.
-@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":15:12:15:15|Input Bclk is unused.
-@N: CL159 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":15:18:15:22|Input reset is unused.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":14:7:14:12|Synthesizing module CDC3FF in library work.
+
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 15:06:23 2020
+# Sun Nov 15 18:18:31 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
 @N|Running in 64-bit mode
-@N: NF107 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":14:7:14:12|Selected library: work cell: CDC3FF view verilog as top level
-@N: NF107 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":14:7:14:12|Selected library: work cell: CDC3FF view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 15:06:24 2020
+# Sun Nov 15 18:18:31 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 15:06:24 2020
+# Sun Nov 15 18:18:31 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
 @N|Running in 64-bit mode
-@N: NF107 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":14:7:14:12|Selected library: work cell: CDC3FF view verilog as top level
-@N: NF107 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\hdl\HW8P1.v":14:7:14:12|Selected library: work cell: CDC3FF view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 14 15:06:25 2020
+# Sun Nov 15 18:18:32 2020
 
 ###########################################################]
 Pre-mapping Report
 
-# Sat Nov 14 15:06:25 2020
+# Sun Nov 15 18:18:32 2020
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -92,8 +84,8 @@ Product Version L-2016.09M-2
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
 
 @A: MF827 |No constraint file specified.
-@L: E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF_scck.rpt 
-Printing clock  summary report in "E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF_scck.rpt" file 
+@L: E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF_scck.rpt 
+Printing clock  summary report in "E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
@@ -102,7 +94,11 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
-@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1\hdl\hw8p1.v":16:7:16:10|Tristate driver Dout (in view: work.CDC3FF(verilog)) on net Dout (in view: work.CDC3FF(verilog)) has its enable tied to GND.
+Renaming user netlist hierarchy view:work.DFF(verilog) to avoid clashing with Microsemi library name
+@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_3(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
@@ -111,39 +107,43 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 *****************
 
-Start     Requested     Requested     Clock     Clock     Clock
-Clock     Frequency     Period        Type      Group     Load 
----------------------------------------------------------------
-===============================================================
+Start           Requested     Requested     Clock        Clock                   Clock
+Clock           Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------
+CDC3FF|Aclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     3    
+CDC3FF|Bclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     4    
+======================================================================================
+
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Found inferred clock CDC3FF|Bclk which controls 4 sequential elements including syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1_partb\hdl\dff.v":28:0:28:5|Found inferred clock CDC3FF|Aclk which controls 3 sequential elements including toggleDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1\hdl\hw8p1.v":16:7:16:10|Tristate driver Dout (in view: work.CDC3FF(verilog)) on net Dout (in view: work.CDC3FF(verilog)) has its enable tied to GND.
-@N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\CDC3FF.sap.
+@N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Nov 14 15:06:26 2020
+# Sun Nov 15 18:18:32 2020
 
 ###########################################################]
 Map & Optimize Report
 
-# Sat Nov 14 15:06:26 2020
+# Sun Nov 15 18:18:33 2020
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 Product Version L-2016.09M-2
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
@@ -157,43 +157,44 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
-@N: MO111 :"e:\repos\ecen5863_hw\hw8\hw8p1\hw8p1\hdl\hw8p1.v":16:7:16:10|Tristate driver Dout (in view: work.CDC3FF(verilog)) on net Dout (in view: work.CDC3FF(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
+@N: FP130 |Promoting Net Bclk_c on CLKBUF  Bclk_pad 
+@N: FP130 |Promoting Net Aclk_c on CLKBUF  Aclk_pad 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 Added 0 Buffers
@@ -201,7 +202,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 
@@ -211,33 +212,41 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 6 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       Bclk                port                   4          datasinkDFF.q  
+@K:CKID0002       Aclk                port                   2          toggleDFF.q    
+=======================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
-Writing Analyst data base E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1\synthesis\synwork\CDC3FF_m.srm
+Writing Analyst data base E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
+@W: MT420 |Found inferred clock CDC3FF|Aclk with period 10.00ns. Please declare a user-defined clock on object "p:Aclk"
+@W: MT420 |Found inferred clock CDC3FF|Bclk with period 10.00ns. Please declare a user-defined clock on object "p:Bclk"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Nov 14 15:06:27 2020
+# Timing Report written on Sun Nov 15 18:18:33 2020
 #
 
 
@@ -259,8 +268,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: NA
+Worst slack in design: 6.455
 
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+CDC3FF|Aclk        100.0 MHz     313.3 MHz     10.000        3.192         6.808     inferred     Inferred_clkgroup_1
+CDC3FF|Bclk        100.0 MHz     282.1 MHz     10.000        3.545         6.455     inferred     Inferred_clkgroup_0
+=====================================================================================================================
 
 
 
@@ -269,11 +284,14 @@ Worst slack in design: NA
 Clock Relationships
 *******************
 
-Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
---------------------------------------------------------------------------------------------------------
-Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
---------------------------------------------------------------------------------------------------------
-========================================================================================================
+Clocks                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------
+CDC3FF|Bclk  CDC3FF|Bclk  |  10.000      6.455  |  No paths    -      |  No paths    -      |  No paths    -    
+CDC3FF|Aclk  CDC3FF|Bclk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CDC3FF|Aclk  CDC3FF|Aclk  |  10.000      6.808  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -285,47 +303,196 @@ Interface Information
 No IO constraint found
 
 
+
+====================================
+Detailed Report for Clock: CDC3FF|Aclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                            Arrival          
+Instance           Reference       Type     Pin     Net                Time        Slack
+                   Clock                                                                
+----------------------------------------------------------------------------------------
+toggleDFF.qbar     CDC3FF|Aclk     DFN1     Q       dataSourceQbar     0.580       6.808
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                   Required          
+Instance           Reference       Type     Pin     Net       Time         Slack
+                   Clock                                                        
+--------------------------------------------------------------------------------
+toggleDFF.q        CDC3FF|Aclk     DFN1     D       N_4_i     9.461        6.808
+toggleDFF.qbar     CDC3FF|Aclk     DFN1     D       N_4       9.461        7.551
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      2.654
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.808
+
+    Number of logic level(s):                2
+    Starting point:                          toggleDFF.qbar / Q
+    Ending point:                            toggleDFF.q / D
+    The start point is clocked by            CDC3FF|Aclk [rising] on pin CLK
+    The end   point is clocked by            CDC3FF|Aclk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+toggleDFF.qbar             DFN1     Q        Out     0.580     0.580       -         
+dataSourceQbar             Net      -        -       0.322     -           1         
+toggleDFF.qbar_RNITV5R     OR2A     A        In      -         0.902       -         
+toggleDFF.qbar_RNITV5R     OR2A     Y        Out     0.537     1.439       -         
+N_4                        Net      -        -       0.386     -           2         
+toggleDFF.q_RNO            INV      A        In      -         1.825       -         
+toggleDFF.q_RNO            INV      Y        Out     0.507     2.332       -         
+N_4_i                      Net      -        -       0.322     -           1         
+toggleDFF.q                DFN1     D        In      -         2.654       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 3.192 is 2.164(67.8%) logic and 1.029(32.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: CDC3FF|Bclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                        Arrival          
+Instance          Reference       Type     Pin     Net            Time        Slack
+                  Clock                                                            
+-----------------------------------------------------------------------------------
+datasinkDFF.q     CDC3FF|Bclk     DFN1     Q       Dout_c         0.737       6.455
+syncDFF_3.q       CDC3FF|Bclk     DFN1     Q       syncSignal     0.737       6.702
+syncDFF_2.q       CDC3FF|Bclk     DFN1     Q       syncQ2         0.737       7.419
+syncDFF_1.q       CDC3FF|Bclk     DFN1     Q       syncQ1         0.737       7.419
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                   Required          
+Instance          Reference       Type     Pin     Net       Time         Slack
+                  Clock                                                        
+-------------------------------------------------------------------------------
+datasinkDFF.q     CDC3FF|Bclk     DFN1     D       q_RNO     9.427        6.455
+syncDFF_3.q       CDC3FF|Bclk     DFN1     D       N_10      9.427        7.419
+syncDFF_2.q       CDC3FF|Bclk     DFN1     D       N_8       9.427        7.419
+===============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      2.972
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.455
+
+    Number of logic level(s):                2
+    Starting point:                          datasinkDFF.q / Q
+    Ending point:                            datasinkDFF.q / D
+    The start point is clocked by            CDC3FF|Bclk [rising] on pin CLK
+    The end   point is clocked by            CDC3FF|Bclk [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                  Type      Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+datasinkDFF.q         DFN1      Q        Out     0.737     0.737       -         
+Dout_c                Net       -        -       0.386     -           2         
+dataSourceMux.y       MX2       A        In      -         1.123       -         
+dataSourceMux.y       MX2       Y        Out     0.579     1.701       -         
+muxOutput             Net       -        -       0.322     -           1         
+datasinkDFF.q_RNO     NOR2A     A        In      -         2.023       -         
+datasinkDFF.q_RNO     NOR2A     Y        Out     0.627     2.650       -         
+q_RNO                 Net       -        -       0.322     -           1         
+datasinkDFF.q         DFN1      D        In      -         2.972       -         
+=================================================================================
+Total path delay (propagation time + setup) of 3.545 is 2.516(71.0%) logic and 1.029(29.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 --------------------------------------------------------------------------------
 Target Part: A2F200M3F_FBGA484_STD
 Report for cell CDC3FF.verilog
   Core Cell usage:
               cell count     area count*area
-               GND     1      0.0        0.0
-               VCC     1      0.0        0.0
+               GND     7      0.0        0.0
+               INV     1      1.0        1.0
+               MX2     1      1.0        1.0
+             NOR2A     4      1.0        4.0
+              OR2A     1      1.0        1.0
+               VCC     7      0.0        0.0
 
 
+              DFN1     6      1.0        6.0
                    -----          ----------
-             TOTAL     2                 0.0
+             TOTAL    27                13.0
 
 
   IO Cell usage:
               cell count
-           TRIBUFF     1
+            CLKBUF     2
+             INBUF     1
+            OUTBUF     1
                    -----
-             TOTAL     1
+             TOTAL     4
 
 
-Core Cells         : 0 of 4608 (0%)
-IO Cells           : 1
+Core Cells         : 13 of 4608 (0%)
+IO Cells           : 4
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Nov 14 15:06:27 2020
+# Sun Nov 15 18:18:33 2020
 
 ###########################################################]

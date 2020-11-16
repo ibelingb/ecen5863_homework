@@ -1,6 +1,5 @@
 # Reading E:/Microsemi/Modelsim/tcl/vsim/pref.tcl
 # do run.do
-# INFO: Simulation library presynth already exists
 # Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
 # vmap presynth presynth 
 # Modifying modelsim.ini
@@ -8,25 +7,34 @@
 # vmap smartfusion E:/Microsemi/Designer/lib/modelsim/precompiled/vlog/smartfusion 
 # Modifying modelsim.ini
 # Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 15:32:08 on Nov 14,2020
-# vlog -reportprogress 300 -vlog01compat -work presynth E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/DFF.v 
+# Start time: 18:18:49 on Nov 15,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v 
 # -- Compiling module DFF
 # 
 # Top level modules:
 # 	DFF
-# End time: 15:32:08 on Nov 14,2020, Elapsed time: 0:00:00
+# End time: 18:18:49 on Nov 15,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 15:32:08 on Nov 14,2020
-# vlog -reportprogress 300 -vlog01compat -work presynth E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/hdl/HW8P1.v 
+# Start time: 18:18:49 on Nov 15,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 18:18:49 on Nov 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 18:18:49 on Nov 15,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v 
 # -- Compiling module CDC3FF
 # 
 # Top level modules:
 # 	CDC3FF
-# End time: 15:32:08 on Nov 14,2020, Elapsed time: 0:00:00
+# End time: 18:18:49 on Nov 15,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -L smartfusion -L presynth -t 1ps presynth.CDC3FF 
-# Start time: 15:32:09 on Nov 14,2020
+# Start time: 18:18:49 on Nov 15,2020
 # //  ModelSim Microsemi 10.5c Jul 21 2016
 # //
 # //  Copyright 1991-2016 Mentor Graphics Corporation
@@ -42,17 +50,20 @@
 # //
 # Loading presynth.CDC3FF
 # Loading presynth.DFF
+# Loading presynth.mux
 add wave -position end  sim:/CDC3FF/Aclk
 add wave -position end  sim:/CDC3FF/Bclk
 add wave -position end  sim:/CDC3FF/reset
 add wave -position end  sim:/CDC3FF/Dout
-add wave -position end  sim:/CDC3FF/sQ0
-add wave -position end  sim:/CDC3FF/sQ1
-add wave -position end  sim:/CDC3FF/sQ2
-add wave -position end  sim:/CDC3FF/sQ3
-force -freeze sim:/CDC3FF/Aclk 1 0, 0 {10000 ps} -r 20000
-force -freeze sim:/CDC3FF/Bclk 1 0, 0 {18050 ps} -r 36101
+add wave -position end  sim:/CDC3FF/dataSourceQ
+add wave -position end  sim:/CDC3FF/syncQ1
+add wave -position end  sim:/CDC3FF/syncQ2
+add wave -position end  sim:/CDC3FF/syncSignal
+add wave -position end  sim:/CDC3FF/dataSourceQbar
+add wave -position end  sim:/CDC3FF/muxOutput
 force -freeze sim:/CDC3FF/reset 1 0
+force -freeze sim:/CDC3FF/Aclk 1 0, 0 {18050 ps} -r 36101
+force -freeze sim:/CDC3FF/Bclk 1 0, 0 {10000 ps} -r 20000
 run
 force -freeze sim:/CDC3FF/reset 0 0
 run
@@ -80,5 +91,14 @@ run
 run
 run
 run
-# End time: 15:36:07 on Nov 14,2020, Elapsed time: 0:03:58
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:38:52 on Nov 15,2020, Elapsed time: 1:20:03
 # Errors: 0, Warnings: 0
