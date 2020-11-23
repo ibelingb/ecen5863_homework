@@ -3,18 +3,19 @@ Report for cell SlowFast.verilog
                                           Cell usage:
                                cell       count     area    count*area
                              CLKBUF         2       0.0        0.0
-                              DFF_0         1       2.0        2.0
                             DFF_0_0         1       2.0        2.0
                             DFF_0_1         1       2.0        2.0
+                            DFF_0_2         1       2.0        2.0
                             DFF_0_3         1       4.0        4.0
-                           DFF_bus4         1      11.0       11.0
-                               DFN1         4       1.0        4.0
+                           DFF_bus4         1       8.0        8.0
+                               DFN1         8       1.0        8.0
                                 GND         1       0.0        0.0
                               INBUF         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
                              OUTBUF         4       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             18                 25.0
+                         TOTAL             25                 29.0
 ----------------------------------------------------------------------
 Report for cell DFF_bus4.netlist
      Instance path:  datasinkDFF
@@ -22,27 +23,14 @@ Report for cell DFF_bus4.netlist
                                cell       count     area    count*area
                                DFN1         4       1.0        4.0
                                 GND         1       0.0        0.0
-                              NOR2A         3       1.0        3.0
-                              NOR3A         4       1.0        4.0
+                              NOR2A         4       1.0        4.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             13                 11.0
-----------------------------------------------------------------------
-Report for cell DFF_0_1.netlist
-  Original Cell name DFF_0
-     Instance path:  temp0_syncDFF_3
-                                          Cell usage:
-                               cell       count     area    count*area
-                               DFN1         1       1.0        1.0
-                                GND         1       0.0        0.0
-                              NOR2A         1       1.0        1.0
-                                VCC         1       0.0        0.0
-                            
-                         TOTAL              4                  2.0
+                         TOTAL             10                  8.0
 ----------------------------------------------------------------------
 Report for cell DFF_0_0.netlist
   Original Cell name DFF_0
-     Instance path:  temp0_syncDFF_2
+     Instance path:  syncDFF_3
                                           Cell usage:
                                cell       count     area    count*area
                                DFN1         1       1.0        1.0
@@ -52,9 +40,21 @@ Report for cell DFF_0_0.netlist
                             
                          TOTAL              4                  2.0
 ----------------------------------------------------------------------
-Report for cell DFF_0.netlist
+Report for cell DFF_0_1.netlist
   Original Cell name DFF_0
-     Instance path:  temp0_syncDFF_1
+     Instance path:  syncDFF_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell DFF_0_2.netlist
+  Original Cell name DFF_0
+     Instance path:  syncDFF_1
                                           Cell usage:
                                cell       count     area    count*area
                                DFN1         1       1.0        1.0

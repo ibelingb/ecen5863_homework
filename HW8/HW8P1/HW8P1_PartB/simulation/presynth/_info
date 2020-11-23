@@ -9,27 +9,27 @@ z2
 cModel Technology
 Z0 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/simulation
 vCDC3FF
-Z1 !s110 1605489529
+Z1 !s110 1605533861
 !i10b 1
-!s100 :@1b?9P8mREMGa[>RNPkQ2
-I<XJ3nc=[_VjkRI8_eFb;g0
+!s100 1m2OFb8cXoKl@XBg[k9RD0
+I8D=fhZ9Bg1WWMEFT:Y=Ve2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1605489461
+w1605533357
 8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v
 FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v
 L0 14
-Z4 OW;L;10.5c;63
+Z3 OW;L;10.5c;63
 r1
 !s85 0
 31
-Z5 !s108 1605489529.000000
+Z4 !s108 1605533861.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/HW8P1.v|
 !s101 -O0
 !i113 1
-Z6 o-vlog01compat -work presynth -O0
-Z7 tCvgOpt 0
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
 n@c@d@c3@f@f
 vDFF
 R1
@@ -38,41 +38,41 @@ R1
 IA_C:42aJ<^[XL`64EA7UZ1
 R2
 R0
-R3
+Z7 w1605489461
 8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v
 FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v
 L0 23
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/DFF.v|
 !s101 -O0
 !i113 1
+R5
 R6
-R7
 n@d@f@f
 vmux
-R1
+!s110 1605489529
 !i10b 1
 !s100 QB5mfQU;z1RDT>oEX]k]^2
 Iz;=dd<0b@lDgM0@ZW6Q;D1
 R2
 R0
-R3
+R7
 8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v
 FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v
 L0 22
-R4
+R3
 r1
 !s85 0
 31
-R5
+!s108 1605489529.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartB/hdl/mux.v|
 !s101 -O0
 !i113 1
+R5
 R6
-R7

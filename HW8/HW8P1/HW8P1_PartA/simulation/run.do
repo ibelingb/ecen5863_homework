@@ -11,7 +11,6 @@ vmap presynth presynth
 vmap smartfusion "E:/Microsemi/Designer/lib/modelsim/precompiled/vlog/smartfusion"
 
 vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/DFF.v"
-vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/mux.v"
 vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/HW8P1.v"
 
 vsim -L smartfusion -L presynth  -t 1ps presynth.CDC3FF

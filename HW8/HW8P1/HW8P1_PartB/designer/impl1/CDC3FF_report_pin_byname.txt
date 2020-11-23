@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sun Nov 15 19:40:41 2020 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Mon Nov 16 06:52:51 2020 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
@@ -12,5 +12,5 @@ Port  |Pin |Fixed |Function             |I/O Std |Output Drive (mA) |Slew |Resis
 ------|----|------|---------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
 Aclk   H20  No     GCC0/IO26NPB1V0       LVTTL    ---                ---   None           No               ---   ---               No           No
 Bclk   H22  No     GCB0/IO27NDB1V0       LVTTL    ---                ---   None           No               ---   ---               No           No
-Dout   B10  No     EMC_AB[2]/IO05NDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
-reset  E11  No     EMC_AB[4]/IO06NDB0V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+Dout   B12  No     EMC_AB[6]/IO07NDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+reset  E12  No     EMC_AB[5]/IO06PDB0V0  LVTTL    ---                ---   None           No               ---   ---               No           No

@@ -1,2 +1,2 @@
-@E: CS164 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":61:46:61:57|Expecting wire for output connection, found fDataLockedQ
+@E: CG426 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":60:4:60:6|Assignment target out must be of type reg or genvar
 

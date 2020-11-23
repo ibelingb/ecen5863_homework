@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sun Nov 15 19:40:42 2020 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Mon Nov 16 06:52:52 2020 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
@@ -85,9 +85,9 @@ B6             EMC_RW_N/GAA1/IO00PDB0V0      Special
 B7             Not Bonded                    Unconnected
 B8             VCCFPGAIOB0                   Reserved
 B9             EMC_BYTEN[0]/GAC0/IO02NDB0V0  Special
-B10     Dout   EMC_AB[2]/IO05NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+B10            EMC_AB[2]/IO05NDB0V0          Unassigned
 B11            EMC_AB[3]/IO05PDB0V0          Unassigned
-B12            EMC_AB[6]/IO07NDB0V0          Unassigned
+B12     Dout   EMC_AB[6]/IO07NDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 B13            EMC_AB[14]/IO11NDB0V0         Unassigned
 B14            EMC_AB[15]/IO11PDB0V0         Unassigned
 B15            VCCFPGAIOB0                   Reserved
@@ -152,8 +152,8 @@ E7             VCCFPGAIOB0                   Reserved
 E8             Not Bonded                    Unconnected
 E9             Not Bonded                    Unconnected
 E10            VCCFPGAIOB0                   Reserved
-E11     reset  EMC_AB[4]/IO06NDB0V0          Assigned     LVTTL    ---                ---   None           No               ---   ---               No           No
-E12            EMC_AB[5]/IO06PDB0V0          Unassigned
+E11            EMC_AB[4]/IO06NDB0V0          Unassigned
+E12     reset  EMC_AB[5]/IO06PDB0V0          Assigned     LVTTL    ---                ---   None           No               ---   ---               No           No
 E13            VCCFPGAIOB0                   Reserved
 E14            GBC0/IO17NPB0V0               Special
 E15            Not Bonded                    Unconnected

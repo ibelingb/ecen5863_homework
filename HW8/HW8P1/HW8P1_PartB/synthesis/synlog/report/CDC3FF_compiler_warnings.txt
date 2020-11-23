@@ -1,0 +1,2 @@
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":19:34:19:43|Removing wire syncSignal, as there is no assignment to it.
+

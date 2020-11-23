@@ -56,34 +56,39 @@ STATE="utd"
 TIME="1605494968"
 SIZE="202"
 ENDFILE
+VALUE "<project>\designer\impl1\mux.ide_des,ide_des"
+STATE="utd"
+TIME="1605620310"
+SIZE="197"
+ENDFILE
 VALUE "<project>\designer\impl1\SlowFast.adb,adb"
 STATE="utd"
-TIME="1605498968"
-SIZE="51712"
+TIME="1605621299"
+SIZE="46080"
 ENDFILE
 VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
 STATE="utd"
-TIME="1605498968"
-SIZE="983"
+TIME="1605621299"
+SIZE="981"
 ENDFILE
 VALUE "<project>\designer\impl1\SlowFast_compile_log.rpt,log"
 STATE="utd"
-TIME="1605498926"
-SIZE="8141"
+TIME="1605621083"
+SIZE="8041"
 ENDFILE
 VALUE "<project>\designer\impl1\SlowFast_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1605499326"
-SIZE="2653"
+TIME="1605621103"
+SIZE="2543"
 ENDFILE
 VALUE "<project>\designer\impl1\SlowFast_timingconstraints_log.rpt,log"
 STATE="utd"
-TIME="1605499282"
-SIZE="358"
+TIME="1605621292"
+SIZE="562"
 ENDFILE
 VALUE "<project>\designer\impl1\SlowFast_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1605499331"
+TIME="1605621299"
 SIZE="1160"
 ENDFILE
 VALUE "<project>\hdl\DFF.v,hdl"
@@ -103,18 +108,18 @@ SIZE="898"
 ENDFILE
 VALUE "<project>\hdl\SlowFast.v,hdl"
 STATE="utd"
-TIME="1605498497"
-SIZE="1804"
+TIME="1605620418"
+SIZE="1604"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1605498580"
-SIZE="828"
+TIME="1605620642"
+SIZE="766"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
-TIME="1605498719"
-SIZE="3614"
+TIME="1605621066"
+SIZE="3182"
 ENDFILE
 VALUE "<project>\synthesis\counter.edn,syn_edn"
 STATE="utd"
@@ -152,7 +157,7 @@ TIME="1605399466"
 SIZE="1701"
 ENDFILE
 VALUE "<project>\synthesis\FastSlow.edn,syn_edn"
-STATE="utd"
+STATE="ood"
 TIME="1605496726"
 SIZE="4133"
 ENDFILE
@@ -161,45 +166,76 @@ STATE="utd"
 TIME="1605496726"
 SIZE="228"
 ENDFILE
-VALUE "<project>\synthesis\FastSlow_sdc.sdc,syn_sdc"
-STATE="utd"
-TIME="1605496726"
-SIZE="310"
-ENDFILE
 VALUE "<project>\synthesis\FastSlow_syn.prj,prj"
 STATE="utd"
 TIME="1605496764"
 SIZE="1610"
 ENDFILE
+VALUE "<project>\synthesis\mux.edn,syn_edn"
+STATE="utd"
+TIME="1605620423"
+SIZE="9066"
+ENDFILE
+VALUE "<project>\synthesis\mux.so,so"
+STATE="utd"
+TIME="1605620423"
+SIZE="218"
+ENDFILE
+VALUE "<project>\synthesis\mux_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1605620423"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\mux_syn.prj,prj"
+STATE="utd"
+TIME="1605620431"
+SIZE="1447"
+ENDFILE
 VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
 STATE="utd"
-TIME="1605498912"
-SIZE="32037"
+TIME="1605620569"
+SIZE="23774"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast.so,so"
 STATE="utd"
-TIME="1605498912"
+TIME="1605620569"
 SIZE="228"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1605498912"
+TIME="1605620569"
 SIZE="488"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
 STATE="utd"
-TIME="1605498912"
-SIZE="1948"
+TIME="1605620577"
+SIZE="1615"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1605498374"
+TIME="1605618467"
 SIZE="159"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "mux::work"
+FILE "<project>\hdl\mux.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\mux.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 LIST "SlowFast::work"
 FILE "<project>\hdl\SlowFast.v,hdl"
 LIST ProjectState5.1
@@ -291,8 +327,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -325,6 +361,19 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "mux::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\mux.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 LIST "SlowFast::work"
 LIST Impl1
 LiberoState=Post_Layout
@@ -371,7 +420,6 @@ ENDLIST
 LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
 SUBBLOCK "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
-SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

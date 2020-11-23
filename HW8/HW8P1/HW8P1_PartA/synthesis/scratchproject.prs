@@ -4,7 +4,6 @@
 
 #project files
 add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v"
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v"
 add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v"
 
 

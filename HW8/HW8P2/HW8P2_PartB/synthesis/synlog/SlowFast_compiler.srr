@@ -13,13 +13,11 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF.v" (library work)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF_bus4.v" (library work)
-@I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\mux.v" (library work)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module SlowFast
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
-
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
 
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF_bus4.v":23:7:23:14|Synthesizing module DFF_bus4 in library work.
 
@@ -29,16 +27,14 @@ Selecting top level module SlowFast
 @W: CL279 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\DFF_bus4.v":29:0:29:5|Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":14:7:14:14|Synthesizing module SlowFast in library work.
 
-@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":49:11:49:22|Removing wire fDataLockedQ, as there is no assignment to it.
-@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":50:11:50:16|Removing wire sQbar4, as there is no assignment to it.
-@W: CL156 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":49:11:49:22|*Input fDataLockedQ[3:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CG532 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\hdl\SlowFast.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 21:11:20 2020
+# Tue Nov 17 07:00:24 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -49,7 +45,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 21:11:20 2020
+# Tue Nov 17 07:00:24 2020
 
 ###########################################################]
 @END
@@ -59,6 +55,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 21:11:20 2020
+# Tue Nov 17 07:00:24 2020
 
 ###########################################################]

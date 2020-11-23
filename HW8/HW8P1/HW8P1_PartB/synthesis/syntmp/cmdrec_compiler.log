@@ -1,10 +1,9 @@
-E:\Microsemi\SynplifyPro\bin64\c_hdl.exe  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs  -top  CDC3FF  -hdllog  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\  -I E:\Microsemi\SynplifyPro\lib   -v2001  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v 
+E:\Microsemi\SynplifyPro\bin64\c_hdl.exe  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs  -top  CDC3FF  -hdllog  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\  -I E:\Microsemi\SynplifyPro\lib   -v2001  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v -lib work E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v 
 rc:0 success:1 runtime:2
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs|io:o|time:1605489511|size:2831|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_compiler.srr|io:o|time:1605489511|size:3094|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs|io:o|time:1605534713|size:2165|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_compiler.srr|io:o|time:1605534713|size:3091|exec:0
 file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
 file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v|io:i|time:1605489461|size:973|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v|io:i|time:1605489461|size:810|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v|io:i|time:1605489461|size:1480|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v|io:i|time:1605534707|size:989|exec:0
 file:E:\Microsemi\SynplifyPro\bin\c_hdl.exe|io:i|time:1479398764|size:1337856|exec:1
 file:E:\Microsemi\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479398968|size:1973248|exec:1

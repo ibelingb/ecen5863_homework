@@ -1,8 +1,6 @@
 Selecting top level module SlowFast
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
 
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
-
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":23:7:23:14|Synthesizing module DFF_bus4 in library work.
 
 @N: CL189 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Register bit qbar[3] is always 0.
@@ -11,3 +9,4 @@ Selecting top level module SlowFast
 @W: CL279 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":14:7:14:14|Synthesizing module SlowFast in library work.
 
+@W: CG532 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.

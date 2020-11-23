@@ -1,7 +1,6 @@
 Selecting top level module CDC3FF
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
 
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
-
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":14:7:14:12|Synthesizing module CDC3FF in library work.
 
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":19:34:19:43|Removing wire syncSignal, as there is no assignment to it.

@@ -2,7 +2,7 @@ Timing Violation Report Max Delay Analysis
 
 SmartTime Version v11.8
 Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
-Date: Sun Nov 15 21:02:11 2020
+Date: Tue Nov 17 06:54:59 2020
 
 
 Design: SlowFast
@@ -21,34 +21,34 @@ Scenario for Timing Analysis: Primary
 
 
 Path 1
-  From:                        interfaceDFF/q[2]:CLK
-  To:                          datasinkDFF/q[2]:D
-  Delay (ns):                  1.882
-  Slack (ns):                  -2.109
-  Arrival (ns):                3.760
-  Required (ns):               1.651
+  From:                        datasinkDFF/q[0]:CLK
+  To:                          out[0]
+  Delay (ns):                  5.956
+  Slack (ns):                  -4.830
+  Arrival (ns):                7.830
+  Required (ns):               3.000
 
 Path 2
-  From:                        interfaceDFF/q[1]:CLK
-  To:                          datasinkDFF/q[1]:D
-  Delay (ns):                  1.910
-  Slack (ns):                  -2.079
-  Arrival (ns):                3.748
-  Required (ns):               1.669
+  From:                        datasinkDFF/q[1]:CLK
+  To:                          out[1]
+  Delay (ns):                  5.693
+  Slack (ns):                  -4.567
+  Arrival (ns):                7.567
+  Required (ns):               3.000
 
 Path 3
-  From:                        interfaceDFF/q[3]:CLK
-  To:                          datasinkDFF/q[3]:D
-  Delay (ns):                  1.857
-  Slack (ns):                  -2.050
-  Arrival (ns):                3.717
-  Required (ns):               1.667
+  From:                        datasinkDFF/q[3]:CLK
+  To:                          out[3]
+  Delay (ns):                  5.634
+  Slack (ns):                  -4.508
+  Arrival (ns):                7.508
+  Required (ns):               3.000
 
 Path 4
-  From:                        interfaceDFF/q[0]:CLK
-  To:                          datasinkDFF/q[0]:D
-  Delay (ns):                  1.857
-  Slack (ns):                  -2.047
-  Arrival (ns):                3.714
-  Required (ns):               1.667
+  From:                        datasinkDFF/q[2]:CLK
+  To:                          out[2]
+  Delay (ns):                  5.641
+  Slack (ns):                  -4.503
+  Arrival (ns):                7.503
+  Required (ns):               3.000
 

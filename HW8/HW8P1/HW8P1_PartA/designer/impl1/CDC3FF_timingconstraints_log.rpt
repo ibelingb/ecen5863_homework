@@ -11,7 +11,7 @@ Warning: in Constraint checker: In input delay constraint - the reference clock 
          supplied port list "[get_ports { Bclk }]". It will be ignored.
          Constraint origin: GUI
 
-The Execute Script command succeeded ( 00:00:03 )
+The Execute Script command succeeded ( 00:00:04 )
 Design saved to file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\designer\impl1\CDC3FF.adb.
 Design closed.
 

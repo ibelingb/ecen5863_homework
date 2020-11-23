@@ -1,0 +1,27 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell mux.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               MX2     4      1.0        4.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     6                 4.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     9
+            OUTBUF     4
+                   -----
+             TOTAL    13
+
+
+Core Cells         : 4 of 4608 (0%)
+IO Cells           : 13
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

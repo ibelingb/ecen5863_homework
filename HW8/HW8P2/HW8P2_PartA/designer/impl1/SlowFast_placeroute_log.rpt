@@ -33,16 +33,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sun Nov 15 21:01:52 2020
+Timing-driven Placer Started: Tue Nov 17 06:51:28 2020
 
-Placer Finished: Sun Nov 15 21:01:54 2020
+Placer Finished: Tue Nov 17 06:51:30 2020
 Total Placer CPU Time:     00:00:02
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: SlowFast                        Started: Sun Nov 15 21:01:56 2020
+Design: SlowFast                        Started: Tue Nov 17 06:51:32 2020
 
  
 Iterative improvement...
@@ -50,17 +50,15 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: SlowFast                        
-Finished: Sun Nov 15 21:02:01 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 161.2 Mbytes
+Finished: Tue Nov 17 06:51:37 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
+Total Memory Usage: 160.5 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
 Finished loading the Timing data.
-TIMER: Max delay timing requirements have NOT been met.
-TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:00:15 )
+The Layout command succeeded ( 00:00:14 )
 Wrote status report to file: SlowFast_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )

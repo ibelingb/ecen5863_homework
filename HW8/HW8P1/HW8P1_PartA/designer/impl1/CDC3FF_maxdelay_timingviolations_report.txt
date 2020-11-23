@@ -2,7 +2,7 @@ Timing Violation Report Max Delay Analysis
 
 SmartTime Version v11.8
 Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
-Date: Sun Nov 15 18:01:28 2020
+Date: Mon Nov 16 07:08:04 2020
 
 
 Design: CDC3FF
@@ -20,11 +20,5 @@ Using Enhanced Min Delay Analysis
 Scenario for Timing Analysis: Primary
 
 
-Path 1
-  From:                        interfaceDFF/q:CLK
-  To:                          datasinkDFF/q:D
-  Delay (ns):                  1.857
-  Slack (ns):                  -2.206
-  Arrival (ns):                3.714
-  Required (ns):               1.508
+No Path
 

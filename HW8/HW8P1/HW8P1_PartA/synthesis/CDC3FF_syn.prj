@@ -1,11 +1,13 @@
-#add_file options
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v"
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v"
-add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v"
-
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-2
+#--  Project file E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartA\synthesis\CDC3FF_syn.prj
+#--  Written on Mon Nov 16 06:32:45 2020
 
 
 #project files
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/DFF.v"
+add_file -verilog "E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v"
+
 
 
 #implementation: "synthesis"
@@ -21,16 +23,18 @@ set_option -technology SmartFusion
 set_option -part A2F200M3F
 set_option -package FBGA484
 set_option -speed_grade STD
+set_option -part_companion ""
+
 #compilation/mapping options
 set_option -use_fsm_explorer 0
+set_option -top_module "CDC3FF"
+
 # hdl_compiler_options
 set_option -distributed_compile 0
 
 # mapper_without_write_options
 set_option -frequency 100.000
 set_option -srs_instrumentation 1
-
-set_option -top_module CDC3FF
 
 # mapper_options
 set_option -write_verilog 0
@@ -42,10 +46,13 @@ set_option -rw_check_on_ram 0
 # Microsemi 500K
 set_option -run_prop_extract 1
 set_option -maxfan 24
+set_option -disable_io_insertion 0
 set_option -retiming 0
 set_option -report_path 4000
+set_option -opcond COMWC
 set_option -update_models_cp 0
 set_option -preserve_registers 0
+
 # Microsemi 500K
 set_option -globalthreshold 50
 

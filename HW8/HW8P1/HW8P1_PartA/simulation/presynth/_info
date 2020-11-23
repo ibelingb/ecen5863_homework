@@ -9,13 +9,13 @@ z2
 cModel Technology
 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1/simulation
 vCDC3FF
-Z0 !s110 1605486480
+Z0 !s110 1605532207
 !i10b 1
-!s100 NBb?K9fObQ<NE`VlU^]7B0
-I1[2LXzX7bAIREe1[TNS4`2
+!s100 1m2OFb8cXoKl@XBg[k9RD0
+I[10S?O;f_=LE^@14ndSZ32
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/simulation
-w1605486300
+w1605532105
 8E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v
 FE:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v
 L0 14
@@ -23,7 +23,7 @@ Z3 OW;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1605486480.000000
+Z4 !s108 1605532207.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/HW8P1.v|
 !s101 -O0
@@ -55,7 +55,7 @@ R5
 R6
 n@d@f@f
 vmux
-R0
+!s110 1605486480
 !i10b 1
 !s100 QB5mfQU;z1RDT>oEX]k]^2
 IAR5;H><3lDF6X2Bb@0eCF1
@@ -69,7 +69,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1605486480.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P1/HW8P1_PartA/hdl/mux.v|
 !s101 -O0

@@ -1,0 +1,215 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Created a new design.
+'BA_NAME' set to 'SlowFast_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/designer/impl1'
+'BA_DIR' set to 'E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'SlowFast.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 1.0 seconds
+Imported the file:
+   E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.edn
+
+The Import command succeeded ( 00:00:02 )
+Design saved to file SlowFast.adb.
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\synthesis\SlowFast.edn
+Format      : EDIF
+Topcell     : SlowFast
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:     29  Total:   4608   (0.63%)
+    Fabric IO (W/ clocks)      Used:      7  Total:     94   (7.45%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 3  (66.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 12           | 12
+    SEQ     | 17           | 17
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 4             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 4      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:   7 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    7       CLK_NET       Net   : Aclk_c
+                          Driver: Aclk_pad
+                          Source: NETLIST
+    7       CLK_NET       Net   : Bclk_c
+                          Driver: Bclk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    11      INT_NET       Net   : reset_c
+                          Driver: reset_pad
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    11      INT_NET       Net   : reset_c
+                          Driver: reset_pad
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
+                          Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
+
+The Compile command succeeded ( 00:00:03 )
+Wrote status report to file: SlowFast_compile_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: SlowFast_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: SlowFast_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartB\designer\impl1\SlowFast.adb.
+
+The Execute Script command succeeded ( 00:00:14 )
+Design closed.
+

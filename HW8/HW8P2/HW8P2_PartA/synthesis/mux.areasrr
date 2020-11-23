@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell mux.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         9       0.0        0.0
+                                MX2         4       1.0        4.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             19                  4.0

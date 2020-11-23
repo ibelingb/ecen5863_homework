@@ -1,2 +1,3 @@
 @W: CL279 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\DFF_bus4.v":29:0:29:5|Pruning register bits 3 to 1 of qbar[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG532 :"E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\hdl\SlowFast.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
 

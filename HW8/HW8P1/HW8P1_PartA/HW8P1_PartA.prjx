@@ -42,33 +42,33 @@ CURREV=1
 ENDLIST
 LIST FileManager
 VALUE "<project>\designer\impl1\CDC3FF.adb,adb"
-STATE="ood"
-TIME="1605488488"
-SIZE="36352"
+STATE="utd"
+TIME="1605533598"
+SIZE="33280"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF.ide_des,ide_des"
 STATE="utd"
-TIME="1605488488"
+TIME="1605533598"
 SIZE="975"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_compile_log.rpt,log"
 STATE="utd"
-TIME="1605488464"
-SIZE="8101"
+TIME="1605533575"
+SIZE="8083"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1605488483"
-SIZE="2633"
+TIME="1605533593"
+SIZE="2637"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_timingconstraints_log.rpt,log"
 STATE="utd"
-TIME="1605488442"
-SIZE="760"
+TIME="1605533550"
+SIZE="1576"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1605488488"
+TIME="1605535685"
 SIZE="1144"
 ENDFILE
 VALUE "<project>\designer\impl1\HW8P1.ide_des,ide_des"
@@ -83,8 +83,8 @@ SIZE="973"
 ENDFILE
 VALUE "<project>\hdl\HW8P1.v,hdl"
 STATE="utd"
-TIME="1605531549"
-SIZE="1511"
+TIME="1605533555"
+SIZE="989"
 ENDFILE
 VALUE "<project>\hdl\mux.v,hdl"
 STATE="utd"
@@ -93,38 +93,59 @@ SIZE="810"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1605486471"
-SIZE="756"
+TIME="1605532196"
+SIZE="694"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.edn,syn_edn"
-STATE="ood"
-TIME="1605488450"
-SIZE="19087"
+STATE="utd"
+TIME="1605533565"
+SIZE="13818"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.so,so"
 STATE="utd"
-TIME="1605488450"
+TIME="1605533565"
 SIZE="224"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1605488450"
+STATE="utd"
+TIME="1605533565"
 SIZE="484"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_syn.prj,prj"
 STATE="utd"
-TIME="1605500360"
-SIZE="1603"
+TIME="1605533565"
+SIZE="1786"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1605467238"
+TIME="1605532099"
 SIZE="159"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "CDC3FF::work"
+FILE "<project>\hdl\HW8P1.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\CDC3FF_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\CDC3FF_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -195,8 +216,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -204,7 +225,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="E:\Microsemi\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -229,6 +250,20 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "CDC3FF::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -243,18 +278,16 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Verify Timing:CDC3FF_maxdelay_timing_report.txt
+ReportsCurrentItem;Verify Timing:CDC3FF_maxdelay_timingviolations_report.txt
 HDL;hdl\HW8P1.v;0
 HDL;hdl\DFF.v;0
 HDL;hdl\mux.v;0
-HDL;synthesis\CDC3FF_sdc.sdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\HW8P1.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CDC3FF::work","hdl\HW8P1.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
-SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
 ENDLIST

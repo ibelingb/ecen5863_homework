@@ -12,24 +12,22 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v" (library work)
-@I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v" (library work)
 @I::"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v changed - recompiling
 Selecting top level module CDC3FF
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\DFF.v":23:7:23:9|Synthesizing module DFF in library work.
 
-@N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\mux.v":22:7:22:9|Synthesizing module mux in library work.
-
 @N: CG364 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":14:7:14:12|Synthesizing module CDC3FF in library work.
 
+@W: CG360 :"E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\hdl\HW8P1.v":19:34:19:43|Removing wire syncSignal, as there is no assignment to it.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 18:18:31 2020
+# Mon Nov 16 06:51:53 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -40,7 +38,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 18:18:31 2020
+# Mon Nov 16 06:51:53 2020
 
 ###########################################################]
 @END
@@ -50,6 +48,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 15 18:18:31 2020
+# Mon Nov 16 06:51:53 2020
 
 ###########################################################]

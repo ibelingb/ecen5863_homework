@@ -12,7 +12,6 @@ vmap smartfusion "E:/Microsemi/Designer/lib/modelsim/precompiled/vlog/smartfusio
 
 vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/DFF.v"
 vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/DFF_bus4.v"
-vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/mux.v"
 vlog -vlog01compat -work presynth "${PROJECT_DIR}/hdl/SlowFast.v"
 
 vsim -L smartfusion -L presynth  -t 1ps presynth.SlowFast

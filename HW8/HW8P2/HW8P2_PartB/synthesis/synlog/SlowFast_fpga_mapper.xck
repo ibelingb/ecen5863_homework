@@ -1,2 +1,3 @@
-CKID0001:@|S:Bclk@|E:datasinkDFF.q[3]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:Aclk@|E:temp[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0001:@|S:syncDFF_3.q@|E:doutSink[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:Bclk@|E:datasinkDFF.q[3]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:Aclk@|E:shiftReg[0]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

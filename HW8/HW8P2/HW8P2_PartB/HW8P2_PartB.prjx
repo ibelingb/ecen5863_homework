@@ -13,10 +13,15 @@ KEY VendorTechnology_Package "fg484"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -36,30 +41,55 @@ VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\impl1\SlowFast.adb,adb"
+STATE="utd"
+TIME="1605622173"
+SIZE="32768"
+ENDFILE
 VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
 STATE="utd"
 TIME="1605499727"
 SIZE="202"
 ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_compile_log.rpt,log"
+STATE="utd"
+TIME="1605622173"
+SIZE="8256"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1605622195"
+SIZE="2543"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1605622706"
+SIZE="358"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1605622713"
+SIZE="1160"
+ENDFILE
 VALUE "<project>\hdl\DFF.v,hdl"
 STATE="utd"
-TIME="1605499726"
+TIME="1605399179"
 SIZE="973"
 ENDFILE
 VALUE "<project>\hdl\DFF_bus4.v,hdl"
 STATE="utd"
-TIME="1605499726"
+TIME="1605498170"
 SIZE="1008"
 ENDFILE
 VALUE "<project>\hdl\mux.v,hdl"
 STATE="utd"
-TIME="1605499726"
+TIME="1605498370"
 SIZE="898"
 ENDFILE
 VALUE "<project>\hdl\SlowFast.v,hdl"
 STATE="utd"
-TIME="1605499829"
-SIZE="1803"
+TIME="1605621583"
+SIZE="1604"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
@@ -68,7 +98,7 @@ SIZE="828"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
-TIME="1605499930"
+TIME="1605621636"
 SIZE="51"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
@@ -88,8 +118,8 @@ SIZE="488"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
 STATE="utd"
-TIME="1605499883"
-SIZE="1948"
+TIME="1605499889"
+SIZE="1689"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -99,7 +129,8 @@ LIST "SlowFast::work"
 FILE "<project>\hdl\SlowFast.v,hdl"
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
 ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -109,6 +140,10 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\SlowFast_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\SlowFast_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -217,7 +252,8 @@ ENDLIST
 LIST ProjectState5.1
 LIST "SlowFast::work"
 LIST Impl1
-LiberoState=Post_Synthesis
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
 ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -242,8 +278,7 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
-StartPage;StartPage;0
+ReportsCurrentItem;Verify Timing:SlowFast_maxdelay_timing_report.txt
 HDL;hdl\SlowFast.v;0
 ACTIVEVIEW;Reports
 ENDLIST
@@ -257,7 +292,6 @@ ENDLIST
 LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
 SUBBLOCK "DFF_bus4::work","hdl\DFF_bus4.v","FALSE","FALSE"
-SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

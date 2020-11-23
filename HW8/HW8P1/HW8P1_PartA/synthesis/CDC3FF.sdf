@@ -15,23 +15,13 @@
   (INSTANCE)
   (TIMINGCHECK
 
-    (PATHCONSTRAINT interfaceDFF/q/CLK  interfaceDFF/q/Q  interfaceDFF/q_RNO_0/B  interfaceDFF/q_RNO_0/Y  interfaceDFF/q_RNO/C  interfaceDFF/q_RNO/Y  interfaceDFF/q/D  	(9.5:9.5:9.5) )
+    (PATHCONSTRAINT toggleDFF/qbar/CLK  toggleDFF/qbar/Q  toggleDFF/q_3_i_0/A  toggleDFF/q_3_i_0/Y  toggleDFF/q_RNO/A  toggleDFF/q_RNO/Y  toggleDFF/q/D  	(9.5:9.5:9.5) )
 
-    (PATHCONSTRAINT syncDFF_3/q/CLK  syncDFF_3/q/Q  interfaceDFF/q_RNO_0/A  interfaceDFF/q_RNO_0/Y  interfaceDFF/q_RNO/C  interfaceDFF/q_RNO/Y  interfaceDFF/q/D  	(9.5:9.5:9.5) )
+    (PATHCONSTRAINT syncDFF_2/q/CLK  syncDFF_2/q/Q  syncDFF_3/q_3_i/A  syncDFF_3/q_3_i/Y  syncDFF_3/q/D  	(9.5:9.5:9.5) )
 
-    (PATHCONSTRAINT toggleDFF/qbar/CLK  toggleDFF/qbar/Q  toggleDFF/qbar_RNITV5R/A  toggleDFF/qbar_RNITV5R/Y  toggleDFF/q_RNO/A  toggleDFF/q_RNO/Y  toggleDFF/q/D  	(9.5:9.5:9.5) )
+    (PATHCONSTRAINT syncDFF_1/q/CLK  syncDFF_1/q/Q  syncDFF_2/q_3_i/A  syncDFF_2/q_3_i/Y  syncDFF_2/q/D  	(9.5:9.5:9.5) )
 
-    (PATHCONSTRAINT syncDFF_3/q/CLK  syncDFF_3/q/Q  interfaceDFF/q_RNO/A  interfaceDFF/q_RNO/Y  interfaceDFF/q/D  	(9.5:9.5:9.5) )
-
-    (PATHCONSTRAINT toggleDFF/q/CLK  toggleDFF/q/Q  interfaceDFF/q_RNO/B  interfaceDFF/q_RNO/Y  interfaceDFF/q/D  	(9.5:9.5:9.5) )
-
-    (PATHCONSTRAINT syncDFF_2/q/CLK  syncDFF_2/q/Q  syncDFF_3/q_RNO/A  syncDFF_3/q_RNO/Y  syncDFF_3/q/D  	(9.5:9.5:9.5) )
-
-    (PATHCONSTRAINT syncDFF_1/q/CLK  syncDFF_1/q/Q  syncDFF_2/q_RNO/A  syncDFF_2/q_RNO/Y  syncDFF_2/q/D  	(9.5:9.5:9.5) )
-
-    (PATHCONSTRAINT toggleDFF/qbar/CLK  toggleDFF/qbar/Q  toggleDFF/qbar_RNITV5R/A  toggleDFF/qbar_RNITV5R/Y  toggleDFF/qbar/D  	(9.5:9.5:9.5) )
-
-    (PATHCONSTRAINT interfaceDFF/q/CLK  interfaceDFF/q/Q  datasinkDFF/q_RNO/A  datasinkDFF/q_RNO/Y  	(10.0:10.0:10.0) )
+    (PATHCONSTRAINT toggleDFF/qbar/CLK  toggleDFF/qbar/Q  toggleDFF/q_3_i_0/A  toggleDFF/q_3_i_0/Y  toggleDFF/qbar/D  	(9.5:9.5:9.5) )
 
   )
 )

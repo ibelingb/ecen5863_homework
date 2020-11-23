@@ -1,4 +1,4 @@
-# Sun Nov 15 18:18:33 2020
+# Mon Nov 16 06:51:55 2020
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -23,10 +23,10 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
@@ -73,14 +73,14 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-2 non-gated/non-generated clock tree(s) driving 6 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 5 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 =========================== Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
 ---------------------------------------------------------------------------------------
-@K:CKID0001       Bclk                port                   4          datasinkDFF.q  
+@K:CKID0001       Bclk                port                   3          syncDFF_3.q    
 @K:CKID0002       Aclk                port                   2          toggleDFF.q    
 =======================================================================================
 
@@ -97,17 +97,17 @@ Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elaps
 Writing EDIF Netlist and constraint files
 L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 @W: MT420 |Found inferred clock CDC3FF|Aclk with period 10.00ns. Please declare a user-defined clock on object "p:Aclk"
 @W: MT420 |Found inferred clock CDC3FF|Bclk with period 10.00ns. Please declare a user-defined clock on object "p:Bclk"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Nov 15 18:18:33 2020
+# Timing Report written on Mon Nov 16 06:51:56 2020
 #
 
 
@@ -129,13 +129,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 6.455
+Worst slack in design: 6.808
 
                    Requested     Estimated     Requested     Estimated               Clock        Clock              
 Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
 ---------------------------------------------------------------------------------------------------------------------
 CDC3FF|Aclk        100.0 MHz     313.3 MHz     10.000        3.192         6.808     inferred     Inferred_clkgroup_1
-CDC3FF|Bclk        100.0 MHz     282.1 MHz     10.000        3.545         6.455     inferred     Inferred_clkgroup_0
+CDC3FF|Bclk        100.0 MHz     387.5 MHz     10.000        2.581         7.419     inferred     Inferred_clkgroup_0
 =====================================================================================================================
 
 
@@ -149,7 +149,7 @@ Clocks                    |    rise  to  rise   |    fall  to  fall   |    rise 
 ----------------------------------------------------------------------------------------------------------------
 Starting     Ending       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------
-CDC3FF|Bclk  CDC3FF|Bclk  |  10.000      6.455  |  No paths    -      |  No paths    -      |  No paths    -    
+CDC3FF|Bclk  CDC3FF|Bclk  |  10.000      7.419  |  No paths    -      |  No paths    -      |  No paths    -    
 CDC3FF|Aclk  CDC3FF|Bclk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
 CDC3FF|Aclk  CDC3FF|Aclk  |  10.000      6.808  |  No paths    -      |  No paths    -      |  No paths    -    
 ================================================================================================================
@@ -207,7 +207,7 @@ Path information for path number 1:
 
     - Propagation time:                      2.654
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 6.808
+    = Slack (critical) :                     6.808
 
     Number of logic level(s):                2
     Starting point:                          toggleDFF.qbar / Q
@@ -215,19 +215,19 @@ Path information for path number 1:
     The start point is clocked by            CDC3FF|Aclk [rising] on pin CLK
     The end   point is clocked by            CDC3FF|Aclk [rising] on pin CLK
 
-Instance / Net                      Pin      Pin               Arrival     No. of    
-Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------
-toggleDFF.qbar             DFN1     Q        Out     0.580     0.580       -         
-dataSourceQbar             Net      -        -       0.322     -           1         
-toggleDFF.qbar_RNITV5R     OR2A     A        In      -         0.902       -         
-toggleDFF.qbar_RNITV5R     OR2A     Y        Out     0.537     1.439       -         
-N_4                        Net      -        -       0.386     -           2         
-toggleDFF.q_RNO            INV      A        In      -         1.825       -         
-toggleDFF.q_RNO            INV      Y        Out     0.507     2.332       -         
-N_4_i                      Net      -        -       0.322     -           1         
-toggleDFF.q                DFN1     D        In      -         2.654       -         
-=====================================================================================
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name                  Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+toggleDFF.qbar        DFN1     Q        Out     0.580     0.580       -         
+dataSourceQbar        Net      -        -       0.322     -           1         
+toggleDFF.q_3_i_0     OR2A     A        In      -         0.902       -         
+toggleDFF.q_3_i_0     OR2A     Y        Out     0.537     1.439       -         
+N_4                   Net      -        -       0.386     -           2         
+toggleDFF.q_RNO       INV      A        In      -         1.825       -         
+toggleDFF.q_RNO       INV      Y        Out     0.507     2.332       -         
+N_4_i                 Net      -        -       0.322     -           1         
+toggleDFF.q           DFN1     D        In      -         2.654       -         
+================================================================================
 Total path delay (propagation time + setup) of 3.192 is 2.164(67.8%) logic and 1.029(32.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
@@ -243,28 +243,25 @@ Detailed Report for Clock: CDC3FF|Bclk
 Starting Points with Worst Slack
 ********************************
 
-                  Starting                                        Arrival          
-Instance          Reference       Type     Pin     Net            Time        Slack
-                  Clock                                                            
------------------------------------------------------------------------------------
-datasinkDFF.q     CDC3FF|Bclk     DFN1     Q       Dout_c         0.737       6.455
-syncDFF_3.q       CDC3FF|Bclk     DFN1     Q       syncSignal     0.737       6.702
-syncDFF_2.q       CDC3FF|Bclk     DFN1     Q       syncQ2         0.737       7.419
-syncDFF_1.q       CDC3FF|Bclk     DFN1     Q       syncQ1         0.737       7.419
-===================================================================================
+                Starting                                    Arrival          
+Instance        Reference       Type     Pin     Net        Time        Slack
+                Clock                                                        
+-----------------------------------------------------------------------------
+syncDFF_2.q     CDC3FF|Bclk     DFN1     Q       syncQ2     0.737       7.419
+syncDFF_1.q     CDC3FF|Bclk     DFN1     Q       syncQ1     0.737       7.419
+=============================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                  Starting                                   Required          
-Instance          Reference       Type     Pin     Net       Time         Slack
-                  Clock                                                        
--------------------------------------------------------------------------------
-datasinkDFF.q     CDC3FF|Bclk     DFN1     D       q_RNO     9.427        6.455
-syncDFF_3.q       CDC3FF|Bclk     DFN1     D       N_10      9.427        7.419
-syncDFF_2.q       CDC3FF|Bclk     DFN1     D       N_8       9.427        7.419
-===============================================================================
+                Starting                                   Required          
+Instance        Reference       Type     Pin     Net       Time         Slack
+                Clock                                                        
+-----------------------------------------------------------------------------
+syncDFF_3.q     CDC3FF|Bclk     DFN1     D       q_3_i     9.427        7.419
+syncDFF_2.q     CDC3FF|Bclk     DFN1     D       N_8       9.427        7.419
+=============================================================================
 
 
 
@@ -278,30 +275,27 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.427
 
-    - Propagation time:                      2.972
+    - Propagation time:                      2.007
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     6.455
+    = Slack (non-critical) :                 7.419
 
-    Number of logic level(s):                2
-    Starting point:                          datasinkDFF.q / Q
-    Ending point:                            datasinkDFF.q / D
+    Number of logic level(s):                1
+    Starting point:                          syncDFF_2.q / Q
+    Ending point:                            syncDFF_3.q / D
     The start point is clocked by            CDC3FF|Bclk [rising] on pin CLK
     The end   point is clocked by            CDC3FF|Bclk [rising] on pin CLK
 
-Instance / Net                  Pin      Pin               Arrival     No. of    
-Name                  Type      Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------
-datasinkDFF.q         DFN1      Q        Out     0.737     0.737       -         
-Dout_c                Net       -        -       0.386     -           2         
-dataSourceMux.y       MX2       A        In      -         1.123       -         
-dataSourceMux.y       MX2       Y        Out     0.579     1.701       -         
-muxOutput             Net       -        -       0.322     -           1         
-datasinkDFF.q_RNO     NOR2A     A        In      -         2.023       -         
-datasinkDFF.q_RNO     NOR2A     Y        Out     0.627     2.650       -         
-q_RNO                 Net       -        -       0.322     -           1         
-datasinkDFF.q         DFN1      D        In      -         2.972       -         
-=================================================================================
-Total path delay (propagation time + setup) of 3.545 is 2.516(71.0%) logic and 1.029(29.0%) route.
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+syncDFF_2.q         DFN1      Q        Out     0.737     0.737       -         
+syncQ2              Net       -        -       0.322     -           1         
+syncDFF_3.q_3_i     NOR2A     A        In      -         1.058       -         
+syncDFF_3.q_3_i     NOR2A     Y        Out     0.627     1.686       -         
+q_3_i               Net       -        -       0.322     -           1         
+syncDFF_3.q         DFN1      D        In      -         2.007       -         
+===============================================================================
+Total path delay (propagation time + setup) of 2.581 is 1.938(75.1%) logic and 0.643(24.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -311,27 +305,26 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 --------------------------------------------------------------------------------
 Target Part: A2F200M3F_FBGA484_STD
 Report for cell CDC3FF.verilog
   Core Cell usage:
               cell count     area count*area
-               GND     7      0.0        0.0
+               GND     5      0.0        0.0
                INV     1      1.0        1.0
-               MX2     1      1.0        1.0
-             NOR2A     4      1.0        4.0
+             NOR2A     3      1.0        3.0
               OR2A     1      1.0        1.0
-               VCC     7      0.0        0.0
+               VCC     5      0.0        0.0
 
 
-              DFN1     6      1.0        6.0
+              DFN1     5      1.0        5.0
                    -----          ----------
-             TOTAL    27                13.0
+             TOTAL    20                10.0
 
 
   IO Cell usage:
@@ -343,7 +336,7 @@ Report for cell CDC3FF.verilog
              TOTAL     4
 
 
-Core Cells         : 13 of 4608 (0%)
+Core Cells         : 10 of 4608 (0%)
 IO Cells           : 4
 
   RAM/ROM Usage Summary
@@ -351,9 +344,9 @@ Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Nov 15 18:18:33 2020
+# Mon Nov 16 06:51:56 2020
 
 ###########################################################]

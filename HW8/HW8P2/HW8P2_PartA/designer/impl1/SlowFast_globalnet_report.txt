@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
-Date: Sun Nov 15 21:02:04 2020
+Date: Tue Nov 17 06:51:40 2020
 Design Name: SlowFast  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
 
 
@@ -20,7 +20,7 @@ Global Nets Information:
         |-----------------------------------------------------|
         |Name                |Core      |IO        |RAM       |
         |-----------------------------------------------------|
-        |Aclk_c              |       13 |        0 |        0 |
+        |Aclk_c              |        9 |        0 |        0 |
         |-----------------------------------------------------|
         |Bclk_c              |        5 |        0 |        0 |
         |-----------------------------------------------------|

@@ -1,6 +1,7 @@
 KEY LIBERO "11.8"
 KEY CAPTURE "11.8.0.26"
 KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "VERILOG2001"
@@ -12,10 +13,15 @@ KEY VendorTechnology_Package "fg484"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -37,27 +43,32 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\designer\impl1\CDC3FF.adb,adb"
 STATE="utd"
-TIME="1605494419"
-SIZE="27136"
+TIME="1605535315"
+SIZE="31744"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF.ide_des,ide_des"
 STATE="utd"
-TIME="1605489505"
-SIZE="200"
+TIME="1605535315"
+SIZE="975"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_compile_log.rpt,log"
 STATE="utd"
-TIME="1605494419"
-SIZE="8286"
+TIME="1605534752"
+SIZE="8083"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1605494442"
+TIME="1605534772"
 SIZE="2523"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1605535309"
+SIZE="352"
 ENDFILE
 VALUE "<project>\designer\impl1\CDC3FF_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1605494447"
+TIME="1605536059"
 SIZE="1144"
 ENDFILE
 VALUE "<project>\designer\impl1\DFF.ide_des,ide_des"
@@ -77,8 +88,8 @@ SIZE="973"
 ENDFILE
 VALUE "<project>\hdl\HW8P1.v,hdl"
 STATE="utd"
-TIME="1605489461"
-SIZE="1480"
+TIME="1605534707"
+SIZE="989"
 ENDFILE
 VALUE "<project>\hdl\mux.v,hdl"
 STATE="utd"
@@ -87,33 +98,28 @@ SIZE="810"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1605489522"
-SIZE="756"
-ENDFILE
-VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
-STATE="utd"
-TIME="1605489525"
-SIZE="51"
+TIME="1605533853"
+SIZE="694"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.edn,syn_edn"
 STATE="utd"
-TIME="1605489513"
-SIZE="17847"
+TIME="1605534716"
+SIZE="13818"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF.so,so"
 STATE="utd"
-TIME="1605489513"
+TIME="1605534716"
 SIZE="224"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1605489513"
+TIME="1605534716"
 SIZE="484"
 ENDFILE
 VALUE "<project>\synthesis\CDC3FF_syn.prj,prj"
 STATE="utd"
-TIME="1605489513"
-SIZE="1860"
+TIME="1605534717"
+SIZE="1786"
 ENDFILE
 VALUE "<project>\synthesis\DFF.edn,syn_edn"
 STATE="utd"
@@ -144,8 +150,8 @@ FILE "<project>\hdl\HW8P1.v,hdl"
 LIST ProjectState5.1
 LIST Impl1
 LiberoState=Post_Layout
-ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
 ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -230,8 +236,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="E:\Microsemi\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -267,8 +273,8 @@ LIST ProjectState5.1
 LIST "CDC3FF::work"
 LIST Impl1
 LiberoState=Post_Layout
-ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
 ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\CDC3FF.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -293,16 +299,13 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Verify Timing:CDC3FF_maxdelay_timing_report.txt
-StartPage;StartPage;0
 HDL;hdl\HW8P1.v;0
-HDL;synthesis\DFF_sdc.sdc;0
-HDL;synthesis\CDC3FF_sdc.sdc;0
+StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CDC3FF::work","hdl\HW8P1.v","FALSE","FALSE"
 SUBBLOCK "DFF::work","hdl\DFF.v","FALSE","FALSE"
-SUBBLOCK "mux::work","hdl\mux.v","FALSE","FALSE"
 ENDLIST
 LIST "DFF::work","hdl\DFF.v","FALSE","FALSE"
 ENDLIST

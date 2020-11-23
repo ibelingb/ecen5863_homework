@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2020 11 15 21 11 23)
+      (timeStamp 2020 11 17 7 0 27)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09M-2, mapper mapact, Build 1920R"))
      )
@@ -46,20 +46,6 @@
  )
            (port A (direction INPUT))
            (port B (direction INPUT))
-         )
-        (property is_combinational (integer 1))
-       )
-    )
-    (cell NOR3A (cellType GENERIC)
-      (property dont_touch (string "false"))
-       (view prim (viewType NETLIST)
-         (interface
-           (port Y (direction OUTPUT)
-           (property function (string "!(!A + B + C)"))
- )
-           (port A (direction INPUT))
-           (port B (direction INPUT))
-           (port C (direction INPUT))
          )
         (property is_combinational (integer 1))
        )
@@ -155,22 +141,15 @@
        (view netlist (viewType NETLIST)
          (interface
            (port (array (rename out_c "out_c[3:0]") 4) (direction OUTPUT))
-           (port (array (rename temp "temp[3:0]") 4) (direction INPUT))
+           (port (array (rename doutsink "doutSink[3:0]") 4) (direction INPUT))
            (port Bclk_c (direction INPUT))
-           (port syncSignal (direction INPUT))
-           (port N_16 (direction OUTPUT))
-           (port N_18 (direction OUTPUT))
            (port reset_c (direction INPUT))
-           (port N_20 (direction OUTPUT))
          )
          (contents
-          (instance (rename temp_2_i_0 "temp_2_i[0]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
-          (instance (rename temp_2_i_1 "temp_2_i[1]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
-          (instance (rename temp_2_i_2 "temp_2_i[2]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
-          (instance (rename q_RNO_0 "q_RNO[0]") (viewRef prim (cellRef NOR3A (libraryRef smartfusion)))          )
-          (instance (rename q_RNO_1 "q_RNO[1]") (viewRef prim (cellRef NOR3A (libraryRef smartfusion)))          )
-          (instance (rename q_RNO_2 "q_RNO[2]") (viewRef prim (cellRef NOR3A (libraryRef smartfusion)))          )
-          (instance (rename q_RNO_3 "q_RNO[3]") (viewRef prim (cellRef NOR3A (libraryRef smartfusion)))          )
+          (instance (rename q_RNO_3 "q_RNO[3]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename q_RNO_2 "q_RNO[2]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename q_RNO_1 "q_RNO[1]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename q_RNO_0 "q_RNO[0]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
           (instance (rename q_0 "q[0]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance (rename q_1 "q[1]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
@@ -181,69 +160,44 @@
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net N_20 (joined
-           (portRef Y (instanceRef temp_2_i_0))
-           (portRef N_20)
+          (net (rename q_RNOZ0Z_3 "q_RNO[3]") (joined
+           (portRef Y (instanceRef q_RNO_3))
+           (portRef D (instanceRef q_3))
           ))
-          (net (rename temp_0 "temp[0]") (joined
-           (portRef (member temp 3))
-           (portRef A (instanceRef q_RNO_0))
-           (portRef A (instanceRef temp_2_i_0))
+          (net (rename doutSink_3 "doutSink[3]") (joined
+           (portRef (member doutsink 0))
+           (portRef A (instanceRef q_RNO_3))
           ))
           (net reset_c (joined
            (portRef reset_c)
-           (portRef B (instanceRef q_RNO_3))
-           (portRef B (instanceRef q_RNO_2))
-           (portRef B (instanceRef q_RNO_1))
            (portRef B (instanceRef q_RNO_0))
-           (portRef B (instanceRef temp_2_i_2))
-           (portRef B (instanceRef temp_2_i_1))
-           (portRef B (instanceRef temp_2_i_0))
-          ))
-          (net N_18 (joined
-           (portRef Y (instanceRef temp_2_i_1))
-           (portRef N_18)
-          ))
-          (net (rename temp_1 "temp[1]") (joined
-           (portRef (member temp 2))
-           (portRef A (instanceRef q_RNO_1))
-           (portRef A (instanceRef temp_2_i_1))
-          ))
-          (net N_16 (joined
-           (portRef Y (instanceRef temp_2_i_2))
-           (portRef N_16)
-          ))
-          (net (rename temp_2 "temp[2]") (joined
-           (portRef (member temp 1))
-           (portRef A (instanceRef q_RNO_2))
-           (portRef A (instanceRef temp_2_i_2))
-          ))
-          (net (rename q_RNOZ0Z_0 "q_RNO[0]") (joined
-           (portRef Y (instanceRef q_RNO_0))
-           (portRef D (instanceRef q_0))
-          ))
-          (net syncSignal (joined
-           (portRef syncSignal)
-           (portRef C (instanceRef q_RNO_3))
-           (portRef C (instanceRef q_RNO_2))
-           (portRef C (instanceRef q_RNO_1))
-           (portRef C (instanceRef q_RNO_0))
-          ))
-          (net (rename q_RNOZ0Z_1 "q_RNO[1]") (joined
-           (portRef Y (instanceRef q_RNO_1))
-           (portRef D (instanceRef q_1))
+           (portRef B (instanceRef q_RNO_1))
+           (portRef B (instanceRef q_RNO_2))
+           (portRef B (instanceRef q_RNO_3))
           ))
           (net (rename q_RNOZ0Z_2 "q_RNO[2]") (joined
            (portRef Y (instanceRef q_RNO_2))
            (portRef D (instanceRef q_2))
           ))
-          (net (rename q_RNOZ0Z_3 "q_RNO[3]") (joined
-           (portRef Y (instanceRef q_RNO_3))
-           (portRef D (instanceRef q_3))
+          (net (rename doutSink_2 "doutSink[2]") (joined
+           (portRef (member doutsink 1))
+           (portRef A (instanceRef q_RNO_2))
           ))
-          (net (rename temp_3 "temp[3]") (joined
-           (portRef (member temp 0))
-           (portRef A (instanceRef q_RNO_3))
+          (net (rename q_RNOZ0Z_1 "q_RNO[1]") (joined
+           (portRef Y (instanceRef q_RNO_1))
+           (portRef D (instanceRef q_1))
+          ))
+          (net (rename doutSink_1 "doutSink[1]") (joined
+           (portRef (member doutsink 2))
+           (portRef A (instanceRef q_RNO_1))
+          ))
+          (net (rename q_RNOZ0Z_0 "q_RNO[0]") (joined
+           (portRef Y (instanceRef q_RNO_0))
+           (portRef D (instanceRef q_0))
+          ))
+          (net (rename doutSink_0 "doutSink[0]") (joined
+           (portRef (member doutsink 3))
+           (portRef A (instanceRef q_RNO_0))
           ))
           (net (rename out_c_0 "out_c[0]") (joined
            (portRef Q (instanceRef q_0))
@@ -278,23 +232,23 @@
         (property orig_inst_of (string "DFF_bus4"))
        )
     )
-    (cell DFF_0_1 (cellType GENERIC)
+    (cell DFF_0_0 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
+           (port q (direction OUTPUT))
            (port Bclk_c (direction INPUT))
-           (port syncSignal (direction OUTPUT))
            (port reset_c (direction INPUT))
            (port syncQ2 (direction INPUT))
          )
          (contents
           (instance q_RNO (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
-          (instance q (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          (instance (rename qZ0 "q") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net N_14 (joined
+          (net N_10 (joined
            (portRef Y (instanceRef q_RNO))
-           (portRef D (instanceRef q))
+           (portRef D (instanceRef qZ0))
           ))
           (net syncQ2 (joined
            (portRef syncQ2)
@@ -304,13 +258,13 @@
            (portRef reset_c)
            (portRef B (instanceRef q_RNO))
           ))
-          (net syncSignal (joined
-           (portRef Q (instanceRef q))
-           (portRef syncSignal)
-          ))
           (net Bclk_c (joined
            (portRef Bclk_c)
-           (portRef CLK (instanceRef q))
+           (portRef CLK (instanceRef qZ0))
+          ))
+          (net q (joined
+           (portRef q)
+           (portRef Q (instanceRef qZ0))
           ))
           (net GND (joined
            (portRef Y (instanceRef GND_i))
@@ -322,7 +276,7 @@
         (property orig_inst_of (string "DFF"))
        )
     )
-    (cell DFF_0_0 (cellType GENERIC)
+    (cell DFF_0_1 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
            (port Bclk_c (direction INPUT))
@@ -336,7 +290,7 @@
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net N_12 (joined
+          (net N_8 (joined
            (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
           ))
@@ -366,7 +320,7 @@
         (property orig_inst_of (string "DFF"))
        )
     )
-    (cell DFF_0 (cellType GENERIC)
+    (cell DFF_0_2 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
            (port Bclk_c (direction INPUT))
@@ -380,7 +334,7 @@
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net N_10 (joined
+          (net N_6 (joined
            (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
           ))
@@ -426,11 +380,11 @@
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
-          (net N_8_i (joined
+          (net N_4_i (joined
            (portRef Y (instanceRef q_RNO))
            (portRef D (instanceRef q))
           ))
-          (net N_8 (joined
+          (net N_4 (joined
            (portRef Y (instanceRef qbar_RNITV5R))
            (portRef D (instanceRef qbar))
            (portRef A (instanceRef q_RNO))
@@ -475,13 +429,24 @@
           )
           (instance Aclk_pad (viewRef prim (cellRef CLKBUF (libraryRef smartfusion)))
           )
-          (instance (rename temp_0 "temp[0]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          (instance (rename shiftReg_2_2 "shiftReg_2[2]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename shiftReg_2_1 "shiftReg_2[1]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename shiftReg_2_0 "shiftReg_2[0]") (viewRef prim (cellRef NOR2A (libraryRef smartfusion)))          )
+          (instance (rename doutSink_0 "doutSink[0]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
-          (instance (rename temp_1 "temp[1]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          (instance (rename doutSink_1 "doutSink[1]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
-          (instance (rename temp_2 "temp[2]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          (instance (rename doutSink_2 "doutSink[2]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
-          (instance (rename temp_3 "temp[3]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          (instance (rename doutSink_3 "doutSink[3]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          )
+          (instance (rename shiftReg_0 "shiftReg[0]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          )
+          (instance (rename shiftReg_1 "shiftReg[1]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          )
+          (instance (rename shiftReg_2 "shiftReg[2]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
+          )
+          (instance (rename shiftReg_3 "shiftReg[3]") (viewRef prim (cellRef DFN1 (libraryRef smartfusion)))
           )
           (instance (rename out_pad_3 "out_pad[3]") (viewRef prim (cellRef OUTBUF (libraryRef smartfusion)))
           )
@@ -495,11 +460,11 @@
           )
           (instance toggleDFF (viewRef netlist (cellRef DFF_0_3))
           )
-          (instance temp0_syncDFF_1 (viewRef netlist (cellRef DFF_0))
+          (instance syncDFF_1 (viewRef netlist (cellRef DFF_0_2))
           )
-          (instance temp0_syncDFF_2 (viewRef netlist (cellRef DFF_0_0))
+          (instance syncDFF_2 (viewRef netlist (cellRef DFF_0_1))
           )
-          (instance temp0_syncDFF_3 (viewRef netlist (cellRef DFF_0_1))
+          (instance syncDFF_3 (viewRef netlist (cellRef DFF_0_0))
           )
           (instance datasinkDFF (viewRef netlist (cellRef DFF_bus4))
           )
@@ -507,35 +472,69 @@
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
           (net dataSourceQ (joined
            (portRef dataSourceQ (instanceRef toggleDFF))
-           (portRef D (instanceRef temp_0))
+           (portRef D (instanceRef shiftReg_0))
           ))
           (net syncQ1 (joined
-           (portRef syncQ1 (instanceRef temp0_syncDFF_1))
-           (portRef syncQ1 (instanceRef temp0_syncDFF_2))
+           (portRef syncQ1 (instanceRef syncDFF_1))
+           (portRef syncQ1 (instanceRef syncDFF_2))
           ))
           (net syncQ2 (joined
-           (portRef syncQ2 (instanceRef temp0_syncDFF_2))
-           (portRef syncQ2 (instanceRef temp0_syncDFF_3))
+           (portRef syncQ2 (instanceRef syncDFF_2))
+           (portRef syncQ2 (instanceRef syncDFF_3))
           ))
-          (net syncSignal (joined
-           (portRef syncSignal (instanceRef temp0_syncDFF_3))
-           (portRef syncSignal (instanceRef datasinkDFF))
+          (net q (joined
+           (portRef q (instanceRef syncDFF_3))
+           (portRef CLK (instanceRef doutSink_3))
+           (portRef CLK (instanceRef doutSink_2))
+           (portRef CLK (instanceRef doutSink_1))
+           (portRef CLK (instanceRef doutSink_0))
           ))
-          (net (rename tempZ0Z_0 "temp[0]") (joined
-           (portRef Q (instanceRef temp_0))
-           (portRef (member temp 3) (instanceRef datasinkDFF))
+          (net (rename doutSinkZ0Z_0 "doutSink[0]") (joined
+           (portRef Q (instanceRef doutSink_0))
+           (portRef (member doutsink 3) (instanceRef datasinkDFF))
           ))
-          (net (rename tempZ0Z_1 "temp[1]") (joined
-           (portRef Q (instanceRef temp_1))
-           (portRef (member temp 2) (instanceRef datasinkDFF))
+          (net (rename doutSinkZ0Z_1 "doutSink[1]") (joined
+           (portRef Q (instanceRef doutSink_1))
+           (portRef (member doutsink 2) (instanceRef datasinkDFF))
           ))
-          (net (rename tempZ0Z_2 "temp[2]") (joined
-           (portRef Q (instanceRef temp_2))
-           (portRef (member temp 1) (instanceRef datasinkDFF))
+          (net (rename doutSinkZ0Z_2 "doutSink[2]") (joined
+           (portRef Q (instanceRef doutSink_2))
+           (portRef (member doutsink 1) (instanceRef datasinkDFF))
           ))
-          (net (rename tempZ0Z_3 "temp[3]") (joined
-           (portRef Q (instanceRef temp_3))
-           (portRef (member temp 0) (instanceRef datasinkDFF))
+          (net (rename doutSinkZ0Z_3 "doutSink[3]") (joined
+           (portRef Q (instanceRef doutSink_3))
+           (portRef (member doutsink 0) (instanceRef datasinkDFF))
+          ))
+          (net (rename shiftRegZ0Z_0 "shiftReg[0]") (joined
+           (portRef Q (instanceRef shiftReg_0))
+           (portRef D (instanceRef doutSink_0))
+           (portRef A (instanceRef shiftReg_2_0))
+          ))
+          (net (rename shiftRegZ0Z_1 "shiftReg[1]") (joined
+           (portRef Q (instanceRef shiftReg_1))
+           (portRef D (instanceRef doutSink_1))
+           (portRef A (instanceRef shiftReg_2_1))
+          ))
+          (net (rename shiftRegZ0Z_2 "shiftReg[2]") (joined
+           (portRef Q (instanceRef shiftReg_2))
+           (portRef D (instanceRef doutSink_2))
+           (portRef A (instanceRef shiftReg_2_2))
+          ))
+          (net (rename shiftRegZ0Z_3 "shiftReg[3]") (joined
+           (portRef Q (instanceRef shiftReg_3))
+           (portRef D (instanceRef doutSink_3))
+          ))
+          (net (rename shiftReg_2Z0Z_0 "shiftReg_2[0]") (joined
+           (portRef Y (instanceRef shiftReg_2_0))
+           (portRef D (instanceRef shiftReg_1))
+          ))
+          (net (rename shiftReg_2Z0Z_1 "shiftReg_2[1]") (joined
+           (portRef Y (instanceRef shiftReg_2_1))
+           (portRef D (instanceRef shiftReg_2))
+          ))
+          (net (rename shiftReg_2Z0Z_2 "shiftReg_2[2]") (joined
+           (portRef Y (instanceRef shiftReg_2_2))
+           (portRef D (instanceRef shiftReg_3))
           ))
           (net GND (joined
            (portRef Y (instanceRef GND_i))
@@ -543,26 +542,14 @@
           (net VCC (joined
            (portRef Y (instanceRef VCC_i))
           ))
-          (net N_16 (joined
-           (portRef N_16 (instanceRef datasinkDFF))
-           (portRef D (instanceRef temp_3))
-          ))
-          (net N_18 (joined
-           (portRef N_18 (instanceRef datasinkDFF))
-           (portRef D (instanceRef temp_2))
-          ))
-          (net N_20 (joined
-           (portRef N_20 (instanceRef datasinkDFF))
-           (portRef D (instanceRef temp_1))
-          ))
           (net Aclk_c (joined
            (portRef Y (instanceRef Aclk_pad))
-           (portRef Aclk_c (instanceRef temp0_syncDFF_1))
+           (portRef Aclk_c (instanceRef syncDFF_1))
            (portRef Aclk_c (instanceRef toggleDFF))
-           (portRef CLK (instanceRef temp_3))
-           (portRef CLK (instanceRef temp_2))
-           (portRef CLK (instanceRef temp_1))
-           (portRef CLK (instanceRef temp_0))
+           (portRef CLK (instanceRef shiftReg_3))
+           (portRef CLK (instanceRef shiftReg_2))
+           (portRef CLK (instanceRef shiftReg_1))
+           (portRef CLK (instanceRef shiftReg_0))
           ))
           (net Aclk (joined
            (portRef Aclk)
@@ -571,9 +558,9 @@
           (net Bclk_c (joined
            (portRef Y (instanceRef Bclk_pad))
            (portRef Bclk_c (instanceRef datasinkDFF))
-           (portRef Bclk_c (instanceRef temp0_syncDFF_3))
-           (portRef Bclk_c (instanceRef temp0_syncDFF_2))
-           (portRef Bclk_c (instanceRef temp0_syncDFF_1))
+           (portRef Bclk_c (instanceRef syncDFF_3))
+           (portRef Bclk_c (instanceRef syncDFF_2))
+           (portRef Bclk_c (instanceRef syncDFF_1))
           ))
           (net Bclk (joined
            (portRef Bclk)
@@ -582,10 +569,13 @@
           (net reset_c (joined
            (portRef Y (instanceRef reset_pad))
            (portRef reset_c (instanceRef datasinkDFF))
-           (portRef reset_c (instanceRef temp0_syncDFF_3))
-           (portRef reset_c (instanceRef temp0_syncDFF_2))
-           (portRef reset_c (instanceRef temp0_syncDFF_1))
+           (portRef reset_c (instanceRef syncDFF_3))
+           (portRef reset_c (instanceRef syncDFF_2))
+           (portRef reset_c (instanceRef syncDFF_1))
            (portRef reset_c (instanceRef toggleDFF))
+           (portRef B (instanceRef shiftReg_2_0))
+           (portRef B (instanceRef shiftReg_2_1))
+           (portRef B (instanceRef shiftReg_2_2))
           ))
           (net reset (joined
            (portRef reset)

@@ -1,7 +1,7 @@
 E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  CDC3FF  -multisrs  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs  -osyn  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_mult.srs  -log  E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_multi_srs_gen.srr 
 rc:0 success:1 runtime:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs|io:i|time:1605489511|size:2831|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_mult.srs|io:o|time:1605489512|size:2198|exec:0
-file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_multi_srs_gen.srr|io:o|time:1605489512|size:409|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_comp.srs|io:i|time:1605534713|size:2165|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synwork\CDC3FF_mult.srs|io:o|time:1605534714|size:1776|exec:0
+file:E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\synlog\CDC3FF_multi_srs_gen.srr|io:o|time:1605534714|size:514|exec:0
 file:E:\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
 file:E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

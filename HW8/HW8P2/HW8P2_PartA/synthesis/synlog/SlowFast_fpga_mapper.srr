@@ -1,4 +1,4 @@
-# Sun Nov 15 21:01:32 2020
+# Tue Nov 17 06:42:48 2020
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -38,7 +38,7 @@ Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
@@ -73,16 +73,21 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-2 non-gated/non-generated clock tree(s) driving 17 clock pin(s) of sequential element(s)
-0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+2 non-gated/non-generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+0 instances converted, 4 sequential instances remain driven by gated/generated clocks
 
 ============================ Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance 
 ----------------------------------------------------------------------------------------
-@K:CKID0001       Aclk                port                   13         temp[0]         
-@K:CKID0002       Bclk                port                   4          datasinkDFF.q[3]
+@K:CKID0002       Aclk                port                   9          shiftReg[0]     
+@K:CKID0003       Bclk                port                   4          datasinkDFF.q[3]
 ========================================================================================
+====================================================================== Gated/Generated Clocks ======================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       syncDFF_3.q         DFN1                   4          doutSink[0]         No generated or derived clock directive on output of sequential instance
+====================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
@@ -104,10 +109,11 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 @W: MT420 |Found inferred clock SlowFast|Aclk with period 10.00ns. Please declare a user-defined clock on object "p:Aclk"
 @W: MT420 |Found inferred clock SlowFast|Bclk with period 10.00ns. Please declare a user-defined clock on object "p:Bclk"
+@W: MT420 |Found inferred clock DFF_0_0|q_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:syncDFF_3.q"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Nov 15 21:01:33 2020
+# Timing Report written on Tue Nov 17 06:42:49 2020
 #
 
 
@@ -129,14 +135,15 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 5.441
+Worst slack in design: 6.808
 
-                   Requested     Estimated     Requested     Estimated               Clock        Clock              
-Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
----------------------------------------------------------------------------------------------------------------------
-SlowFast|Aclk      100.0 MHz     219.4 MHz     10.000        4.559         5.441     inferred     Inferred_clkgroup_0
-SlowFast|Bclk      100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
-=====================================================================================================================
+                             Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock               Frequency     Frequency     Period        Period        Slack     Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------
+DFF_0_0|q_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+SlowFast|Aclk                100.0 MHz     313.3 MHz     10.000        3.192         6.808     inferred     Inferred_clkgroup_1
+SlowFast|Bclk                100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+===============================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 
@@ -146,13 +153,14 @@ SlowFast|Bclk      100.0 MHz     NA            10.000        NA            NA   
 Clock Relationships
 *******************
 
-Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
---------------------------------------------------------------------------------------------------------------------
-Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
---------------------------------------------------------------------------------------------------------------------
-SlowFast|Aclk  SlowFast|Aclk  |  10.000      5.442  |  No paths    -      |  No paths    -      |  No paths    -    
-SlowFast|Aclk  SlowFast|Bclk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
-====================================================================================================================
+Clocks                                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------
+DFF_0_0|q_inferred_clock  SlowFast|Bclk             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+SlowFast|Aclk             DFF_0_0|q_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+SlowFast|Aclk             SlowFast|Aclk             |  10.000      6.808  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -174,41 +182,36 @@ Detailed Report for Clock: SlowFast|Aclk
 Starting Points with Worst Slack
 ********************************
 
-                      Starting                                               Arrival          
-Instance              Reference         Type     Pin     Net                 Time        Slack
-                      Clock                                                                   
-----------------------------------------------------------------------------------------------
-temp0_syncDFF_3.q     SlowFast|Aclk     DFN1     Q       syncSignal          0.737       5.441
-temp[0]               SlowFast|Aclk     DFN1     Q       temp[0]             0.737       6.509
-temp[1]               SlowFast|Aclk     DFN1     Q       temp[1]             0.737       6.509
-temp[2]               SlowFast|Aclk     DFN1     Q       temp[2]             0.737       6.509
-temp[3]               SlowFast|Aclk     DFN1     Q       temp[3]             0.737       6.573
-toggleDFF.qbar        SlowFast|Aclk     DFN1     Q       dataSourceQbar      0.580       6.808
-interfaceDFF.q[0]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[0]     0.580       7.273
-interfaceDFF.q[1]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[1]     0.580       7.273
-interfaceDFF.q[2]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[2]     0.580       7.273
-interfaceDFF.q[3]     SlowFast|Aclk     DFN1     Q       fDataLockedQ[3]     0.580       7.273
-==============================================================================================
+                   Starting                                              Arrival          
+Instance           Reference         Type     Pin     Net                Time        Slack
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+toggleDFF.qbar     SlowFast|Aclk     DFN1     Q       dataSourceQbar     0.580       6.808
+shiftReg[0]        SlowFast|Aclk     DFN1     Q       shiftReg[0]        0.737       7.355
+shiftReg[1]        SlowFast|Aclk     DFN1     Q       shiftReg[1]        0.737       7.355
+shiftReg[2]        SlowFast|Aclk     DFN1     Q       shiftReg[2]        0.737       7.355
+syncDFF_2.q        SlowFast|Aclk     DFN1     Q       syncQ2             0.737       7.419
+syncDFF_1.q        SlowFast|Aclk     DFN1     Q       syncQ1             0.737       7.419
+toggleDFF.q        SlowFast|Aclk     DFN1     Q       dataSourceQ        0.737       8.368
+==========================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                      Starting                                         Required          
-Instance              Reference         Type     Pin     Net           Time         Slack
-                      Clock                                                              
------------------------------------------------------------------------------------------
-interfaceDFF.q[0]     SlowFast|Aclk     DFN1     D       N_10          9.427        5.441
-interfaceDFF.q[1]     SlowFast|Aclk     DFN1     D       N_8           9.427        5.441
-interfaceDFF.q[2]     SlowFast|Aclk     DFN1     D       N_6           9.427        5.441
-interfaceDFF.q[3]     SlowFast|Aclk     DFN1     D       N_4           9.427        5.441
-toggleDFF.q           SlowFast|Aclk     DFN1     D       q_3_i_0_i     9.461        6.808
-temp[1]               SlowFast|Aclk     DFN1     D       N_40          9.427        7.355
-temp[2]               SlowFast|Aclk     DFN1     D       N_38          9.427        7.355
-temp[3]               SlowFast|Aclk     DFN1     D       N_36          9.427        7.355
-temp0_syncDFF_3.q     SlowFast|Aclk     DFN1     D       N_34          9.427        7.419
-temp0_syncDFF_2.q     SlowFast|Aclk     DFN1     D       N_32          9.427        7.419
-=========================================================================================
+                   Starting                                             Required          
+Instance           Reference         Type     Pin     Net               Time         Slack
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+toggleDFF.q        SlowFast|Aclk     DFN1     D       N_4_i             9.461        6.808
+shiftReg[1]        SlowFast|Aclk     DFN1     D       shiftReg_2[0]     9.427        7.355
+shiftReg[2]        SlowFast|Aclk     DFN1     D       shiftReg_2[1]     9.427        7.355
+shiftReg[3]        SlowFast|Aclk     DFN1     D       shiftReg_2[2]     9.427        7.355
+syncDFF_3.q        SlowFast|Aclk     DFN1     D       N_10              9.427        7.419
+syncDFF_2.q        SlowFast|Aclk     DFN1     D       N_8               9.427        7.419
+toggleDFF.qbar     SlowFast|Aclk     DFN1     D       N_4               9.461        7.551
+shiftReg[0]        SlowFast|Aclk     DFN1     D       dataSourceQ       9.427        8.368
+==========================================================================================
 
 
 
@@ -218,34 +221,34 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      10.000
-    - Setup time:                            0.573
+    - Setup time:                            0.539
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.427
+    = Required time:                         9.461
 
-    - Propagation time:                      3.985
+    - Propagation time:                      2.654
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     5.442
+    = Slack (critical) :                     6.808
 
     Number of logic level(s):                2
-    Starting point:                          temp0_syncDFF_3.q / Q
-    Ending point:                            interfaceDFF.q[0] / D
+    Starting point:                          toggleDFF.qbar / Q
+    Ending point:                            toggleDFF.q / D
     The start point is clocked by            SlowFast|Aclk [rising] on pin CLK
     The end   point is clocked by            SlowFast|Aclk [rising] on pin CLK
 
-Instance / Net                       Pin      Pin               Arrival     No. of    
-Name                        Type     Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------
-temp0_syncDFF_3.q           DFN1     Q        Out     0.737     0.737       -         
-syncSignal                  Net      -        -       1.639     -           8         
-interfaceDFF.q_RNO_0[0]     AO1D     A        In      -         2.376       -         
-interfaceDFF.q_RNO_0[0]     AO1D     Y        Out     0.480     2.855       -         
-q_0_i_0[0]                  Net      -        -       0.322     -           1         
-interfaceDFF.q_RNO[0]       OA1C     C        In      -         3.177       -         
-interfaceDFF.q_RNO[0]       OA1C     Y        Out     0.487     3.664       -         
-N_10                        Net      -        -       0.322     -           1         
-interfaceDFF.q[0]           DFN1     D        In      -         3.985       -         
-======================================================================================
-Total path delay (propagation time + setup) of 4.558 is 2.277(49.9%) logic and 2.282(50.1%) route.
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+toggleDFF.qbar             DFN1     Q        Out     0.580     0.580       -         
+dataSourceQbar             Net      -        -       0.322     -           1         
+toggleDFF.qbar_RNITV5R     OR2A     A        In      -         0.902       -         
+toggleDFF.qbar_RNITV5R     OR2A     Y        Out     0.537     1.439       -         
+N_4                        Net      -        -       0.386     -           2         
+toggleDFF.q_RNO            INV      A        In      -         1.825       -         
+toggleDFF.q_RNO            INV      Y        Out     0.507     2.332       -         
+N_4_i                      Net      -        -       0.322     -           1         
+toggleDFF.q                DFN1     D        In      -         2.654       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 3.192 is 2.164(67.8%) logic and 1.029(32.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -265,18 +268,16 @@ Target Part: A2F200M3F_FBGA484_STD
 Report for cell SlowFast.verilog
   Core Cell usage:
               cell count     area count*area
-              AO1D     4      1.0        4.0
-               GND     8      0.0        0.0
+               GND     6      0.0        0.0
                INV     1      1.0        1.0
              NOR2A    10      1.0       10.0
-              OA1C     4      1.0        4.0
               OR2A     1      1.0        1.0
-               VCC     8      0.0        0.0
+               VCC     6      0.0        0.0
 
 
               DFN1    17      1.0       17.0
                    -----          ----------
-             TOTAL    53                37.0
+             TOTAL    41                29.0
 
 
   IO Cell usage:
@@ -288,7 +289,7 @@ Report for cell SlowFast.verilog
              TOTAL     7
 
 
-Core Cells         : 37 of 4608 (1%)
+Core Cells         : 29 of 4608 (1%)
 IO Cells           : 7
 
   RAM/ROM Usage Summary
@@ -299,6 +300,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Nov 15 21:01:33 2020
+# Tue Nov 17 06:42:49 2020
 
 ###########################################################]

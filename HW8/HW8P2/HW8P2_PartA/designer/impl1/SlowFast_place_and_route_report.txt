@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Sun Nov 15 21:02:04 2020 ***************************************************************************
+                          Tue Nov 17 06:51:40 2020 ***************************************************************************
 
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
 File Name: E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\designer\impl1\SlowFast.adb
 Design Name: SlowFast  Design State: layout
-Last Saved: Sun Nov 15 21:01:46 2020
+Last Saved: Tue Nov 17 06:51:22 2020
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Sun Nov 15 21:01:40 2020:
+Source File(s) Imported on Tue Nov 17 06:51:16 2020:
         E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.edn
 
 
@@ -102,7 +102,7 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:     37  Total:   4608   (0.80%)
+    Fabric                     Used:     29  Total:   4608   (0.63%)
     Fabric IO (W/ clocks)      Used:      7  Total:     94   (7.45%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -131,7 +131,7 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 20           | 20
+    COMB    | 12           | 12
     SEQ     | 17           | 17
 
 I/O Function:
@@ -164,7 +164,7 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    13      CLK_NET       Net   : Aclk_c
+    9       CLK_NET       Net   : Aclk_c
                           Driver: Aclk_pad
                           Source: NETLIST
     5       CLK_NET       Net   : Bclk_c
@@ -174,50 +174,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    15      INT_NET       Net   : reset_c
+    11      INT_NET       Net   : reset_c
                           Driver: reset_pad
-    8       INT_NET       Net   : syncSignal
-                          Driver: temp0_syncDFF_3/q
-    2       INT_NET       Net   : temp[0]
-                          Driver: temp[0]
-    2       INT_NET       Net   : temp[1]
-                          Driver: temp[1]
-    2       INT_NET       Net   : temp[2]
-                          Driver: temp[2]
-    2       INT_NET       Net   : fDataLockedQ[0]
-                          Driver: interfaceDFF/q[0]
-    2       INT_NET       Net   : fDataLockedQ[1]
-                          Driver: interfaceDFF/q[1]
-    2       INT_NET       Net   : fDataLockedQ[2]
-                          Driver: interfaceDFF/q[2]
-    2       INT_NET       Net   : fDataLockedQ[3]
-                          Driver: interfaceDFF/q[3]
-    2       INT_NET       Net   : toggleDFF/q_3_i_0
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
                           Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    15      INT_NET       Net   : reset_c
+    11      INT_NET       Net   : reset_c
                           Driver: reset_pad
-    8       INT_NET       Net   : syncSignal
-                          Driver: temp0_syncDFF_3/q
-    2       INT_NET       Net   : temp[0]
-                          Driver: temp[0]
-    2       INT_NET       Net   : temp[1]
-                          Driver: temp[1]
-    2       INT_NET       Net   : temp[2]
-                          Driver: temp[2]
-    2       INT_NET       Net   : fDataLockedQ[0]
-                          Driver: interfaceDFF/q[0]
-    2       INT_NET       Net   : fDataLockedQ[1]
-                          Driver: interfaceDFF/q[1]
-    2       INT_NET       Net   : fDataLockedQ[2]
-                          Driver: interfaceDFF/q[2]
-    2       INT_NET       Net   : fDataLockedQ[3]
-                          Driver: interfaceDFF/q[3]
-    2       INT_NET       Net   : toggleDFF/q_3_i_0
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
                           Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
 
 
 Layout Output:
@@ -243,16 +243,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sun Nov 15 21:01:52 2020
+Timing-driven Placer Started: Tue Nov 17 06:51:28 2020
 
-Placer Finished: Sun Nov 15 21:01:54 2020
+Placer Finished: Tue Nov 17 06:51:30 2020
 Total Placer CPU Time:     00:00:02
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: SlowFast                        Started: Sun Nov 15 21:01:56 2020
+Design: SlowFast                        Started: Tue Nov 17 06:51:32 2020
 
  
 Iterative improvement...
@@ -260,9 +260,9 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: SlowFast                        
-Finished: Sun Nov 15 21:02:01 2020
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 161.2 Mbytes
+Finished: Tue Nov 17 06:51:37 2020
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
+Total Memory Usage: 160.5 Mbytes
                         o - o - o - o - o - o
 
 

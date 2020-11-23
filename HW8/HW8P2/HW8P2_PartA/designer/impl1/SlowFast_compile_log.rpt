@@ -77,7 +77,7 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:     37  Total:   4608   (0.80%)
+    Fabric                     Used:     29  Total:   4608   (0.63%)
     Fabric IO (W/ clocks)      Used:      7  Total:     94   (7.45%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -106,7 +106,7 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 20           | 20
+    COMB    | 12           | 12
     SEQ     | 17           | 17
 
 I/O Function:
@@ -139,7 +139,7 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    13      CLK_NET       Net   : Aclk_c
+    9       CLK_NET       Net   : Aclk_c
                           Driver: Aclk_pad
                           Source: NETLIST
     5       CLK_NET       Net   : Bclk_c
@@ -149,50 +149,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    15      INT_NET       Net   : reset_c
+    11      INT_NET       Net   : reset_c
                           Driver: reset_pad
-    8       INT_NET       Net   : syncSignal
-                          Driver: temp0_syncDFF_3/q
-    2       INT_NET       Net   : temp[0]
-                          Driver: temp[0]
-    2       INT_NET       Net   : temp[1]
-                          Driver: temp[1]
-    2       INT_NET       Net   : temp[2]
-                          Driver: temp[2]
-    2       INT_NET       Net   : fDataLockedQ[0]
-                          Driver: interfaceDFF/q[0]
-    2       INT_NET       Net   : fDataLockedQ[1]
-                          Driver: interfaceDFF/q[1]
-    2       INT_NET       Net   : fDataLockedQ[2]
-                          Driver: interfaceDFF/q[2]
-    2       INT_NET       Net   : fDataLockedQ[3]
-                          Driver: interfaceDFF/q[3]
-    2       INT_NET       Net   : toggleDFF/q_3_i_0
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
                           Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    15      INT_NET       Net   : reset_c
+    11      INT_NET       Net   : reset_c
                           Driver: reset_pad
-    8       INT_NET       Net   : syncSignal
-                          Driver: temp0_syncDFF_3/q
-    2       INT_NET       Net   : temp[0]
-                          Driver: temp[0]
-    2       INT_NET       Net   : temp[1]
-                          Driver: temp[1]
-    2       INT_NET       Net   : temp[2]
-                          Driver: temp[2]
-    2       INT_NET       Net   : fDataLockedQ[0]
-                          Driver: interfaceDFF/q[0]
-    2       INT_NET       Net   : fDataLockedQ[1]
-                          Driver: interfaceDFF/q[1]
-    2       INT_NET       Net   : fDataLockedQ[2]
-                          Driver: interfaceDFF/q[2]
-    2       INT_NET       Net   : fDataLockedQ[3]
-                          Driver: interfaceDFF/q[3]
-    2       INT_NET       Net   : toggleDFF/q_3_i_0
+    4       CLK_NET       Net   : q
+                          Driver: syncDFF_3/q
+    2       INT_NET       Net   : shiftReg[0]
+                          Driver: shiftReg[0]
+    2       INT_NET       Net   : shiftReg[1]
+                          Driver: shiftReg[1]
+    2       INT_NET       Net   : shiftReg[2]
+                          Driver: shiftReg[2]
+    2       INT_NET       Net   : toggleDFF/N_4
                           Driver: toggleDFF/qbar_RNITV5R
+    1       INT_NET       Net   : dataSourceQ
+                          Driver: toggleDFF/q
+    1       INT_NET       Net   : syncQ1
+                          Driver: syncDFF_1/q
+    1       INT_NET       Net   : syncQ2
+                          Driver: syncDFF_2/q
+    1       INT_NET       Net   : doutSink[0]
+                          Driver: doutSink[0]
 
 The Compile command succeeded ( 00:00:02 )
 Wrote status report to file: SlowFast_compile_report.txt

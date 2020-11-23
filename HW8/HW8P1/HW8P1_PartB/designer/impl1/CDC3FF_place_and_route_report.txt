@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Sun Nov 15 19:40:40 2020 ***************************************************************************
+                          Mon Nov 16 06:52:50 2020 ***************************************************************************
 
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
 File Name: E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\designer\impl1\CDC3FF.adb
 Design Name: CDC3FF  Design State: layout
-Last Saved: Sun Nov 15 19:40:19 2020
+Last Saved: Mon Nov 16 06:52:31 2020
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Sun Nov 15 19:40:10 2020:
+Source File(s) Imported on Mon Nov 16 06:52:25 2020:
         E:\repos\ECEN5863_HW\HW8\HW8P1\HW8P1_PartB\synthesis\CDC3FF.edn
 
 
@@ -91,11 +91,18 @@ Optimized macros:
 
 There were 0 error(s) and 0 warning(s) in this design.
 =====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
 Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
-    Fabric                     Used:     13  Total:   4608   (0.28%)
+    Fabric                     Used:     10  Total:   4608   (0.22%)
     Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -124,8 +131,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 7            | 7
-    SEQ     | 6            | 6
+    COMB    | 5            | 5
+    SEQ     | 5            | 5
 
 I/O Function:
 
@@ -148,8 +155,8 @@ I/O Technology:
 I/O Placement:
 
     Locked  :   0
-    Placed  :   0
-    UnPlaced:   4 ( 100.00% )
+    Placed  :   4 ( 100.00% )
+    UnPlaced:   0
 
 Net information report:
 =======================
@@ -157,60 +164,60 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    4       CLK_NET       Net   : Bclk_c
+    3       CLK_NET       Net   : Bclk_c
                           Driver: Bclk_pad
                           Source: NETLIST
-    3       INT_NET       Net   : Aclk_c
+    2       CLK_NET       Net   : Aclk_c
                           Driver: Aclk_pad
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    5       INT_NET       Net   : reset_c
+    4       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : Dout_c
-                          Driver: datasinkDFF/q
     2       INT_NET       Net   : toggleDFF/N_4
-                          Driver: toggleDFF/qbar_RNITV5R
+                          Driver: toggleDFF/q_3_i_0
     1       INT_NET       Net   : dataSourceQ
                           Driver: toggleDFF/q
     1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
     1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : syncSignal
+    1       INT_NET       Net   : Dout_c
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : muxOutput
-                          Driver: dataSourceMux/y
-    1       INT_NET       Net   : datasinkDFF/q_RNO
-                          Driver: datasinkDFF/q_RNO
+    1       INT_NET       Net   : syncDFF_3/q_3_i
+                          Driver: syncDFF_3/q_3_i
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_RNO
+                          Driver: syncDFF_1/q_3_i
+    1       INT_NET       Net   : syncDFF_2/N_8
+                          Driver: syncDFF_2/q_3_i
+    1       INT_NET       Net   : toggleDFF/N_4_i
+                          Driver: toggleDFF/q_RNO
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    5       INT_NET       Net   : reset_c
+    4       INT_NET       Net   : reset_c
                           Driver: reset_pad
-    2       INT_NET       Net   : Dout_c
-                          Driver: datasinkDFF/q
     2       INT_NET       Net   : toggleDFF/N_4
-                          Driver: toggleDFF/qbar_RNITV5R
+                          Driver: toggleDFF/q_3_i_0
     1       INT_NET       Net   : dataSourceQ
                           Driver: toggleDFF/q
     1       INT_NET       Net   : syncQ1
                           Driver: syncDFF_1/q
     1       INT_NET       Net   : syncQ2
                           Driver: syncDFF_2/q
-    1       INT_NET       Net   : syncSignal
+    1       INT_NET       Net   : Dout_c
                           Driver: syncDFF_3/q
-    1       INT_NET       Net   : muxOutput
-                          Driver: dataSourceMux/y
-    1       INT_NET       Net   : datasinkDFF/q_RNO
-                          Driver: datasinkDFF/q_RNO
+    1       INT_NET       Net   : syncDFF_3/q_3_i
+                          Driver: syncDFF_3/q_3_i
     1       INT_NET       Net   : syncDFF_1/N_6
-                          Driver: syncDFF_1/q_RNO
+                          Driver: syncDFF_1/q_3_i
+    1       INT_NET       Net   : syncDFF_2/N_8
+                          Driver: syncDFF_2/q_3_i
+    1       INT_NET       Net   : toggleDFF/dataSourceQbar
+                          Driver: toggleDFF/qbar
 
 
 Layout Output:
@@ -236,16 +243,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sun Nov 15 19:40:27 2020
+Timing-driven Placer Started: Mon Nov 16 06:52:37 2020
 
-Placer Finished: Sun Nov 15 19:40:29 2020
+Placer Finished: Mon Nov 16 06:52:39 2020
 Total Placer CPU Time:     00:00:02
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: CDC3FF                          Started: Sun Nov 15 19:40:31 2020
+Design: CDC3FF                          Started: Mon Nov 16 06:52:42 2020
 
  
 Iterative improvement...
@@ -253,9 +260,9 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: CDC3FF                          
-Finished: Sun Nov 15 19:40:36 2020
+Finished: Mon Nov 16 06:52:47 2020
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 160.5 Mbytes
+Total Memory Usage: 160.1 Mbytes
                         o - o - o - o - o - o
 
 

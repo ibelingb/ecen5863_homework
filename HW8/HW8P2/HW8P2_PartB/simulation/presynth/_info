@@ -9,27 +9,27 @@ z2
 cModel Technology
 Z0 dE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/simulation
 vDFF
-Z1 !s110 1605499934
+Z1 !s110 1605621886
 !i10b 1
 !s100 eVoe;9Ol5c]oF81:2D2am1
 I<GzTL4SDj:XecSo=d8FC[2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1605499726
+w1605399179
 8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v
 FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v
-Z4 L0 23
-Z5 OW;L;10.5c;63
+Z3 L0 23
+Z4 OW;L;10.5c;63
 r1
 !s85 0
 31
-Z6 !s108 1605499934.000000
+Z5 !s108 1605621886.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF.v|
 !s101 -O0
 !i113 1
-Z7 o-vlog01compat -work presynth -O0
-Z8 tCvgOpt 0
+Z6 o-vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
 n@d@f@f
 vDFF_bus4
 R1
@@ -38,64 +38,64 @@ R1
 IT^G8ZXgaJU1^i5<]jQoX73
 R2
 R0
-R3
+w1605498170
 8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v
 FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/DFF_bus4.v|
 !s101 -O0
 !i113 1
+R6
 R7
-R8
 n@d@f@f_bus4
 vmux
-R1
+!s110 1605499934
 !i10b 1
 !s100 7ChiUUWChkdKKUUmbkM:O1
 IkTSLAKZBlejMU;>:23Ge41
 R2
 R0
-R3
+w1605499726
 8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v
 FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v
 L0 22
-R5
+R4
 r1
 !s85 0
 31
-R6
+!s108 1605499934.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/mux.v|
 !s101 -O0
 !i113 1
+R6
 R7
-R8
 vSlowFast
-R1
+!s110 1605621887
 !i10b 1
-!s100 XB7<k_ldlUZ@<d1QIEUQB3
-I3FCFH<>84NNjC^f5gBLZm0
+!s100 <[algB==oOdbViA;i_h4W3
+IM8ko`mhl3AA_zoISTo`>@1
 R2
 R0
-w1605499829
+w1605621583
 8E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v
 FE:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v
 L0 14
-R5
+R4
 r1
 !s85 0
 31
-R6
+!s108 1605621887.000000
 !s107 E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v|
 !s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW8/HW8P2/HW8P2_PartB/hdl/SlowFast.v|
 !s101 -O0
 !i113 1
+R6
 R7
-R8
 n@slow@fast

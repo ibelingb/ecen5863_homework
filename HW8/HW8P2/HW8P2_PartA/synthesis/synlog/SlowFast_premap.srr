@@ -1,4 +1,4 @@
-# Sun Nov 15 21:01:31 2020
+# Tue Nov 17 06:42:47 2020
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -21,8 +21,7 @@ Renaming user netlist hierarchy view:work.DFF(verilog) to avoid clashing with Mi
 @N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Removing sequential instance qbar (in view: work.DFF_0_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff_bus4.v":29:0:29:5|Removing sequential instance qbar_1[0] (in view: work.DFF_bus4_1(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff_bus4.v":29:0:29:5|Removing sequential instance qbar_1[0] (in view: work.DFF_bus4_0(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff_bus4.v":29:0:29:5|Removing sequential instance qbar_1[0] (in view: work.DFF_bus4(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
 
@@ -31,15 +30,17 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 *****************
 
-Start             Requested     Requested     Clock        Clock                   Clock
-Clock             Frequency     Period        Type         Group                   Load 
-----------------------------------------------------------------------------------------
-SlowFast|Aclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     13   
-SlowFast|Bclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     5    
-========================================================================================
+Start                        Requested     Requested     Clock        Clock                   Clock
+Clock                        Frequency     Period        Type         Group                   Load 
+---------------------------------------------------------------------------------------------------
+DFF_0_0|q_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     4    
+SlowFast|Aclk                100.0 MHz     10.000        inferred     Inferred_clkgroup_1     9    
+SlowFast|Bclk                100.0 MHz     10.000        inferred     Inferred_clkgroup_2     5    
+===================================================================================================
 
-@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Aclk which controls 13 sequential elements including toggleDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Bclk which controls 5 sequential elements including temp0_syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\slowfast.v":56:0:56:5|Found inferred clock DFF_0_0|q_inferred_clock which controls 4 sequential elements including doutSink[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Aclk which controls 9 sequential elements including toggleDFF.qbar. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw8\hw8p2\hw8p2_parta\hdl\dff.v":28:0:28:5|Found inferred clock SlowFast|Bclk which controls 5 sequential elements including syncDFF_1.q. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW8\HW8P2\HW8P2_PartA\synthesis\SlowFast.sap.
@@ -56,6 +57,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Nov 15 21:01:32 2020
+# Tue Nov 17 06:42:48 2020
 
 ###########################################################]
