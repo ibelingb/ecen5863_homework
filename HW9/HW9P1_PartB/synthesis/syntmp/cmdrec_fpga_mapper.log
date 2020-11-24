@@ -1,0 +1,15 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\synlog\report\top_level_model_fpga_mapper.xml  -top_level_module  top_level_model  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.edn   -freq 100.000   E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\synwork\top_level_model_prem.srd  -sap  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.sap  -otap  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.tap  -omap  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.map  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -sap  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.sap  -ologparam  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\syntmp\top_level_model.plg  -osyn  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.srm  -prjdir  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\  -prjname  top_level_model_syn  -log  E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\synlog\top_level_model_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\scratchproject.prs|io:o|time:1606225120|size:1986|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.edn|io:o|time:1606225123|size:74271|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\synwork\top_level_model_prem.srd|io:i|time:1606225122|size:9235|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.sap|io:o|time:1606225122|size:993|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.tap|io:o|time:0|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.map|io:o|time:1606225123|size:28|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.sap|io:o|time:1606225122|size:993|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\syntmp\top_level_model.plg|io:o|time:1606225123|size:1269|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\top_level_model.srm|io:o|time:1606225123|size:66412|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\synthesis\synlog\top_level_model_fpga_mapper.srr|io:o|time:1606225123|size:34257|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

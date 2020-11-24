@@ -1,0 +1,16 @@
+
+fsm_encoding {610601061} onehot
+
+fsm_state_encoding {610601061} 000 {000000}
+
+fsm_state_encoding {610601061} 001 {000011}
+
+fsm_state_encoding {610601061} 010 {000101}
+
+fsm_state_encoding {610601061} 011 {001001}
+
+fsm_state_encoding {610601061} 100 {010001}
+
+fsm_state_encoding {610601061} 101 {100001}
+
+fsm_registers {610601061} {senderState[5]}  {senderState[4]}  {senderState[3]}  {senderState[2]}  {senderState[1]}  {senderState_i[0]} 

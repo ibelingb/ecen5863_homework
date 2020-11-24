@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\top_level_model_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>sender|senderState_inferred_clock[2]</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>top_level_model|aClk</data>
+<data>100.0 MHz</data>
+<data>110.3 MHz</data>
+<data>0.935</data>
+</row>
+<row>
+<data>top_level_model|bClk</data>
+<data>100.0 MHz</data>
+<data>204.9 MHz</data>
+<data>5.120</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>108.6 MHz</data>
+<data>0.792</data>
+</row>
+</report_table>

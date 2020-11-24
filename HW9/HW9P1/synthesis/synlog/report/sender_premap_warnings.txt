@@ -1,0 +1,2 @@
+@W: MT530 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\sender.v":81:4:81:7|Found inferred clock sender|senderState_inferred_clock[2] which controls 9 sequential elements including req. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\counter.v":30:0:30:5|Found inferred clock sender|clk which controls 14 sequential elements including mCounter.temp[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

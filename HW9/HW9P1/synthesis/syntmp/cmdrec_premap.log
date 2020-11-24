@@ -1,0 +1,14 @@
+E:\Microsemi\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\report\top_level_model_premap.xml  -top_level_module  top_level_model  -oedif  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model.edn  -conchk_prepass  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model_cck.rpt   -freq 100.000   E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_prem.srd  -qsap  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model.sap  -devicelib  E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\syntmp\top_level_model.plg  -osyn  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_prem.srd  -prjdir  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\  -prjname  top_level_model_syn  -log  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\top_level_model_premap.srr 
+rc:1 success:1 runtime:1
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\scratchproject.prs|io:o|time:1606192337|size:1944|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model.edn|io:o|time:1606192371|size:75021|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model_cck.rpt|io:o|time:1606192393|size:25687|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_mult.srs|io:i|time:1606192392|size:2522|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_prem.srd|io:o|time:1606192393|size:9227|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model.sap|io:o|time:1606192393|size:995|exec:0
+file:E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\syntmp\top_level_model.plg|io:o|time:1606192393|size:0|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_prem.srd|io:o|time:1606192393|size:9227|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\top_level_model_premap.srr|io:o|time:1606192393|size:4882|exec:0
+file:E:\Microsemi\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

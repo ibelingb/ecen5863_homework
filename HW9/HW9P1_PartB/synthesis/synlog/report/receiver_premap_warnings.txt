@@ -1,0 +1,2 @@
+@W: MT532 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\receiver.v":50:4:50:5|Found signal identified as System clock which controls 9 sequential elements including rxDataReg[7:0].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\receiver.v":103:0:103:5|Found inferred clock receiver|clk which controls 6 sequential elements including receiverState[5:0]. This clock has no specified timing constraint which may adversely impact design performance. 

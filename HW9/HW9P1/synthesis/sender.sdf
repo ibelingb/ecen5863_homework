@@ -1,0 +1,150 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "sender")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "sender")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_n6_tz/B  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[1\]/CLK  mCounter/temp\[1\]/Q  mCounter/temp_c1/A  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_n6_tz/B  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_15/B  mCounter/temp_15/Y  mCounter/temp_n7/C  mCounter/temp_n7/Y  mCounter/temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  counterData_RNIR1CB\[0\]/B  counterData_RNIR1CB\[0\]/Y  counterData_RNIO5OM\[1\]/C  counterData_RNIO5OM\[1\]/Y  counterData_RNI0SGD1\[1\]/C  counterData_RNI0SGD1\[1\]/Y  senderState_RNIRD913\[1\]/A  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_n5/A  mCounter/temp_n5/Y  mCounter/temp\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[2\]/CLK  mCounter/temp\[2\]/Q  mCounter/temp_c2/B  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_n6_tz/B  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[3\]/CLK  mCounter/temp\[3\]/Q  counterData_RNI18CB\[3\]/B  counterData_RNI18CB\[3\]/Y  counterData_RNI4IOM\[4\]/C  counterData_RNI4IOM\[4\]/Y  counterData_RNIGCHD1\[4\]/C  counterData_RNIGCHD1\[4\]/Y  senderState_RNIRD913\[1\]/B  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[6\]/CLK  mCounter/temp\[6\]/Q  counterData_RNI7ECB\[6\]/B  counterData_RNI7ECB\[6\]/Y  counterData_RNIGCHD1\[4\]/B  counterData_RNIGCHD1\[4\]/Y  senderState_RNIRD913\[1\]/B  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[7\]/CLK  mCounter/temp\[7\]/Q  counterData_RNI9GCB\[7\]/B  counterData_RNI9GCB\[7\]/Y  counterData_RNI0SGD1\[1\]/B  counterData_RNI0SGD1\[1\]/Y  senderState_RNIRD913\[1\]/A  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[3\]/CLK  mCounter/temp\[3\]/Q  mCounter/temp_c3/B  mCounter/temp_c3/Y  mCounter/temp_c4/A  mCounter/temp_c4/Y  mCounter/temp_n6_tz/B  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  counterData_RNI5CCB\[5\]/B  counterData_RNI5CCB\[5\]/Y  counterData_RNIGCHD1\[4\]/A  counterData_RNIGCHD1\[4\]/Y  senderState_RNIRD913\[1\]/B  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[2\]/CLK  mCounter/temp\[2\]/Q  counterData_RNIV5CB\[2\]/B  counterData_RNIV5CB\[2\]/Y  counterData_RNI0SGD1\[1\]/A  counterData_RNI0SGD1\[1\]/Y  senderState_RNIRD913\[1\]/A  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[1\]/CLK  mCounter/temp\[1\]/Q  counterData_RNIO5OM\[1\]/A  counterData_RNIO5OM\[1\]/Y  counterData_RNI0SGD1\[1\]/C  counterData_RNI0SGD1\[1\]/Y  senderState_RNIRD913\[1\]/A  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[4\]/CLK  mCounter/temp\[4\]/Q  counterData_RNI4IOM\[4\]/A  counterData_RNI4IOM\[4\]/Y  counterData_RNIGCHD1\[4\]/C  counterData_RNIGCHD1\[4\]/Y  senderState_RNIRD913\[1\]/B  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_c3/A  mCounter/temp_c3/Y  mCounter/temp_n4/B  mCounter/temp_n4/Y  mCounter/temp\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[4\]/CLK  mCounter/temp\[4\]/Q  mCounter/temp_c4/B  mCounter/temp_c4/Y  mCounter/temp_n6_tz/B  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[3\]/CLK  senderState\[3\]/Q  senderState_RNIRFEC\[4\]/B  senderState_RNIRFEC\[4\]/Y  senderState_i_RNO_1\[0\]/B  senderState_i_RNO_1\[0\]/Y  senderState_i_RNO\[0\]/C  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_c2/A  mCounter/temp_c2/Y  mCounter/temp_n3/B  mCounter/temp_n3/Y  mCounter/temp\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[1\]/CLK  senderState\[1\]/Q  senderState_i_RNO_2\[0\]/C  senderState_i_RNO_2\[0\]/Y  senderState_i_RNO_1\[0\]/A  senderState_i_RNO_1\[0\]/Y  senderState_i_RNO\[0\]/C  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[4\]/CLK  senderState\[4\]/Q  senderState_RNIRFEC\[4\]/A  senderState_RNIRFEC\[4\]/Y  senderState_i_RNO_1\[0\]/B  senderState_i_RNO_1\[0\]/Y  senderState_i_RNO\[0\]/C  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[6\]/CLK  mCounter/temp\[6\]/Q  mCounter/temp_15_0/A  mCounter/temp_15_0/Y  mCounter/temp_15/C  mCounter/temp_15/Y  mCounter/temp_n7/C  mCounter/temp_n7/Y  mCounter/temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[2\]/CLK  senderState\[2\]/Q  senderState_i_RNO_1\[0\]/C  senderState_i_RNO_1\[0\]/Y  senderState_i_RNO\[0\]/C  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[5\]/CLK  senderState\[5\]/Q  senderState_i_RNO_2\[0\]/A  senderState_i_RNO_2\[0\]/Y  senderState_i_RNO_1\[0\]/A  senderState_i_RNO_1\[0\]/Y  senderState_i_RNO\[0\]/C  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[3\]/CLK  senderState\[3\]/Q  senderState_RNIRFEC\[4\]/B  senderState_RNIRFEC\[4\]/Y  senderState_RNO\[4\]/C  senderState_RNO\[4\]/Y  senderState\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  mCounter/temp_n6_tz/A  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_c1/B  mCounter/temp_c1/Y  mCounter/temp_n2/B  mCounter/temp_n2/Y  mCounter/temp\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[1\]/CLK  senderState\[1\]/Q  senderState_RNIRD913\[1\]/C  senderState_RNIRD913\[1\]/Y  senderState_RNO\[1\]/C  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[2\]/CLK  senderState\[2\]/Q  senderState_RNO\[3\]/B  senderState_RNO\[3\]/Y  senderState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[1\]/CLK  senderState\[1\]/Q  senderState_RNIRD913\[1\]/C  senderState_RNIRD913\[1\]/Y  senderState_RNO\[2\]/A  senderState_RNO\[2\]/Y  senderState\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[2\]/CLK  senderState\[2\]/Q  senderState_RNO\[1\]/B  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  mCounter/temp_15/A  mCounter/temp_15/Y  mCounter/temp_n7/C  mCounter/temp_n7/Y  mCounter/temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState_i\[0\]/CLK  senderState_i\[0\]/Q  senderState_RNO_1\[1\]/B  senderState_RNO_1\[1\]/Y  senderState_RNO_0\[1\]/B  senderState_RNO_0\[1\]/Y  senderState_RNO\[1\]/A  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[6\]/CLK  mCounter/temp\[6\]/Q  mCounter/temp_n6_tz/C  mCounter/temp_n6_tz/Y  mCounter/temp_n6/A  mCounter/temp_n6/Y  mCounter/temp\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[3\]/CLK  senderState\[3\]/Q  senderState_RNO_0\[3\]/A  senderState_RNO_0\[3\]/Y  senderState_RNO\[3\]/A  senderState_RNO\[3\]/Y  senderState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[2\]/CLK  senderState\[2\]/Q  senderState_RNO\[2\]/B  senderState_RNO\[2\]/Y  senderState\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[1\]/CLK  senderState\[1\]/Q  senderState_RNO_0\[1\]/A  senderState_RNO_0\[1\]/Y  senderState_RNO\[1\]/A  senderState_RNO\[1\]/Y  senderState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[5\]/CLK  senderState\[5\]/Q  senderState_i_RNO_0\[0\]/A  senderState_i_RNO_0\[0\]/Y  senderState_i_RNO\[0\]/A  senderState_i_RNO\[0\]/Y  senderState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[7\]/CLK  mCounter/temp\[7\]/Q  mCounter/temp_n7/B  mCounter/temp_n7/Y  mCounter/temp\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[1\]/CLK  mCounter/temp\[1\]/Q  mCounter/temp_n1/A  mCounter/temp_n1/Y  mCounter/temp\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[2\]/CLK  mCounter/temp\[2\]/Q  mCounter/temp_n2/A  mCounter/temp_n2/Y  mCounter/temp\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[3\]/CLK  mCounter/temp\[3\]/Q  mCounter/temp_n3/A  mCounter/temp_n3/Y  mCounter/temp\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[4\]/CLK  mCounter/temp\[4\]/Q  mCounter/temp_n4/A  mCounter/temp_n4/Y  mCounter/temp\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_n1/B  mCounter/temp_n1/Y  mCounter/temp\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  mCounter/temp_n5/B  mCounter/temp_n5/Y  mCounter/temp\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  mCounter/temp_n0/A  mCounter/temp_n0/Y  mCounter/temp\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[4\]/CLK  senderState\[4\]/Q  senderState_RNO_0\[5\]/A  senderState_RNO_0\[5\]/Y  senderState_RNO\[5\]/C  senderState_RNO\[5\]/Y  senderState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[5\]/CLK  senderState\[5\]/Q  senderState_RNO\[5\]/B  senderState_RNO\[5\]/Y  senderState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT senderState\[3\]/CLK  senderState\[3\]/Q  senderState_RNIRFEC\[4\]/B  senderState_RNIRFEC\[4\]/Y  req_RNO_0/A  req_RNO_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  data_pad\[0\]/D  data_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[0\]/CLK  mCounter/temp\[0\]/Q  counterData\[0\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  data_pad\[5\]/D  data_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[5\]/CLK  mCounter/temp\[5\]/Q  counterData\[5\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[1\]/CLK  mCounter/temp\[1\]/Q  data_pad\[1\]/D  data_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[1\]/CLK  mCounter/temp\[1\]/Q  counterData\[1\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[2\]/CLK  mCounter/temp\[2\]/Q  data_pad\[2\]/D  data_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[2\]/CLK  mCounter/temp\[2\]/Q  counterData\[2\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[3\]/CLK  mCounter/temp\[3\]/Q  data_pad\[3\]/D  data_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[3\]/CLK  mCounter/temp\[3\]/Q  counterData\[3\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[6\]/CLK  mCounter/temp\[6\]/Q  data_pad\[6\]/D  data_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[6\]/CLK  mCounter/temp\[6\]/Q  counterData\[6\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[4\]/CLK  mCounter/temp\[4\]/Q  data_pad\[4\]/D  data_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[4\]/CLK  mCounter/temp\[4\]/Q  counterData\[4\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT mCounter/temp\[7\]/CLK  mCounter/temp\[7\]/Q  data_pad\[7\]/D  data_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT mCounter/temp\[7\]/CLK  mCounter/temp\[7\]/Q  counterData\[7\]/D  	(99999.4:99999.4:99999.4) )
+
+    (PATHCONSTRAINT senderState\[3\]/CLK  senderState\[3\]/Q  req_RNO/B  req_RNO/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

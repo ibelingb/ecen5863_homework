@@ -1,0 +1,2 @@
+@E: CS164 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\top_level_model.v":30:49:30:52|Expecting wire for output connection, found data
+

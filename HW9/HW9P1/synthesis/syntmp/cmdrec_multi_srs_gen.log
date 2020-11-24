@@ -1,0 +1,7 @@
+E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  top_level_model  -multisrs  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_comp.srs  -osyn  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_mult.srs  -log  E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\top_level_model_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_comp.srs|io:i|time:1606192391|size:6059|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_mult.srs|io:o|time:1606192392|size:2522|exec:0
+file:E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synlog\top_level_model_multi_srs_gen.srr|io:o|time:1606192392|size:511|exec:0
+file:E:\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
+file:E:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

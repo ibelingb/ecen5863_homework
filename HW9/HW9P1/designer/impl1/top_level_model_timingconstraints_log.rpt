@@ -1,0 +1,19 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design top_level_model.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design top_level_model.adb.
+While analyzing gated clock network, ambiguities have been found on gates
+mReceiver/outputData_RNIU50B[3]:Y, mReceiver/outputData_RNIQ90M[2]:Y,
+mReceiver/outputData_RNIOVVA[0]:Y, mReceiver/outputData_RNIQ10B[1]:Y,
+mReceiver/outputData_RNI6E0B[7]:Y, mReceiver/outputData_RNIAQ0M[6]:Y,
+mReceiver/outputData_RNI080B[4]:Y, mReceiver/outputData_RNI2A0B[5]:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Info: Combinational loops have been detected in the design.
+      To view the details, go to Tools->Reports->Timing->Combinational_Loops
+
+The Execute Script command succeeded ( 00:00:04 )
+Design saved to file E:\repos\ECEN5863_HW\HW9\HW9P1\designer\impl1\top_level_model.adb.
+Design closed.
+

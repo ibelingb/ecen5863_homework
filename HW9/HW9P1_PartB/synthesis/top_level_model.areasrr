@@ -1,0 +1,85 @@
+----------------------------------------------------------------------
+Report for cell top_level_model.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                           receiver         1      50.0       50.0
+                             sender         1      68.0       68.0
+                            
+                         TOTAL             15                118.0
+----------------------------------------------------------------------
+Report for cell receiver.netlist
+     Instance path:  mReceiver
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                               DFN1         6       1.0        6.0
+                               DLN1         8       1.0        8.0
+                           DLN1P1C1         2       2.0        4.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         5       1.0        5.0
+                               OAI1         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XO1         2       1.0        2.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL             50                 50.0
+----------------------------------------------------------------------
+Report for cell sender.netlist
+     Instance path:  mSender
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               DFN1         6       1.0        6.0
+                               DLN0         1       1.0        1.0
+                               DLN1         8       1.0        8.0
+                           DLN1P1C1         1       2.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XO1         2       1.0        2.0
+                               XOR2         6       1.0        6.0
+                            counter         1      24.0       24.0
+                            
+                         TOTAL             46                 68.0
+----------------------------------------------------------------------
+Report for cell counter.netlist
+     Instance path:  mSender.mCounter
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                             DFN1E1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         6       1.0        6.0
+                            
+                         TOTAL             26                 24.0

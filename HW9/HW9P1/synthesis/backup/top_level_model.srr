@@ -1,0 +1,822 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: E:\Microsemi\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: BPC
+
+# Mon Nov 23 20:42:48 2020
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\counter.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v" (library work)
+@I::"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\top_level_model.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top_level_model
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@W: CG532 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":35:0:35:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":48:9:48:37|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":50:8:50:16|Referenced variable rxDataReg is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":81:9:81:21|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":94:15:94:22|Referenced variable reqState is not in sensitivity list.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":30:4:30:9|Object enable is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":30:12:30:18|Object rxState is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":83:4:83:7|Latch generated from always block for signal enableTx; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":83:4:83:7|Latch generated from always block for signal ack; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":50:4:50:5|Latch generated from always block for signal rxDataReg[7:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\counter.v":20:7:20:13|Synthesizing module counter in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":18:7:18:12|Synthesizing module sender in library work.
+
+@W: CG532 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":49:9:49:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":51:7:51:17|Referenced variable counterData is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":79:9:79:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":88:26:88:29|Referenced variable data is not in sensitivity list.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal enable; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal reqState; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal counterData[7:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\top_level_model.v":21:7:21:21|Synthesizing module top_level_model in library work.
+
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":106:0:106:5|Trying to extract state machine for register senderState.
+Extracted state machine for register senderState
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":103:0:103:5|Trying to extract state machine for register receiverState.
+Extracted state machine for register receiverState
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:49 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:49 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:49 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:50 2020
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Nov 23 20:42:50 2020
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model_scck.rpt 
+Printing clock  summary report in "E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+@N: BN362 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\counter.v":30:0:30:5|Removing sequential instance TC (in view: work.counter(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                    Requested     Requested     Clock        Clock                   Clock
+Clock                                    Frequency     Period        Type         Group                   Load 
+---------------------------------------------------------------------------------------------------------------
+System                                   100.0 MHz     10.000        system       system_clkgroup         9    
+sender|senderState_inferred_clock[2]     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     9    
+top_level_model|clk                      100.0 MHz     10.000        inferred     Inferred_clkgroup_1     20   
+===============================================================================================================
+
+@W: MT532 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\receiver.v":50:4:50:5|Found signal identified as System clock which controls 9 sequential elements including mReceiver.rxDataReg[7:0].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\sender.v":81:4:81:7|Found inferred clock sender|senderState_inferred_clock[2] which controls 9 sequential elements including mSender.req. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\receiver.v":103:0:103:5|Found inferred clock top_level_model|clk which controls 20 sequential elements including mReceiver.receiverState[5:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\top_level_model.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Encoding state machine receiverState[5:0] (in view: work.receiver(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+Encoding state machine senderState[5:0] (in view: work.sender(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 23 20:42:51 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Nov 23 20:42:51 2020
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Encoding state machine receiverState[5:0] (in view: work.receiver(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+Encoding state machine senderState[5:0] (in view: work.sender(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+@N: MO231 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\counter.v":30:0:30:5|Found counter in view:work.counter(verilog) instance temp[7:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 20 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 18 clock pin(s) of sequential element(s)
+0 instances converted, 18 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance       
+----------------------------------------------------------------------------------------------
+@K:CKID0005       clk                 port                   20         mSender.senderState[5]
+==============================================================================================
+============================================================================= Gated/Generated Clocks =============================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance            Explanation                                                             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       mSender.req_RNO_0          NOR2A                  1          mSender.req                Clock conversion disabled                                               
+@K:CKID0002       mSender.senderState[2]     DFN1                   8          mSender.counterData[0]     No generated or derived clock directive on output of sequential instance
+@K:CKID0003       mReceiver.ack_RNIJ4955     OA1                    8          mReceiver.rxDataReg[0]     No clocks found on inputs                                               
+@K:CKID0004       mReceiver.ack_RNO_0        NOR2A                  1          mReceiver.ack              No clocks found on inputs                                               
+==================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+Writing Analyst data base E:\repos\ECEN5863_HW\HW9\HW9P1\synthesis\synwork\top_level_model_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+@W: MT420 |Found inferred clock top_level_model|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+@W: MT420 |Found inferred clock sender|senderState_inferred_clock[2] with period 10.00ns. Please declare a user-defined clock on object "n:mSender.senderState[2]"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Nov 23 20:42:52 2020
+#
+
+
+Top view:               top_level_model
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.485
+
+                                         Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                           Frequency     Frequency     Period        Period        Slack      Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------
+sender|senderState_inferred_clock[2]     100.0 MHz     NA            10.000        NA            NA         inferred     Inferred_clkgroup_0
+top_level_model|clk                      100.0 MHz     95.4 MHz      10.000        10.485        -0.485     inferred     Inferred_clkgroup_1
+System                                   100.0 MHz     108.6 MHz     10.000        9.208         0.792      system       system_clkgroup    
+============================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                              Ending                                |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                top_level_model|clk                   |  10.000      0.792   |  No paths    -      |  No paths    -      |  No paths    -    
+sender|senderState_inferred_clock[2]  top_level_model|clk                   |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+top_level_model|clk                   System                                |  10.000      6.960   |  No paths    -      |  No paths    -      |  No paths    -    
+top_level_model|clk                   sender|senderState_inferred_clock[2]  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+top_level_model|clk                   top_level_model|clk                   |  10.000      -0.485  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top_level_model|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                      Arrival           
+Instance                     Reference               Type       Pin     Net                Time        Slack 
+                             Clock                                                                           
+-------------------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[6]     top_level_model|clk     DFN1E1     Q       data_c[6]          0.737       -0.485
+mSender.mCounter.temp[3]     top_level_model|clk     DFN1E1     Q       data_c[3]          0.737       -0.403
+mSender.mCounter.temp[0]     top_level_model|clk     DFN1E1     Q       data_c[0]          0.737       0.191 
+mSender.mCounter.temp[7]     top_level_model|clk     DFN1E1     Q       data_c[7]          0.737       0.325 
+mSender.mCounter.temp[4]     top_level_model|clk     DFN1E1     Q       data_c[4]          0.737       0.504 
+mSender.mCounter.temp[5]     top_level_model|clk     DFN1E1     Q       data_c[5]          0.737       0.516 
+mSender.mCounter.temp[1]     top_level_model|clk     DFN1E1     Q       data_c[1]          0.737       0.586 
+mSender.mCounter.temp[2]     top_level_model|clk     DFN1E1     Q       data_c[2]          0.737       0.596 
+mSender.senderState[3]       top_level_model|clk     DFN1       Q       senderState[3]     0.737       4.103 
+mSender.senderState[1]       top_level_model|clk     DFN1       Q       senderState[1]     0.737       4.477 
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                            Required           
+Instance                       Reference               Type       Pin     Net                      Time         Slack 
+                               Clock                                                                                  
+----------------------------------------------------------------------------------------------------------------------
+mReceiver.receiverState[4]     top_level_model|clk     DFN1       D       receiverState_RNO[4]     9.461        -0.485
+mReceiver.receiverState[3]     top_level_model|clk     DFN1       D       receiverState_RNO[3]     9.461        -0.295
+mSender.mCounter.temp[7]       top_level_model|clk     DFN1E1     D       temp_n7                  9.461        0.713 
+mSender.mCounter.temp[6]       top_level_model|clk     DFN1E1     D       temp_n6                  9.427        1.325 
+mSender.senderState[1]         top_level_model|clk     DFN1       D       senderState_RNO[1]       9.427        1.861 
+mSender.senderState[2]         top_level_model|clk     DFN1       D       N_20                     9.461        1.915 
+mSender.mCounter.temp[5]       top_level_model|clk     DFN1E1     D       temp_n5                  9.427        2.225 
+mSender.mCounter.temp[4]       top_level_model|clk     DFN1E1     D       temp_n4                  9.427        3.125 
+mSender.mCounter.temp[3]       top_level_model|clk     DFN1E1     D       temp_n3                  9.427        4.025 
+mSender.senderState_i[0]       top_level_model|clk     DFN1       D       senderState_i_RNO[0]     9.427        4.103 
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      9.946
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.485
+
+    Number of logic level(s):                6
+    Starting point:                          mSender.mCounter.temp[6] / Q
+    Ending point:                            mReceiver.receiverState[4] / D
+    The start point is clocked by            top_level_model|clk [rising] on pin CLK
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[6]             DFN1E1     Q        Out     0.737     0.737       -         
+data_c[6]                            Net        -        -       1.526     -           7         
+mReceiver.rxDataReg_RNIRMPJ[6]       XOR2       B        In      -         2.263       -         
+mReceiver.rxDataReg_RNIRMPJ[6]       XOR2       Y        Out     0.937     3.200       -         
+un1_data_6                           Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNIKBJ71[5]      XO1        C        In      -         3.521       -         
+mReceiver.rxDataReg_RNIKBJ71[5]      XO1        Y        Out     0.344     3.865       -         
+un1_data_NE_1                        Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8N6F2[4]      OR3        C        In      -         4.187       -         
+mReceiver.rxDataReg_RNI8N6F2[4]      OR3        Y        Out     0.683     4.870       -         
+un1_data_NE_4                        Net        -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1        A        In      -         5.191       -         
+mReceiver.ack_RNIJ4955               OA1        Y        Out     0.984     6.175       -         
+rxDataReg3                           Net        -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[4]     OR2B       A        In      -         7.883       -         
+mReceiver.receiverState_RNO_0[4]     OR2B       Y        Out     0.488     8.372       -         
+N_63                                 Net        -        -       0.322     -           1         
+mReceiver.receiverState_RNO[4]       OA1C       A        In      -         8.693       -         
+mReceiver.receiverState_RNO[4]       OA1C       Y        Out     0.931     9.625       -         
+receiverState_RNO[4]                 Net        -        -       0.322     -           1         
+mReceiver.receiverState[4]           DFN1       D        In      -         9.946       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 10.485 is 5.643(53.8%) logic and 4.842(46.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      9.864
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.403
+
+    Number of logic level(s):                6
+    Starting point:                          mSender.mCounter.temp[3] / Q
+    Ending point:                            mReceiver.receiverState[4] / D
+    The start point is clocked by            top_level_model|clk [rising] on pin CLK
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[3]             DFN1E1     Q        Out     0.737     0.737       -         
+data_c[3]                            Net        -        -       1.526     -           7         
+mReceiver.rxDataReg_RNILGPJ[3]       XOR2       B        In      -         2.263       -         
+mReceiver.rxDataReg_RNILGPJ[3]       XOR2       Y        Out     0.937     3.200       -         
+un1_data_3                           Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8VI71[2]      XO1        C        In      -         3.521       -         
+mReceiver.rxDataReg_RNI8VI71[2]      XO1        Y        Out     0.344     3.865       -         
+un1_data_NE_3                        Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        C        In      -         4.187       -         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        Y        Out     0.683     4.870       -         
+un1_data_NE_5                        Net        -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1        B        In      -         5.191       -         
+mReceiver.ack_RNIJ4955               OA1        Y        Out     0.902     6.093       -         
+rxDataReg3                           Net        -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[4]     OR2B       A        In      -         7.802       -         
+mReceiver.receiverState_RNO_0[4]     OR2B       Y        Out     0.488     8.290       -         
+N_63                                 Net        -        -       0.322     -           1         
+mReceiver.receiverState_RNO[4]       OA1C       A        In      -         8.611       -         
+mReceiver.receiverState_RNO[4]       OA1C       Y        Out     0.931     9.543       -         
+receiverState_RNO[4]                 Net        -        -       0.322     -           1         
+mReceiver.receiverState[4]           DFN1       D        In      -         9.864       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 10.403 is 5.561(53.5%) logic and 4.842(46.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.677
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.250
+
+    Number of logic level(s):                6
+    Starting point:                          mSender.mCounter.temp[6] / Q
+    Ending point:                            mReceiver.receiverState[3] / D
+    The start point is clocked by            top_level_model|clk [rising] on pin CLK
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[6]             DFN1E1     Q        Out     0.737     0.737       -         
+data_c[6]                            Net        -        -       1.526     -           7         
+mReceiver.rxDataReg_RNIRMPJ[6]       XOR2       B        In      -         2.263       -         
+mReceiver.rxDataReg_RNIRMPJ[6]       XOR2       Y        Out     0.937     3.200       -         
+un1_data_6                           Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNIKBJ71[5]      XO1        C        In      -         3.521       -         
+mReceiver.rxDataReg_RNIKBJ71[5]      XO1        Y        Out     0.344     3.865       -         
+un1_data_NE_1                        Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8N6F2[4]      OR3        C        In      -         4.187       -         
+mReceiver.rxDataReg_RNI8N6F2[4]      OR3        Y        Out     0.683     4.870       -         
+un1_data_NE_4                        Net        -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1        A        In      -         5.191       -         
+mReceiver.ack_RNIJ4955               OA1        Y        Out     0.984     6.175       -         
+rxDataReg3                           Net        -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[3]     OR2A       B        In      -         7.883       -         
+mReceiver.receiverState_RNO_0[3]     OR2A       Y        Out     0.514     8.398       -         
+N_64                                 Net        -        -       0.322     -           1         
+mReceiver.receiverState_RNO[3]       OA1C       A        In      -         8.719       -         
+mReceiver.receiverState_RNO[3]       OA1C       Y        Out     0.636     9.355       -         
+receiverState_RNO[3]                 Net        -        -       0.322     -           1         
+mReceiver.receiverState[3]           DFN1       D        In      -         9.677       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 10.250 is 5.408(52.8%) logic and 4.842(47.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.595
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.169
+
+    Number of logic level(s):                6
+    Starting point:                          mSender.mCounter.temp[3] / Q
+    Ending point:                            mReceiver.receiverState[3] / D
+    The start point is clocked by            top_level_model|clk [rising] on pin CLK
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[3]             DFN1E1     Q        Out     0.737     0.737       -         
+data_c[3]                            Net        -        -       1.526     -           7         
+mReceiver.rxDataReg_RNILGPJ[3]       XOR2       B        In      -         2.263       -         
+mReceiver.rxDataReg_RNILGPJ[3]       XOR2       Y        Out     0.937     3.200       -         
+un1_data_3                           Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8VI71[2]      XO1        C        In      -         3.521       -         
+mReceiver.rxDataReg_RNI8VI71[2]      XO1        Y        Out     0.344     3.865       -         
+un1_data_NE_3                        Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        C        In      -         4.187       -         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        Y        Out     0.683     4.870       -         
+un1_data_NE_5                        Net        -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1        B        In      -         5.191       -         
+mReceiver.ack_RNIJ4955               OA1        Y        Out     0.902     6.093       -         
+rxDataReg3                           Net        -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[3]     OR2A       B        In      -         7.802       -         
+mReceiver.receiverState_RNO_0[3]     OR2A       Y        Out     0.514     8.316       -         
+N_64                                 Net        -        -       0.322     -           1         
+mReceiver.receiverState_RNO[3]       OA1C       A        In      -         8.638       -         
+mReceiver.receiverState_RNO[3]       OA1C       Y        Out     0.636     9.274       -         
+receiverState_RNO[3]                 Net        -        -       0.322     -           1         
+mReceiver.receiverState[3]           DFN1       D        In      -         9.595       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 10.169 is 5.327(52.4%) logic and 4.842(47.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      9.270
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.191
+
+    Number of logic level(s):                5
+    Starting point:                          mSender.mCounter.temp[0] / Q
+    Ending point:                            mReceiver.receiverState[4] / D
+    The start point is clocked by            top_level_model|clk [rising] on pin CLK
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+mSender.mCounter.temp[0]             DFN1E1     Q        Out     0.737     0.737       -         
+data_c[0]                            Net        -        -       1.639     -           8         
+mReceiver.rxDataReg_RNIFAPJ[0]       XOR2       B        In      -         2.376       -         
+mReceiver.rxDataReg_RNIFAPJ[0]       XOR2       Y        Out     0.937     3.313       -         
+un1_data_0                           Net        -        -       0.322     -           1         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        B        In      -         3.634       -         
+mReceiver.rxDataReg_RNI8M5F2[0]      OR3        Y        Out     0.641     4.275       -         
+un1_data_NE_5                        Net        -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1        B        In      -         4.597       -         
+mReceiver.ack_RNIJ4955               OA1        Y        Out     0.902     5.499       -         
+rxDataReg3                           Net        -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[4]     OR2B       A        In      -         7.207       -         
+mReceiver.receiverState_RNO_0[4]     OR2B       Y        Out     0.488     7.696       -         
+N_63                                 Net        -        -       0.322     -           1         
+mReceiver.receiverState_RNO[4]       OA1C       A        In      -         8.017       -         
+mReceiver.receiverState_RNO[4]       OA1C       Y        Out     0.931     8.949       -         
+receiverState_RNO[4]                 Net        -        -       0.322     -           1         
+mReceiver.receiverState[4]           DFN1       D        In      -         9.270       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 9.809 is 5.175(52.8%) logic and 4.633(47.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                            Arrival          
+Instance                   Reference     Type         Pin     Net              Time        Slack
+                           Clock                                                                
+------------------------------------------------------------------------------------------------
+mReceiver.ack              System        DLN1P1C1     Q       ack              1.416       0.792
+mReceiver.rxDataReg[6]     System        DLN1         Q       rxDataReg[6]     0.547       1.317
+mReceiver.rxDataReg[3]     System        DLN1         Q       rxDataReg[3]     0.547       1.397
+mReceiver.rxDataReg[5]     System        DLN1         Q       rxDataReg[5]     0.547       1.714
+mReceiver.rxDataReg[2]     System        DLN1         Q       rxDataReg[2]     0.547       1.794
+mReceiver.rxDataReg[7]     System        DLN1         Q       rxDataReg[7]     0.547       2.065
+mReceiver.rxDataReg[0]     System        DLN1         Q       rxDataReg[0]     0.547       2.147
+mReceiver.rxDataReg[4]     System        DLN1         Q       rxDataReg[4]     0.547       2.346
+mReceiver.rxDataReg[1]     System        DLN1         Q       rxDataReg[1]     0.547       2.428
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                  Required          
+Instance                         Reference     Type     Pin     Net                        Time         Slack
+                                 Clock                                                                       
+-------------------------------------------------------------------------------------------------------------
+mReceiver.receiverState[3]       System        DFN1     D       receiverState_RNO[3]       9.461        0.792
+mReceiver.receiverState[4]       System        DFN1     D       receiverState_RNO[4]       9.461        1.022
+mReceiver.receiverState_i[0]     System        DFN1     D       receiverState_i_RNO[0]     9.427        4.035
+mSender.senderState[3]           System        DFN1     D       senderState_RNO[3]         9.461        4.115
+mReceiver.receiverState[1]       System        DFN1     D       receiverState_RNO[1]       9.461        4.274
+mSender.senderState[5]           System        DFN1     D       senderState_RNO[5]         9.461        4.492
+mReceiver.receiverState[5]       System        DFN1     D       receiverState_RNO[5]       9.461        4.651
+mSender.senderState_i[0]         System        DFN1     D       senderState_i_RNO[0]       9.461        4.779
+mSender.senderState[4]           System        DFN1     D       senderState_RNO[4]         9.461        5.311
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      8.669
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.792
+
+    Number of logic level(s):                4
+    Starting point:                          mReceiver.ack / Q
+    Ending point:                            mReceiver.receiverState[3] / D
+    The start point is clocked by            System [rising] on pin G
+    The end   point is clocked by            top_level_model|clk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+mReceiver.ack                        DLN1P1C1     Q        Out     1.416     1.416       -         
+ack                                  Net          -        -       1.708     -           10        
+mReceiver.ack_RNI3NS6                NOR2B        B        In      -         3.125       -         
+mReceiver.ack_RNI3NS6                NOR2B        Y        Out     0.627     3.752       -         
+rxDataReg3_0                         Net          -        -       0.322     -           1         
+mReceiver.ack_RNIJ4955               OA1          C        In      -         4.074       -         
+mReceiver.ack_RNIJ4955               OA1          Y        Out     0.666     4.739       -         
+rxDataReg3                           Net          -        -       1.708     -           10        
+mReceiver.receiverState_RNO_0[3]     OR2A         B        In      -         6.448       -         
+mReceiver.receiverState_RNO_0[3]     OR2A         Y        Out     0.646     7.094       -         
+N_64                                 Net          -        -       0.322     -           1         
+mReceiver.receiverState_RNO[3]       OA1C         A        In      -         7.416       -         
+mReceiver.receiverState_RNO[3]       OA1C         Y        Out     0.931     8.347       -         
+receiverState_RNO[3]                 Net          -        -       0.322     -           1         
+mReceiver.receiverState[3]           DFN1         D        In      -         8.669       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 9.208 is 4.826(52.4%) logic and 4.382(47.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell top_level_model.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AO1A     2      1.0        2.0
+              AO1D     2      1.0        2.0
+               AX1     1      1.0        1.0
+               GND     4      0.0        0.0
+               INV     1      1.0        1.0
+              NOR2     3      1.0        3.0
+             NOR2A     6      1.0        6.0
+             NOR2B     7      1.0        7.0
+              NOR3     6      1.0        6.0
+             NOR3A     3      1.0        3.0
+             NOR3B     1      1.0        1.0
+               OA1     2      1.0        2.0
+              OA1B     1      1.0        1.0
+              OA1C     7      1.0        7.0
+               OR2     2      1.0        2.0
+              OR2A     3      1.0        3.0
+              OR2B     1      1.0        1.0
+               OR3     5      1.0        5.0
+               VCC     4      0.0        0.0
+              XA1B     6      1.0        6.0
+               XO1     4      1.0        4.0
+              XOR2    12      1.0       12.0
+
+
+              DFN1    12      1.0       12.0
+            DFN1E1     8      1.0        8.0
+              DLN0     1      1.0        1.0
+              DLN1    16      1.0       16.0
+          DLN1P1C1     3      2.0        6.0
+                   -----          ----------
+             TOTAL   123               118.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF     8
+                   -----
+             TOTAL    10
+
+
+Core Cells         : 118 of 4608 (3%)
+IO Cells           : 10
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 23 20:42:52 2020
+
+###########################################################]

@@ -1,0 +1,2 @@
+@E: CL172 :"E:\repos\ECEN5863_HW\HW9\HW9P1_PartB\hdl\receiver.v":34:41:34:52|Only one always block can assign a given variable dataReceived
+

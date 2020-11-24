@@ -1,0 +1,32 @@
+
+fsm_encoding {710601062} onehot
+
+fsm_state_encoding {710601062} 000 {000000}
+
+fsm_state_encoding {710601062} 001 {000011}
+
+fsm_state_encoding {710601062} 010 {000101}
+
+fsm_state_encoding {710601062} 011 {001001}
+
+fsm_state_encoding {710601062} 100 {010001}
+
+fsm_state_encoding {710601062} 101 {100001}
+
+fsm_registers {710601062} {senderState[5]}  {senderState[4]}  {senderState[3]}  {senderState[2]}  {senderState[1]}  {senderState_i[0]} 
+
+fsm_encoding {510801081} onehot
+
+fsm_state_encoding {510801081} 000 {000000}
+
+fsm_state_encoding {510801081} 001 {000011}
+
+fsm_state_encoding {510801081} 010 {000101}
+
+fsm_state_encoding {510801081} 011 {001001}
+
+fsm_state_encoding {510801081} 100 {010001}
+
+fsm_state_encoding {510801081} 101 {100001}
+
+fsm_registers {510801081} {receiverState[5]}  {receiverState[4]}  {receiverState[3]}  {receiverState[2]}  {receiverState[1]}  {receiverState_i[0]} 

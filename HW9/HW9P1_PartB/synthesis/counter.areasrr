@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell counter.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1E1         9       1.0        9.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         8       1.0        8.0
+                              NOR3C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                             OUTBUF         9       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XA1B         6       1.0        6.0
+                            
+                         TOTAL             45                 31.0

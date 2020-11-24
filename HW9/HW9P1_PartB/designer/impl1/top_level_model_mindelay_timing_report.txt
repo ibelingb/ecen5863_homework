@@ -1,0 +1,722 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Nov 24 06:46:00 2020
+
+
+Design: top_level_model
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               aClk
+Period (ns):                8.583
+Frequency (MHz):            116.509
+Required Period (ns):       26.667
+Required Frequency (MHz):   37.500
+External Setup (ns):        4.485
+External Hold (ns):         -0.291
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               bClk
+Period (ns):                4.769
+Frequency (MHz):            209.688
+Required Period (ns):       40.000
+Required Frequency (MHz):   25.000
+External Setup (ns):        2.783
+External Hold (ns):         0.189
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mSender/senderState[2]:Q
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain aClk
+
+SET Register to Register
+
+Path 1
+  From:                        mSender/senderState[2]:CLK
+  To:                          mSender/senderState[2]:D
+  Delay (ns):                  0.791
+  Slack (ns):                  0.791
+  Arrival (ns):                1.629
+  Required (ns):               0.838
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        mSender/senderState[2]:CLK
+  To:                          mSender/senderState[1]:D
+  Delay (ns):                  0.858
+  Slack (ns):                  0.843
+  Arrival (ns):                1.696
+  Required (ns):               0.853
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        mSender/mCounter/temp[6]:CLK
+  To:                          mSender/mCounter/temp[6]:D
+  Delay (ns):                  0.857
+  Slack (ns):                  0.857
+  Arrival (ns):                1.699
+  Required (ns):               0.842
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        mSender/mCounter/temp[2]:CLK
+  To:                          mSender/mCounter/temp[2]:D
+  Delay (ns):                  0.876
+  Slack (ns):                  0.876
+  Arrival (ns):                1.717
+  Required (ns):               0.841
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        mSender/senderState[5]:CLK
+  To:                          mSender/senderState[5]:D
+  Delay (ns):                  0.883
+  Slack (ns):                  0.883
+  Arrival (ns):                1.706
+  Required (ns):               0.823
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: mSender/senderState[2]:CLK
+  To: mSender/senderState[2]:D
+  data arrival time                              1.629
+  data required time                         -   0.838
+  slack                                          0.791
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        aClk
+               +     0.000          Clock source
+  0.000                        aClk (r)
+               +     0.000          net: aClk
+  0.000                        aClk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        aClk_pad/U0/U0:Y (r)
+               +     0.000          net: aClk_pad/U0/NET1
+  0.391                        aClk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        aClk_pad/U0/U1:Y (r)
+               +     0.299          net: aClk_c
+  0.838                        mSender/senderState[2]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1
+  1.087                        mSender/senderState[2]:Q (r)
+               +     0.192          net: mSender/senderState[2]
+  1.279                        mSender/senderState_RNO[2]:B (r)
+               +     0.202          cell: ADLIB:NOR3A
+  1.481                        mSender/senderState_RNO[2]:Y (f)
+               +     0.148          net: mSender/N_20
+  1.629                        mSender/senderState[2]:D (f)
+                                    
+  1.629                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        aClk
+               +     0.000          Clock source
+  0.000                        aClk (r)
+               +     0.000          net: aClk
+  0.000                        aClk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        aClk_pad/U0/U0:Y (r)
+               +     0.000          net: aClk_pad/U0/NET1
+  0.391                        aClk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        aClk_pad/U0/U1:Y (r)
+               +     0.299          net: aClk_c
+  0.838                        mSender/senderState[2]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  0.838                        mSender/senderState[2]:D
+                                    
+  0.838                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        reset
+  To:                          mSender/mCounter/temp[0]:E
+  Delay (ns):                  1.300
+  Slack (ns):
+  Arrival (ns):                1.300
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.291
+
+Path 2
+  From:                        reset
+  To:                          mSender/mCounter/temp[1]:E
+  Delay (ns):                  1.465
+  Slack (ns):
+  Arrival (ns):                1.465
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.456
+
+Path 3
+  From:                        reset
+  To:                          mSender/mCounter/temp[1]:D
+  Delay (ns):                  1.471
+  Slack (ns):
+  Arrival (ns):                1.471
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.462
+
+Path 4
+  From:                        reset
+  To:                          mSender/mCounter/temp[0]:D
+  Delay (ns):                  1.665
+  Slack (ns):
+  Arrival (ns):                1.665
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.656
+
+Path 5
+  From:                        reset
+  To:                          mSender/senderState_i[0]:D
+  Delay (ns):                  1.839
+  Slack (ns):
+  Arrival (ns):                1.839
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.834
+
+
+Expanded Path 1
+  From: reset
+  To: mSender/mCounter/temp[0]:E
+  data arrival time                              1.300
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (f)
+               +     0.000          net: reset
+  0.000                        reset_pad/U0/U0:PAD (f)
+               +     0.293          cell: ADLIB:IOPAD_IN
+  0.293                        reset_pad/U0/U0:Y (f)
+               +     0.000          net: reset_pad/U0/NET1
+  0.293                        reset_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  0.310                        reset_pad/U0/U1:Y (f)
+               +     0.562          net: reset_c
+  0.872                        mSender/mCounter/templde:B (f)
+               +     0.282          cell: ADLIB:OR2A
+  1.154                        mSender/mCounter/templde:Y (f)
+               +     0.146          net: mSender/mCounter/tempe
+  1.300                        mSender/mCounter/temp[0]:E (f)
+                                    
+  1.300                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          aClk
+               +     0.000          Clock source
+  N/C                          aClk (r)
+               +     0.000          net: aClk
+  N/C                          aClk_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          aClk_pad/U0/U0:Y (r)
+               +     0.000          net: aClk_pad/U0/NET1
+  N/C                          aClk_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          aClk_pad/U0/U1:Y (r)
+               +     0.362          net: aClk_c
+  N/C                          mSender/mCounter/temp[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1
+  N/C                          mSender/mCounter/temp[0]:E
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain bClk
+
+SET Register to Register
+
+Path 1
+  From:                        mReceiver/receiverState[3]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  1.241
+  Slack (ns):                  0.620
+  Arrival (ns):                2.533
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        mReceiver/receiverState[2]:CLK
+  To:                          mReceiver/receiverState[3]:D
+  Delay (ns):                  1.261
+  Slack (ns):                  0.763
+  Arrival (ns):                2.230
+  Required (ns):               1.467
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        mReceiver/receiverState[1]:CLK
+  To:                          mReceiver/receiverState[1]:D
+  Delay (ns):                  0.861
+  Slack (ns):                  0.861
+  Arrival (ns):                1.987
+  Required (ns):               1.126
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        mReceiver/receiverState[4]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  0.889
+  Slack (ns):                  0.889
+  Arrival (ns):                2.553
+  Required (ns):               1.664
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        mReceiver/receiverState[2]:CLK
+  To:                          mReceiver/receiverState[2]:D
+  Delay (ns):                  1.150
+  Slack (ns):                  1.150
+  Arrival (ns):                2.119
+  Required (ns):               0.969
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: mReceiver/receiverState[3]:CLK
+  To: mReceiver/receiverState[4]:D
+  data arrival time                              2.533
+  data required time                         -   1.913
+  slack                                          0.620
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        bClk
+               +     0.000          Clock source
+  0.000                        bClk (r)
+               +     0.000          net: bClk
+  0.000                        bClk_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        bClk_pad/U0/U0:Y (r)
+               +     0.000          net: bClk_pad/U0/NET1
+  0.405                        bClk_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        bClk_pad/U0/U1:Y (r)
+               +     0.869          net: bClk_c
+  1.292                        mReceiver/receiverState[3]:CLK (r)
+               +     0.284          cell: ADLIB:DFN1
+  1.576                        mReceiver/receiverState[3]:Q (f)
+               +     0.183          net: mReceiver/receiverState[3]
+  1.759                        mReceiver/receiverState_srsts_i_o3[4]:A (f)
+               +     0.154          cell: ADLIB:OR3A
+  1.913                        mReceiver/receiverState_srsts_i_o3[4]:Y (r)
+               +     0.150          net: mReceiver/N_64
+  2.063                        mReceiver/receiverState_srsts_i[4]:A (r)
+               +     0.318          cell: ADLIB:OA1C
+  2.381                        mReceiver/receiverState_srsts_i[4]:Y (f)
+               +     0.152          net: mReceiver/receiverState_srsts_i[4]
+  2.533                        mReceiver/receiverState[4]:D (f)
+                                    
+  2.533                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        bClk
+               +     0.000          Clock source
+  0.000                        bClk (r)
+               +     0.000          net: bClk
+  0.000                        bClk_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        bClk_pad/U0/U0:Y (r)
+               +     0.000          net: bClk_pad/U0/NET1
+  0.405                        bClk_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        bClk_pad/U0/U1:Y (r)
+               +     1.490          net: bClk_c
+  1.913                        mReceiver/receiverState[4]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  1.913                        mReceiver/receiverState[4]:D
+                                    
+  1.913                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        reset
+  To:                          mReceiver/receiverState_i[0]:D
+  Delay (ns):                  1.312
+  Slack (ns):
+  Arrival (ns):                1.312
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          0.189
+
+Path 2
+  From:                        reset
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  1.873
+  Slack (ns):
+  Arrival (ns):                1.873
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          0.125
+
+Path 3
+  From:                        reset
+  To:                          mReceiver/receiverState[3]:D
+  Delay (ns):                  1.870
+  Slack (ns):
+  Arrival (ns):                1.870
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.318
+
+Path 4
+  From:                        reset
+  To:                          mReceiver/receiverState[2]:D
+  Delay (ns):                  1.536
+  Slack (ns):
+  Arrival (ns):                1.536
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.373
+
+Path 5
+  From:                        reset
+  To:                          mReceiver/receiverState[1]:D
+  Delay (ns):                  1.981
+  Slack (ns):
+  Arrival (ns):                1.981
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.629
+
+
+Expanded Path 1
+  From: reset
+  To: mReceiver/receiverState_i[0]:D
+  data arrival time                              1.312
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (f)
+               +     0.000          net: reset
+  0.000                        reset_pad/U0/U0:PAD (f)
+               +     0.293          cell: ADLIB:IOPAD_IN
+  0.293                        reset_pad/U0/U0:Y (f)
+               +     0.000          net: reset_pad/U0/NET1
+  0.293                        reset_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  0.310                        reset_pad/U0/U1:Y (f)
+               +     0.581          net: reset_c
+  0.891                        mReceiver/receiverState_nss_i_i[0]:B (f)
+               +     0.267          cell: ADLIB:NOR3
+  1.158                        mReceiver/receiverState_nss_i_i[0]:Y (r)
+               +     0.154          net: mReceiver/receiverState_nss_i_i[0]
+  1.312                        mReceiver/receiverState_i[0]:D (r)
+                                    
+  1.312                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          bClk
+               +     0.000          Clock source
+  N/C                          bClk (r)
+               +     0.000          net: bClk
+  N/C                          bClk_pad/U0/U0:PAD (r)
+               +     0.486          cell: ADLIB:IOPAD_IN
+  N/C                          bClk_pad/U0/U0:Y (r)
+               +     0.000          net: bClk_pad/U0/NET1
+  N/C                          bClk_pad/U0/U1:YIN (r)
+               +     0.022          cell: ADLIB:IOIN_IB
+  N/C                          bClk_pad/U0/U1:Y (r)
+               +     0.993          net: bClk_c
+  N/C                          mReceiver/receiverState_i[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  N/C                          mReceiver/receiverState_i[0]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET aClk to bClk
+
+Path 1
+  From:                        mSender/mCounter/temp[6]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  2.135
+  Slack (ns):                  1.064
+  Arrival (ns):                2.977
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        mSender/mCounter/temp[2]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  2.204
+  Slack (ns):                  1.132
+  Arrival (ns):                3.045
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        mSender/mCounter/temp[7]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  2.238
+  Slack (ns):                  1.167
+  Arrival (ns):                3.080
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        mSender/mCounter/temp[1]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  2.338
+  Slack (ns):                  1.266
+  Arrival (ns):                3.179
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        mSender/mCounter/temp[3]:CLK
+  To:                          mReceiver/receiverState[4]:D
+  Delay (ns):                  2.359
+  Slack (ns):                  1.285
+  Arrival (ns):                3.198
+  Required (ns):               1.913
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: mSender/mCounter/temp[6]:CLK
+  To: mReceiver/receiverState[4]:D
+  data arrival time                              2.977
+  data required time                         -   1.913
+  slack                                          1.064
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        aClk
+               +     0.000          Clock source
+  0.000                        aClk (r)
+               +     0.000          net: aClk
+  0.000                        aClk_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        aClk_pad/U0/U0:Y (r)
+               +     0.000          net: aClk_pad/U0/NET1
+  0.391                        aClk_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        aClk_pad/U0/U1:Y (r)
+               +     0.303          net: aClk_c
+  0.842                        mSender/mCounter/temp[6]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E1
+  1.091                        mSender/mCounter/temp[6]:Q (r)
+               +     0.204          net: data[6]
+  1.295                        mReceiver/outputData_RNI4C0B[6]:B (r)
+               +     0.308          cell: ADLIB:XOR2
+  1.603                        mReceiver/outputData_RNI4C0B[6]:Y (r)
+               +     0.148          net: mReceiver/dataReceived6_6
+  1.751                        mReceiver/outputData_RNICC1C1[5]:A (r)
+               +     0.154          cell: ADLIB:OR3
+  1.905                        mReceiver/outputData_RNICC1C1[5]:Y (r)
+               +     0.177          net: mReceiver/dataReceived6_NE_5
+  2.082                        mReceiver/receiverState_srsts_i_o3[4]:C (r)
+               +     0.275          cell: ADLIB:OR3A
+  2.357                        mReceiver/receiverState_srsts_i_o3[4]:Y (r)
+               +     0.150          net: mReceiver/N_64
+  2.507                        mReceiver/receiverState_srsts_i[4]:A (r)
+               +     0.318          cell: ADLIB:OA1C
+  2.825                        mReceiver/receiverState_srsts_i[4]:Y (f)
+               +     0.152          net: mReceiver/receiverState_srsts_i[4]
+  2.977                        mReceiver/receiverState[4]:D (f)
+                                    
+  2.977                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        bClk
+               +     0.000          Clock source
+  0.000                        bClk (r)
+               +     0.000          net: bClk
+  0.000                        bClk_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        bClk_pad/U0/U0:Y (r)
+               +     0.000          net: bClk_pad/U0/NET1
+  0.405                        bClk_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        bClk_pad/U0/U1:Y (r)
+               +     1.490          net: bClk_c
+  1.913                        mReceiver/receiverState[4]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1
+  1.913                        mReceiver/receiverState[4]:D
+                                    
+  1.913                        data required time
+
+
+END SET aClk to bClk
+
+----------------------------------------------------
+
+Clock Domain mSender/senderState[2]:Q
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

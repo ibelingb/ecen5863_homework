@@ -1,0 +1,3 @@
+@W: MT420 |Found inferred clock top_level_model|aClk with period 10.00ns. Please declare a user-defined clock on object "p:aClk"
+@W: MT420 |Found inferred clock top_level_model|bClk with period 10.00ns. Please declare a user-defined clock on object "p:bClk"
+@W: MT420 |Found inferred clock sender|senderState_inferred_clock[2] with period 10.00ns. Please declare a user-defined clock on object "n:mSender.senderState[2]"

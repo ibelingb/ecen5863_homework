@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/repos/ECEN5863_HW/HW9/HW9P1/simulation
+vcounter
+Z0 !s110 1606225135
+!i10b 1
+!s100 ;]Ed[a`:[fckkzXFZ8[[h0
+IccBEgkEZ8_?IR[`W=bg7k1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/repos/ECEN5863_HW/HW9/HW9P1_PartB/simulation
+w1606107992
+8E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/counter.v
+FE:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/counter.v
+L0 20
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1606225135.000000
+!s107 E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/counter.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vreceiver
+R0
+!i10b 1
+!s100 d>::T]1[cPl_9YfQ0CGSP2
+I7I`B_?[VeXjfiaf_QVbFW2
+R1
+R2
+w1606225044
+8E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/receiver.v
+FE:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/receiver.v
+Z7 L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/receiver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/receiver.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vsender
+R0
+!i10b 1
+!s100 =UPRZg?12:26G4CL>T4cJ3
+IG@3A2jOVE][iXYOe0]RP73
+R1
+R2
+w1606190867
+8E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/sender.v
+FE:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/sender.v
+L0 18
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/sender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/sender.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop_level_model
+R0
+!i10b 1
+!s100 zH_BAo:mYP5?`Tie_8l;U2
+IC^Lc^<RzNRjd9MT6OZkjF2
+R1
+R2
+w1606225097
+8E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/top_level_model.v
+FE:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/top_level_model.v
+R7
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/top_level_model.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|E:/repos/ECEN5863_HW/HW9/HW9P1_PartB/hdl/top_level_model.v|
+!s101 -O0
+!i113 1
+R5
+R6

@@ -1,0 +1,110 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "receiver")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "receiver")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[4\]/A  receiverState_srsts_i_a4\[4\]/Y  receiverState_srsts_i\[4\]/C  receiverState_srsts_i\[4\]/Y  receiverState\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[4\]/G  rxDataReg\[4\]/Q  rxDataReg_RNI81FL\[4\]/B  rxDataReg_RNI81FL\[4\]/Y  rxDataReg_RNII4UA1\[5\]/C  rxDataReg_RNII4UA1\[5\]/Y  rxDataReg_RNICHSL2\[5\]/C  rxDataReg_RNICHSL2\[5\]/Y  ack_RNI3ESK5/B  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  ack_RNIBC49/B  ack_RNIBC49/Y  ack_RNI3ESK5/C  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[3\]/G  rxDataReg\[3\]/Q  rxDataReg_RNI6VEL\[3\]/B  rxDataReg_RNI6VEL\[3\]/Y  rxDataReg_RNICGRL2\[1\]/B  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[7\]/G  rxDataReg\[7\]/Q  rxDataReg_RNIE7FL\[7\]/B  rxDataReg_RNIE7FL\[7\]/Y  rxDataReg_RNICHSL2\[5\]/B  rxDataReg_RNICHSL2\[5\]/Y  ack_RNI3ESK5/B  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[2\]/G  rxDataReg\[2\]/Q  rxDataReg_RNI4TEL\[2\]/B  rxDataReg_RNI4TEL\[2\]/Y  rxDataReg_RNICGRL2\[1\]/A  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[1\]/G  rxDataReg\[1\]/Q  rxDataReg_RNI2KTA1\[1\]/A  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[6\]/G  rxDataReg\[6\]/Q  rxDataReg_RNIC5FL\[6\]/B  rxDataReg_RNIC5FL\[6\]/Y  rxDataReg_RNICHSL2\[5\]/A  rxDataReg_RNICHSL2\[5\]/Y  ack_RNI3ESK5/B  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[5\]/G  rxDataReg\[5\]/Q  rxDataReg_RNII4UA1\[5\]/A  rxDataReg_RNII4UA1\[5\]/Y  rxDataReg_RNICHSL2\[5\]/C  rxDataReg_RNICHSL2\[5\]/Y  ack_RNI3ESK5/B  ack_RNI3ESK5/Y  receiverState_srsts_i_a4\[3\]/B  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  receiverState_nss_i_i_a4\[0\]/A  receiverState_nss_i_i_a4\[0\]/Y  receiverState_nss_i_i\[0\]/C  receiverState_nss_i_i\[0\]/Y  receiverState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  receiverState_srsts_i_o3\[1\]/A  receiverState_srsts_i_o3\[1\]/Y  receiverState_srsts_i\[1\]/A  receiverState_srsts_i\[1\]/Y  receiverState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  receiverState_srsts_i_a4_0\[5\]/A  receiverState_srsts_i_a4_0\[5\]/Y  receiverState_srsts_i\[5\]/A  receiverState_srsts_i\[5\]/Y  receiverState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  receiverState_nss_i_i_a4_0\[0\]/B  receiverState_nss_i_i_a4_0\[0\]/Y  receiverState_nss_i_i\[0\]/A  receiverState_nss_i_i\[0\]/Y  receiverState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[3\]/CLK  receiverState\[3\]/Q  receiverState_srsts_i_a4\[3\]/A  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[3\]/CLK  receiverState\[3\]/Q  receiverState_srsts_i_a4\[4\]/B  receiverState_srsts_i_a4\[4\]/Y  receiverState_srsts_i\[4\]/C  receiverState_srsts_i\[4\]/Y  receiverState\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState_i\[0\]/CLK  receiverState_i\[0\]/Q  receiverState_srsts_i_o3\[1\]/C  receiverState_srsts_i_o3\[1\]/Y  receiverState_srsts_i\[1\]/A  receiverState_srsts_i\[1\]/Y  receiverState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[2\]/CLK  receiverState\[2\]/Q  receiverState_srsts_i_a4\[2\]/A  receiverState_srsts_i_a4\[2\]/Y  receiverState_srsts_i\[2\]/C  receiverState_srsts_i\[2\]/Y  receiverState\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[4\]/CLK  receiverState\[4\]/Q  receiverState_srsts_i_a4\[5\]/A  receiverState_srsts_i_a4\[5\]/Y  receiverState_srsts_i\[5\]/C  receiverState_srsts_i\[5\]/Y  receiverState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[1\]/CLK  receiverState\[1\]/Q  receiverState_srsts_i_a4\[2\]/C  receiverState_srsts_i_a4\[2\]/Y  receiverState_srsts_i\[2\]/C  receiverState_srsts_i\[2\]/Y  receiverState\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[5\]/CLK  receiverState\[5\]/Q  receiverState_srsts_i_a4\[5\]/C  receiverState_srsts_i_a4\[5\]/Y  receiverState_srsts_i\[5\]/C  receiverState_srsts_i\[5\]/Y  receiverState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState_i\[0\]/CLK  receiverState_i\[0\]/Q  receiverState_nss_i_i_a4\[0\]/C  receiverState_nss_i_i_a4\[0\]/Y  receiverState_nss_i_i\[0\]/C  receiverState_nss_i_i\[0\]/Y  receiverState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState_i\[0\]/CLK  receiverState_i\[0\]/Q  receiverState_srsts_i_0\[1\]/B  receiverState_srsts_i_0\[1\]/Y  receiverState_srsts_i\[1\]/C  receiverState_srsts_i\[1\]/Y  receiverState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[5\]/CLK  receiverState\[5\]/Q  receiverState_nss_i_i_a4_0\[0\]/A  receiverState_nss_i_i_a4_0\[0\]/Y  receiverState_nss_i_i\[0\]/A  receiverState_nss_i_i\[0\]/Y  receiverState_i\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[3\]/CLK  receiverState\[3\]/Q  receiverState_srsts_i_a3\[4\]/A  receiverState_srsts_i_a3\[4\]/Y  receiverState_srsts_i\[3\]/A  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[3\]/CLK  receiverState\[3\]/Q  receiverState_srsts_i_a3\[4\]/A  receiverState_srsts_i_a3\[4\]/Y  receiverState_srsts_i\[4\]/A  receiverState_srsts_i\[4\]/Y  receiverState\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[2\]/CLK  receiverState\[2\]/Q  receiverState_srsts_i_a4\[3\]/C  receiverState_srsts_i_a4\[3\]/Y  receiverState_srsts_i\[3\]/C  receiverState_srsts_i\[3\]/Y  receiverState\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[4\]/CLK  receiverState\[4\]/Q  receiverState_srsts_i_a4\[4\]/C  receiverState_srsts_i_a4\[4\]/Y  receiverState_srsts_i\[4\]/C  receiverState_srsts_i\[4\]/Y  receiverState\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[4\]/CLK  receiverState\[4\]/Q  receiverState_srsts_i_a4_0\[5\]/B  receiverState_srsts_i_a4_0\[5\]/Y  receiverState_srsts_i\[5\]/A  receiverState_srsts_i\[5\]/Y  receiverState\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[1\]/CLK  receiverState\[1\]/Q  receiverState_srsts_i\[1\]/B  receiverState_srsts_i\[1\]/Y  receiverState\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT receiverState\[2\]/CLK  receiverState\[2\]/Q  receiverState_srsts_i_a4_0\[2\]/B  receiverState_srsts_i_a4_0\[2\]/Y  receiverState_srsts_i\[2\]/A  receiverState_srsts_i\[2\]/Y  receiverState\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[7\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[6\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[5\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[4\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[3\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[2\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[1\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rxDataReg\[0\]/G  rxDataReg\[0\]/Q  rxDataReg_RNI0PEL\[0\]/B  rxDataReg_RNI0PEL\[0\]/Y  rxDataReg_RNI2KTA1\[1\]/C  rxDataReg_RNI2KTA1\[1\]/Y  rxDataReg_RNICGRL2\[1\]/C  rxDataReg_RNICGRL2\[1\]/Y  ack_RNI3ESK5/A  ack_RNI3ESK5/Y  rxDataReg\[0\]/G  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT ack/G  ack/Q  ack_pad/D  ack_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT receiverState\[3\]/CLK  receiverState\[3\]/Q  enableTx_1_RNO/B  enableTx_1_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT receiverState_i\[0\]/CLK  receiverState_i\[0\]/Q  receiverState_i_i\[0\]/A  receiverState_i_i\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT receiverState\[1\]/CLK  receiverState\[1\]/Q  enableTx_1_RNO/A  enableTx_1_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT receiverState\[5\]/CLK  receiverState\[5\]/Q  ack_RNO/A  ack_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT receiverState\[5\]/CLK  receiverState\[5\]/Q  enableTx_1_RNO/C  enableTx_1_RNO/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

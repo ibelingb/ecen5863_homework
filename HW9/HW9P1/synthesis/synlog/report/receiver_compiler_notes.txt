@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":103:0:103:5|Trying to extract state machine for register receiverState.
+@N|Running in 64-bit mode
+

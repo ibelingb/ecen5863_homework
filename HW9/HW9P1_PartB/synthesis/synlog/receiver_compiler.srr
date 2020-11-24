@@ -1,0 +1,70 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"E:\Microsemi\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Microsemi\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module receiver
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@W: CG532 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":35:0:35:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":48:9:48:37|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":50:8:50:16|Referenced variable rxDataReg is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":81:9:81:21|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":94:15:94:22|Referenced variable reqState is not in sensitivity list.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":30:4:30:9|Object enable is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":30:12:30:18|Object rxState is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":83:4:83:7|Latch generated from always block for signal enableTx; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":83:4:83:7|Latch generated from always block for signal ack; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":50:4:50:5|Latch generated from always block for signal rxDataReg[7:0]; possible missing assignment in an if or case statement.
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":103:0:103:5|Trying to extract state machine for register receiverState.
+Extracted state machine for register receiverState
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:07 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:07 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 23 20:42:07 2020
+
+###########################################################]

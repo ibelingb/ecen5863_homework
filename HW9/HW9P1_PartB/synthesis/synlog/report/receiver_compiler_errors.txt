@@ -1,0 +1,2 @@
+@E: CG906 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":48:29:48:36|Reference to unknown variable regState.
+

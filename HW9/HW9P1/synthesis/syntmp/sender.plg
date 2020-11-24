@@ -1,0 +1,15 @@
+@P:  Worst Slack : 1.038
+@P:  sender|clk - Estimated Frequency : 111.6 MHz
+@P:  sender|clk - Requested Frequency : 100.0 MHz
+@P:  sender|clk - Estimated Period : 8.962
+@P:  sender|clk - Requested Period : 10.000
+@P:  sender|clk - Slack : 1.038
+@P:  sender|senderState_inferred_clock[2] - Estimated Frequency : NA
+@P:  sender|senderState_inferred_clock[2] - Requested Frequency : 100.0 MHz
+@P:  sender|senderState_inferred_clock[2] - Estimated Period : NA
+@P:  sender|senderState_inferred_clock[2] - Requested Period : 10.000
+@P:  sender|senderState_inferred_clock[2] - Slack : NA
+@P:  Total Area : 68.0
+@P:  Total Area : 24.0
+@P:  Total Area : 68.0
+@P:  CPU Time : 0h:00m:00s

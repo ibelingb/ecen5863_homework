@@ -1,0 +1,7 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"e:\repos\ecen5863_hw\hw9\hw9p1\hdl\counter.v":30:0:30:5|Found counter in view:work.counter(verilog) instance temp[7:0] 
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

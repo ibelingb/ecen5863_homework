@@ -1,0 +1,3 @@
+CKID0001:@|S:ack_RNI3ESK5@|E:rxDataReg[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:ack_RNO@|E:ack@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:clk@|E:receiverState_i[0]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

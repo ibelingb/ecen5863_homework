@@ -1,0 +1,47 @@
+Selecting top level module top_level_model
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\counter.v":20:7:20:13|Synthesizing module counter in library work.
+
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":18:7:18:12|Synthesizing module sender in library work.
+
+@W: CG532 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":49:9:49:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":51:7:51:17|Referenced variable counterData is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":70:9:70:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":72:27:72:34|Referenced variable reqState is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":79:9:79:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":88:26:88:29|Referenced variable data is not in sensitivity list.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal enable; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal reqState; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":81:4:81:7|Latch generated from always block for signal counterData[7:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@W: CG532 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":49:9:49:37|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":51:8:51:16|Referenced variable rxDataReg is not in sensitivity list.
+@W: CG296 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":82:9:82:21|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":95:15:95:22|Referenced variable reqState is not in sensitivity list.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":31:4:31:9|Object enable is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":31:12:31:18|Object rxState is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":84:4:84:7|Latch generated from always block for signal ack; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":84:4:84:7|Latch generated from always block for signal enableTx; possible missing assignment in an if or case statement.
+@W: CL118 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":51:4:51:5|Latch generated from always block for signal rxDataReg[7:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\top_level_model.v":21:7:21:21|Synthesizing module top_level_model in library work.
+
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\receiver.v":104:0:104:5|Trying to extract state machine for register receiverState.
+Extracted state machine for register receiverState
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@N: CL201 :"E:\repos\ECEN5863_HW\HW9\HW9P1\hdl\sender.v":106:0:106:5|Trying to extract state machine for register senderState.
+Extracted state machine for register senderState
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
